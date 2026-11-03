@@ -76,9 +76,22 @@ La chiamata sincrona a Claude Haiku 5.5 costa 0,10 $ per milione di token in ing
 
 Il testo delle fonti arriva dal web ed è trattato come dati: il prompt chiede al modello di ignorare eventuali istruzioni contenute nella pagina, e un corpo con HTML viene segnalato in revisione. In più mdlib-pure non interpreta HTML grezzo.
 
+## Passo 2: il lettore
+
+La PWA in `app/` mostra le idee una card alla volta: **swipe a destra salva, a sinistra scarta** (anche con le frecce della tastiera o i pulsanti), con 5 secondi per annullare. Le idee salvate stanno nella scheda *Salvate*. ▶ Ascolta legge la card con le voci italiane del sistema, e dopo la prima apertura l'app funziona offline.
+
+```bash
+cd app
+npm install
+npm run dev       # rigenera public/ideas.json dalla libreria e apre l'app
+npm run build     # build di produzione in app/dist, con service worker
+```
+
+`npm run index` costruisce `public/ideas.json` con le idee della versione corrente del prompt, escluse quelle scartate in `npm run review`. Salvataggi, scarti e ogni evento (con origine e tempo sulla card) restano nel browser, in IndexedDB: sono i dati da cui partiranno la selezione del passo 3 e le metriche.
+
 ## Prossimi passi
 
-- Passo 2: la PWA lettore con card, salvataggio, scarto, audio e offline.
+- Passo 3: selezione v1 (Beta per argomento, somiglianza, diversità, pillola finita, motivo della scelta).
 - Job notturno: API batch, lettura dei feed RSS, embedding multilingue.
 
 ## Come contribuire
