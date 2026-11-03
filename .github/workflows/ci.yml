@@ -1,0 +1,30 @@
+# Il nome del job ("typecheck") è il controllo richiesto dal ruleset di main.
+name: CI
+
+on:
+  pull_request:
+    branches: [main]
+  push:
+    branches: [main]
+
+permissions:
+  contents: read
+
+concurrency:
+  group: ci-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  check:
+    name: typecheck
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v5
+      - uses: actions/setup-node@v5
+        with:
+          node-version: 22
+          cache: npm
+      - run: npm ci
+      # Non ci sono ancora test: per ora la CI verifica i tipi.
+      - run: npm run typecheck
+      - run: npm test --if-present
