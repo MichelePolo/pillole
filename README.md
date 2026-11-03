@@ -80,3 +80,7 @@ Il testo delle fonti arriva dal web ed è trattato come dati: il prompt chiede a
 
 - Passo 2: la PWA lettore con card, salvataggio, scarto, audio e offline.
 - Job notturno: API batch, lettura dei feed RSS, embedding multilingue.
+
+## Come contribuire
+
+Vedi [CONTRIBUTING.md](CONTRIBUTING.md): ramo, PR verso `main`, CI verde, squash.
