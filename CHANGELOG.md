@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.1.5](https://github.com/MichelePolo/pillole/compare/v0.1.4...v0.1.5) (2026-11-03)
+
+
+### Bug Fixes
+
+* **app:** pubblica su Cloudflare Workers static assets invece che su Pages ([#20](https://github.com/MichelePolo/pillole/issues/20)) ([45cacb4](https://github.com/MichelePolo/pillole/commit/45cacb4f755ba6d0c5f43bde57325692cedcc7c3))
+
 ## [0.1.4](https://github.com/MichelePolo/pillole/compare/v0.1.3...v0.1.4) (2026-11-03)
 
 
