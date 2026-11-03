@@ -1,0 +1,13 @@
+# Una sorgente per riga: URL o percorso di un file .md/.txt. Le righe con # sono commenti.
+# Per il passo 1 metti qui 10 articoli che hai letto davvero, mescolando AI, filosofia e tecnologia
+# e italiano e inglese. Due esempi da sostituire:
+https://plato.stanford.edu/entries/stoicism/
+https://antirez.com/news/163
+http://antirez.com/news/172
+http://antirez.com/news/170
+http://antirez.com/news/169
+https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7573978
+https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7248919
+https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6992158
+https://ledicola.it/italia/ia-enkk-potremo-dedicarci-a-cio-che-e-umano/
+https://ccc.di.unito.it/2026/10/12/not-all-disagreements-are-equal-disentangling-sources-of-annotator-disagreement-in-toxicity-detection/
