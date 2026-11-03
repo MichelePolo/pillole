@@ -104,16 +104,15 @@ cd app && npm run dev
 
 ## Usarla sul telefono
 
-L'app si pubblica su Cloudflare Pages (gratis, HTTPS: serve per installarla e usarla offline).
+L'app si pubblica su Cloudflare Workers come static assets (gratis, HTTPS: serve per installarla e usarla offline). Cloudflare Pages è confluito in Workers, quindi non si usano i comandi `wrangler pages`.
 
 ```bash
 cd app
 npx wrangler login       # una volta sola: apre il browser per collegare il tuo account
-npm run deploy:setup     # una volta sola: crea il progetto «pillole»
 npm run deploy           # compila e pubblica; ripetilo dopo ogni distill + embed
 ```
 
-Apri l'indirizzo `https://pillole.pages.dev` (o quello che stampa Wrangler) dal telefono e aggiungilo alla schermata Home.
+Wrangler stampa l'indirizzo, del tipo `https://pillole.<tuo-sottodominio>.workers.dev`: aprilo dal telefono e aggiungilo alla schermata Home.
 
 - **I dati restano nel browser del telefono** (IndexedDB) e non si sincronizzano con il PC fino al passo 6. Usa un solo dispositivo, e non cancellare i dati del sito.
 - **Esporta dati**, in fondo alla scheda *Salvate*, scarica (o condivide, sul telefono) un JSON con eventi, stato e pillola corrente: è il file da cui tarare i pesi della selezione.
