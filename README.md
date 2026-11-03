@@ -64,7 +64,7 @@ library/
 Le idee sono sempre in italiano, anche quando la fonte è in inglese; solo `anchor` resta nella lingua originale, perché deve combaciare con il testo della fonte. Ogni idea ha un frontmatter YAML con lingua dell'idea (`lang`) e della fonte (`source.lang`), tipo, argomenti, fonte, quiz e due controlli automatici:
 
 - **anchor_check**: verifica che la frase citata come appoggio esista davvero nella fonte (`exact`, `near` o `missing`). Un `missing` è il segnale più rapido di un'idea inventata.
-- **warnings**: titolo oltre le 8 parole, corpo fuori dall'intervallo 60–120 parole, elenchi o HTML nel corpo.
+- **warnings**: titolo oltre le 10 parole (il prompt ne chiede al massimo 8), corpo fuori dall'intervallo 60–120 parole, elenchi o HTML nel corpo.
 
 Il corpo può contenere `==evidenziazioni==`, che mdlib-pure renderizza con il plugin `mark`.
 

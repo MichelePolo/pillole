@@ -76,6 +76,8 @@ export function normalizeRaw(raw: unknown): unknown {
   };
 }
 
+const TITLE_WARN_WORDS = 10;
+
 const words = (s: string) => s.trim().split(/\s+/).filter(Boolean).length;
 
 // Controlli "morbidi": non scartano l'idea, la segnalano in revisione.
@@ -83,7 +85,9 @@ export function softWarnings(idea: IdeaDraft): string[] {
   const w: string[] = [];
   const t = words(idea.title);
   const b = words(idea.body);
-  if (t > 8) w.push(`titolo di ${t} parole (max 8)`);
+  // Il prompt chiede al massimo 8 parole; l'avviso scatta oltre 10, perché in revisione
+  // i titoli di 9-10 parole vengono tenuti (19 su 19 con il prompt v2).
+  if (t > TITLE_WARN_WORDS) w.push(`titolo di ${t} parole (avviso oltre ${TITLE_WARN_WORDS})`);
   if (b < 60 || b > 120) w.push(`corpo di ${b} parole (60-120)`);
   if (idea.topics.length > 2) w.push(`${idea.topics.length} argomenti (max 2)`);
   if (idea.subtopics.length > 3) w.push(`${idea.subtopics.length} sotto-argomenti (max 3)`);
