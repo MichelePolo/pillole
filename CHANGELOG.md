@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.1.6](https://github.com/MichelePolo/pillole/compare/v0.1.5...v0.1.6) (2026-11-03)
+
+
+### Features
+
+* **app:** nuova identità Nòus con icona acquamarina e argento ([#22](https://github.com/MichelePolo/pillole/issues/22)) ([4de4dc3](https://github.com/MichelePolo/pillole/commit/4de4dc383c0b91ba435d963824b9833cd047fa47))
+
 ## [0.1.5](https://github.com/MichelePolo/pillole/compare/v0.1.4...v0.1.5) (2026-11-03)
 
 
