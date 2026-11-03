@@ -1,0 +1,9 @@
+# Intestazioni di Cloudflare Pages (non finisce nel precache: Workbox prende solo js, css, html, svg, json).
+/*
+  X-Content-Type-Options: nosniff
+  Referrer-Policy: strict-origin-when-cross-origin
+  Permissions-Policy: camera=(), microphone=(), geolocation=(), interest-cohort=()
+
+# Il service worker va sempre ricontrollato, altrimenti un aggiornamento può restare bloccato.
+/sw.js
+  Cache-Control: no-cache

@@ -72,6 +72,10 @@ export async function loadEvents(): Promise<IdeaEvent[]> {
   });
 }
 
+export async function loadAllState(): Promise<IdeaState[]> {
+  return [...(await loadState()).values()];
+}
+
 export async function logEvent(event: Omit<IdeaEvent, 'at'>): Promise<void> {
   const db = await open();
   const tx = db.transaction('events', 'readwrite');
