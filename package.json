@@ -3,6 +3,7 @@
   "version": "0.1.1",
   "private": true,
   "description": "Distillatore personale di idee (passo 1 del progetto Deepstash App)",
+  "license": "MIT",
   "type": "module",
   "engines": {
     "node": ">=20.12"
