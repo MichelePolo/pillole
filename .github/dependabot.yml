@@ -1,0 +1,9 @@
+# Aggiorna gli SHA delle azioni fissate nei workflow, con PR settimanali.
+version: 2
+updates:
+  - package-ecosystem: github-actions
+    directory: /
+    schedule:
+      interval: weekly
+    commit-message:
+      prefix: ci
