@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.1.4](https://github.com/MichelePolo/pillole/compare/v0.1.3...v0.1.4) (2026-11-03)
+
+
+### Features
+
+* **app:** pubblicazione su Cloudflare Pages ed esportazione dei dati ([#18](https://github.com/MichelePolo/pillole/issues/18)) ([86a87ee](https://github.com/MichelePolo/pillole/commit/86a87ee01e4c414e93abc8b8f2c7c799fa8f3b19))
+
 ## [0.1.3](https://github.com/MichelePolo/pillole/compare/v0.1.2...v0.1.3) (2026-11-03)
 
 
