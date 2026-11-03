@@ -5,6 +5,7 @@ import path from 'node:path';
 import { Readability } from '@mozilla/readability';
 import { JSDOM, VirtualConsole } from 'jsdom';
 import { MAX_SOURCE_CHARS, SOURCES_DIR } from './config.js';
+import { stripControl } from './sanitize.js';
 
 export interface Source {
   id: string;
@@ -25,7 +26,7 @@ const sourceId = (key: string) => createHash('sha1').update(key).digest('hex').s
 const cachePath = (id: string) => path.join(SOURCES_DIR, `${id}.json`);
 
 function cleanText(text: string): string {
-  return text
+  return stripControl(text)
     .replace(/\r/g, '')
     .replace(/[ \t\u00a0]+/g, ' ')
     .replace(/ *\n */g, '\n')

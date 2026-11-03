@@ -1,5 +1,6 @@
 import { SUBTOPICS } from './vocabulary.js';
 import type { Source } from './extract.js';
+import { neutralizeDelimiters, stripControl } from './sanitize.js';
 
 // Ogni modifica a questo testo richiede di aggiornare PROMPT_VERSION in config.ts.
 export const SYSTEM_PROMPT = `Sei il distillatore di una biblioteca personale di idee. Ricevi il testo di una fonte (articolo, saggio, voce di enciclopedia, capitolo) e ne estrai le idee atomiche che vale la pena ricordare.
@@ -34,7 +35,8 @@ export function buildUserMessage(source: Source): string {
     source.site ? `<site>${esc(source.site)}</site>` : '',
     source.url ? `<url>${esc(source.url)}</url>` : '',
     '<text>',
-    source.text,
+    // Anche le fonti già in cache, estratte prima di questa pulizia.
+    neutralizeDelimiters(stripControl(source.text)),
     '</text>',
     '</source>',
     '',

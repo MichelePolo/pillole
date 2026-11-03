@@ -5,6 +5,7 @@ import readline from 'node:readline/promises';
 import { parseArgs } from 'node:util';
 import { LIBRARY_DIR, PROMPT_VERSION, REVIEWS_FILE, TARGET_DISCARD_RATE } from './config.js';
 import { loadIdeas, type IdeaFile } from './markdown.js';
+import { stripControl as c } from './sanitize.js';
 
 const REASONS = {
   '1': 'vago',
@@ -46,11 +47,11 @@ function show(idea: IdeaFile, i: number, n: number): void {
   const anchorMark = m.anchor_check === 'exact' ? '✓' : m.anchor_check === 'near' ? '≈' : '✗ NON TROVATO';
   console.log('\n' + dim('─'.repeat(60)));
   console.log(dim(`${i}/${n} · ${m.prompt_version} · ${m.source.lang && m.source.lang !== m.lang ? `${m.source.lang}→${m.lang}` : m.lang} · ${m.kind} · ${m.topics.join('+')} / ${m.subtopics.join(', ')}`));
-  console.log(dim(`fonte: ${m.source.title}${m.source.url ? ` — ${m.source.url}` : ''}`));
-  console.log('\n' + b(idea.title) + '\n');
-  console.log(idea.body.replace(/==(.+?)==/g, (_, s: string) => b(s)));
-  console.log('\n' + dim(`anchor ${anchorMark}: "${m.anchor}"`));
-  console.log(dim(`quiz: ${m.quiz.q} → ${m.quiz.a}`));
+  console.log(dim(`fonte: ${c(m.source.title)}${m.source.url ? ` — ${c(m.source.url)}` : ''}`));
+  console.log('\n' + b(c(idea.title)) + '\n');
+  console.log(c(idea.body).replace(/==(.+?)==/g, (_, s: string) => b(s)));
+  console.log('\n' + dim(`anchor ${anchorMark}: "${c(m.anchor)}"`));
+  console.log(dim(`quiz: ${c(m.quiz.q)} → ${c(m.quiz.a)}`));
   if (m.warnings?.length) console.log(`\x1b[33mavvisi: ${m.warnings.join('; ')}\x1b[0m`);
 }
 
