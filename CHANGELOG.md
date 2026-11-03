@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.1.3](https://github.com/MichelePolo/pillole/compare/v0.1.2...v0.1.3) (2026-11-03)
+
+
+### Features
+
+* **app:** pillola giornaliera con Thompson sampling, embedding e motivo della scelta ([#16](https://github.com/MichelePolo/pillole/issues/16)) ([f59f95f](https://github.com/MichelePolo/pillole/commit/f59f95fbf1998db542742489a84fe09f6d8e716b))
+
 ## [0.1.2](https://github.com/MichelePolo/pillole/compare/v0.1.1...v0.1.2) (2026-11-03)
 
 
