@@ -10,9 +10,11 @@ on:
 permissions:
   contents: read
 
+# Su una PR un nuovo push rende inutile il run precedente; su main no:
+# ogni commit unito deve avere il suo controllo completo.
 concurrency:
   group: ci-${{ github.ref }}
-  cancel-in-progress: true
+  cancel-in-progress: ${{ github.event_name == 'pull_request' }}
 
 jobs:
   check:
