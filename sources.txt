@@ -1,13 +1,39 @@
 # Una sorgente per riga: URL o percorso di un file .md/.txt. Le righe con # sono commenti.
-# Per il passo 1 metti qui 10 articoli che hai letto davvero, mescolando AI, filosofia e tecnologia
-# e italiano e inglese. Due esempi da sostituire:
-https://plato.stanford.edu/entries/stoicism/
+# Fonti scelte da te, una o due per argomento e lingua (Claude Doc, sezione 13, "Prime fonti").
+
+# --- AI · Simon Willison, solo i post lunghi (EN) · feed: https://simonwillison.net/atom/entries/
+https://simonwillison.net/2026/Oct/3/default-hard-budget-caps/
+https://simonwillison.net/2026/Oct/28/vibe-game-development/
+
+# --- AI, tecnologia · antirez (EN, a volte IT) · feed: https://antirez.com/rss
 https://antirez.com/news/163
 http://antirez.com/news/172
 http://antirez.com/news/170
 http://antirez.com/news/169
-https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7573978
-https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7248919
-https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6992158
+http://antirez.com/news/168
+http://antirez.com/news/171
+
+# --- AI, tecnologia · Agenda Digitale (IT) · feed: https://www.agendadigitale.eu/feed/
+https://www.agendadigitale.eu/scuola-digitale/agenti-educativi-chi-decide-il-percorso-tra-studente-e-macchina/
+# Alcuni articoli si estraggono solo a metà (titolo e menu, senza corpo): controlla i caratteri con --dry-run.
+
+# --- Filosofia · Stanford Encyclopedia of Philosophy (EN) · feed: https://plato.stanford.edu/rss/sep.xml
+https://plato.stanford.edu/entries/stoicism/
+https://plato.stanford.edu/entries/epistemology-ai/
+https://plato.stanford.edu/entries/infinite-regress/
+
+# --- Filosofia · classici di pubblico dominio da Wikisource (IT)
+# "Lettera I" su Wikisource è l'epistola 68 a Lucilio, in una traduzione del Cinquecento.
+https://it.wikisource.org/wiki/Lettere_(Seneca)/Lettera_I
+https://it.wikisource.org/wiki/I_Ricordi/Libro_II
+
+# --- Filosofia, tecnologia · Il Tascabile, Treccani (IT) · feed: https://www.iltascabile.com/feed/
+https://www.iltascabile.com/societa/odio-content/
+
+# --- Altre fonti lette
 https://ledicola.it/italia/ia-enkk-potremo-dedicarci-a-cio-che-e-umano/
 https://ccc.di.unito.it/2026/10/12/not-all-disagreements-are-equal-disentangling-sources-of-annotator-disagreement-in-toxicity-detection/
+# SSRN risponde 403 ai download automatici: salva il testo in un file .md e metti qui il percorso.
+# https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7573978
+# https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7248919
+# https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6992158
