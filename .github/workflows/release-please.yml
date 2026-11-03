@@ -1,0 +1,30 @@
+# Unire la PR "chore(main): release x.y.z" crea il tag vX.Y.Z e la GitHub Release.
+# Eventuali artefatti vanno costruiti in questo job, condizionati a release_created:
+# una release creata con GITHUB_TOKEN non fa partire altri workflow.
+name: release-please
+
+on:
+  push:
+    branches: [main]
+
+permissions:
+  contents: write
+  pull-requests: write
+
+concurrency:
+  group: release-please-${{ github.ref }}
+  cancel-in-progress: false
+
+jobs:
+  release-please:
+    runs-on: ubuntu-latest
+    outputs:
+      release_created: ${{ steps.release.outputs.release_created }}
+      tag_name: ${{ steps.release.outputs.tag_name }}
+    steps:
+      - uses: googleapis/release-please-action@v4
+        id: release
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          config-file: release-please-config.json
+          manifest-file: .release-please-manifest.json
