@@ -102,6 +102,23 @@ cd app && npm run dev
 - **Profilo** (`app/src/profile.ts`): ricostruito a ogni apertura dagli eventi in IndexedDB. Una Beta per argomento (partenza 2/1) e per sotto-argomento (1/1): salvataggio +1 al successo, scarto rapido (sotto 4 s) +1 all'insuccesso, scarto dopo la lettura +0,5. Contatori con emivita di 30 giorni; due medie degli embedding salvati, lenta (90 giorni) e veloce (3 giorni).
 - **Pillola** (`app/src/pill.ts`): gusto campionato con Thompson sampling + 0,5 × somiglianza − 0,7 × ridondanza, più le regole della sezione 13: almeno 2 card di filosofia, penalità per la stessa fonte, bonus per le card ponte. Tutti i pesi sono costanti in cima ai due file.
 
+## Usarla sul telefono
+
+L'app si pubblica su Cloudflare Pages (gratis, HTTPS: serve per installarla e usarla offline).
+
+```bash
+cd app
+npx wrangler login       # una volta sola: apre il browser per collegare il tuo account
+npm run deploy:setup     # una volta sola: crea il progetto «pillole»
+npm run deploy           # compila e pubblica; ripetilo dopo ogni distill + embed
+```
+
+Apri l'indirizzo `https://pillole.pages.dev` (o quello che stampa Wrangler) dal telefono e aggiungilo alla schermata Home.
+
+- **I dati restano nel browser del telefono** (IndexedDB) e non si sincronizzano con il PC fino al passo 6. Usa un solo dispositivo, e non cancellare i dati del sito.
+- **Esporta dati**, in fondo alla scheda *Salvate*, scarica (o condivide, sul telefono) un JSON con eventi, stato e pillola corrente: è il file da cui tarare i pesi della selezione.
+- Chiunque abbia l'indirizzo vede le card, che sono comunque già pubbliche in questo repository. Per un accesso solo tuo: Cloudflare Access, gratuito.
+
 ## Prossimi passi
 
 - Passo 4: ripasso con ts-fsrs e card quiz.

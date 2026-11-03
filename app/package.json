@@ -8,7 +8,9 @@
     "dev": "npm run index && vite",
     "build": "npm run index && tsc -b && vite build",
     "preview": "vite preview",
-    "typecheck": "tsc -b"
+    "typecheck": "tsc -b",
+    "deploy:setup": "wrangler pages project create pillole --production-branch main",
+    "deploy": "npm run build && wrangler pages deploy --branch main --commit-dirty=true"
   },
   "dependencies": {
     "mdlib-pure": "https://github.com/MichelePolo/mdlib-pure/releases/download/mdlib-pure-v0.1.1/mdlib-pure-0.1.1.tgz",
@@ -26,6 +28,7 @@
     "typescript": "^7.0.2",
     "vite": "^8.3.5",
     "vite-plugin-pwa": "^2.0.0",
+    "wrangler": "^4.156.2",
     "yaml": "^2.9.1"
   }
 }

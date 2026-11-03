@@ -15,6 +15,7 @@ interface Undo { idea: Idea; dir: Direction; timer: number }
 
 export function App() {
   const [ideas, setIdeas] = useState<Idea[] | null>(null);
+  const [ideasVersion, setIdeasVersion] = useState('');
   const [state, setState] = useState<Map<string, IdeaState>>(new Map());
   const [pill, setPill] = useState<StoredPill | null>(null);
   const [error, setError] = useState<string | null>(null);
@@ -39,6 +40,7 @@ export function App() {
     Promise.all([fetch('./ideas.json').then((r) => r.json() as Promise<IdeasFile>), loadState()])
       .then(async ([file, st]) => {
         setIdeas(file.ideas);
+        setIdeasVersion(file.version);
         setState(st);
         const known = new Set(file.ideas.map((i) => i.id));
         const stored = loadPill();
@@ -153,7 +155,7 @@ export function App() {
         ) : !ideas ? (
           <Message title="Carico le idee…" />
         ) : view === 'library' ? (
-          <Library ideas={saved} onUnsave={onUnsave} />
+          <Library ideas={saved} onUnsave={onUnsave} ideasVersion={ideasVersion} />
         ) : current ? (
           <>
             {position < cards.length - 1 && <div aria-hidden className="absolute inset-x-3 top-3 bottom-0 rounded-3xl border border-stone-200 bg-white/70 dark:border-stone-800 dark:bg-stone-900/70" />}

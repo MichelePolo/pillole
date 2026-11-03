@@ -1,0 +1,7 @@
+// Cloudflare Pages: «npm run deploy» compila e pubblica app/dist.
+// La prima volta: «npx wrangler login», poi «npm run deploy:setup» per creare il progetto.
+{
+  "name": "pillole",
+  "pages_build_output_dir": "./dist",
+  "compatibility_date": "2026-11-03"
+}
