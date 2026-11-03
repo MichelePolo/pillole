@@ -63,6 +63,15 @@ export async function record(event: Omit<IdeaEvent, 'at'>, state: IdeaState | nu
   await done(tx);
 }
 
+export async function loadEvents(): Promise<IdeaEvent[]> {
+  const db = await open();
+  const req = db.transaction('events').objectStore('events').getAll(); // in ordine di inserimento
+  return new Promise((resolve, reject) => {
+    req.onsuccess = () => resolve(req.result as IdeaEvent[]);
+    req.onerror = () => reject(req.error);
+  });
+}
+
 export async function logEvent(event: Omit<IdeaEvent, 'at'>): Promise<void> {
   const db = await open();
   const tx = db.transaction('events', 'readwrite');

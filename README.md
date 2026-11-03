@@ -89,9 +89,22 @@ npm run build     # build di produzione in app/dist, con service worker
 
 `npm run index` costruisce `public/ideas.json` con le idee della versione corrente del prompt, escluse quelle scartate in `npm run review`. Salvataggi, scarti e ogni evento (con origine e tempo sulla card) restano nel browser, in IndexedDB: sono i dati da cui partiranno la selezione del passo 3 e le metriche.
 
+## Passo 3: la selezione
+
+L'app non mostra più tutte le idee in fila ma una **pillola** di 6 card al giorno, poi *Per oggi hai finito* (con un'uscita discreta: *Un'altra pillola*). Ogni card mostra il motivo della scelta: *simile a «…»*, *esplorazione*, *ti interessa*, *evergreen*.
+
+```bash
+npm run embed     # calcola gli embedding delle idee nuove (il primo avvio scarica ~120 MB di modello)
+cd app && npm run dev
+```
+
+- **Embedding**: `multilingual-e5-small` con Transformers.js, sul PC e mai sul telefono, in `library/embeddings/`. `build-index` li centra (sottrae la media della libreria) prima di scriverli in `ideas.json`: grezzi, i coseni di e5 stanno tutti tra 0,78 e 0,86.
+- **Profilo** (`app/src/profile.ts`): ricostruito a ogni apertura dagli eventi in IndexedDB. Una Beta per argomento (partenza 2/1) e per sotto-argomento (1/1): salvataggio +1 al successo, scarto rapido (sotto 4 s) +1 all'insuccesso, scarto dopo la lettura +0,5. Contatori con emivita di 30 giorni; due medie degli embedding salvati, lenta (90 giorni) e veloce (3 giorni).
+- **Pillola** (`app/src/pill.ts`): gusto campionato con Thompson sampling + 0,5 × somiglianza − 0,7 × ridondanza, più le regole della sezione 13: almeno 2 card di filosofia, penalità per la stessa fonte, bonus per le card ponte. Tutti i pesi sono costanti in cima ai due file.
+
 ## Prossimi passi
 
-- Passo 3: selezione v1 (Beta per argomento, somiglianza, diversità, pillola finita, motivo della scelta).
+- Passo 4: ripasso con ts-fsrs e card quiz.
 - Job notturno: API batch, lettura dei feed RSS, embedding multilingue.
 
 ## Come contribuire

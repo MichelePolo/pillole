@@ -11,11 +11,13 @@
   "scripts": {
     "distill": "tsx src/distill.ts",
     "review": "tsx src/review.ts",
+    "embed": "tsx src/embed.ts",
     "stats": "tsx src/review.ts --stats",
     "typecheck": "tsc --noEmit"
   },
   "dependencies": {
     "@anthropic-ai/sdk": "^1.4.0",
+    "@huggingface/transformers": "^4.3.2",
     "@mozilla/readability": "^0.6.0",
     "jsdom": "^30.1.3",
     "yaml": "^2.9.1",
