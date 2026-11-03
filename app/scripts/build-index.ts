@@ -9,7 +9,7 @@ const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '../..')
 // config.ts risolve la libreria rispetto alla cartella corrente: va impostata prima di importarlo.
 process.env.PILLOLE_LIBRARY ??= path.join(root, 'library');
 
-const { PROMPT_VERSION, REVIEWS_FILE } = await import('../../src/config.js');
+const { EMBEDDINGS_FILE, PROMPT_VERSION, REVIEWS_FILE } = await import('../../src/config.js');
 const { loadIdeas } = await import('../../src/markdown.js');
 type Idea = import('../src/types.js').Idea;
 
@@ -40,7 +40,25 @@ const ideas: Idea[] = all
     quiz: meta.quiz,
   }));
 
+// Embedding centrati: e5 dà coseni tra 0,78 e 0,86 anche tra idee scollegate, e con
+// quella base i pesi di somiglianza e ridondanza della pillola sarebbero quasi costanti.
+// Sottraendo la media della libreria e rinormalizzando, i coseni vanno da circa -0,2 a +0,5.
+const raw: Record<string, number[]> = existsSync(EMBEDDINGS_FILE) ? JSON.parse(await readFile(EMBEDDINGS_FILE, 'utf8')) : {};
+const withVec = ideas.filter((i) => raw[i.id]);
+if (withVec.length > 1) {
+  const dim = raw[withVec[0].id].length;
+  const mean = new Array<number>(dim).fill(0);
+  for (const i of withVec) raw[i.id].forEach((x, k) => (mean[k] += x / withVec.length));
+  for (const i of withVec) {
+    const v = raw[i.id].map((x, k) => x - mean[k]);
+    const norm = Math.hypot(...v);
+    i.vec = v.map((x) => Math.round((x / norm) * 1e3) / 1e3);
+  }
+}
+const missingVec = ideas.length - withVec.length;
+
 const out = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '../public/ideas.json');
 await mkdir(path.dirname(out), { recursive: true });
 await writeFile(out, JSON.stringify({ version, generated: new Date().toISOString(), ideas }));
 console.log(`ideas.json: ${ideas.length} idee del prompt ${version} (${discarded.size} scartate in revisione escluse)`);
+if (missingVec) console.warn(`  ${missingVec} idee senza embedding: lancia «npm run embed» nella radice`);

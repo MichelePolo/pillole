@@ -17,11 +17,12 @@ const reducedMotion = () => window.matchMedia('(prefers-reduced-motion: reduce)'
 interface Props {
   idea: Idea;
   onSwipe: (dir: Direction) => void;
+  reason?: string; // perché la card è nella pillola: "simile a…", "esplorazione"…
   ref?: Ref<SwipeCardHandle>;
   children?: React.ReactNode; // barra delle azioni dentro la card
 }
 
-export function SwipeCard({ idea, onSwipe, ref, children }: Props) {
+export function SwipeCard({ idea, onSwipe, reason, ref, children }: Props) {
   const el = useRef<HTMLElement>(null);
   const drag = useRef<{ id: number; x: number; y: number; t: number; horizontal: boolean | null } | null>(null);
   const [dx, setDx] = useState(0);
@@ -104,6 +105,7 @@ export function SwipeCard({ idea, onSwipe, ref, children }: Props) {
           {(idea.subtopics.filter((s) => s !== 'altro').length ? idea.subtopics.filter((s) => s !== 'altro') : idea.topics).map((s) => s.replace(/-/g, ' ')).join(' · ')}
           {idea.sourceLang !== 'it' && <span className="ml-2 rounded bg-stone-100 px-1.5 py-0.5 normal-case dark:bg-stone-800">dall'{idea.sourceLang === 'en' ? 'inglese' : idea.sourceLang}</span>}
         </p>
+        {reason && <p className="mt-1 text-xs text-amber-700 dark:text-amber-500">{reason}</p>}
         <h2 className="mt-3 text-2xl leading-tight font-semibold text-balance">{idea.title}</h2>
         <Markdown source={idea.body} className="mt-4 text-[1.05rem] leading-relaxed" />
         <p className="mt-6 text-sm text-stone-500">

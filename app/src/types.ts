@@ -9,6 +9,7 @@ export interface Idea {
   sourceLang: string;
   source: { id: string; title: string; author?: string; site?: string; url?: string };
   quiz: { q: string; a: string };
+  vec?: number[]; // embedding centrato e normalizzato (multilingual-e5-small)
 }
 
 export interface IdeasFile {
