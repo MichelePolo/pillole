@@ -1,6 +1,6 @@
 {
   "name": "pillole",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "private": true,
   "description": "Distillatore personale di idee (passo 1 del progetto Deepstash App)",
   "type": "module",
