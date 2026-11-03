@@ -138,7 +138,7 @@ export function App() {
   return (
     <div className="mx-auto flex h-full max-w-lg flex-col px-4 pt-[max(1rem,env(safe-area-inset-top))] pb-[max(1rem,env(safe-area-inset-bottom))]">
       <header className="flex items-center justify-between pb-3">
-        <h1 className="text-lg font-semibold">Pillole</h1>
+        <h1 className="text-lg font-semibold">Nòus</h1>
         <nav className="flex rounded-full bg-stone-200/70 p-1 text-sm dark:bg-stone-800">
           <Tab active={view === 'read'} onClick={() => setView('read')}>
             Pillola{currentCard && <span className="ml-1 text-stone-500">{position + 1}/{cards.length}</span>}

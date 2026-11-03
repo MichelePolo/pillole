@@ -14,17 +14,22 @@ export default defineConfig({
     tailwindcss(),
     VitePWA({
       registerType: 'autoUpdate',
-      includeAssets: ['icon.svg'],
+      includeAssets: ['favicon.png', 'apple-touch-icon.png'],
       manifest: {
-        name: 'Pillole',
-        short_name: 'Pillole',
+        name: 'Nòus',
+        short_name: 'Nòus',
         description: 'Idee atomiche dai tuoi articoli, una card alla volta',
         lang: 'it',
         theme_color: '#1c1917',
         background_color: '#fafaf9',
         display: 'standalone',
         start_url: '.',
-        icons: [{ src: 'icon.svg', sizes: 'any', type: 'image/svg+xml', purpose: 'any maskable' }],
+        icons: [
+          { src: 'icon-192.png', sizes: '192x192', type: 'image/png', purpose: 'any' },
+          { src: 'icon-512.png', sizes: '512x512', type: 'image/png', purpose: 'any' },
+          // Android ritaglia le maskable (cerchio, squircle): qui il disegno sta nel 78% centrale.
+          { src: 'icon-maskable-512.png', sizes: '512x512', type: 'image/png', purpose: 'maskable' },
+        ],
       },
       workbox: {
         // ideas.json è nel precache: l'app funziona offline con l'ultima libreria scaricata.
