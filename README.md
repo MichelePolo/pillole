@@ -84,3 +84,7 @@ Il testo delle fonti arriva dal web ed è trattato come dati: il prompt chiede a
 ## Come contribuire
 
 Vedi [CONTRIBUTING.md](CONTRIBUTING.md): ramo, PR verso `main`, CI verde, squash.
+
+## Licenza
+
+Il codice è distribuito con licenza [MIT](LICENSE). Le idee in `library/ideas/` sono parafrasi delle fonti citate in ogni file; i diritti sui testi originali restano ai rispettivi autori.
