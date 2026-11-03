@@ -1,0 +1,11 @@
+@import "tailwindcss";
+@import "mdlib-pure/tailwind.css";
+
+@custom-variant dark (@media (prefers-color-scheme: dark));
+
+:root {
+  --md-color-mark: color-mix(in oklab, #f59e0b 30%, transparent);
+}
+
+html, body, #root { height: 100%; }
+body { overscroll-behavior: none; -webkit-tap-highlight-color: transparent; }
