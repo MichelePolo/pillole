@@ -10,7 +10,11 @@ export function stripControl(s: string): string {
 
 // Neutralizza i tag che delimitano la fonte nel messaggio a Claude, così una pagina
 // non può chiudere <text> o <source> e scrivere fuori dal suo contenitore.
+// Tollera spazi e caratteri di formato invisibili (U+200B, U+FEFF, U+00AD…) tra "<",
+// "/" e il nome, e copre anche i delimitatori con nonce (text_xxxx).
 // Gli altri "<" restano intatti, perché l'anchor deve combaciare con il testo originale.
+const DELIMITER = /<([\s\p{Cf}]*\/?[\s\p{Cf}]*)(source|text)(?![a-z])/giu;
+
 export function neutralizeDelimiters(s: string): string {
-  return s.replace(/<(\/?\s*)(source|text)\b/gi, '&lt;$1$2');
+  return s.replace(DELIMITER, '&lt;$1$2');
 }

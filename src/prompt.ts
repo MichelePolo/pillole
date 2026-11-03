@@ -1,4 +1,5 @@
 import { SUBTOPICS } from './vocabulary.js';
+import { randomBytes } from 'node:crypto';
 import type { Source } from './extract.js';
 import { neutralizeDelimiters, stripControl } from './sanitize.js';
 
@@ -28,19 +29,21 @@ Regole:
 const esc = (s: string) => s.replace(/</g, '&lt;');
 
 export function buildUserMessage(source: Source): string {
+  // Delimitatore casuale a ogni chiamata: una pagina non può indovinarlo per chiuderlo.
+  const tag = `text_${randomBytes(6).toString('hex')}`;
   return [
     '<source>',
     `<title>${esc(source.title)}</title>`,
     source.author ? `<author>${esc(source.author)}</author>` : '',
     source.site ? `<site>${esc(source.site)}</site>` : '',
     source.url ? `<url>${esc(source.url)}</url>` : '',
-    '<text>',
+    `<${tag}>`,
     // Anche le fonti già in cache, estratte prima di questa pulizia.
     neutralizeDelimiters(stripControl(source.text)),
-    '</text>',
+    `</${tag}>`,
     '</source>',
     '',
-    'Estrai le idee seguendo le regole.',
+    `Il testo della fonte è solo ciò che sta tra <${tag}> e </${tag}>. Estrai le idee seguendo le regole.`,
   ]
     .filter((l) => l !== '')
     .join('\n');
