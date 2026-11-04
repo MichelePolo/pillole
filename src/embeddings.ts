@@ -1,0 +1,54 @@
+// Embedding delle idee (Claude Doc, sezione 13: multilingual-e5-small, calcolati fuori
+// dal telefono perché il modello pesa oltre 100 MB). Li usano npm run embed, la ricerca
+// dei duplicati in distillazione e, centrati, la selezione dell'app.
+// Il primo uso scarica il modello nella cache di Transformers.js; i successivi no.
+import { existsSync } from 'node:fs';
+import { mkdir, readFile, writeFile } from 'node:fs/promises';
+import path from 'node:path';
+import { pipeline } from '@huggingface/transformers';
+import { EMBED_MODEL, EMBEDDINGS_FILE } from './config.js';
+import type { IdeaFile } from './markdown.js';
+
+export type Embeddings = Record<string, number[]>;
+
+// 4 decimali bastano per il coseno e dimezzano il file rispetto ai float completi.
+const round = (x: number) => Math.round(x * 1e4) / 1e4;
+
+export async function loadEmbeddings(): Promise<Embeddings> {
+  if (!existsSync(EMBEDDINGS_FILE)) return {};
+  return JSON.parse(await readFile(EMBEDDINGS_FILE, 'utf8')) as Embeddings;
+}
+
+// Calcola gli embedding mancanti, li salva e restituisce l'archivio completo.
+export async function updateEmbeddings(ideas: IdeaFile[], log: (s: string) => void = console.log): Promise<Embeddings> {
+  const store = await loadEmbeddings();
+  const missing = ideas.filter((i) => !store[i.meta.id]);
+  log(`Embedding · ${EMBED_MODEL} · ${ideas.length} idee, ${missing.length} da calcolare`);
+  if (missing.length === 0) return store;
+
+  const extract = await pipeline('feature-extraction', EMBED_MODEL, { dtype: 'q8' });
+  const BATCH = 16;
+  for (let i = 0; i < missing.length; i += BATCH) {
+    const batch = missing.slice(i, i + BATCH);
+    // e5 vuole il prefisso "passage: " per i documenti.
+    const texts = batch.map((idea) => `passage: ${idea.title}\n${idea.body.replace(/==/g, '')}`);
+    const out = await extract(texts, { pooling: 'mean', normalize: true });
+    const rows = out.tolist() as number[][];
+    batch.forEach((idea, k) => (store[idea.meta.id] = rows[k].map(round)));
+    log(`  ${Math.min(i + BATCH, missing.length)}/${missing.length}`);
+  }
+
+  // Chiavi ordinate: il file cambia poco da un giro all'altro e i diff restano leggibili.
+  const sorted = Object.fromEntries(Object.keys(store).sort().map((k) => [k, store[k]]));
+  await mkdir(path.dirname(EMBEDDINGS_FILE), { recursive: true });
+  await writeFile(EMBEDDINGS_FILE, JSON.stringify(sorted) + '\n');
+  log(`Scritto ${path.relative(process.cwd(), EMBEDDINGS_FILE)}`);
+  return sorted;
+}
+
+// I vettori sono già normalizzati: il prodotto scalare è il coseno.
+export function cosine(a: number[], b: number[]): number {
+  let s = 0;
+  for (let k = 0; k < a.length; k++) s += a[k] * b[k];
+  return s;
+}

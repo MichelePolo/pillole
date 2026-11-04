@@ -1,10 +1,10 @@
-import { existsSync } from 'node:fs';
-import { appendFile, mkdir, readFile } from 'node:fs/promises';
+import { mkdir } from 'node:fs/promises';
 import { stdin as input, stdout as output } from 'node:process';
 import readline from 'node:readline/promises';
 import { parseArgs } from 'node:util';
-import { LIBRARY_DIR, PROMPT_VERSION, REVIEWS_FILE, TARGET_DISCARD_RATE } from './config.js';
+import { LIBRARY_DIR, PROMPT_VERSION, TARGET_DISCARD_RATE } from './config.js';
 import { loadIdeas, type IdeaFile } from './markdown.js';
+import { appendReview, loadReviews, type Review } from './reviews.js';
 import { stripControl as c } from './sanitize.js';
 
 const REASONS = {
@@ -17,12 +17,11 @@ const REASONS = {
   '7': 'altro',
 } as const;
 
-interface Review { id: string; prompt_version: string; verdict: 'keep' | 'discard'; reason?: string; note?: string; at: string }
-
 const { values } = parseArgs({
   options: {
     stats: { type: 'boolean', default: false },
     all: { type: 'boolean', default: false },
+    auto: { type: 'boolean', default: false }, // ricontrolla gli scarti automatici dei duplicati
     version: { type: 'string', default: PROMPT_VERSION },
   },
 });
@@ -31,18 +30,7 @@ const b = (s: string) => `\x1b[1m${s}\x1b[0m`;
 const dim = (s: string) => `\x1b[2m${s}\x1b[0m`;
 const pct = (n: number) => `${(n * 100).toFixed(0)}%`;
 
-async function loadReviews(): Promise<Map<string, Review>> {
-  const map = new Map<string, Review>();
-  if (!existsSync(REVIEWS_FILE)) return map;
-  for (const line of (await readFile(REVIEWS_FILE, 'utf8')).split('\n')) {
-    if (!line.trim()) continue;
-    const r = JSON.parse(line) as Review;
-    map.set(r.id, r); // l'ultima revisione vince
-  }
-  return map;
-}
-
-function show(idea: IdeaFile, i: number, n: number): void {
+function show(idea: IdeaFile, i: number, n: number, review?: Review): void {
   const m = idea.meta;
   const anchorMark = m.anchor_check === 'exact' ? '✓' : m.anchor_check === 'near' ? '≈' : '✗ NON TROVATO';
   console.log('\n' + dim('─'.repeat(60)));
@@ -53,6 +41,7 @@ function show(idea: IdeaFile, i: number, n: number): void {
   console.log('\n' + dim(`anchor ${anchorMark}: "${c(m.anchor)}"`));
   console.log(dim(`quiz: ${c(m.quiz.q)} → ${c(m.quiz.a)}`));
   if (m.warnings?.length) console.log(`\x1b[33mavvisi: ${m.warnings.join('; ')}\x1b[0m`);
+  if (review?.by === 'auto') console.log(`\x1b[31m${c(review.note ?? 'scartata in automatico')}\x1b[0m`);
 }
 
 async function stats(ideas: IdeaFile[], reviews: Map<string, Review>): Promise<void> {
@@ -76,6 +65,8 @@ async function stats(ideas: IdeaFile[], reviews: Map<string, Review>): Promise<v
       const byReason = new Map<string, number>();
       for (const r of discarded) byReason.set(r.reason ?? 'altro', (byReason.get(r.reason ?? 'altro') ?? 0) + 1);
       for (const [reason, count] of [...byReason].sort((a, c) => c[1] - a[1])) console.log(`    ${reason}: ${count}`);
+      const auto = discarded.filter((r) => r.by === 'auto').length;
+      if (auto) console.log(dim(`    di cui ${auto} dal controllo automatico dei duplicati (ricontrollali con --auto)`));
     }
     console.log(`  anchor non trovati: ${missing} · idee con avvisi di forma: ${warned}`);
   }
@@ -89,9 +80,10 @@ async function main(): Promise<void> {
 
   if (values.stats) return stats(ideas, reviews);
 
-  const queue = ideas.filter((i) => !reviews.has(i.meta.id) && (values.all || i.meta.prompt_version === values.version));
+  const pending = (i: IdeaFile) => (values.auto ? reviews.get(i.meta.id)?.by === 'auto' : !reviews.has(i.meta.id));
+  const queue = ideas.filter((i) => pending(i) && (values.all || i.meta.prompt_version === values.version));
   if (queue.length === 0) {
-    console.log(`Niente da rivedere per il prompt ${values.version}.`);
+    console.log(`Niente da rivedere per il prompt ${values.version}${values.auto ? ' tra gli scarti automatici' : ''}.`);
     return stats(ideas, reviews);
   }
 
@@ -108,7 +100,7 @@ async function main(): Promise<void> {
 
   try {
     review: for (const [i, idea] of queue.entries()) {
-      show(idea, i + 1, queue.length);
+      show(idea, i + 1, queue.length, reviews.get(idea.meta.id));
       let answer = '';
       while (!['k', 'd', 's', 'q'].includes(answer)) {
         const a = await ask('\n[k/d/s/q] ');
@@ -131,7 +123,7 @@ async function main(): Promise<void> {
         const note = await ask('Nota (facoltativa): ');
         if (note) review.note = note;
       }
-      await appendFile(REVIEWS_FILE, JSON.stringify(review) + '\n');
+      await appendReview(review);
       reviews.set(review.id, review);
     }
   } finally {

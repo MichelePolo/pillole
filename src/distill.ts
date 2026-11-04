@@ -1,7 +1,9 @@
 import { appendFile, mkdir, readFile } from 'node:fs/promises';
+import path from 'node:path';
 import { parseArgs } from 'node:util';
 import Anthropic from '@anthropic-ai/sdk';
 import { makeAnchorChecker } from './anchor.js';
+import { dedupIdeas } from './dedup.js';
 import { COMPATIBLE_PROMPT_VERSIONS, LIBRARY_DIR, MAX_OUTPUT_TOKENS, MODEL, PROMPT_VERSION, RUNS_FILE, costUsd } from './config.js';
 import { loadSource, saveSource, type Source } from './extract.js';
 import { writeIdea } from './markdown.js';
@@ -18,6 +20,7 @@ Opzioni:
   --refresh   riscarica le pagine invece di usare la cache in library/sources
   --force     ridistilla anche le sorgenti già fatte con questa versione del prompt
   --think     abilita il thinking adattivo (più lento e costoso, a volte più accurato)
+  --no-dedup  non controlla i duplicati delle idee nuove (vedi npm run dedup)
   --model X   modello da usare (predefinito: ${MODEL})
   --help      mostra questo aiuto`;
 
@@ -28,6 +31,7 @@ const { values, positionals } = parseArgs({
     refresh: { type: 'boolean', default: false },
     force: { type: 'boolean', default: false },
     think: { type: 'boolean', default: false },
+    'no-dedup': { type: 'boolean', default: false },
     model: { type: 'string', default: MODEL },
     help: { type: 'boolean', default: false },
   },
@@ -67,7 +71,7 @@ async function expandInputs(args: string[]): Promise<string[]> {
 
 interface RunTotals { sources: number; ideas: number; empty: number; skipped: number; failed: number; inTok: number; outTok: number; usd: number; anchorMissing: number }
 
-async function distillOne(client: Anthropic, source: Source, totals: RunTotals): Promise<void> {
+async function distillOne(client: Anthropic, source: Source, totals: RunTotals, fresh: Set<string>): Promise<void> {
   const userMessage = buildUserMessage(source);
   const message = await client.messages.create({
     model,
@@ -105,7 +109,7 @@ async function distillOne(client: Anthropic, source: Source, totals: RunTotals):
   for (const [index, draft] of parsed.ideas.slice(0, 6).entries()) {
     const anchorCheck = check(draft.anchor);
     if (anchorCheck === 'missing') totals.anchorMissing++;
-    await writeIdea(draft, {
+    const file = await writeIdea(draft, {
       source,
       lang: parsed.source_lang,
       index,
@@ -114,6 +118,7 @@ async function distillOne(client: Anthropic, source: Source, totals: RunTotals):
       anchorCheck,
       warnings: softWarnings(draft),
     });
+    fresh.add(path.basename(file, '.md'));
     written++;
   }
 
@@ -141,6 +146,7 @@ async function main(): Promise<void> {
   await mkdir(LIBRARY_DIR, { recursive: true });
   const client = new Anthropic();
   const totals: RunTotals = { sources: 0, ideas: 0, empty: 0, skipped: 0, failed: 0, inTok: 0, outTok: 0, usd: 0, anchorMissing: 0 };
+  const fresh = new Set<string>(); // id delle idee scritte in questo giro
 
   console.log(`Prompt ${PROMPT_VERSION} · modello ${model} · ${inputs.length} sorgenti${values['dry-run'] ? ' · prova a secco' : ''}\n`);
 
@@ -167,7 +173,7 @@ async function main(): Promise<void> {
         continue;
       }
 
-      await distillOne(client, source, totals);
+      await distillOne(client, source, totals, fresh);
       totals.sources++;
     } catch (err) {
       totals.failed++;
@@ -175,10 +181,25 @@ async function main(): Promise<void> {
     }
   }
 
+  // Dopo tutte le fonti: così il controllo vede anche le idee nuove delle altre fonti del giro.
+  let duplicates = 0;
+  if (!values['dry-run'] && !values['no-dedup'] && fresh.size > 0) {
+    try {
+      const d = await dedupIdeas(client, model, fresh);
+      duplicates = d.duplicates;
+      totals.inTok += d.inTok;
+      totals.outTok += d.outTok;
+      totals.usd += d.usd;
+    } catch (err) {
+      // Le idee sono già scritte: senza il controllo arrivano tutte alla revisione, niente di perso.
+      console.error(`  ✗ controllo duplicati saltato: ${err instanceof Error ? err.message : String(err)} (rilancialo con npm run dedup)`);
+    }
+  }
+
   console.log('\nRiepilogo');
   console.log(`  sorgenti elaborate: ${totals.sources} · saltate: ${totals.skipped} · fallite: ${totals.failed}`);
   if (!values['dry-run']) {
-    console.log(`  idee scritte: ${totals.ideas} · sorgenti senza idee durevoli: ${totals.empty}`);
+    console.log(`  idee scritte: ${totals.ideas} · scartate come duplicati: ${duplicates} · sorgenti senza idee durevoli: ${totals.empty}`);
     console.log(`  anchor non trovati nella fonte: ${totals.anchorMissing}${totals.anchorMissing ? ' (controllali in revisione)' : ''}`);
   }
   console.log(`  token: ${totals.inTok} in, ${totals.outTok} out · costo${values['dry-run'] ? ' stimato' : ''}: ${totals.usd.toFixed(4)} $`);
