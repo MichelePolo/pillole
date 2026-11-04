@@ -6,7 +6,7 @@ import { Readability } from '@mozilla/readability';
 import { JSDOM, VirtualConsole } from 'jsdom';
 import { extractText, getDocumentProxy, getMeta } from 'unpdf';
 import { MAX_SOURCE_CHARS, MIN_SOURCE_CHARS, SOURCES_DIR } from './config.js';
-import { stripControl } from './sanitize.js';
+import { oneLine, stripControl } from './sanitize.js';
 
 export interface Source {
   id: string;
@@ -121,15 +121,20 @@ async function fromFile(file: string): Promise<Omit<Source, 'id' | 'chars' | 'tr
   return { file: path.resolve(file), title: firstHeading ?? path.basename(file, path.extname(file)), text: cleanText(body) };
 }
 
+// Metadati da pagine e PDF non fidati: su una riga sola (vedi oneLine).
+function clean<T extends { title: string; author?: string; site?: string }>(s: T): T {
+  return { ...s, title: oneLine(s.title), ...(s.author ? { author: oneLine(s.author) } : {}), ...(s.site ? { site: oneLine(s.site) } : {}) };
+}
+
 export async function loadSource(input: string, opts: { refresh?: boolean } = {}): Promise<Source> {
   const isUrl = /^https?:\/\//i.test(input);
   const id = sourceId(isUrl ? input : path.resolve(input));
 
   if (!opts.refresh && existsSync(cachePath(id))) {
-    return JSON.parse(await readFile(cachePath(id), 'utf8')) as Source;
+    return clean(JSON.parse(await readFile(cachePath(id), 'utf8')) as Source);
   }
 
-  const raw = isUrl ? await fromUrl(input) : await fromFile(input);
+  const raw = clean(isUrl ? await fromUrl(input) : await fromFile(input));
   // Un testo cortissimo non è un articolo: di solito è una pagina anti-bot ("Client
   // Challenge"), un paywall o un'estrazione fallita. Non si mette in cache.
   if (raw.text.length < MIN_SOURCE_CHARS) {

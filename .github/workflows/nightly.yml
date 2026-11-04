@@ -42,7 +42,10 @@ jobs:
       - name: PR della notte prima ancora aperta?
         id: open
         run: |
-          n=$(gh pr list --repo "$GITHUB_REPOSITORY" --state open --search 'head:chore/notte-' --json number --jq length)
+          # Contano solo le PR del bot da rami di questo repository: una PR da un fork con un
+          # ramo chiamato chore/notte-… non deve poter fermare il job.
+          n=$(gh pr list --repo "$GITHUB_REPOSITORY" --state open --author 'app/github-actions' --json headRefName,isCrossRepository \
+            --jq '[.[] | select(.isCrossRepository == false and (.headRefName | startswith("chore/notte-")))] | length')
           echo "count=$n" >> "$GITHUB_OUTPUT"
           if [ "$n" -gt 0 ]; then echo "::notice::C'è già una PR della notte da rivedere: giro saltato."; fi
 
@@ -70,7 +73,11 @@ jobs:
           MAX: ${{ inputs.max || '3' }}
         run: |
           if ! [[ "$MAX" =~ ^[1-9][0-9]?$ ]]; then echo "max deve essere un numero da 1 a 99"; exit 1; fi
+          # I titoli vengono da pagine web: mentre girano, il runner ignora i comandi "::…::".
+          token=$(openssl rand -hex 16)
+          echo "::stop-commands::$token"
           npm run -s feeds -- --out "$RUNNER_TEMP/queue.txt" --max "$MAX" | tee "$RUNNER_TEMP/feeds.log"
+          echo "::$token::"
 
       - name: Distillazione (batch) e controllo duplicati
         if: steps.open.outputs.count == '0'
@@ -78,7 +85,10 @@ jobs:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
         run: |
           if [ ! -s "$RUNNER_TEMP/queue.txt" ]; then echo "Nessun articolo nuovo." | tee "$RUNNER_TEMP/distill.log"; exit 0; fi
+          token=$(openssl rand -hex 16)
+          echo "::stop-commands::$token"
           npm run -s distill -- --batch "$RUNNER_TEMP/queue.txt" 2>&1 | tee "$RUNNER_TEMP/distill.log"
+          echo "::$token::"
 
       - name: PR con le idee della notte
         if: steps.open.outputs.count == '0'

@@ -10,7 +10,7 @@ import { parseArgs } from 'node:util';
 import { JSDOM } from 'jsdom';
 import { LIBRARY_DIR } from './config.js';
 import { loadIdeas } from './markdown.js';
-import { stripControl } from './sanitize.js';
+import { oneLine } from './sanitize.js';
 
 export const ARTICLES_PER_FEED = 3;
 const FEEDS_FILE = 'feeds.txt';
@@ -61,7 +61,7 @@ export function parseFeed(xml: string, base: string): Item[] {
     if (!/^https?:/.test(link)) continue;
     const child = (name: string) => [...n.children].find((c) => c.localName === name);
     const date = Date.parse(text(child('pubDate') ?? child('published') ?? child('updated') ?? child('date')));
-    items.push({ link, title: stripControl(text(child('title'))), date: Number.isNaN(date) ? 0 : date });
+    items.push({ link, title: oneLine(text(child('title'))), date: Number.isNaN(date) ? 0 : date });
   }
   return items;
 }
