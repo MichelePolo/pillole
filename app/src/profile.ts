@@ -11,7 +11,12 @@ export interface Profile {
   long: number[] | null; // media lenta degli embedding salvati: gli interessi stabili
   short: number[] | null; // media veloce: la sessione e gli ultimi giorni
   saved: Idea[]; // idee salvate ora, per il motivo "simile a…"
+  recent: Recent[]; // idee decise negli ultimi giorni: la pillola evita di ripeterle
 }
+
+// Un'idea già letta, con un peso che svanisce nei giorni: serve alla pillola per non
+// riproporre lo stesso concetto, o la stessa fonte, a poche ore di distanza.
+export interface Recent { vec: number[] | undefined; sourceId: string; w: number }
 
 // Partenza (sezione 13): argomenti con una Beta leggermente ottimista, sotto-argomenti neutri.
 const TOPIC_PRIOR: Beta = { a: 2, b: 1 };
@@ -22,6 +27,8 @@ const BETA_HALF_LIFE_DAYS = 30; // decadimento dei contatori: lascia spazio ai g
 const LONG_HALF_LIFE_DAYS = 90;
 const SHORT_HALF_LIFE_DAYS = 3;
 const QUICK_DISCARD_MS = 4000; // sotto questa soglia lo scarto è "rapido": un no netto
+const RECENT_DAYS = 7; // oltre, una lettura non conta più per la ripetizione
+const RECENT_HALF_LIFE_DAYS = 2;
 
 export const topicKey = (t: string) => `t:${t}`;
 export const subtopicKey = (s: string) => `s:${s}`;
@@ -91,7 +98,17 @@ export function buildProfile(events: IdeaEvent[], ideas: Idea[], savedIds: Set<s
     return acc && normalize(acc);
   };
 
-  return { beta, long: mean(LONG_HALF_LIFE_DAYS), short: mean(SHORT_HALF_LIFE_DAYS), saved };
+  // Ultima decisione su ogni idea (salvata o scartata): conta quando l'hai letta, non cosa ne hai fatto.
+  const recent: Recent[] = [];
+  for (const [id, list] of decisions) {
+    const idea = byId.get(id);
+    const last = list.at(-1);
+    if (!idea || !last || last.type === 'unsave') continue;
+    const days = (now - Date.parse(last.at)) / DAY;
+    if (days <= RECENT_DAYS) recent.push({ vec: idea.vec, sourceId: idea.source.id, w: 0.5 ** (days / RECENT_HALF_LIFE_DAYS) });
+  }
+
+  return { beta, long: mean(LONG_HALF_LIFE_DAYS), short: mean(SHORT_HALF_LIFE_DAYS), saved, recent };
 }
 
 export function normalize(v: number[]): number[] | null {

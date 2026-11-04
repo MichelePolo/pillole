@@ -12,8 +12,12 @@ const SIMILAR_REASON_MIN = 0.3; // coseno centrato oltre cui "simile a…" è un
 const W_SIM = 0.5;
 const W_REDUNDANCY = 0.7;
 const W_SAME_SOURCE = 0.5; // diversità: una seconda card dalla stessa fonte deve valere molto di più
+// Storico: le stesse due regole valgono anche verso le idee lette nei giorni scorsi (profile.recent),
+// non solo dentro la pillola. Una fonte letta due volte di recente pesa quanto una ripetuta qui.
+const W_SOURCE_FATIGUE = 0.5;
+const SOURCE_FATIGUE_SATURATION = 2;
 const W_BRIDGE = 0.1; // card ponte: idee con due argomenti
-// Temi scelti: più dell'intera escursione degli altri termini (circa da -1,5 a +1,5),
+// Temi scelti: più dell'intera escursione degli altri termini (circa da -2 a +1,5),
 // così un'idea fuori tema entra solo quando quelle nei temi sono finite.
 const IN_THEME_BONUS = 3;
 
@@ -51,11 +55,13 @@ export function composePill(pool: Idea[], p: Profile, { interests = [], n = PILL
     for (const idea of eligible) {
       const taste = sampleTaste(idea, p, random);
       const sim = 0.7 * cosine(idea.vec, p.long) + 0.3 * cosine(idea.vec, p.short);
-      const redundancy = Math.max(0, ...pill.map((c) => cosine(idea.vec, c.idea.vec)));
+      const redundancy = Math.max(0, ...pill.map((c) => cosine(idea.vec, c.idea.vec)), ...p.recent.map((r) => r.w * cosine(idea.vec, r.vec)));
       const sameSource = pill.some((c) => c.idea.source.id === idea.source.id) ? 1 : 0;
+      const readFromSource = p.recent.reduce((sum, r) => sum + (r.sourceId === idea.source.id ? r.w : 0), 0);
+      const fatigue = Math.min(1, readFromSource / SOURCE_FATIGUE_SATURATION);
       const bridge = idea.topics.length > 1 ? 1 : 0;
       const theme = inTheme(idea) ? IN_THEME_BONUS : 0;
-      const score = theme + taste.value + W_SIM * sim - W_REDUNDANCY * redundancy - W_SAME_SOURCE * sameSource + W_BRIDGE * bridge;
+      const score = theme + taste.value + W_SIM * sim - W_REDUNDANCY * redundancy - W_SAME_SOURCE * sameSource - W_SOURCE_FATIGUE * fatigue + W_BRIDGE * bridge;
       if (!best || score > best.score) best = { idea, score, taste };
     }
     if (!best) break;
