@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.1.11](https://github.com/MichelePolo/pillole/compare/v0.1.10...v0.1.11) (2026-11-04)
+
+
+### Bug Fixes
+
+* **app:** ripasso leggibile in tema scuro aperto dalle salvate ([#34](https://github.com/MichelePolo/pillole/issues/34)) ([e664854](https://github.com/MichelePolo/pillole/commit/e664854b5df93c5c1d5a92cc6bad3fc915d240f5))
+
 ## [0.1.10](https://github.com/MichelePolo/pillole/compare/v0.1.9...v0.1.10) (2026-11-04)
 
 
