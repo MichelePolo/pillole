@@ -38,7 +38,9 @@ jobs:
             package-lock.json
             app/package-lock.json
       # build-index.ts importa il parser del passo 1: servono anche le dipendenze della radice.
-      - run: npm ci
+      # --ignore-scripts: lo script di onnxruntime-node (dentro @huggingface/transformers) scarica
+      # binari da un server esterno e a volte va in timeout. Serve solo a «npm run embed», sul PC.
+      - run: npm ci --ignore-scripts
       - run: npm ci
         working-directory: app
       - run: npm run deploy
