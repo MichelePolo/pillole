@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.1.9](https://github.com/MichelePolo/pillole/compare/v0.1.8...v0.1.9) (2026-11-04)
+
+
+### Features
+
+* **app:** la pillola ricorda le idee e le fonti lette nei giorni scorsi ([#30](https://github.com/MichelePolo/pillole/issues/30)) ([3929d92](https://github.com/MichelePolo/pillole/commit/3929d92caf3f488ce50f351c4ec445388315541a))
+
 ## [0.1.8](https://github.com/MichelePolo/pillole/compare/v0.1.7...v0.1.8) (2026-11-04)
 
 
