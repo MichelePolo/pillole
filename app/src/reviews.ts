@@ -1,13 +1,16 @@
 import { createEmptyCard, fsrs, generatorParameters, Rating, type Card, type Grade } from 'ts-fsrs';
 import type { IdeaEvent } from './db';
+import type { Idea } from './types';
 
 // Passo 4: il ripasso con FSRS. Entrano le idee salvate; ogni voto è un evento "review"
 // nel registro. Come il profilo, lo stato non si salva: si ricostruisce dagli eventi,
 // così cambiare un parametro qui ricalcola tutta la storia e il passo 6 sincronizza un solo registro.
 
-// La regola di Michele: i ripassi sono una coda FIFO, 3 al giorno, e non si torna mai
-// indietro di più di 10 giorni. Non serve ripassare tutto: con chi salva molto la coda
+// La regola di Michele: 3 ripassi al giorno, scelti a caso tra quelli scaduti, e non si torna
+// mai indietro di più di 10 giorni. Non serve ripassare tutto: con chi salva molto la coda
 // non si smaltisce, ma il ripasso resta leggero e non ripesca idee dimenticate da mesi.
+// A caso e non in fila (FIFO) per variare: le idee vicine nella coda vengono spesso dalla
+// stessa fonte, salvate una dopo l'altra.
 export const REVIEWS_PER_DAY = 3;
 const MAX_OVERDUE_DAYS = 10;
 
@@ -61,9 +64,38 @@ export function dueReviews(items: Map<string, ReviewItem>, now = Date.now(), exc
   });
 }
 
-// FIFO: prima la scadenza più vecchia, fino a n.
-export function pickReviews(due: ReviewItem[], n: number): ReviewItem[] {
-  return [...due].sort((a, b) => a.card.due.getTime() - b.card.due.getTime()).slice(0, Math.max(0, n));
+// A caso, con varietà: ogni scelta è la candidata che si sovrappone meno a quelle già prese
+// (una fonte in comune pesa più di tutti i temi in comune); a parità vince l'ordine casuale.
+const SAME_SOURCE_COST = 10;
+
+export function pickReviews(due: ReviewItem[], n: number, byId: Map<string, Idea>, random: () => number = Math.random): ReviewItem[] {
+  const pool = shuffle(due, random);
+  const picked: Idea[] = [];
+  const out: ReviewItem[] = [];
+  while (out.length < n && pool.length > 0) {
+    let best = 0;
+    let bestCost = Infinity;
+    pool.forEach((item, k) => {
+      const idea = byId.get(item.ideaId);
+      const cost = idea ? picked.reduce((c, p) => c + (p.source.id === idea.source.id ? SAME_SOURCE_COST : 0) + idea.topics.filter((t) => p.topics.includes(t)).length, 0) : 0;
+      if (cost < bestCost) [best, bestCost] = [k, cost];
+    });
+    const [item] = pool.splice(best, 1);
+    out.push(item);
+    const idea = byId.get(item.ideaId);
+    if (idea) picked.push(idea);
+  }
+  return out;
+}
+
+// Fisher–Yates su una copia.
+function shuffle<T>(items: T[], random: () => number): T[] {
+  const a = [...items];
+  for (let i = a.length - 1; i > 0; i--) {
+    const j = Math.floor(random() * (i + 1));
+    [a[i], a[j]] = [a[j], a[i]];
+  }
+  return a;
 }
 
 export const labelFor = (item: ReviewItem): ReviewLabel => (item.reviews === 0 ? 'liked' : 'recall');
