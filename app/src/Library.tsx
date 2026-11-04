@@ -143,7 +143,7 @@ export function Library({ ideas, onUnsave, ideasVersion, reviews }: Props) {
 
       {exportBar}
 
-      <dialog ref={dialog} onClose={() => setQuiz(null)} aria-label="Ripasso" className="m-auto h-[min(44rem,90dvh)] w-[min(32rem,92vw)] bg-transparent p-0 backdrop:bg-stone-950/60">
+      <dialog ref={dialog} onClose={() => setQuiz(null)} aria-label="Ripasso" className="m-auto h-[min(44rem,90dvh)] w-[min(32rem,92vw)] bg-transparent p-0 text-stone-900 backdrop:bg-stone-950/60 dark:text-stone-100">
         {quiz && quizItem?.last && (
           <QuizCard
             idea={quiz}
