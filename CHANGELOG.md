@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.1.13](https://github.com/MichelePolo/pillole/compare/v0.1.12...v0.1.13) (2026-11-04)
+
+
+### Features
+
+* **app:** ripassi scelti a caso, con fonti e temi diversi ([#39](https://github.com/MichelePolo/pillole/issues/39)) ([6428c70](https://github.com/MichelePolo/pillole/commit/6428c70c474ccc03e1fb326109848d7f7543d58b))
+
 ## [0.1.12](https://github.com/MichelePolo/pillole/compare/v0.1.11...v0.1.12) (2026-11-04)
 
 
