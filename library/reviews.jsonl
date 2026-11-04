@@ -97,3 +97,98 @@
 {"id":"e3f34c-v2-02-delegare-la-revisione-richiede-una-visione","prompt_version":"v2","verdict":"keep","at":"2026-11-03T08:49:49.158Z"}
 {"id":"e3f34c-v2-03-programmare-con-l-ia-significa-assumere","prompt_version":"v2","verdict":"keep","at":"2026-11-03T08:49:51.615Z"}
 {"id":"e3f34c-v2-04-il-vibe-coding-non-e-programmazione","prompt_version":"v2","verdict":"keep","at":"2026-11-03T08:49:54.238Z"}
+{"id": "08df0d-v3-01-la-dodecafonia-tratta-i-dodici-suoni", "prompt_version": "v3", "verdict": "keep", "at": "2026-11-04T09:47:54.165Z", "note": "revisione di Claude"}
+{"id": "08df0d-v3-02-la-dissonanza-si-e-progressivamente-emancipata", "prompt_version": "v3", "verdict": "keep", "at": "2026-11-04T09:47:54.166Z", "note": "revisione di Claude"}
+{"id": "08df0d-v3-03-nella-dodecafonia-la-serie-sostituisce-la", "prompt_version": "v3", "verdict": "keep", "at": "2026-11-04T09:47:54.167Z", "note": "revisione di Claude"}
+{"id": "08df0d-v3-04-nella-dodecafonia-l-armonia-nasce-dalla", "prompt_version": "v3", "verdict": "keep", "at": "2026-11-04T09:47:54.168Z", "note": "revisione di Claude"}
+{"id": "08df0d-v3-05-schonberg-applico-il-metodo-con-crescente", "prompt_version": "v3", "verdict": "keep", "at": "2026-11-04T09:47:54.169Z", "note": "revisione di Claude"}
+{"id": "0b4ea7-v3-01-il-dilemma-la-scelta-razionale-individuale", "prompt_version": "v3", "verdict": "keep", "at": "2026-11-04T09:47:54.170Z", "note": "revisione di Claude"}
+{"id": "0b4ea7-v3-02-la-corsa-agli-armamenti-come-dilemma", "prompt_version": "v3", "verdict": "keep", "at": "2026-11-04T09:47:54.171Z", "note": "revisione di Claude"}
+{"id": "0b4ea7-v3-03-nei-giochi-ripetuti-la-cooperazione-diventa", "prompt_version": "v3", "verdict": "keep", "at": "2026-11-04T09:47:54.172Z", "note": "revisione di Claude"}
+{"id": "1630a6-v3-01-due-grandezze-coniugate-non-si-misurano", "prompt_version": "v3", "verdict": "keep", "at": "2026-11-04T09:47:54.173Z", "note": "revisione di Claude"}
+{"id": "1630a6-v3-02-il-limite-non-dipende-dagli-strumenti", "prompt_version": "v3", "verdict": "keep", "at": "2026-11-04T09:47:54.174Z", "note": "revisione di Claude"}
+{"id": "1630a6-v3-03-il-determinismo-classico-richiede-una-conoscenza", "prompt_version": "v3", "verdict": "keep", "at": "2026-11-04T09:47:54.175Z", "note": "revisione di Claude"}
+{"id": "1630a6-v3-04-il-probabilismo-quantistico-e-strutturale-non", "prompt_version": "v3", "verdict": "keep", "at": "2026-11-04T09:47:54.176Z", "note": "revisione di Claude"}
+{"id": "1630a6-v3-05-la-dualita-onda-particella-resiste-alle", "prompt_version": "v3", "verdict": "keep", "at": "2026-11-04T09:47:54.177Z", "note": "revisione di Claude"}
+{"id": "1630a6-v3-06-il-principio-non-vale-per-ogni", "prompt_version": "v3", "verdict": "keep", "at": "2026-11-04T09:47:54.178Z", "note": "revisione di Claude"}
+{"id": "2070c1-v3-01-il-montaggio-crea-il-significato-di", "prompt_version": "v3", "verdict": "keep", "at": "2026-11-04T09:47:54.179Z", "note": "revisione di Claude"}
+{"id": "2070c1-v3-02-lo-spettatore-proietta-emozioni-sui-volti", "prompt_version": "v3", "verdict": "keep", "at": "2026-11-04T09:47:54.180Z", "note": "revisione di Claude"}
+{"id": "2070c1-v3-03-la-giustapposizione-suggerisce-una-relazione-tra", "prompt_version": "v3", "verdict": "discard", "at": "2026-11-04T09:47:54.181Z", "reason": "duplicato", "note": "revisione di Claude: ripete le idee 15 e 16 sull'effetto Kulešov"}
+{"id": "2070c1-v3-04-il-contesto-altera-la-percezione-delle", "prompt_version": "v3", "verdict": "keep", "at": "2026-11-04T09:47:54.182Z", "note": "revisione di Claude"}
+{"id": "342c13-v3-01-l-entropia-misura-il-disordine-di", "prompt_version": "v3", "verdict": "keep", "at": "2026-11-04T09:47:54.183Z", "note": "revisione di Claude"}
+{"id": "342c13-v3-02-le-trasformazioni-spontanee-vanno-verso-il", "prompt_version": "v3", "verdict": "keep", "at": "2026-11-04T09:47:54.184Z", "note": "revisione di Claude"}
+{"id": "342c13-v3-03-il-secondo-principio-impone-l-aumento", "prompt_version": "v3", "verdict": "keep", "at": "2026-11-04T09:47:54.185Z", "note": "revisione di Claude"}
+{"id": "342c13-v3-04-il-mondo-tende-alla-morte-termica", "prompt_version": "v3", "verdict": "keep", "at": "2026-11-04T09:47:54.186Z", "note": "revisione di Claude"}
+{"id": "342c13-v3-05-entropia-e-informazione-misurano-l-incertezza", "prompt_version": "v3", "verdict": "discard", "at": "2026-11-04T09:47:54.187Z", "reason": "altro", "note": "revisione di Claude: fedele alla voce, ma il legame con l'entropia termodinamica \"nel rapporto di compressione\" è confuso già nella fonte"}
+{"id": "342c13-v3-06-il-disordine-non-e-mai-assoluto", "prompt_version": "v3", "verdict": "discard", "at": "2026-11-04T09:47:54.188Z", "reason": "duplicato", "note": "revisione di Claude: il disordine come immagine semplificata è già nell'idea 19"}
+{"id": "3aa934-v3-01-il-nome-impressionismo-nacque-come-una", "prompt_version": "v3", "verdict": "keep", "at": "2026-11-04T09:47:54.189Z", "note": "revisione di Claude"}
+{"id": "3aa934-v3-02-la-luce-e-il-colore-prevalgono", "prompt_version": "v3", "verdict": "keep", "at": "2026-11-04T09:47:54.190Z", "note": "revisione di Claude"}
+{"id": "3aa934-v3-03-il-tubetto-di-colore-cambio-il", "prompt_version": "v3", "verdict": "keep", "at": "2026-11-04T09:47:54.191Z", "note": "revisione di Claude"}
+{"id": "3aa934-v3-04-le-avanguardie-nascono-da-una-lunga", "prompt_version": "v3", "verdict": "keep", "at": "2026-11-04T09:47:54.192Z", "note": "revisione di Claude"}
+{"id": "3aa934-v3-05-il-successo-dipende-anche-dai-mercanti", "prompt_version": "v3", "verdict": "keep", "at": "2026-11-04T09:47:54.193Z", "note": "revisione di Claude"}
+{"id": "3aa934-v3-06-la-coerenza-di-un-movimento-sta", "prompt_version": "v3", "verdict": "keep", "at": "2026-11-04T09:47:54.194Z", "note": "revisione di Claude"}
+{"id": "487af9-v3-01-la-terra-non-e-piu-il", "prompt_version": "v3", "verdict": "keep", "at": "2026-11-04T09:47:54.195Z", "note": "revisione di Claude"}
+{"id": "487af9-v3-02-la-gravitazione-unisce-cielo-e-terra", "prompt_version": "v3", "verdict": "keep", "at": "2026-11-04T09:47:54.196Z", "note": "revisione di Claude"}
+{"id": "487af9-v3-03-il-metodo-scientifico-nasce-dall-unione", "prompt_version": "v3", "verdict": "keep", "at": "2026-11-04T09:47:54.197Z", "note": "revisione di Claude"}
+{"id": "487af9-v3-04-il-pensiero-scientifico-deve-essere-pubblico", "prompt_version": "v3", "verdict": "keep", "at": "2026-11-04T09:47:54.198Z", "note": "revisione di Claude"}
+{"id": "487af9-v3-05-il-sapere-scientifico-non-cerca-le", "prompt_version": "v3", "verdict": "keep", "at": "2026-11-04T09:47:54.199Z", "note": "revisione di Claude"}
+{"id": "59969b-v3-01-la-selezione-naturale-favorisce-le-variazioni", "prompt_version": "v3", "verdict": "keep", "at": "2026-11-04T09:47:54.200Z", "note": "revisione di Claude"}
+{"id": "59969b-v3-02-la-fitness-misura-la-capacita-di", "prompt_version": "v3", "verdict": "keep", "at": "2026-11-04T09:47:54.201Z", "note": "revisione di Claude"}
+{"id": "59969b-v3-03-il-pensiero-di-darwin-si-unisce", "prompt_version": "v3", "verdict": "keep", "at": "2026-11-04T09:47:54.202Z", "note": "revisione di Claude"}
+{"id": "59969b-v3-04-la-selezione-sessuale-spiega-i-caratteri", "prompt_version": "v3", "verdict": "keep", "at": "2026-11-04T09:47:54.203Z", "note": "revisione di Claude"}
+{"id": "59969b-v3-05-il-parassita-spiega-l-eterosi-dell", "prompt_version": "v3", "verdict": "keep", "at": "2026-11-04T09:47:54.204Z", "note": "revisione di Claude"}
+{"id": "59969b-v3-06-il-pensiero-di-darwin-si-unisce", "prompt_version": "v3", "verdict": "discard", "at": "2026-11-04T09:47:54.205Z", "reason": "forma", "note": "revisione di Claude: il titolo è quello di un'altra idea; il corpo parla dell'evoluzione dell'occhio"}
+{"id": "6ac71f-v3-01-la-tragedia-dei-beni-comuni-nasce", "prompt_version": "v3", "verdict": "keep", "at": "2026-11-04T09:47:54.206Z", "note": "revisione di Claude"}
+{"id": "6ac71f-v3-02-le-comunita-possono-gestire-le-risorse", "prompt_version": "v3", "verdict": "keep", "at": "2026-11-04T09:47:54.207Z", "note": "revisione di Claude"}
+{"id": "6ac71f-v3-03-distinguere-beni-comuni-e-risorse-ad", "prompt_version": "v3", "verdict": "keep", "at": "2026-11-04T09:47:54.208Z", "note": "revisione di Claude"}
+{"id": "6ac71f-v3-04-la-privatizzazione-non-risolve-sempre-il", "prompt_version": "v3", "verdict": "keep", "at": "2026-11-04T09:47:54.209Z", "note": "revisione di Claude"}
+{"id": "6ac71f-v3-05-il-rendimento-medio-spinge-a-pescare", "prompt_version": "v3", "verdict": "keep", "at": "2026-11-04T09:47:54.210Z", "note": "revisione di Claude"}
+{"id": "6ac71f-v3-06-il-pascolo-aperto-a-tutti-rovina", "prompt_version": "v3", "verdict": "discard", "at": "2026-11-04T09:47:54.211Z", "reason": "duplicato", "note": "revisione di Claude: il pascolo di Hardin è già nell'idea 42"}
+{"id": "7f7087-v3-01-caratteri-riutilizzabili-rendono-la-stampa-molto", "prompt_version": "v3", "verdict": "keep", "at": "2026-11-04T09:47:54.212Z", "note": "revisione di Claude"}
+{"id": "7f7087-v3-02-la-stampa-ha-creato-un-nuovo", "prompt_version": "v3", "verdict": "keep", "at": "2026-11-04T09:47:54.213Z", "note": "revisione di Claude"}
+{"id": "7f7087-v3-03-cina-e-corea-anticiparono-l-europa", "prompt_version": "v3", "verdict": "keep", "at": "2026-11-04T09:47:54.214Z", "note": "revisione di Claude"}
+{"id": "7f7087-v3-04-la-diffusione-della-stampa-e-stata", "prompt_version": "v3", "verdict": "keep", "at": "2026-11-04T09:47:54.215Z", "note": "revisione di Claude"}
+{"id": "881e1b-v3-01-il-teorema-di-bayes-aggiorna-le", "prompt_version": "v3", "verdict": "keep", "at": "2026-11-04T09:47:54.216Z", "note": "revisione di Claude"}
+{"id": "881e1b-v3-02-le-probabilita-condizionate-si-invertono-con", "prompt_version": "v3", "verdict": "keep", "at": "2026-11-04T09:47:54.217Z", "note": "revisione di Claude"}
+{"id": "881e1b-v3-03-il-problema-della-porta-mostra-quanto", "prompt_version": "v3", "verdict": "keep", "at": "2026-11-04T09:47:54.218Z", "note": "revisione di Claude"}
+{"id": "881e1b-v3-04-le-alternative-devono-coprire-tutti-i", "prompt_version": "v3", "verdict": "keep", "at": "2026-11-04T09:47:54.219Z", "note": "revisione di Claude"}
+{"id": "9556c4-v3-01-sei-valori-per-la-letteratura-del", "prompt_version": "v3", "verdict": "keep", "at": "2026-11-04T09:47:54.220Z", "note": "revisione di Claude"}
+{"id": "9556c4-v3-02-ogni-vita-e-un-archivio-di", "prompt_version": "v3", "verdict": "keep", "at": "2026-11-04T09:47:54.221Z", "note": "revisione di Claude"}
+{"id": "9a350e-v3-01-il-flusso-di-coscienza-come-pensiero", "prompt_version": "v3", "verdict": "keep", "at": "2026-11-04T09:47:54.222Z", "note": "revisione di Claude"}
+{"id": "9a350e-v3-02-monologo-interiore-e-flusso-di-coscienza", "prompt_version": "v3", "verdict": "keep", "at": "2026-11-04T09:47:54.223Z", "note": "revisione di Claude"}
+{"id": "9a350e-v3-03-il-lettore-puo-perdere-la-distanza", "prompt_version": "v3", "verdict": "keep", "at": "2026-11-04T09:47:54.224Z", "note": "revisione di Claude"}
+{"id": "9a350e-v3-04-joyce-usa-il-monologo-interiore-per", "prompt_version": "v3", "verdict": "keep", "at": "2026-11-04T09:47:54.225Z", "note": "revisione di Claude"}
+{"id": "a72268-v3-01-il-neorealismo-nasce-dal-rifiuto-dell", "prompt_version": "v3", "verdict": "keep", "at": "2026-11-04T09:47:54.226Z", "note": "revisione di Claude"}
+{"id": "a72268-v3-02-attori-non-professionisti-come-scelta-di", "prompt_version": "v3", "verdict": "keep", "at": "2026-11-04T09:47:54.227Z", "note": "revisione di Claude"}
+{"id": "a72268-v3-03-il-cinema-come-denuncia-del-disagio", "prompt_version": "v3", "verdict": "keep", "at": "2026-11-04T09:47:54.228Z", "note": "revisione di Claude"}
+{"id": "a72268-v3-04-i-bambini-diventano-protagonisti-del-racconto", "prompt_version": "v3", "verdict": "keep", "at": "2026-11-04T09:47:54.229Z", "note": "revisione di Claude"}
+{"id": "a72268-v3-05-il-neorealismo-ha-costruito-la-cultura", "prompt_version": "v3", "verdict": "keep", "at": "2026-11-04T09:47:54.230Z", "note": "revisione di Claude"}
+{"id": "afb3af-v3-01-richiamare-alla-memoria-rafforza-piu-della", "prompt_version": "v3", "verdict": "keep", "at": "2026-11-04T09:47:54.231Z", "note": "revisione di Claude"}
+{"id": "afb3af-v3-02-lo-sforzo-di-ricordare-rende-il", "prompt_version": "v3", "verdict": "keep", "at": "2026-11-04T09:47:54.232Z", "note": "revisione di Claude"}
+{"id": "afb3af-v3-03-il-feedback-potenzia-il-recupero-attivo", "prompt_version": "v3", "verdict": "keep", "at": "2026-11-04T09:47:54.233Z", "note": "revisione di Claude"}
+{"id": "afb3af-v3-04-il-test-anticipato-prepara-a-imparare", "prompt_version": "v3", "verdict": "keep", "at": "2026-11-04T09:47:54.234Z", "note": "revisione di Claude"}
+{"id": "afb3af-v3-05-il-recupero-aiuta-a-trasferire-cio", "prompt_version": "v3", "verdict": "keep", "at": "2026-11-04T09:47:54.235Z", "note": "revisione di Claude"}
+{"id": "b11b8c-v3-01-la-prospettiva-dipende-dal-punto-di", "prompt_version": "v3", "verdict": "keep", "at": "2026-11-04T09:47:54.236Z", "note": "revisione di Claude"}
+{"id": "b11b8c-v3-02-dall-immagine-non-si-ricavano-le", "prompt_version": "v3", "verdict": "keep", "at": "2026-11-04T09:47:54.237Z", "note": "revisione di Claude"}
+{"id": "b11b8c-v3-03-brunelleschi-fondo-la-prospettiva-come-procedimento", "prompt_version": "v3", "verdict": "keep", "at": "2026-11-04T09:47:54.238Z", "note": "revisione di Claude"}
+{"id": "b11b8c-v3-04-la-geometria-proiettiva-nacque-separata-dalla", "prompt_version": "v3", "verdict": "discard", "at": "2026-11-04T09:47:54.239Z", "reason": "vago", "note": "revisione di Claude: sequenza di nomi e date senza un concetto da ricordare"}
+{"id": "b11b8c-v3-05-la-vera-prospettiva-ha-un-limite", "prompt_version": "v3", "verdict": "keep", "at": "2026-11-04T09:47:54.240Z", "note": "revisione di Claude"}
+{"id": "b11b8c-v3-06-la-fotografia-e-in-tutto-una", "prompt_version": "v3", "verdict": "discard", "at": "2026-11-04T09:47:54.241Z", "reason": "forma", "note": "revisione di Claude: quiz su un dettaglio tecnico (punto nodale) e sotto-argomento sbagliato (ascolto-interpretazione)"}
+{"id": "cba9fe-v3-01-le-sinapsi-cambiano-forza-e-numero", "prompt_version": "v3", "verdict": "keep", "at": "2026-11-04T09:47:54.242Z", "note": "revisione di Claude"}
+{"id": "cba9fe-v3-02-la-memoria-poggia-sulla-plasticita-sinaptica", "prompt_version": "v3", "verdict": "keep", "at": "2026-11-04T09:47:54.243Z", "note": "revisione di Claude"}
+{"id": "cba9fe-v3-03-la-ripetizione-rafforza-i-circuiti-neuronali", "prompt_version": "v3", "verdict": "discard", "at": "2026-11-04T09:47:54.244Z", "reason": "duplicato", "note": "revisione di Claude: la ripetizione che rafforza i circuiti è già nell'idea 79"}
+{"id": "cba9fe-v3-04-il-cervello-si-riorganizza-dopo-i", "prompt_version": "v3", "verdict": "keep", "at": "2026-11-04T09:47:54.245Z", "note": "revisione di Claude"}
+{"id": "d2f0cd-v3-01-un-sistema-formale-sufficientemente-potente-non", "prompt_version": "v3", "verdict": "keep", "at": "2026-11-04T09:47:54.246Z", "note": "revisione di Claude"}
+{"id": "d2f0cd-v3-02-un-sistema-non-puo-dimostrare-la", "prompt_version": "v3", "verdict": "keep", "at": "2026-11-04T09:47:54.247Z", "note": "revisione di Claude"}
+{"id": "d2f0cd-v3-03-il-problema-dell-arresto-e-indecidibile", "prompt_version": "v3", "verdict": "discard", "at": "2026-11-04T09:47:54.248Z", "reason": "altro", "note": "revisione di Claude: fedele alla voce, ma il teorema di Rice riguarda le proprietà semantiche dei programmi, non tutti i problemi di decisione"}
+{"id": "d2f0cd-v3-04-la-verita-matematica-eccede-la-dimostrazione", "prompt_version": "v3", "verdict": "keep", "at": "2026-11-04T09:47:54.249Z", "note": "revisione di Claude"}
+{"id": "d5341a-v3-01-i-bias-cognitivi-non-si-possono", "prompt_version": "v3", "verdict": "keep", "at": "2026-11-04T09:47:54.250Z", "note": "revisione di Claude"}
+{"id": "d5341a-v3-02-l-ancoraggio-orienta-le-decisioni-fin", "prompt_version": "v3", "verdict": "keep", "at": "2026-11-04T09:47:54.251Z", "note": "revisione di Claude"}
+{"id": "d5341a-v3-03-il-bias-di-conferma-seleziona-le", "prompt_version": "v3", "verdict": "keep", "at": "2026-11-04T09:47:54.252Z", "note": "revisione di Claude"}
+{"id": "d5341a-v3-04-il-survivorship-bias-ignora-chi-non", "prompt_version": "v3", "verdict": "keep", "at": "2026-11-04T09:47:54.253Z", "note": "revisione di Claude"}
+{"id": "d5341a-v3-05-il-falso-equilibrio-distorce-la-percezione", "prompt_version": "v3", "verdict": "keep", "at": "2026-11-04T09:47:54.254Z", "note": "revisione di Claude"}
+{"id": "d5341a-v3-06-il-bias-di-negativita-pesa-piu", "prompt_version": "v3", "verdict": "keep", "at": "2026-11-04T09:47:54.255Z", "note": "revisione di Claude"}
+{"id": "fb7716-v3-01-il-temperamento-equabile-divide-l-ottava", "prompt_version": "v3", "verdict": "keep", "at": "2026-11-04T09:47:54.256Z", "note": "revisione di Claude"}
+{"id": "fb7716-v3-02-il-logaritmo-rende-l-ottava-facile", "prompt_version": "v3", "verdict": "keep", "at": "2026-11-04T09:47:54.257Z", "note": "revisione di Claude"}
+{"id": "fb7716-v3-03-il-compromesso-dell-equabile-si-sente", "prompt_version": "v3", "verdict": "keep", "at": "2026-11-04T09:47:54.258Z", "note": "revisione di Claude"}
+{"id": "fb7716-v3-04-il-temperamento-equabile-ha-affiancato-non", "prompt_version": "v3", "verdict": "keep", "at": "2026-11-04T09:47:54.259Z", "note": "revisione di Claude"}
