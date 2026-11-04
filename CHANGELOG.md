@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.1.15](https://github.com/MichelePolo/pillole/compare/v0.1.14...v0.1.15) (2026-11-04)
+
+
+### Features
+
+* job notturno che distilla i feed con l'API batch ([#43](https://github.com/MichelePolo/pillole/issues/43)) ([f083be5](https://github.com/MichelePolo/pillole/commit/f083be54934c7a6dd88da99446efcc6fa26afede))
+
 ## [0.1.14](https://github.com/MichelePolo/pillole/compare/v0.1.13...v0.1.14) (2026-11-04)
 
 
