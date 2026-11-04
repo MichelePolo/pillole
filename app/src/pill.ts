@@ -1,4 +1,5 @@
 import { cosine, keysOf, priorFor, type Beta, type Profile } from './profile';
+import { themeLabel } from './themes';
 import type { Idea } from './types';
 
 // La pillola: una sessione finita di card, poi "per oggi hai finito" (Claude Doc, sezioni 8 e 13).
@@ -12,23 +13,37 @@ const W_SIM = 0.5;
 const W_REDUNDANCY = 0.7;
 const W_SAME_SOURCE = 0.5; // diversità: una seconda card dalla stessa fonte deve valere molto di più
 const W_BRIDGE = 0.1; // card ponte: idee con due argomenti
+// Temi scelti: più dell'intera escursione degli altri termini (circa da -1,5 a +1,5),
+// così un'idea fuori tema entra solo quando quelle nei temi sono finite.
+const IN_THEME_BONUS = 3;
 
 export type Reason =
   | { kind: 'similar'; to: string } // titolo dell'idea salvata più vicina
   | { kind: 'explore'; label: string }
   | { kind: 'taste'; label: string }
-  | { kind: 'evergreen' };
+  | { kind: 'evergreen' }
+  | { kind: 'outside' }; // fuori dai temi scelti: completa una pillola che nei temi non ha abbastanza idee
 
 export interface PillCard { idea: Idea; reason: Reason }
 
-export function composePill(pool: Idea[], p: Profile, n = PILL_SIZE, random: () => number = Math.random): PillCard[] {
+export interface PillOptions {
+  interests?: readonly string[]; // temi scelti; vuoto = tutti
+  n?: number;
+  random?: () => number;
+}
+
+export function composePill(pool: Idea[], p: Profile, { interests = [], n = PILL_SIZE, random = Math.random }: PillOptions = {}): PillCard[] {
   const pill: PillCard[] = [];
   const cands = [...pool];
+  const chosen = new Set(interests);
+  const inTheme = (i: Idea) => chosen.size === 0 || i.topics.some((t) => chosen.has(t));
+  // La quota evergreen vale solo se la filosofia è tra i temi (o se non se ne è scelto nessuno).
+  const evergreenMin = chosen.size === 0 || chosen.has('filosofia') ? EVERGREEN_MIN : 0;
   const isEvergreen = (i: Idea) => i.topics.includes('filosofia');
 
   while (pill.length < n && cands.length > 0) {
     // Se gli slot rimasti bastano appena per la quota evergreen, si sceglie solo tra la filosofia.
-    const evergreenNeeded = EVERGREEN_MIN - pill.filter((c) => isEvergreen(c.idea)).length;
+    const evergreenNeeded = evergreenMin - pill.filter((c) => isEvergreen(c.idea)).length;
     const forceEvergreen = evergreenNeeded > 0 && n - pill.length <= evergreenNeeded && cands.some(isEvergreen);
     const eligible = forceEvergreen ? cands.filter(isEvergreen) : cands;
 
@@ -39,11 +54,12 @@ export function composePill(pool: Idea[], p: Profile, n = PILL_SIZE, random: () 
       const redundancy = Math.max(0, ...pill.map((c) => cosine(idea.vec, c.idea.vec)));
       const sameSource = pill.some((c) => c.idea.source.id === idea.source.id) ? 1 : 0;
       const bridge = idea.topics.length > 1 ? 1 : 0;
-      const score = taste.value + W_SIM * sim - W_REDUNDANCY * redundancy - W_SAME_SOURCE * sameSource + W_BRIDGE * bridge;
+      const theme = inTheme(idea) ? IN_THEME_BONUS : 0;
+      const score = theme + taste.value + W_SIM * sim - W_REDUNDANCY * redundancy - W_SAME_SOURCE * sameSource + W_BRIDGE * bridge;
       if (!best || score > best.score) best = { idea, score, taste };
     }
     if (!best) break;
-    pill.push({ idea: best.idea, reason: reasonFor(best.idea, best.taste, p, forceEvergreen) });
+    pill.push({ idea: best.idea, reason: inTheme(best.idea) ? reasonFor(best.idea, best.taste, p, forceEvergreen) : { kind: 'outside' } });
     cands.splice(cands.indexOf(best.idea), 1);
   }
   return pill;
@@ -78,7 +94,7 @@ function reasonFor(idea: Idea, taste: Taste, p: Profile, forcedEvergreen: boolea
   }
   if (nearest && nearest.cos >= SIMILAR_REASON_MIN) return { kind: 'similar', to: nearest.title };
   if (forcedEvergreen) return { kind: 'evergreen' };
-  const label = taste.key.slice(2).replace(/-/g, ' ');
+  const label = taste.key.startsWith('t:') ? themeLabel(taste.key.slice(2)) : taste.key.slice(2).replace(/-/g, ' ');
   return taste.observations < 2 ? { kind: 'explore', label } : { kind: 'taste', label };
 }
 
@@ -92,6 +108,8 @@ export function reasonText(r: Reason): string {
       return `ti interessa · ${r.label}`;
     case 'evergreen':
       return 'evergreen';
+    case 'outside':
+      return 'fuori dai tuoi temi';
   }
 }
 

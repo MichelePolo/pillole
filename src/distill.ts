@@ -2,7 +2,7 @@ import { appendFile, mkdir, readFile } from 'node:fs/promises';
 import { parseArgs } from 'node:util';
 import Anthropic from '@anthropic-ai/sdk';
 import { makeAnchorChecker } from './anchor.js';
-import { LIBRARY_DIR, MAX_OUTPUT_TOKENS, MODEL, PROMPT_VERSION, RUNS_FILE, costUsd } from './config.js';
+import { COMPATIBLE_PROMPT_VERSIONS, LIBRARY_DIR, MAX_OUTPUT_TOKENS, MODEL, PROMPT_VERSION, RUNS_FILE, costUsd } from './config.js';
 import { loadSource, saveSource, type Source } from './extract.js';
 import { writeIdea } from './markdown.js';
 import { buildUserMessage, SYSTEM_PROMPT } from './prompt.js';
@@ -160,9 +160,10 @@ async function main(): Promise<void> {
         console.log(`  → stima ${estIn} token in · circa ${estUsd.toFixed(5)} $`);
         continue;
       }
-      if (!values.force && source.distilled?.[PROMPT_VERSION]) {
+      const doneWith = [...COMPATIBLE_PROMPT_VERSIONS].reverse().find((v) => source.distilled?.[v]);
+      if (!values.force && doneWith) {
         totals.skipped++;
-        console.log(`  → già distillata con ${PROMPT_VERSION} (usa --force per rifarla)`);
+        console.log(`  → già distillata con ${doneWith} (usa --force per rifarla con ${PROMPT_VERSION})`);
         continue;
       }
 

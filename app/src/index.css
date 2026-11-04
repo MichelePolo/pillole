@@ -9,3 +9,54 @@
 
 html, body, #root { height: 100%; }
 body { overscroll-behavior: none; -webkit-tap-highlight-color: transparent; }
+
+/* Pill dei temi (Themes.tsx). --h è la tinta OKLCH del tema; i pastelli nascono da color-mix
+   con bianco o nero: abbassare solo la luminosità in oklch può uscire dal gamut. */
+.theme-pill {
+  --base: oklch(0.68 0.12 var(--h));
+  --ink: color-mix(in oklab, var(--base), black 55%);
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  min-height: 3rem;
+  padding-inline: 1rem;
+  border: 1.5px solid color-mix(in oklab, var(--base), white 45%);
+  border-radius: 9999px;
+  background: color-mix(in oklab, var(--base), white 84%);
+  color: var(--ink);
+  font-size: 1rem;
+  cursor: pointer;
+  user-select: none;
+  transition: background-color 150ms, border-color 150ms, opacity 150ms, scale 150ms;
+}
+/* Lo stato non è affidato al solo colore: la pill scelta ha anche bordo scuro e spunta. */
+.theme-pill[data-checked='true'] {
+  border-color: var(--ink);
+  background: color-mix(in oklab, var(--base), white 55%);
+}
+.theme-pill[data-dimmed='true'] { opacity: 0.5; }
+.theme-pill:active { scale: 0.97; }
+.theme-pill:has(input:focus-visible) {
+  outline: 2px solid var(--ink);
+  outline-offset: 3px;
+}
+@media (prefers-color-scheme: dark) {
+  .theme-pill {
+    --ink: color-mix(in oklab, var(--base), white 55%);
+    border-color: color-mix(in oklab, var(--base), black 45%);
+    background: color-mix(in oklab, var(--base), black 78%);
+  }
+  .theme-pill[data-checked='true'] {
+    border-color: var(--ink);
+    background: color-mix(in oklab, var(--base), black 50%);
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  .theme-pill { transition: none; }
+  .theme-pill:active { scale: none; }
+}
+@media (forced-colors: active) {
+  .theme-pill { border-color: ButtonText; }
+  .theme-pill[data-checked='true'] { border-width: 3px; border-color: Highlight; }
+}

@@ -9,8 +9,19 @@ const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '../..')
 // config.ts risolve la libreria rispetto alla cartella corrente: va impostata prima di importarlo.
 process.env.PILLOLE_LIBRARY ??= path.join(root, 'library');
 
-const { EMBEDDINGS_FILE, PROMPT_VERSION, REVIEWS_FILE } = await import('../../src/config.js');
+const { COMPATIBLE_PROMPT_VERSIONS, EMBEDDINGS_FILE, PROMPT_VERSION, REVIEWS_FILE } = await import('../../src/config.js');
 const { loadIdeas } = await import('../../src/markdown.js');
+const { TOPICS } = await import('../../src/vocabulary.js');
+const { THEMES } = await import('../src/themes.js');
+
+// Ogni argomento del vocabolario deve essere sceglibile nell'app, e nessun tema deve restare orfano.
+const themeIds = new Set(THEMES.map((t) => t.id));
+const missing = TOPICS.filter((t) => !themeIds.has(t));
+const orphans = [...themeIds].filter((t) => !(TOPICS as readonly string[]).includes(t));
+if (missing.length || orphans.length) {
+  console.error(`Temi non allineati al vocabolario: mancano ${missing.join(', ') || '—'} · in più ${orphans.join(', ') || '—'} (app/src/themes.ts)`);
+  process.exit(1);
+}
 type Idea = import('../src/types.js').Idea;
 
 const discarded = new Set<string>();
@@ -24,10 +35,21 @@ if (existsSync(REVIEWS_FILE)) {
   for (const [id, verdict] of last) if (verdict === 'discard') discarded.add(id);
 }
 
+// PILLOLE_PROMPT_VERSION=v1 pubblica una sola versione, per confrontarle; di norma tutte le compatibili.
 const version = process.env.PILLOLE_PROMPT_VERSION ?? PROMPT_VERSION;
+const published = process.env.PILLOLE_PROMPT_VERSION ? [version] : COMPATIBLE_PROMPT_VERSIONS;
 const all = await loadIdeas();
+// Una fonte ridistillata con --force ha idee in più versioni: vale solo la più recente.
+const newest = new Map<string, number>();
+for (const i of all) {
+  const rank = published.indexOf(i.meta.prompt_version);
+  if (rank > (newest.get(i.meta.source.id) ?? -1)) newest.set(i.meta.source.id, rank);
+}
 const ideas: Idea[] = all
-  .filter((i) => i.meta.prompt_version === version && !discarded.has(i.meta.id))
+  .filter((i) => {
+    const rank = published.indexOf(i.meta.prompt_version);
+    return rank >= 0 && rank === newest.get(i.meta.source.id) && !discarded.has(i.meta.id);
+  })
   .map(({ meta, title, body }) => ({
     id: meta.id,
     title,
@@ -60,5 +82,5 @@ const missingVec = ideas.length - withVec.length;
 const out = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '../public/ideas.json');
 await mkdir(path.dirname(out), { recursive: true });
 await writeFile(out, JSON.stringify({ version, generated: new Date().toISOString(), ideas }));
-console.log(`ideas.json: ${ideas.length} idee del prompt ${version} (${discarded.size} scartate in revisione escluse)`);
+console.log(`ideas.json: ${ideas.length} idee dei prompt ${published.join(', ')} (${discarded.size} scartate in revisione escluse)`);
 if (missingVec) console.warn(`  ${missingVec} idee senza embedding: lancia «npm run embed» nella radice`);

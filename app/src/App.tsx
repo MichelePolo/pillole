@@ -1,16 +1,18 @@
 import { useCallback, useEffect, useMemo, useRef, useState } from 'react';
 import { loadEvents, loadState, logEvent, record, type IdeaState } from './db';
+import { loadInterests, saveInterests } from './interests';
 import { Library } from './Library';
-import { composePill, reasonText, type Reason } from './pill';
+import { composePill, PILL_SIZE, reasonText, type Reason } from './pill';
 import { loadPill, savePill, today, type StoredPill } from './pillStore';
 import { buildProfile } from './profile';
 import { speak, speechSupported, stopSpeaking } from './speech';
 import { SwipeCard, type Direction, type SwipeCardHandle } from './SwipeCard';
+import { Themes } from './Themes';
 import type { Idea, IdeasFile } from './types';
 
 const UNDO_MS = 5000;
 
-type View = 'read' | 'library';
+type View = 'read' | 'themes' | 'library';
 interface Undo { idea: Idea; dir: Direction; timer: number }
 
 export function App() {
@@ -20,18 +22,21 @@ export function App() {
   const [pill, setPill] = useState<StoredPill | null>(null);
   const [error, setError] = useState<string | null>(null);
   const [view, setView] = useState<View>('read');
+  const [interests, setInterests] = useState<string[]>(loadInterests);
   const [undo, setUndo] = useState<Undo | null>(null);
   const [speaking, setSpeaking] = useState(false);
   const card = useRef<SwipeCardHandle>(null);
   const shownAt = useRef(performance.now());
 
-  // Compone una pillola nuova dalle idee mai decise, con il profilo ricostruito dagli eventi.
-  const newPill = useCallback(async (all: Idea[], st: Map<string, IdeaState>, round: number) => {
+  // Compone una pillola dalle idee mai decise, con il profilo ricostruito dagli eventi.
+  // kept: card già decise da tenere in testa (cambio di temi a pillola iniziata).
+  const newPill = useCallback(async (all: Idea[], st: Map<string, IdeaState>, round: number, topics: string[], kept: StoredPill['cards'] = []) => {
     const events = await loadEvents();
     const saved = new Set([...st.values()].filter((s) => s.status === 'saved').map((s) => s.ideaId));
     const profile = buildProfile(events, all, saved);
-    const cards = composePill(all.filter((i) => !st.has(i.id)), profile).map((c) => ({ id: c.idea.id, reason: c.reason }));
-    const p: StoredPill = { day: today(), round, cards };
+    const pool = all.filter((i) => !st.has(i.id));
+    const fresh = composePill(pool, profile, { interests: topics, n: PILL_SIZE - kept.length }).map((c) => ({ id: c.idea.id, reason: c.reason }));
+    const p: StoredPill = { day: today(), round, cards: [...kept, ...fresh] };
     savePill(p);
     setPill(p);
   }, []);
@@ -46,10 +51,36 @@ export function App() {
         const stored = loadPill();
         // La pillola di oggi resta valida se le sue idee esistono ancora in ideas.json.
         if (stored && stored.cards.every((c) => known.has(c.id))) setPill(stored);
-        else await newPill(file.ideas, st, 1);
+        else await newPill(file.ideas, st, 1, loadInterests());
       })
       .catch((e: unknown) => setError(e instanceof Error ? e.message : String(e)));
   }, [newPill]);
+
+  // Temi cambiati: all'uscita dalla vista la pillola di oggi tiene le card già decise e
+  // ricompone le altre. Ricomporre a ogni tocco cambierebbe le card mentre si sceglie.
+  const interestsOnEntry = useRef<string[] | null>(null);
+  useEffect(() => {
+    if (view === 'themes') {
+      interestsOnEntry.current = interests;
+      return;
+    }
+    const before = interestsOnEntry.current;
+    interestsOnEntry.current = null;
+    if (!before || !ideas || !pill || before.join() === interests.join()) return;
+    const kept = pill.cards.filter((c) => state.has(c.id));
+    if (kept.length < pill.cards.length) void newPill(ideas, state, pill.round, interests, kept);
+  }, [view]); // di proposito solo la vista: gli altri valori si leggono al momento dell'uscita
+
+  function onInterestsChange(topics: string[]) {
+    setInterests(topics);
+    saveInterests(topics);
+  }
+
+  const themeCounts = useMemo(() => {
+    const m = new Map<string, number>();
+    for (const i of ideas ?? []) for (const t of i.topics) m.set(t, (m.get(t) ?? 0) + 1);
+    return m;
+  }, [ideas]);
 
   const byId = useMemo(() => new Map((ideas ?? []).map((i) => [i.id, i])), [ideas]);
   const cards = useMemo(
@@ -143,6 +174,9 @@ export function App() {
           <Tab active={view === 'read'} onClick={() => setView('read')}>
             Pillola{currentCard && <span className="ml-1 text-stone-500">{position + 1}/{cards.length}</span>}
           </Tab>
+          <Tab active={view === 'themes'} onClick={() => setView('themes')}>
+            Temi{interests.length > 0 && <span className="ml-1 text-stone-500">{interests.length}</span>}
+          </Tab>
           <Tab active={view === 'library'} onClick={() => setView('library')}>
             Salvate{saved.length > 0 && <span className="ml-1 text-stone-500">{saved.length}</span>}
           </Tab>
@@ -154,6 +188,8 @@ export function App() {
           <Message title="Libreria non disponibile">{error}. Controlla di aver generato ideas.json con «npm run index».</Message>
         ) : !ideas ? (
           <Message title="Carico le idee…" />
+        ) : view === 'themes' ? (
+          <Themes selected={interests} counts={themeCounts} onChange={onInterestsChange} />
         ) : view === 'library' ? (
           <Library ideas={saved} onUnsave={onUnsave} ideasVersion={ideasVersion} />
         ) : current ? (
@@ -176,7 +212,7 @@ export function App() {
         ) : (
           <Message title="Per oggi hai finito">
             {pill && pill.round > 1 ? `Pillola ${pill.round} di oggi completata.` : 'Domani una pillola nuova, scelta su quello che hai salvato oggi.'}
-            <button type="button" onClick={() => ideas && void newPill(ideas, state, (pill?.round ?? 1) + 1)} className="mt-6 block w-full text-sm text-stone-500 underline underline-offset-4">
+            <button type="button" onClick={() => ideas && void newPill(ideas, state, (pill?.round ?? 1) + 1, interests)} className="mt-6 block w-full text-sm text-stone-500 underline underline-offset-4">
               Un'altra pillola
             </button>
           </Message>

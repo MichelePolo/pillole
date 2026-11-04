@@ -8,7 +8,13 @@ export const MODEL = process.env.PILLOLE_MODEL ?? 'claude-haiku-5-5';
 
 // Cambia questa stringa ogni volta che modifichi il prompt in prompt.ts:
 // la revisione calcola il tasso di scarto separatamente per ogni versione.
-export const PROMPT_VERSION = 'v2';
+export const PROMPT_VERSION = 'v3';
+
+// Versioni le cui idee restano valide con il prompt corrente, dalla più vecchia.
+// v3 ha solo allargato il vocabolario degli argomenti: le idee v2 non vanno rifatte.
+// build-index le pubblica (per ogni fonte, solo la versione più recente) e distill
+// non ridistilla le fonti già fatte con una di queste, se non con --force.
+export const COMPATIBLE_PROMPT_VERSIONS: readonly string[] = ['v2', 'v3'];
 
 export const LIBRARY_DIR = path.resolve(process.env.PILLOLE_LIBRARY ?? 'library');
 export const IDEAS_DIR = path.join(LIBRARY_DIR, 'ideas');

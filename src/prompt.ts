@@ -1,4 +1,4 @@
-import { SUBTOPICS } from './vocabulary.js';
+import { SUBTOPICS, TOPICS } from './vocabulary.js';
 import { randomBytes } from 'node:crypto';
 import type { Source } from './extract.js';
 import { neutralizeDelimiters, stripControl } from './sanitize.js';
@@ -17,11 +17,9 @@ Regole:
 6. anchor: copia alla lettera, carattere per carattere, una frase breve (da 5 a 25 parole) della fonte da cui l'idea deriva, nella lingua originale della fonte. Non tradurla mai: serve a verificare che l'idea sia fedele.
 7. Filtro di durata: estrai solo idee che saranno ancora vere e utili tra un anno. Annunci, lanci di prodotto, cronaca, prezzi, classifiche e opinioni del momento non sono idee. Se la fonte non contiene niente di durevole, rispondi con verdict "no_durable_ideas" e ideas vuoto: è una risposta corretta e preferibile a idee deboli.
 8. Meglio 2 idee forti che 6 deboli; al massimo 6 idee per fonte. Evita l'ovvio e il motivazionale generico.
-9. topics: 1 o 2 tra ai, filosofia, tecnologia. Usane 2 solo se l'idea collega davvero le due aree.
-10. subtopics: da 1 a 3 etichette tra quelle consentite; usa "altro" solo se nessuna si applica.
-    - ai: ${SUBTOPICS.ai.join(', ')}
-    - filosofia: ${SUBTOPICS.filosofia.join(', ')}
-    - tecnologia: ${SUBTOPICS.tecnologia.join(', ')}
+9. topics: 1 o 2 tra ${TOPICS.join(', ')}. Scegli l'area di cui l'idea parla davvero, non quella della fonte: un'idea di psicologia letta su un blog di tecnologia è psicologia. Usane 2 solo se l'idea collega davvero le due aree.
+10. subtopics: da 1 a 3 etichette tra quelle consentite per gli argomenti scelti; usa "altro" solo se nessuna si applica.
+${TOPICS.map((t) => `    - ${t}: ${SUBTOPICS[t].join(', ')}`).join('\n')}
 11. kind: concetto (una nozione), metodo (come fare qualcosa), citazione (una frase memorabile), storia (un episodio che illustra un punto), dato (un fatto o un risultato).
 12. Quiz: una domanda che verifichi la comprensione del concetto, non un dettaglio da memorizzare (la risposta non deve essere una data o un nome proprio), e la risposta in una frase, in italiano.
 13. Non aggiungere niente che non sia nella fonte. Se la fonte afferma qualcosa di discutibile, riportalo come tesi dell'autore ("secondo l'autore…").`;
