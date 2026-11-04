@@ -7,9 +7,11 @@ interface Props {
   selected: string[];
   counts: Map<string, number>; // idee in libreria per tema
   onChange: (topics: string[]) => void;
+  firstRun: boolean; // primo accesso: benvenuto in cima
+  onDone: () => void; // alla pillola
 }
 
-export function Themes({ selected, counts, onChange }: Props) {
+export function Themes({ selected, counts, onChange, firstRun, onDone }: Props) {
   const [notice, setNotice] = useState('');
   const full = selected.length >= MAX_THEMES;
 
@@ -30,6 +32,15 @@ export function Themes({ selected, counts, onChange }: Props) {
 
   return (
     <div className="h-full overflow-y-auto pb-6">
+      {firstRun && (
+        <div className="mb-6">
+          <h2 className="text-2xl font-semibold">Benvenuto in Nòus</h2>
+          <p className="mt-2 text-stone-600 dark:text-stone-400">
+            Ogni giorno una pillola di idee da leggere in pochi minuti, e qualche ripasso di quelle che ti sono piaciute. Per cominciare, scegli
+            cosa ti interessa: potrai cambiarlo quando vuoi da qui.
+          </p>
+        </div>
+      )}
       <fieldset>
         <legend className="text-xl font-semibold">I tuoi temi</legend>
         <p id="themes-hint" className="mt-1 text-sm text-stone-500">
@@ -80,6 +91,10 @@ export function Themes({ selected, counts, onChange }: Props) {
           </p>
         )}
       </div>
+
+      <button type="button" onClick={onDone} className="mt-8 min-h-12 w-full rounded-2xl bg-stone-900 px-4 py-3 font-medium text-white dark:bg-stone-100 dark:text-stone-900">
+        {firstRun ? 'Inizia' : 'Vai alla pillola'}
+      </button>
     </div>
   );
 }
