@@ -29,4 +29,5 @@ export const MAX_THEMES = 6;
 const byId = new Map(THEMES.map((t) => [t.id, t]));
 
 export const themeLabel = (id: string) => byId.get(id)?.label ?? id.replace(/-/g, ' ');
+export const themeHue = (id: string) => byId.get(id)?.hue ?? 60; // un tema sconosciuto resta neutro e caldo
 export const isTheme = (id: string) => byId.has(id);

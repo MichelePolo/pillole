@@ -1,22 +1,7 @@
-import { Atom, BookOpen, Brain, ChartLine, Check, Clapperboard, Cpu, Dna, Hourglass, Landmark, Music, Palette, Sigma, Sparkles, type LucideIcon } from 'lucide-react';
+import { Check } from 'lucide-react';
 import { useState } from 'react';
+import { hueStyle, themeIcon } from './ThemeChip';
 import { MAX_THEMES, THEMES, themeLabel } from './themes';
-
-const ICONS: Record<string, LucideIcon> = {
-  ai: Sparkles,
-  filosofia: Landmark,
-  tecnologia: Cpu,
-  fisica: Atom,
-  matematica: Sigma,
-  biologia: Dna,
-  psicologia: Brain,
-  storia: Hourglass,
-  economia: ChartLine,
-  letteratura: BookOpen,
-  arte: Palette,
-  cinema: Clapperboard,
-  musica: Music,
-};
 
 interface Props {
   selected: string[];
@@ -56,11 +41,11 @@ export function Themes({ selected, counts, onChange }: Props) {
 
         <div className="mt-8 flex flex-wrap justify-center gap-2.5">
           {THEMES.map((t) => {
-            const Icon = ICONS[t.id] ?? Sparkles;
+            const Icon = themeIcon(t.id);
             const checked = selected.includes(t.id);
             const n = counts.get(t.id) ?? 0;
             return (
-              <label key={t.id} className="theme-pill" style={{ '--h': t.hue } as React.CSSProperties} data-checked={checked} data-dimmed={full && !checked}>
+              <label key={t.id} className="theme-pill" style={hueStyle(t.id)} data-checked={checked} data-dimmed={full && !checked}>
                 <input type="checkbox" name="temi" value={t.id} checked={checked} onChange={() => toggle(t.id)} aria-describedby="themes-hint" className="sr-only" />
                 <Icon aria-hidden className="size-[1.15rem] shrink-0" strokeWidth={1.75} />
                 <span>{t.label}</span>

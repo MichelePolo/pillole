@@ -1,5 +1,6 @@
 import { useImperativeHandle, useRef, useState, type Ref } from 'react';
 import { Markdown } from './markdown';
+import { ThemeChips } from './ThemeChip';
 import type { Idea } from './types';
 
 export type Direction = 'left' | 'right'; // destra salva, sinistra scarta
@@ -30,6 +31,7 @@ export function SwipeCard({ idea, onSwipe, reason, ref, children }: Props) {
   const [animating, setAnimating] = useState(false);
 
   const width = () => el.current?.offsetWidth ?? 360;
+  const subtopics = idea.subtopics.filter((s) => s !== 'altro');
 
   function fling(dir: Direction) {
     if (leaving) return;
@@ -101,10 +103,11 @@ export function SwipeCard({ idea, onSwipe, reason, ref, children }: Props) {
       {/* touch-action vale solo fino al contenitore scorrevole più vicino: senza pan-y qui,
           il browser si prende lo swipe orizzontale e manda pointercancel. */}
       <div className="flex-1 touch-pan-y overflow-y-auto overscroll-contain px-6 pt-6 pb-4">
-        <p className="text-xs font-medium tracking-wide text-stone-500 uppercase">
-          {(idea.subtopics.filter((s) => s !== 'altro').length ? idea.subtopics.filter((s) => s !== 'altro') : idea.topics).map((s) => s.replace(/-/g, ' ')).join(' · ')}
-          {idea.sourceLang !== 'it' && <span className="ml-2 rounded bg-stone-100 px-1.5 py-0.5 normal-case dark:bg-stone-800">dall'{idea.sourceLang === 'en' ? 'inglese' : idea.sourceLang}</span>}
-        </p>
+        <div className="flex flex-wrap items-center gap-1.5">
+          <ThemeChips topics={idea.topics} />
+          {idea.sourceLang !== 'it' && <span className="rounded bg-stone-100 px-1.5 py-0.5 text-xs text-stone-500 dark:bg-stone-800">dall'{idea.sourceLang === 'en' ? 'inglese' : idea.sourceLang}</span>}
+        </div>
+        {subtopics.length > 0 && <p className="mt-2 text-xs font-medium tracking-wide text-stone-500 uppercase">{subtopics.map((s) => s.replace(/-/g, ' ')).join(' · ')}</p>}
         {reason && <p className="mt-1 text-xs text-amber-700 dark:text-amber-500">{reason}</p>}
         <h2 className="mt-3 text-2xl leading-tight font-semibold text-balance">{idea.title}</h2>
         <Markdown source={idea.body} className="mt-4 text-[1.05rem] leading-relaxed" />
