@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.1.12](https://github.com/MichelePolo/pillole/compare/v0.1.11...v0.1.12) (2026-11-04)
+
+
+### Features
+
+* **app:** al primo accesso si sceglie i temi, poi si atterra sulla pillola ([#36](https://github.com/MichelePolo/pillole/issues/36)) ([7e2df71](https://github.com/MichelePolo/pillole/commit/7e2df711c6aaeebd7ba037be5f595140bf791237))
+
 ## [0.1.11](https://github.com/MichelePolo/pillole/compare/v0.1.10...v0.1.11) (2026-11-04)
 
 
