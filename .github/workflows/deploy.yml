@@ -1,0 +1,48 @@
+# Pubblica l'app su Cloudflare Workers (static assets).
+# Parte da solo quando si unisce la PR di release: lo chiama release-please.yml.
+# Si lancia anche a mano (Actions → deploy → Run workflow), per esempio dopo nuove idee
+# entrate con un chore: che non produce release.
+# Servono il secret CLOUDFLARE_API_TOKEN e la variabile CLOUDFLARE_ACCOUNT_ID.
+name: deploy
+
+on:
+  workflow_call:
+    secrets:
+      CLOUDFLARE_API_TOKEN:
+        required: true
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+# Due deploy insieme si pesterebbero i piedi: il secondo aspetta il primo.
+concurrency:
+  group: deploy
+  cancel-in-progress: false
+
+jobs:
+  deploy:
+    # In produzione va solo main, anche se a mano si sceglie un altro ramo.
+    if: github.ref == 'refs/heads/main'
+    runs-on: ubuntu-latest
+    environment:
+      name: production
+      url: https://pillole.michele-polo.workers.dev
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+      - uses: actions/setup-node@949feb2413d6458794dcd2491c4babbbce0c15c1 # v7.1.0
+        with:
+          node-version: 22
+          cache: npm
+          cache-dependency-path: |
+            package-lock.json
+            app/package-lock.json
+      # build-index.ts importa il parser del passo 1: servono anche le dipendenze della radice.
+      - run: npm ci
+      - run: npm ci
+        working-directory: app
+      - run: npm run deploy
+        working-directory: app
+        env:
+          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          CLOUDFLARE_ACCOUNT_ID: ${{ vars.CLOUDFLARE_ACCOUNT_ID }}

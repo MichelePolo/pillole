@@ -106,13 +106,13 @@ cd app && npm run dev
 
 L'app si pubblica su Cloudflare Workers come static assets (gratis, HTTPS: serve per installarla e usarla offline). Cloudflare Pages è confluito in Workers, quindi non si usano i comandi `wrangler pages`.
 
-```bash
-cd app
-npx wrangler login       # una volta sola: apre il browser per collegare il tuo account
-npm run deploy           # compila e pubblica; ripetilo dopo ogni distill + embed
-```
+L'indirizzo è `https://pillole.michele-polo.workers.dev`: aprilo dal telefono e aggiungilo alla schermata Home.
 
-Wrangler stampa l'indirizzo, del tipo `https://pillole.<tuo-sottodominio>.workers.dev`: aprilo dal telefono e aggiungilo alla schermata Home.
+- **Al rilascio**: unire la PR `chore(main): release x.y.z` pubblica da sola l'app costruita da `main` (workflow `deploy`).
+- **A mano**: le idee nuove entrano con un `chore:`, che non produce release. Per pubblicarle subito: *Actions → deploy → Run workflow* su `main`, oppure `gh workflow run deploy.yml`.
+- **Dal PC**, se serve: `cd app && npx wrangler login` (una volta sola), poi `npm run deploy`.
+
+Il workflow usa il secret `CLOUDFLARE_API_TOKEN` (token con il modello *Edit Cloudflare Workers*) e la variabile `CLOUDFLARE_ACCOUNT_ID`.
 
 - **I dati restano nel browser del telefono** (IndexedDB) e non si sincronizzano con il PC fino al passo 6. Usa un solo dispositivo, e non cancellare i dati del sito.
 - **Esporta dati**, in fondo alla scheda *Salvate*, scarica (o condivide, sul telefono) un JSON con eventi, stato e pillola corrente: è il file da cui tarare i pesi della selezione.
