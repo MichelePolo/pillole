@@ -57,6 +57,25 @@ body { overscroll-behavior: none; -webkit-tap-highlight-color: transparent; }
   outline: 2px solid var(--ink);
   outline-offset: 3px;
 }
+/* "Ripasso": neutra e invertita, perché non si confonda con le tinte dei temi. */
+.review-chip {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.25rem;
+  padding: 0.125rem 0.5rem;
+  border-radius: 9999px;
+  background: var(--color-stone-900);
+  color: var(--color-stone-50);
+  font-size: 0.75rem;
+  font-weight: 500;
+  line-height: 1.25rem;
+}
+@media (prefers-color-scheme: dark) {
+  .review-chip { background: var(--color-stone-100); color: var(--color-stone-900); }
+}
+@media (forced-colors: active) {
+  .review-chip { border: 1px solid CanvasText; }
+}
 @media (prefers-color-scheme: dark) {
   .theme-pill, .theme-chip {
     --ink: color-mix(in oklab, var(--base), white 55%);
