@@ -26,7 +26,8 @@ export type Reason =
   | { kind: 'explore'; label: string }
   | { kind: 'taste'; label: string }
   | { kind: 'evergreen' }
-  | { kind: 'outside' }; // fuori dai temi scelti: completa una pillola che nei temi non ha abbastanza idee
+  | { kind: 'outside' } // fuori dai temi scelti: completa una pillola che nei temi non ha abbastanza idee
+  | { kind: 'review'; label: 'liked' | 'recall' }; // passo 4: in coda alla pillola, card quiz
 
 export interface PillCard { idea: Idea; reason: Reason }
 
@@ -116,6 +117,8 @@ export function reasonText(r: Reason): string {
       return 'evergreen';
     case 'outside':
       return 'fuori dai tuoi temi';
+    case 'review':
+      return r.label === 'liked' ? 'Ti era piaciuto' : 'Ti ricordi?';
   }
 }
 

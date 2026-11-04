@@ -105,6 +105,16 @@ cd app && npm run dev
 - **Pillola** (`app/src/pill.ts`): gusto campionato con Thompson sampling + 0,5 × somiglianza − 0,7 × ridondanza, più le regole della sezione 13: almeno 2 card di filosofia, penalità per la stessa fonte, bonus per le card ponte. Tutti i pesi sono costanti in cima ai due file.
 - **Temi** (`app/src/Themes.tsx`): nella scheda *Temi* si scelgono fino a 6 dei 13 argomenti del vocabolario (`src/vocabulary.ts`), da AI e filosofia a fisica, biologia, letteratura e cinema. Le idee dei temi scelti hanno un bonus di +3, più dell'intera escursione degli altri termini: quelle fuori tema entrano solo per completare la pillola, con il motivo *fuori dai tuoi temi*. La quota di filosofia vale solo se la filosofia è tra i temi. Cambiando temi a pillola iniziata, le card già decise restano e le altre si ricompongono. Etichette e tinte sono in `app/src/themes.ts`; `npm run index` si ferma se un argomento non ha il suo tema.
 
+## Passo 4: il ripasso
+
+Dopo le 6 idee nuove, la pillola mette in coda fino a 3 **ripassi** tra le idee salvate: card quiz con l'etichetta *Ripasso* e *Ti era piaciuto* (il primo ritorno di un'idea) o *Ti ricordi?* (i successivi). Si prova a rispondere, si scopre la risposta con l'idea completa e si vota: *Non ricordavo · A fatica · Ricordavo · Facile*, con il prossimo intervallo scritto sul pulsante. Da tastiera: spazio per la risposta, 1-4 per il voto.
+
+- **Pianificazione** (`app/src/reviews.ts`): [ts-fsrs](https://github.com/open-spaced-repetition/ts-fsrs) senza passi nella stessa giornata (Ricordavo: 3, 14, 57, 196 giorni…). Un'idea salvata entra in ripasso dal giorno dopo.
+- **La coda**: FIFO, 3 ripassi al giorno in tutto (anche con *Un'altra pillola*), e un ripasso scaduto da più di 10 giorni esce senza tornare. Non serve ripassare tutto: con chi salva molto la coda non si smaltisce, ma il ripasso resta leggero.
+- **Salvate**: a pagine da 10; le idee ripassate hanno l'etichetta *Ripassata* e, aperte, il pulsante *Apri il ripasso* con la card quiz in sola lettura (un voto da lì sposterebbe la pianificazione).
+- **Stato**: ogni voto è un evento `review` nel registro; le schede FSRS si ricostruiscono dagli eventi a ogni apertura, come il profilo. Togliere un'idea dalle salvate la toglie dal ripasso.
+- I ripassi non toccano il profilo dei gusti: non ricordare un'idea non vuol dire che non ti interessi.
+
 ## Usarla sul telefono
 
 L'app si pubblica su Cloudflare Workers come static assets (gratis, HTTPS: serve per installarla e usarla offline). Cloudflare Pages è confluito in Workers, quindi non si usano i comandi `wrangler pages`.
@@ -123,7 +133,7 @@ Il workflow usa il secret `CLOUDFLARE_API_TOKEN` (token con il modello *Edit Clo
 
 ## Prossimi passi
 
-- Passo 4: ripasso con ts-fsrs e card quiz.
+- Passo 6: account e dati sul server, così lo storico (letture, ripassi) sopravvive a reinstallazioni e cambi di dispositivo.
 - Job notturno: API batch, lettura dei feed RSS, embedding multilingue.
 
 ## Come contribuire

@@ -1,8 +1,8 @@
 // Dati locali in IndexedDB (sezione 13: "eventi, profilo e stato di ripasso").
 // Gli eventi sono append-only: la selezione del passo 3 e le metriche ripartiranno da qui.
 
-export type Origin = 'pill' | 'library'; // poi anche 'search' e 'review'
-export type EventType = 'save' | 'discard' | 'undo' | 'unsave' | 'open' | 'listen';
+export type Origin = 'pill' | 'library' | 'review'; // poi anche 'search'
+export type EventType = 'save' | 'discard' | 'undo' | 'unsave' | 'open' | 'listen' | 'review';
 
 export interface IdeaEvent {
   ideaId: string;
@@ -10,6 +10,7 @@ export interface IdeaEvent {
   origin: Origin; // separa le riaperture spontanee da quelle proposte dall'app
   at: string;
   dwellMs?: number; // tempo sulla card prima dello swipe: distingue lo "scarto rapido"
+  rating?: 1 | 2 | 3 | 4; // solo per "review": il voto FSRS (Non ricordavo, A fatica, Ricordavo, Facile)
 }
 
 export type Status = 'saved' | 'discarded';
