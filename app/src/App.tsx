@@ -25,10 +25,10 @@ const reviewedSince = (events: IdeaEvent[], since: number) => new Set(events.fil
 
 // I ripassi da mettere in coda: REVIEWS_PER_DAY al giorno in tutto, quindi "Un'altra pillola"
 // riceve solo quelli che oggi non sono ancora stati fatti.
-function reviewCards(events: IdeaEvent[], st: Map<string, IdeaState>): PillCardRef[] {
+function reviewCards(events: IdeaEvent[], st: Map<string, IdeaState>, all: Idea[]): PillCardRef[] {
   const doneToday = reviewedSince(events, startOfToday());
   const due = dueReviews(buildReviews(events, savedIds(st)), Date.now(), doneToday);
-  return pickReviews(due, REVIEWS_PER_DAY - doneToday.size).map((i) => ({ id: i.ideaId, reason: { kind: 'review', label: labelFor(i) } }));
+  return pickReviews(due, REVIEWS_PER_DAY - doneToday.size, new Map(all.map((i) => [i.id, i]))).map((i) => ({ id: i.ideaId, reason: { kind: 'review', label: labelFor(i) } }));
 }
 
 export function App() {
@@ -64,7 +64,7 @@ export function App() {
     const profile = buildProfile(events, all, savedIds(st));
     const pool = all.filter((i) => !st.has(i.id));
     const fresh = composePill(pool, profile, { interests: topics, n: PILL_SIZE - kept.length }).map((c) => ({ id: c.idea.id, reason: c.reason }));
-    const p: StoredPill = { day: today(), round, cards: [...kept, ...fresh, ...(reviews ?? reviewCards(events, st))] };
+    const p: StoredPill = { day: today(), round, cards: [...kept, ...fresh, ...(reviews ?? reviewCards(events, st, all))] };
     savePill(p);
     setPill(p);
   }, []);
@@ -81,7 +81,7 @@ export function App() {
         if (stored && stored.cards.every((c) => known.has(c.id))) {
           // Una pillola composta prima del passo 4 non ha ripassi: si aggiungono in coda.
           if (!stored.cards.some((c) => isReview(c))) {
-            stored.cards.push(...reviewCards(await loadEvents(), st));
+            stored.cards.push(...reviewCards(await loadEvents(), st, file.ideas));
             savePill(stored);
           }
           setPill(stored);
