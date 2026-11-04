@@ -6,7 +6,7 @@ import { composePill, PILL_SIZE, reasonText, type Reason } from './pill';
 import { loadPill, savePill, today, type StoredPill } from './pillStore';
 import { buildProfile } from './profile';
 import { QuizCard } from './QuizCard';
-import { buildReviews, dueReviews, labelFor, nextIntervals, pickReviews, startOfToday, type ReviewItem } from './reviews';
+import { buildReviews, dueReviews, formatInterval, labelFor, nextIntervals, pickReviews, REVIEWS_PER_DAY, startOfToday, type ReviewItem } from './reviews';
 import { speak, speechSupported, stopSpeaking } from './speech';
 import { SwipeCard, type Direction, type SwipeCardHandle } from './SwipeCard';
 import { Themes } from './Themes';
@@ -23,10 +23,12 @@ const isReview = (c: { reason: Reason }) => c.reason.kind === 'review';
 const savedIds = (st: Map<string, IdeaState>) => new Set([...st.values()].filter((s) => s.status === 'saved').map((s) => s.ideaId));
 const reviewedSince = (events: IdeaEvent[], since: number) => new Set(events.filter((e) => e.type === 'review' && Date.parse(e.at) >= since).map((e) => e.ideaId));
 
-// I ripassi da mettere in coda: idee salvate scadute, escluse quelle già votate oggi.
+// I ripassi da mettere in coda: REVIEWS_PER_DAY al giorno in tutto, quindi "Un'altra pillola"
+// riceve solo quelli che oggi non sono ancora stati fatti.
 function reviewCards(events: IdeaEvent[], st: Map<string, IdeaState>): PillCardRef[] {
-  const due = dueReviews(buildReviews(events, savedIds(st)), Date.now(), reviewedSince(events, startOfToday()));
-  return pickReviews(due).map((i) => ({ id: i.ideaId, reason: { kind: 'review', label: labelFor(i) } }));
+  const doneToday = reviewedSince(events, startOfToday());
+  const due = dueReviews(buildReviews(events, savedIds(st)), Date.now(), doneToday);
+  return pickReviews(due, REVIEWS_PER_DAY - doneToday.size).map((i) => ({ id: i.ideaId, reason: { kind: 'review', label: labelFor(i) } }));
 }
 
 export function App() {
@@ -41,6 +43,7 @@ export function App() {
   const [speaking, setSpeaking] = useState(false);
   const [reviewItems, setReviewItems] = useState<Map<string, ReviewItem>>(new Map());
   const [reviewedToday, setReviewedToday] = useState<Set<string>>(new Set());
+  const [notice, setNotice] = useState<{ text: string; timer: number } | null>(null);
   const card = useRef<SwipeCardHandle>(null);
   const shownAt = useRef(performance.now());
 
@@ -51,7 +54,7 @@ export function App() {
     setReviewedToday(reviewedSince(events, startOfToday()));
   }, []);
 
-  // Una pillola: PILL_SIZE idee nuove, poi fino a REVIEWS_PER_PILL ripassi in coda.
+  // Una pillola: PILL_SIZE idee nuove, poi i ripassi del giorno in coda.
   // kept: idee nuove già decise da tenere in testa; reviews: ripassi già in coda
   // (cambio di temi a pillola iniziata). Senza reviews, i ripassi si scelgono ora.
   const newPill = useCallback(async (all: Idea[], st: Map<string, IdeaState>, round: number, topics: string[], kept: PillCardRef[] = [], reviews?: PillCardRef[]) => {
@@ -156,8 +159,15 @@ export function App() {
       const dwellMs = Math.round(performance.now() - shownAt.current);
       setReviewedToday((s) => new Set(s).add(current.id));
       void logEvent({ ideaId: current.id, type: 'review', origin: 'review', rating, dwellMs }).then(() => refreshReviews(state));
+      // Il feedback: ripassata, e quando torna.
+      const item = reviewItems.get(current.id);
+      const next = item ? ` · torna ${formatInterval(nextIntervals(item)[rating]).replace(/^(\d)/, 'tra $1')}` : '';
+      setNotice((n) => {
+        if (n) window.clearTimeout(n.timer);
+        return { text: `Ripassata${next}`, timer: window.setTimeout(() => setNotice(null), UNDO_MS) };
+      });
     },
-    [current, state, refreshReviews],
+    [current, state, refreshReviews, reviewItems],
   );
 
   function onUndo() {
@@ -236,7 +246,7 @@ export function App() {
         ) : view === 'themes' ? (
           <Themes selected={interests} counts={themeCounts} onChange={onInterestsChange} />
         ) : view === 'library' ? (
-          <Library ideas={saved} onUnsave={onUnsave} ideasVersion={ideasVersion} />
+          <Library ideas={saved} onUnsave={onUnsave} ideasVersion={ideasVersion} reviews={reviewItems} />
         ) : current && currentCard.reason.kind === 'review' ? (
           <QuizCard
             key={`${current.id}-review`}
@@ -273,6 +283,12 @@ export function App() {
       </main>
 
       <div aria-live="polite" className="pointer-events-none fixed inset-x-0 bottom-[calc(max(1rem,env(safe-area-inset-bottom))+5.5rem)] flex justify-center px-4">
+        {notice && !undo && (
+          <div className="flex items-center gap-2 rounded-full bg-stone-900 px-5 py-3 text-sm text-white shadow-lg dark:bg-stone-100 dark:text-stone-900">
+            <span aria-hidden>✓</span>
+            {notice.text}
+          </div>
+        )}
         {undo && (
           <div className="pointer-events-auto flex items-center gap-4 rounded-full bg-stone-900 px-5 py-3 text-sm text-white shadow-lg dark:bg-stone-100 dark:text-stone-900">
             <span>{undo.dir === 'right' ? 'Salvata' : 'Scartata'}</span>

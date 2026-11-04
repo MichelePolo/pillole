@@ -57,6 +57,23 @@ body { overscroll-behavior: none; -webkit-tap-highlight-color: transparent; }
   outline: 2px solid var(--ink);
   outline-offset: 3px;
 }
+/* "Ripassata", tra le salvate: un segno di avanzamento, non un tema. */
+.reviewed-chip {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.25rem;
+  padding: 0.125rem 0.5rem;
+  border: 1px solid var(--color-emerald-300);
+  border-radius: 9999px;
+  color: var(--color-emerald-800);
+  font-size: 0.75rem;
+  font-weight: 500;
+  line-height: 1.25rem;
+}
+@media (prefers-color-scheme: dark) {
+  .reviewed-chip { border-color: var(--color-emerald-800); color: var(--color-emerald-300); }
+}
+
 /* "Ripasso": neutra e invertita, perché non si confonda con le tinte dei temi. */
 .review-chip {
   display: inline-flex;

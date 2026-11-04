@@ -7,25 +7,28 @@ import type { Idea } from './types';
 
 // La card di ripasso: domanda, poi la risposta a richiesta, poi il voto.
 // Prima si prova a ricordare (è il recupero che fissa il ricordo), solo dopo si rilegge l'idea.
+// Senza onGrade è in sola lettura (aperta dalle salvate): al posto dei voti, info e "Chiudi".
 
 interface Props {
   idea: Idea;
-  label: string; // "Ti era piaciuto" o "Ti ricordi?"
-  intervals: Record<number, number>; // giorni al prossimo ripasso per ogni voto
-  onGrade: (rating: 1 | 2 | 3 | 4) => void;
+  label: string; // "Ti era piaciuto", "Ti ricordi?" o, dalle salvate, l'ultimo voto
+  intervals?: Record<number, number>; // giorni al prossimo ripasso per ogni voto
+  onGrade?: (rating: 1 | 2 | 3 | 4) => void;
+  info?: string; // sola lettura: per esempio "prossimo ripasso il 7 novembre"
+  onClose?: () => void;
 }
 
-export function QuizCard({ idea, label, intervals, onGrade }: Props) {
+export function QuizCard({ idea, label, intervals = {}, onGrade, info, onClose }: Props) {
   const [revealed, setRevealed] = useState(false);
 
   // Tastiera: spazio o invio scoprono la risposta, poi 1-4 danno il voto.
   useEffect(() => {
     function onKey(e: KeyboardEvent) {
-      if (e.metaKey || e.ctrlKey || e.altKey || (e.target as HTMLElement).closest('a, input, textarea')) return;
+      if (e.metaKey || e.ctrlKey || e.altKey || (e.target instanceof Element && e.target.closest('a, input, textarea'))) return;
       if (!revealed && (e.key === ' ' || e.key === 'Enter')) {
         e.preventDefault();
         setRevealed(true);
-      } else if (revealed && ['1', '2', '3', '4'].includes(e.key)) {
+      } else if (revealed && onGrade && ['1', '2', '3', '4'].includes(e.key)) {
         onGrade(Number(e.key) as 1 | 2 | 3 | 4);
       }
     }
@@ -71,7 +74,14 @@ export function QuizCard({ idea, label, intervals, onGrade }: Props) {
       </div>
 
       <div className="border-t border-stone-100 px-3 py-3 dark:border-stone-800">
-        {revealed ? (
+        {revealed && !onGrade ? (
+          <div className="flex items-center justify-between gap-3 px-2">
+            <p className="text-sm text-stone-500">{info}</p>
+            <button type="button" onClick={onClose} className="min-h-12 shrink-0 rounded-2xl border border-stone-200 px-5 font-medium dark:border-stone-700">
+              Chiudi
+            </button>
+          </div>
+        ) : revealed && onGrade ? (
           <div role="group" aria-label="Quanto ricordavi?" className="grid grid-cols-4 gap-2">
             {GRADES.map((g, k) => (
               <button

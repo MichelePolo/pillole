@@ -5,7 +5,11 @@ import type { IdeaEvent } from './db';
 // nel registro. Come il profilo, lo stato non si salva: si ricostruisce dagli eventi,
 // così cambiare un parametro qui ricalcola tutta la storia e il passo 6 sincronizza un solo registro.
 
-export const REVIEWS_PER_PILL = 3;
+// La regola di Michele: i ripassi sono una coda FIFO, 3 al giorno, e non si torna mai
+// indietro di più di 10 giorni. Non serve ripassare tutto: con chi salva molto la coda
+// non si smaltisce, ma il ripasso resta leggero e non ripesca idee dimenticate da mesi.
+export const REVIEWS_PER_DAY = 3;
+const MAX_OVERDUE_DAYS = 10;
 
 // Niente passi di apprendimento nella stessa giornata: il ripasso arriva con la pillola,
 // e ogni voto porta a un intervallo in giorni (Ricordavo: 3, 14, 57, 196…).
@@ -19,6 +23,7 @@ export interface ReviewItem {
   card: Card;
   reviews: number; // voti dati da quando l'idea è stata salvata
   savedAt: number;
+  last?: { rating: number; at: number }; // l'ultimo voto, per "Ripassata" tra le salvate
 }
 
 const DAY = 86_400_000;
@@ -38,22 +43,27 @@ export function buildReviews(events: IdeaEvent[], savedIds: Set<string>): Map<st
       if (!item) continue;
       item.card = scheduler.next(item.card, new Date(at), e.rating as Grade).card;
       item.reviews++;
+      item.last = { rating: e.rating, at };
     }
   }
   return items;
 }
 
-// Da ripassare adesso. Un'idea appena salvata entra dal giorno dopo: ripassarla
+// Da ripassare adesso: scaduti, ma da non più di MAX_OVERDUE_DAYS. Oltre, il ripasso
+// esce dalla coda e non torna. Un'idea appena salvata entra dal giorno dopo: ripassarla
 // la sera stessa sarebbe rileggerla, non ricordarla.
 export function dueReviews(items: Map<string, ReviewItem>, now = Date.now(), exclude: Set<string> = new Set()): ReviewItem[] {
   const today = startOfToday(now);
-  return [...items.values()].filter((i) => !exclude.has(i.ideaId) && i.card.due.getTime() <= now && (i.reviews > 0 || i.savedAt < today));
+  const oldest = now - MAX_OVERDUE_DAYS * DAY;
+  return [...items.values()].filter((i) => {
+    const due = i.card.due.getTime();
+    return !exclude.has(i.ideaId) && due <= now && due >= oldest && (i.reviews > 0 || i.savedAt < today);
+  });
 }
 
-// Quali ripassi mettere in coda alla pillola quando ne scadono più di n.
-export function pickReviews(due: ReviewItem[], n = REVIEWS_PER_PILL): ReviewItem[] {
-  // TODO(Michele): scegli la priorità. Per ora: i più in ritardo per primi.
-  return [...due].sort((a, b) => a.card.due.getTime() - b.card.due.getTime()).slice(0, n);
+// FIFO: prima la scadenza più vecchia, fino a n.
+export function pickReviews(due: ReviewItem[], n: number): ReviewItem[] {
+  return [...due].sort((a, b) => a.card.due.getTime() - b.card.due.getTime()).slice(0, Math.max(0, n));
 }
 
 export const labelFor = (item: ReviewItem): ReviewLabel => (item.reviews === 0 ? 'liked' : 'recall');
@@ -70,6 +80,8 @@ export function nextIntervals(item: ReviewItem, now = Date.now()): Record<number
   const preview = scheduler.repeat(item.card, new Date(now));
   return Object.fromEntries(GRADES.map((g) => [g.rating, (preview[g.rating].card.due.getTime() - now) / DAY]));
 }
+
+export const gradeLabel = (rating: number) => GRADES.find((g) => g.rating === rating)?.label ?? '';
 
 export function formatInterval(days: number): string {
   const d = Math.round(days);
