@@ -13,6 +13,7 @@
     "review": "tsx src/review.ts",
     "embed": "tsx src/embed.ts",
     "dedup": "tsx src/dedup-cli.ts",
+    "feeds": "tsx src/feeds.ts",
     "stats": "tsx src/review.ts --stats",
     "typecheck": "tsc --noEmit"
   },
@@ -21,6 +22,7 @@
     "@huggingface/transformers": "^4.3.2",
     "@mozilla/readability": "^0.6.0",
     "jsdom": "^30.1.3",
+    "unpdf": "^2.1.0",
     "yaml": "^2.9.1",
     "zod": "^4.6.7"
   },

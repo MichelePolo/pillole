@@ -12,7 +12,7 @@ import { DistillOutput, normalizeRaw, OUTPUT_JSON_SCHEMA, softWarnings } from '.
 
 const HELP = `Uso: npm run distill -- [sorgenti...] [opzioni]
 
-Sorgenti: URL, file .md/.txt, oppure un file elenco (una sorgente per riga, # per i commenti).
+Sorgenti: URL (pagine o PDF), file .md/.txt/.pdf, oppure un file elenco (una sorgente per riga, # per i commenti).
 Senza sorgenti legge sources.txt.
 
 Opzioni:
@@ -21,6 +21,7 @@ Opzioni:
   --force     ridistilla anche le sorgenti già fatte con questa versione del prompt
   --think     abilita il thinking adattivo (più lento e costoso, a volte più accurato)
   --no-dedup  non controlla i duplicati delle idee nuove (vedi npm run dedup)
+  --batch     usa l'API batch: costa la metà, ma la risposta arriva in minuti o ore (job notturno)
   --model X   modello da usare (predefinito: ${MODEL})
   --help      mostra questo aiuto`;
 
@@ -32,6 +33,7 @@ const { values, positionals } = parseArgs({
     force: { type: 'boolean', default: false },
     think: { type: 'boolean', default: false },
     'no-dedup': { type: 'boolean', default: false },
+    batch: { type: 'boolean', default: false },
     model: { type: 'string', default: MODEL },
     help: { type: 'boolean', default: false },
   },
@@ -59,7 +61,7 @@ async function expandInputs(args: string[]): Promise<string[]> {
     if (!/^https?:\/\//.test(a) && /\.(txt|list)$/i.test(a)) {
       // Un .txt può essere un elenco o una fonte: è un elenco se ogni riga utile è un URL o un percorso.
       const lines = await readList(a);
-      if (lines.length > 0 && lines.every((l) => /^https?:\/\//.test(l) || /\.(md|txt)$/i.test(l))) {
+      if (lines.length > 0 && lines.every((l) => /^https?:\/\//.test(l) || /\.(md|txt|pdf)$/i.test(l))) {
         out.push(...lines);
         continue;
       }
@@ -71,25 +73,74 @@ async function expandInputs(args: string[]): Promise<string[]> {
 
 interface RunTotals { sources: number; ideas: number; empty: number; skipped: number; failed: number; inTok: number; outTok: number; usd: number; anchorMissing: number }
 
-async function distillOne(client: Anthropic, source: Source, totals: RunTotals, fresh: Set<string>): Promise<void> {
-  const userMessage = buildUserMessage(source);
-  const message = await client.messages.create({
+function requestFor(source: Source): Anthropic.MessageCreateParamsNonStreaming {
+  return {
     model,
     max_tokens: MAX_OUTPUT_TOKENS,
     system: SYSTEM_PROMPT,
-    messages: [{ role: 'user', content: userMessage }],
+    messages: [{ role: 'user', content: buildUserMessage(source) }],
     output_config: { format: { type: 'json_schema', schema: OUTPUT_JSON_SCHEMA as unknown as Record<string, unknown> } },
     ...(values.think ? { thinking: { type: 'adaptive' as const } } : {}),
-  });
+  };
+}
 
+async function distillOne(client: Anthropic, source: Source, totals: RunTotals, fresh: Set<string>): Promise<void> {
+  const message = await client.messages.create(requestFor(source));
+  await handleMessage(source, message, totals, fresh, 1);
+}
+
+// Il batch costa la metà dell'API sincrona.
+const BATCH_PRICE = 0.5;
+const BATCH_POLL_MS = 30_000;
+const BATCH_TIMEOUT_MS = 5 * 60 * 60_000; // il job di GitHub Actions ha 6 ore in tutto
+
+async function distillBatch(client: Anthropic, sources: Source[], totals: RunTotals, fresh: Set<string>): Promise<void> {
+  const batch = await client.messages.batches.create({ requests: sources.map((s) => ({ custom_id: s.id, params: requestFor(s) })) });
+  console.log(`\nBatch ${batch.id} · ${sources.length} richieste, in attesa…`);
+  const started = Date.now();
+  let status = batch;
+  while (status.processing_status !== 'ended') {
+    if (Date.now() - started > BATCH_TIMEOUT_MS) {
+      // Annullato, le fonti non risultano distillate e il giro dopo le riprova.
+      await client.messages.batches.cancel(batch.id);
+      throw new Error(`batch ${batch.id} non finito in ${BATCH_TIMEOUT_MS / 3_600_000} ore: annullato`);
+    }
+    await new Promise((r) => setTimeout(r, BATCH_POLL_MS));
+    status = await client.messages.batches.retrieve(batch.id);
+  }
+  const c = status.request_counts;
+  console.log(`  finito in ${Math.round((Date.now() - started) / 60_000)} min · ${c.succeeded} riuscite, ${c.errored} errori, ${c.expired} scadute\n`);
+
+  const byId = new Map(sources.map((s) => [s.id, s]));
+  for await (const r of await client.messages.batches.results(batch.id)) {
+    const source = byId.get(r.custom_id);
+    if (!source) continue;
+    console.log(`• ${source.title}`);
+    if (r.result.type !== 'succeeded') {
+      totals.failed++;
+      const detail = r.result.type === 'errored' ? `: ${JSON.stringify(r.result.error)}` : '';
+      console.error(`  ✗ richiesta ${r.result.type}${detail}`);
+      continue;
+    }
+    try {
+      await handleMessage(source, r.result.message, totals, fresh, BATCH_PRICE);
+      totals.sources++;
+    } catch (err) {
+      totals.failed++;
+      console.error(`  ✗ ${err instanceof Error ? err.message : String(err)}`);
+    }
+  }
+}
+
+async function handleMessage(source: Source, message: Anthropic.Message, totals: RunTotals, fresh: Set<string>, priceFactor: number): Promise<void> {
   const inTok = message.usage.input_tokens;
   const outTok = message.usage.output_tokens;
-  const usd = costUsd(model, inTok, outTok);
+  const usd = costUsd(model, inTok, outTok) * priceFactor;
   totals.inTok += inTok;
   totals.outTok += outTok;
   totals.usd += Number.isNaN(usd) ? 0 : usd;
 
-  const log = { at: new Date().toISOString(), source: source.id, title: source.title, model, prompt_version: PROMPT_VERSION, stop_reason: message.stop_reason, input_tokens: inTok, output_tokens: outTok, usd };
+  const log = { at: new Date().toISOString(), source: source.id, title: source.title, model, prompt_version: PROMPT_VERSION, ...(priceFactor !== 1 ? { batch: true } : {}), stop_reason: message.stop_reason, input_tokens: inTok, output_tokens: outTok, usd };
 
   if (message.stop_reason === 'refusal') {
     // Haiku 5.5 ha classificatori di sicurezza senza fallback lato server: la fonte va saltata o rivista a mano.
@@ -147,6 +198,7 @@ async function main(): Promise<void> {
   const client = new Anthropic();
   const totals: RunTotals = { sources: 0, ideas: 0, empty: 0, skipped: 0, failed: 0, inTok: 0, outTok: 0, usd: 0, anchorMissing: 0 };
   const fresh = new Set<string>(); // id delle idee scritte in questo giro
+  const queued: Source[] = []; // con --batch: le fonti da mandare tutte insieme
 
   console.log(`Prompt ${PROMPT_VERSION} · modello ${model} · ${inputs.length} sorgenti${values['dry-run'] ? ' · prova a secco' : ''}\n`);
 
@@ -173,11 +225,24 @@ async function main(): Promise<void> {
         continue;
       }
 
+      if (values.batch) {
+        queued.push(source);
+        continue;
+      }
       await distillOne(client, source, totals, fresh);
       totals.sources++;
     } catch (err) {
       totals.failed++;
       console.error(`  ✗ ${input}: ${err instanceof Error ? err.message : String(err)}`);
+    }
+  }
+
+  if (queued.length > 0) {
+    try {
+      await distillBatch(client, queued, totals, fresh);
+    } catch (err) {
+      totals.failed += queued.length;
+      console.error(`  ✗ ${err instanceof Error ? err.message : String(err)}`);
     }
   }
 

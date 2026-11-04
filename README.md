@@ -74,7 +74,7 @@ Il corpo può contenere `==evidenziazioni==`, che mdlib-pure renderizza con il p
 
 ## Costi
 
-La chiamata sincrona a Claude Haiku 5.5 costa 0,10 $ per milione di token in ingresso e 0,50 $ in uscita, per prompt fino a 100.000 token. Una voce lunga della Stanford Encyclopedia of Philosophy sono circa 34.000 token, cioè meno di mezzo centesimo; 10 articoli costano pochi centesimi. Il costo reale di ogni chiamata finisce in `runs.jsonl`. Il job notturno userà l'API batch, che costa la metà.
+La chiamata sincrona a Claude Haiku 5.5 costa 0,10 $ per milione di token in ingresso e 0,50 $ in uscita, per prompt fino a 100.000 token. Una voce lunga della Stanford Encyclopedia of Philosophy sono circa 34.000 token, cioè meno di mezzo centesimo; 10 articoli costano pochi centesimi. Il costo reale di ogni chiamata finisce in `runs.jsonl`. Il job notturno usa l'API batch, che costa la metà.
 
 ## Note di sicurezza
 
@@ -133,10 +133,25 @@ Il workflow usa il secret `CLOUDFLARE_API_TOKEN` (token con il modello *Edit Clo
 - **Esporta dati**, in fondo alla scheda *Salvate*, scarica (o condivide, sul telefono) un JSON con eventi, stato e pillola corrente: è il file da cui tarare i pesi della selezione.
 - Chiunque abbia l'indirizzo vede le card, che sono comunque già pubbliche in questo repository. Per un accesso solo tuo: Cloudflare Access, gratuito.
 
+## Il job notturno
+
+Ogni notte GitHub Actions (workflow `nightly`, alle 3:17 italiane) porta idee nuove dai feed di `feeds.txt`:
+
+1. `npm run feeds` sceglie per ogni feed fino a 3 articoli nuovi, i più recenti. Esclude video, podcast e articoli già in biblioteca. Li segna come visti in `library/feeds.json`.
+2. `npm run distill -- --batch` li distilla con l'[API batch](https://platform.claude.com/docs/en/build-with-claude/batch-processing), a metà prezzo: la risposta arriva in qualche minuto, al massimo in 5 ore. Alla fine calcola gli embedding e scarta i duplicati.
+3. Il job apre una PR `chore: idee della notte del …` con le idee nuove e il registro del giro.
+
+Per rivedere le idee: `git switch chore/notte-…`, poi `npm run review`, poi commit e push. Il push fa partire la CI, che nelle PR aperte dal bot non parte da sola. Poi unisci la PR e pubblica l'app (*Actions → deploy → Run workflow*). Finché la PR della notte resta aperta, il giro successivo si salta: le revisioni non si accumulano e gli stessi articoli non vengono scelti due volte.
+
+- **A mano**: *Actions → nightly → Run workflow*, anche con meno articoli per feed. In locale si fa lo stesso con `npm run feeds -- --out coda.txt` e poi `npm run distill -- --batch coda.txt`.
+- **Costi**: ogni articolo costa circa 0,002 $ con il batch, più circa 0,001 $ di controllo dei duplicati. Con 21 feed e 3 articoli ciascuno, il primo giro costa circa 0,20 $; poi i feed portano solo gli articoli nuovi.
+- **Secret**: `ANTHROPIC_API_KEY` nelle impostazioni del repository.
+- **Fonti che rifiutano i lettori automatici**: con un 403 o una pagina anti-bot (testo sotto i 1.500 caratteri) l'articolo si salta e resta visto. Prima di aggiungere un feed, prova un suo articolo con `npm run distill -- --dry-run URL`.
+- **PDF**: `distill` legge anche i PDF, da URL o da file. Il titolo viene dai metadati oppure dal primo blocco di testo della prima pagina.
+
 ## Prossimi passi
 
 - Passo 6: account e dati sul server, così lo storico (letture, ripassi) sopravvive a reinstallazioni e cambi di dispositivo.
-- Job notturno: API batch, lettura dei feed RSS, embedding multilingue.
 
 ## Come contribuire
 

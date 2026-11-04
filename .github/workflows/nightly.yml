@@ -1,0 +1,118 @@
+# Job notturno: legge i feed di feeds.txt, distilla gli articoli nuovi con l'API batch
+# (metà prezzo), scarta i duplicati e apre una PR "chore: idee della notte" da rivedere.
+# La revisione si fa in locale sul ramo della PR (npm run review), poi si unisce la PR
+# e si pubblica l'app (Actions → deploy → Run workflow).
+#
+# Serve il secret ANTHROPIC_API_KEY. Le PR aperte con GITHUB_TOKEN non fanno partire la CI:
+# i controlli richiesti girano al primo push della revisione sul ramo.
+name: nightly
+
+on:
+  schedule:
+    - cron: '17 2 * * *' # 3:17 in Italia (4:17 con l'ora legale)
+  workflow_dispatch:
+    inputs:
+      max:
+        description: Articoli nuovi per feed
+        default: '3'
+
+permissions:
+  contents: write
+  pull-requests: write
+
+concurrency:
+  group: nightly
+  cancel-in-progress: false
+
+# bash con pipefail: senza, un errore prima di «| tee» passerebbe inosservato.
+defaults:
+  run:
+    shell: bash
+
+jobs:
+  nightly:
+    if: github.ref == 'refs/heads/main'
+    runs-on: ubuntu-latest
+    timeout-minutes: 360
+    env:
+      GH_TOKEN: ${{ github.token }}
+    steps:
+      # Se la PR della notte prima è ancora aperta si salta il giro: lo stato dei feed sta
+      # su quel ramo, e senza saltare si sceglierebbero di nuovo gli stessi articoli.
+      - name: PR della notte prima ancora aperta?
+        id: open
+        run: |
+          n=$(gh pr list --repo "$GITHUB_REPOSITORY" --state open --search 'head:chore/notte-' --json number --jq length)
+          echo "count=$n" >> "$GITHUB_OUTPUT"
+          if [ "$n" -gt 0 ]; then echo "::notice::C'è già una PR della notte da rivedere: giro saltato."; fi
+
+      - if: steps.open.outputs.count == '0'
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+      - if: steps.open.outputs.count == '0'
+        uses: actions/setup-node@949feb2413d6458794dcd2491c4babbbce0c15c1 # v7.1.0
+        with:
+          node-version: 22
+          cache: npm
+      # --ignore-scripts: lo script di onnxruntime-node scarica solo le librerie CUDA;
+      # quelle per CPU, che bastano agli embedding, sono già nel pacchetto.
+      - if: steps.open.outputs.count == '0'
+        run: npm ci --ignore-scripts
+      # Il modello degli embedding (~120 MB) si scarica una volta sola.
+      - if: steps.open.outputs.count == '0'
+        uses: actions/cache@55cc8345863c7cc4c66a329aec7e433d2d1c52a9 # v6.1.0
+        with:
+          path: node_modules/@huggingface/transformers/.cache
+          key: transformers-multilingual-e5-small-q8
+
+      - name: Feed
+        if: steps.open.outputs.count == '0'
+        env:
+          MAX: ${{ inputs.max || '3' }}
+        run: |
+          if ! [[ "$MAX" =~ ^[1-9][0-9]?$ ]]; then echo "max deve essere un numero da 1 a 99"; exit 1; fi
+          npm run -s feeds -- --out "$RUNNER_TEMP/queue.txt" --max "$MAX" | tee "$RUNNER_TEMP/feeds.log"
+
+      - name: Distillazione (batch) e controllo duplicati
+        if: steps.open.outputs.count == '0'
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: |
+          if [ ! -s "$RUNNER_TEMP/queue.txt" ]; then echo "Nessun articolo nuovo." | tee "$RUNNER_TEMP/distill.log"; exit 0; fi
+          npm run -s distill -- --batch "$RUNNER_TEMP/queue.txt" 2>&1 | tee "$RUNNER_TEMP/distill.log"
+
+      - name: PR con le idee della notte
+        if: steps.open.outputs.count == '0'
+        run: |
+          git add library
+          if git diff --cached --quiet; then echo "Niente di nuovo."; exit 0; fi
+          day=$(date -u +%F)
+          branch="chore/notte-$day"
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git switch -c "$branch"
+          git commit -q -m "chore: idee della notte del $day"
+          git push -q -u origin "$branch"
+          ideas=$(git diff --name-only --diff-filter=A HEAD~1 -- library/ideas | wc -l)
+          {
+            echo "Idee distillate stanotte dai feed di \`feeds.txt\`: **$ideas file nuovi**."
+            echo
+            echo "Per rivederle:"
+            echo
+            echo '```bash'
+            echo "git fetch && git switch $branch"
+            echo 'npm run review            # le idee nuove'
+            echo 'npm run review -- --auto  # gli scarti automatici dei duplicati, se vuoi controllarli'
+            echo 'git commit -am "chore: revisione" && git push'
+            echo '```'
+            echo
+            echo 'Il push della revisione fa partire la CI. Poi unisci la PR e pubblica l'"'"'app (Actions → deploy → Run workflow).'
+            echo
+            echo '<details><summary>Registro</summary>'
+            echo
+            echo '```text'
+            # Titoli e messaggi vengono da pagine web: niente backtick che chiudano il blocco.
+            cat "$RUNNER_TEMP/feeds.log" "$RUNNER_TEMP/distill.log" | tr -d '`' | tail -c 60000
+            echo '```'
+            echo '</details>'
+          } > "$RUNNER_TEMP/body.md"
+          gh pr create --base main --head "$branch" --title "chore: idee della notte del $day" --body-file "$RUNNER_TEMP/body.md"

@@ -29,6 +29,9 @@ export const EMBEDDINGS_FILE = path.join(LIBRARY_DIR, 'embeddings', 'multilingua
 // Oltre questa lunghezza il testo viene troncato. Con Haiku 5.5 un prompt sopra i
 // 100.000 token paga tariffe cinque volte più alte: 200.000 caratteri restano sotto.
 export const MAX_SOURCE_CHARS = 200_000;
+// Sotto questa lunghezza la fonte si rifiuta: è una pagina anti-bot, un paywall o un
+// estratto vuoto (la pagina di Springer "Client Challenge" ne ha 209).
+export const MIN_SOURCE_CHARS = 1_500;
 export const MAX_OUTPUT_TOKENS = 12_000;
 
 // Obiettivo del passo 1: scartare meno di un'idea su cinque.
