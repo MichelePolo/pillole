@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.1.10](https://github.com/MichelePolo/pillole/compare/v0.1.9...v0.1.10) (2026-11-04)
+
+
+### Features
+
+* **app:** ripasso con FSRS e card quiz in coda alla pillola ([#32](https://github.com/MichelePolo/pillole/issues/32)) ([948432c](https://github.com/MichelePolo/pillole/commit/948432c4003d7af5521841850cfd880b3d838369))
+
 ## [0.1.9](https://github.com/MichelePolo/pillole/compare/v0.1.8...v0.1.9) (2026-11-04)
 
 
