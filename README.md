@@ -40,6 +40,8 @@ cp .env.example .env    # poi inserisci ANTHROPIC_API_KEY
    ```
    Le idee di ogni versione restano separate, così puoi confrontare v1 e v2 sulle stesse fonti.
 
+   Se la nuova versione non rende vecchie le idee già fatte (per esempio aggiunge solo argomenti al vocabolario, come `v3`), mettila in `COMPATIBLE_PROMPT_VERSIONS`: l'app continua a pubblicare le idee delle versioni compatibili e `distill` non ridistilla le fonti già fatte con una di queste, se non con `--force`.
+
 ### Dove intervenire per ogni motivo di scarto
 
 | Motivo | Cosa significa | Regola del prompt da rafforzare |
@@ -87,7 +89,7 @@ npm run dev       # rigenera public/ideas.json dalla libreria e apre l'app
 npm run build     # build di produzione in app/dist, con service worker
 ```
 
-`npm run index` costruisce `public/ideas.json` con le idee della versione corrente del prompt, escluse quelle scartate in `npm run review`. Salvataggi, scarti e ogni evento (con origine e tempo sulla card) restano nel browser, in IndexedDB: sono i dati da cui partiranno la selezione del passo 3 e le metriche.
+`npm run index` costruisce `public/ideas.json` con le idee delle versioni compatibili del prompt (per ogni fonte, la più recente), escluse quelle scartate in `npm run review`. Salvataggi, scarti e ogni evento (con origine e tempo sulla card) restano nel browser, in IndexedDB: sono i dati da cui partiranno la selezione del passo 3 e le metriche.
 
 ## Passo 3: la selezione
 
@@ -101,6 +103,7 @@ cd app && npm run dev
 - **Embedding**: `multilingual-e5-small` con Transformers.js, sul PC e mai sul telefono, in `library/embeddings/`. `build-index` li centra (sottrae la media della libreria) prima di scriverli in `ideas.json`: grezzi, i coseni di e5 stanno tutti tra 0,78 e 0,86.
 - **Profilo** (`app/src/profile.ts`): ricostruito a ogni apertura dagli eventi in IndexedDB. Una Beta per argomento (partenza 2/1) e per sotto-argomento (1/1): salvataggio +1 al successo, scarto rapido (sotto 4 s) +1 all'insuccesso, scarto dopo la lettura +0,5. Contatori con emivita di 30 giorni; due medie degli embedding salvati, lenta (90 giorni) e veloce (3 giorni).
 - **Pillola** (`app/src/pill.ts`): gusto campionato con Thompson sampling + 0,5 × somiglianza − 0,7 × ridondanza, più le regole della sezione 13: almeno 2 card di filosofia, penalità per la stessa fonte, bonus per le card ponte. Tutti i pesi sono costanti in cima ai due file.
+- **Temi** (`app/src/Themes.tsx`): nella scheda *Temi* si scelgono fino a 6 dei 13 argomenti del vocabolario (`src/vocabulary.ts`), da AI e filosofia a fisica, biologia, letteratura e cinema. Le idee dei temi scelti hanno un bonus di +3, più dell'intera escursione degli altri termini: quelle fuori tema entrano solo per completare la pillola, con il motivo *fuori dai tuoi temi*. La quota di filosofia vale solo se la filosofia è tra i temi. Cambiando temi a pillola iniziata, le card già decise restano e le altre si ricompongono. Etichette e tinte sono in `app/src/themes.ts`; `npm run index` si ferma se un argomento non ha il suo tema.
 
 ## Usarla sul telefono
 

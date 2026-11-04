@@ -1,4 +1,5 @@
 import { loadAllState, loadEvents } from './db';
+import { loadStoredInterests } from './interests';
 import { loadPill } from './pillStore';
 
 // Esporta tutto ciò che l'app sa di te: è l'unico modo di portare i dati fuori dal telefono
@@ -14,6 +15,7 @@ export async function exportData(ideasVersion: string): Promise<number> {
     events,
     state,
     pill: loadPill(),
+    interests: loadStoredInterests(),
   };
   const blob = new Blob([JSON.stringify(data, null, 2)], { type: 'application/json' });
   const name = `pillole-dati-${new Date().toLocaleDateString('sv-SE')}.json`;

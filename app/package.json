@@ -12,6 +12,7 @@
     "deploy": "npm run build && wrangler deploy"
   },
   "dependencies": {
+    "lucide-react": "^1.68.0",
     "mdlib-pure": "https://github.com/MichelePolo/mdlib-pure/releases/download/mdlib-pure-v0.1.1/mdlib-pure-0.1.1.tgz",
     "react": "^19.3.1",
     "react-dom": "^19.3.1"
