@@ -2,6 +2,7 @@ import { useState } from 'react';
 import { logEvent } from './db';
 import { exportData } from './exportData';
 import { Markdown } from './markdown';
+import { ThemeChips } from './ThemeChip';
 import type { Idea } from './types';
 
 // Le idee salvate, dalla più recente. Aprirne una da qui è una riapertura spontanea
@@ -51,8 +52,9 @@ export function Library({ ideas, onUnsave, ideasVersion }: { ideas: Idea[]; onUn
       <ul className="space-y-2">
         {ideas.map((idea) => (
           <li key={idea.id} className="rounded-2xl border border-stone-200 bg-white dark:border-stone-800 dark:bg-stone-900">
-            <button type="button" onClick={() => toggle(idea)} aria-expanded={open === idea.id} className="w-full px-4 py-3 text-left font-medium">
-              {idea.title}
+            <button type="button" onClick={() => toggle(idea)} aria-expanded={open === idea.id} className="w-full px-4 py-3 text-left">
+              <ThemeChips topics={idea.topics} className="mb-1.5" />
+              <span className="block font-medium">{idea.title}</span>
             </button>
             {open === idea.id && (
               <div className="px-4 pb-4">
