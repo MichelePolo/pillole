@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.1.14](https://github.com/MichelePolo/pillole/compare/v0.1.13...v0.1.14) (2026-11-04)
+
+
+### Features
+
+* **distill:** scarta da soli i duplicati delle idee nuove ([#41](https://github.com/MichelePolo/pillole/issues/41)) ([9fb47eb](https://github.com/MichelePolo/pillole/commit/9fb47eb2ad58351cf97e46c6c7f619392002823b))
+
 ## [0.1.13](https://github.com/MichelePolo/pillole/compare/v0.1.12...v0.1.13) (2026-11-04)
 
 
