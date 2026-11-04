@@ -4,6 +4,10 @@
 @custom-variant dark (@media (prefers-color-scheme: dark));
 
 :root {
+  /* Dice al browser che la pagina ha anche il tema scuro: i colori di sistema (CanvasText,
+     Canvas), che il <dialog> usa di suo, le barre di scorrimento e i controlli lo seguono.
+     Senza, in scuro il dialogo del ripasso aveva testo nero su sfondo scuro. */
+  color-scheme: light dark;
   --md-color-mark: color-mix(in oklab, #f59e0b 30%, transparent);
 }
 
