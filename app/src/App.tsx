@@ -1,6 +1,6 @@
 import { useCallback, useEffect, useMemo, useRef, useState } from 'react';
 import { loadEvents, loadState, logEvent, record, type IdeaState } from './db';
-import { loadInterests, saveInterests } from './interests';
+import { loadInterests, loadStoredInterests, saveInterests } from './interests';
 import { Library } from './Library';
 import { composePill, PILL_SIZE, reasonText, type Reason } from './pill';
 import { loadPill, savePill, today, type StoredPill } from './pillStore';
@@ -37,7 +37,9 @@ export function App() {
   const [state, setState] = useState<Map<string, IdeaState>>(new Map());
   const [pill, setPill] = useState<StoredPill | null>(null);
   const [error, setError] = useState<string | null>(null);
-  const [view, setView] = useState<View>('read');
+  // Primo accesso: nessuna scelta dei temi salvata. Si comincia dai Temi; dalla volta dopo, dalla Pillola.
+  const [firstRun, setFirstRun] = useState(() => loadStoredInterests() === null);
+  const [view, setView] = useState<View>(() => (firstRun ? 'themes' : 'read'));
   const [interests, setInterests] = useState<string[]>(loadInterests);
   const [undo, setUndo] = useState<Undo | null>(null);
   const [speaking, setSpeaking] = useState(false);
@@ -99,6 +101,9 @@ export function App() {
     }
     const before = interestsOnEntry.current;
     interestsOnEntry.current = null;
+    // Uscire dai Temi chiude il primo accesso, anche senza aver scelto nulla ("tutti i temi").
+    if (before && loadStoredInterests() === null) saveInterests(interests);
+    if (before) setFirstRun(false);
     if (!before || !ideas || !pill || before.join() === interests.join()) return;
     const fresh = pill.cards.filter((c) => !isReview(c));
     const kept = fresh.filter((c) => state.has(c.id));
@@ -244,7 +249,7 @@ export function App() {
         ) : !ideas ? (
           <Message title="Carico le idee…" />
         ) : view === 'themes' ? (
-          <Themes selected={interests} counts={themeCounts} onChange={onInterestsChange} />
+          <Themes selected={interests} counts={themeCounts} onChange={onInterestsChange} firstRun={firstRun} onDone={() => setView('read')} />
         ) : view === 'library' ? (
           <Library ideas={saved} onUnsave={onUnsave} ideasVersion={ideasVersion} reviews={reviewItems} />
         ) : current && currentCard.reason.kind === 'review' ? (
