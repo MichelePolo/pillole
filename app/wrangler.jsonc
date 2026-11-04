@@ -1,4 +1,5 @@
 // Cloudflare Workers con static assets: «npm run deploy» compila e pubblica app/dist.
+// Di solito lo fa la CI quando si unisce la PR di release (.github/workflows/deploy.yml).
 // (Cloudflare Pages è confluito in Workers: i comandi «wrangler pages» vengono girati qui.)
 // La prima volta serve «npx wrangler login».
 {
