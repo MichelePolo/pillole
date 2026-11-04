@@ -25,9 +25,11 @@ cp .env.example .env    # poi inserisci ANTHROPIC_API_KEY
    ```bash
    npm run distill
    ```
+   Alla fine del giro `distill` controlla i duplicati delle idee nuove: per ognuna gli embedding scelgono le 5 idee più vicine in biblioteca (più le sorelle della stessa fonte) e Haiku giudica se ripete la stessa affermazione. I duplicati finiscono in `library/reviews.jsonl` come scartati in automatico (`"by": "auto"`) e non arrivano alla revisione. Costa circa un decimo di centesimo per fonte. Il controllo è prudente: rifatto sulle 95 idee v3 trova 2 dei 4 duplicati scartati a mano e non scarta nessuna idea tenuta. `--no-dedup` lo salta; `npm run dedup` lo rilancia sulle idee non ancora riviste.
 4. Rivedi ogni idea dal terminale: `k` la tieni, `d` la scarti indicando il motivo, `s` la salti, `q` esci.
    ```bash
    npm run review
+   npm run review -- --auto   # ricontrolla gli scarti automatici: con k l'idea torna nella biblioteca
    ```
 5. Guarda il tasso di scarto per versione del prompt:
    ```bash
@@ -50,7 +52,7 @@ cp .env.example .env    # poi inserisci ANTHROPIC_API_KEY
 | banale | Lo sapevi già | 8: meno idee, niente ovvio |
 | effimero | È una notizia, non un'idea | 7: filtro di durata |
 | infedele | Non dice ciò che dice la fonte | 5, 6 e 13; prova anche `--think` o `--model claude-sonnet-5-5` |
-| duplicato | Ripete un'altra idea | 8; la deduplica tra fonti arriva con gli embedding |
+| duplicato | Ripete un'altra idea | 8; quelli evidenti li scarta già il controllo automatico dopo `distill` |
 | forma | Lunghezza, lingua o stile sbagliati | 2, 3 e 4 |
 
 ## Cosa produce
@@ -96,7 +98,7 @@ npm run build     # build di produzione in app/dist, con service worker
 L'app non mostra più tutte le idee in fila ma una **pillola** di 6 card al giorno, poi *Per oggi hai finito* (con un'uscita discreta: *Un'altra pillola*). Ogni card mostra il motivo della scelta: *simile a «…»*, *esplorazione*, *ti interessa*, *evergreen*.
 
 ```bash
-npm run embed     # calcola gli embedding delle idee nuove (il primo avvio scarica ~120 MB di modello)
+npm run embed     # embedding delle idee nuove: di solito li ha già calcolati distill (il primo avvio scarica ~120 MB di modello)
 cd app && npm run dev
 ```
 

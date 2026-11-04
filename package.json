@@ -12,6 +12,7 @@
     "distill": "tsx src/distill.ts",
     "review": "tsx src/review.ts",
     "embed": "tsx src/embed.ts",
+    "dedup": "tsx src/dedup-cli.ts",
     "stats": "tsx src/review.ts --stats",
     "typecheck": "tsc --noEmit"
   },
