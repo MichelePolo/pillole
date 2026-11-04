@@ -8,6 +8,13 @@ export function stripControl(s: string): string {
   return s.replace(CONTROL, '');
 }
 
+// Titoli, autori e nomi di sito: una riga sola. Finiscono nei log, e nel runner di GitHub
+// Actions una riga che inizia con "::" è un comando del workflow: un titolo con un a capo
+// non deve poterne aprire una.
+export function oneLine(s: string): string {
+  return stripControl(s).replace(/\s+/g, ' ').trim();
+}
+
 // Neutralizza i tag che delimitano la fonte nel messaggio a Claude, così una pagina
 // non può chiudere <text> o <source> e scrivere fuori dal suo contenitore.
 // Tollera spazi e caratteri di formato invisibili (U+200B, U+FEFF, U+00AD…) tra "<",
