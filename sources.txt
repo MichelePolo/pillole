@@ -37,3 +37,36 @@ https://ccc.di.unito.it/2026/10/12/not-all-disagreements-are-equal-disentangling
 # https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7573978
 # https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7248919
 # https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6992158
+
+# --- Temi nuovi del vocabolario v3: due voci di enciclopedia per tema, per popolarli in sviluppo.
+# Da sostituire o affiancare con fonti scelte (saggi, riviste, feed) quando i temi si assestano.
+# Fisica
+https://it.wikipedia.org/wiki/Principio_di_indeterminazione_di_Heisenberg
+https://it.wikipedia.org/wiki/Entropia
+# Matematica
+https://it.wikipedia.org/wiki/Teoremi_di_incompletezza_di_G%C3%B6del
+https://it.wikipedia.org/wiki/Teorema_di_Bayes
+# Biologia
+https://it.wikipedia.org/wiki/Selezione_naturale
+https://it.wikipedia.org/wiki/Neuroplasticit%C3%A0
+# Psicologia
+https://it.wikipedia.org/wiki/Bias_cognitivo
+https://en.wikipedia.org/wiki/Testing_effect
+# Storia
+https://it.wikipedia.org/wiki/Rivoluzione_scientifica
+https://it.wikipedia.org/wiki/Stampa_a_caratteri_mobili
+# Economia
+https://it.wikipedia.org/wiki/Dilemma_del_prigioniero
+https://it.wikipedia.org/wiki/Tragedia_dei_beni_comuni
+# Letteratura
+https://it.wikipedia.org/wiki/Lezioni_americane
+https://it.wikipedia.org/wiki/Flusso_di_coscienza
+# Arte
+https://it.wikipedia.org/wiki/Prospettiva
+https://it.wikipedia.org/wiki/Impressionismo
+# Cinema
+https://it.wikipedia.org/wiki/Effetto_Kule%C5%A1ov
+https://it.wikipedia.org/wiki/Neorealismo_(cinema)
+# Musica
+https://it.wikipedia.org/wiki/Temperamento_equabile
+https://it.wikipedia.org/wiki/Dodecafonia
