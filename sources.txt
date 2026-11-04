@@ -1,4 +1,5 @@
-# Una sorgente per riga: URL o percorso di un file .md/.txt. Le righe con # sono commenti.
+# Una sorgente per riga: URL (pagina o PDF) o percorso di un file .md/.txt/.pdf. Le righe con # sono commenti.
+# I feed da seguire ogni notte stanno in feeds.txt.
 # Fonti scelte da te, una o due per argomento e lingua (Claude Doc, sezione 13, "Prime fonti").
 
 # --- AI · Simon Willison, solo i post lunghi (EN) · feed: https://simonwillison.net/atom/entries/
@@ -29,6 +30,18 @@ https://it.wikisource.org/wiki/I_Ricordi/Libro_II
 
 # --- Filosofia, tecnologia · Il Tascabile, Treccani (IT) · feed: https://www.iltascabile.com/feed/
 https://www.iltascabile.com/societa/odio-content/
+
+# --- AI, filosofia · Luciano Floridi, saggi scelti (EN)
+# Niente feed: i suoi articoli su Springer, SSRN e PhilArchive rispondono ai lettori automatici
+# con una pagina anti-bot. Questi sono la SEP, Aeon e i preprint su arXiv (in PDF).
+https://plato.stanford.edu/entries/information-semantic/
+https://aeon.co/essays/true-ai-is-both-logically-possible-and-utterly-implausible
+https://arxiv.org/pdf/2506.10130
+https://arxiv.org/pdf/2305.15242
+https://arxiv.org/pdf/2512.10080
+https://arxiv.org/html/2512.09117
+https://arxiv.org/pdf/2607.04049
+https://arxiv.org/pdf/2504.12482
 
 # --- Altre fonti lette
 https://ledicola.it/italia/ia-enkk-potremo-dedicarci-a-cio-che-e-umano/
