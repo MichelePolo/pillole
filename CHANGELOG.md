@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.1.7](https://github.com/MichelePolo/pillole/compare/v0.1.6...v0.1.7) (2026-11-04)
+
+
+### Features
+
+* **app:** scelta dei temi con pills cloud e vocabolario a 13 argomenti ([#25](https://github.com/MichelePolo/pillole/issues/25)) ([992984f](https://github.com/MichelePolo/pillole/commit/992984fc3adcc6cdb8c55a1dd03841952eb0db7a))
+
 ## [0.1.6](https://github.com/MichelePolo/pillole/compare/v0.1.5...v0.1.6) (2026-11-03)
 
 
