@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.1.8](https://github.com/MichelePolo/pillole/compare/v0.1.7...v0.1.8) (2026-11-04)
+
+
+### Features
+
+* **app:** tema con icona e colore sulle card e tra le salvate ([#28](https://github.com/MichelePolo/pillole/issues/28)) ([3b73534](https://github.com/MichelePolo/pillole/commit/3b73534be80d485a8b4f7772c458ee0647168895))
+
 ## [0.1.7](https://github.com/MichelePolo/pillole/compare/v0.1.6...v0.1.7) (2026-11-04)
 
 
