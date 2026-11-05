@@ -11,7 +11,7 @@ subtopics:
 source:
   id: f4d81f9dca93
   lang: en
-  title: How Do You Take a Picture of a Black Hole? | Quanta Magazine
+  title: How Do You Take a Picture of a Black Hole?
   author: By
   site: Quanta Magazine
   url: https://www.quantamagazine.org/how-do-you-take-a-picture-of-a-black-hole-20261029/

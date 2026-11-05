@@ -9,9 +9,9 @@ subtopics:
 source:
   id: 83f952ed2f00
   lang: en
-  title: Big Questions in the Small Form – Senses of Cinema
+  title: Big Questions in the Small Form
   author: Tony McKibbin October 2026 Book Reviews
-  site: www.sensesofcinema.com
+  site: Senses of Cinema
   url: https://www.sensesofcinema.com/2026/book-reviews/big-questions-in-the-small-form/
 anchor: the lack of communication regarding the nature of the catastrophe, its origins, or the fate of those affected leaves the emergence of conspiracy theories
 anchor_check: exact

@@ -121,9 +121,30 @@ async function fromFile(file: string): Promise<Omit<Source, 'id' | 'chars' | 'tr
   return { file: path.resolve(file), title: firstHeading ?? path.basename(file, path.extname(file)), text: cleanText(body) };
 }
 
+// Molte pagine mettono il nome del sito in coda al <title>: «Titolo | Quanta Magazine»,
+// «Titolo – Senses of Cinema». Lo togliamo solo se coincide con il sito (nome o dominio),
+// così un sottotitolo vero («… – L'INTERVISTA») resta. Se il sito è solo un dominio e
+// il suffisso è un nome per esteso («Senses of Cinema», non «<antirez>»), prendiamo quello.
+const SITE_SUFFIX = /^(.{10,}?)\s+[|–—-]\s+([^|–—]+)$/;
+const squash = (s: string) =>
+  s
+    .toLowerCase()
+    .replace(/^www\./, '')
+    .replace(/\.[a-z]{2,}$/, '')
+    .replace(/[^\p{L}\p{N}]/gu, '');
+
+export function splitSiteSuffix(title: string, site?: string): { title: string; site?: string } {
+  const m = title.match(SITE_SUFFIX);
+  if (!m || !site || squash(m[2]) !== squash(site)) return { title, site };
+  const isHost = /^[\w-]+(\.[\w-]+)+$/.test(site);
+  const isName = /^[\p{L}\p{N}’'&.]+( [\p{L}\p{N}’'&.]+)+$/u.test(m[2]);
+  return { title: m[1], site: isHost && isName ? m[2] : site };
+}
+
 // Metadati da pagine e PDF non fidati: su una riga sola (vedi oneLine).
 function clean<T extends { title: string; author?: string; site?: string }>(s: T): T {
-  return { ...s, title: oneLine(s.title), ...(s.author ? { author: oneLine(s.author) } : {}), ...(s.site ? { site: oneLine(s.site) } : {}) };
+  const { title, site } = splitSiteSuffix(oneLine(s.title), s.site && oneLine(s.site));
+  return { ...s, title, ...(s.author ? { author: oneLine(s.author) } : {}), ...(site ? { site } : {}) };
 }
 
 export async function loadSource(input: string, opts: { refresh?: boolean } = {}): Promise<Source> {

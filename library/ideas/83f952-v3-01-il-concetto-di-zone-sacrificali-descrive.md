@@ -11,9 +11,9 @@ subtopics:
 source:
   id: 83f952ed2f00
   lang: en
-  title: Big Questions in the Small Form – Senses of Cinema
+  title: Big Questions in the Small Form
   author: Tony McKibbin October 2026 Book Reviews
-  site: www.sensesofcinema.com
+  site: Senses of Cinema
   url: https://www.sensesofcinema.com/2026/book-reviews/big-questions-in-the-small-form/
 anchor: In sacrifice zones, areas are left to become unproductive for the greater good of capitalism.
 anchor_check: exact

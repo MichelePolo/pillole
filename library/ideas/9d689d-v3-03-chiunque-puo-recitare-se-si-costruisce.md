@@ -9,9 +9,9 @@ subtopics:
 source:
   id: 9d689d5cb3c5
   lang: en
-  title: Marta Mateus on her films – Senses of Cinema
+  title: Marta Mateus on her films
   author: Jonathan Mackris October 2026 Interviews
-  site: www.sensesofcinema.com
+  site: Senses of Cinema
   url: https://www.sensesofcinema.com/2026/interviews/a-daughter-of-revolution-marta-mateus-on-her-films/
 anchor: I believe that everyone can be an actor.
 anchor_check: exact

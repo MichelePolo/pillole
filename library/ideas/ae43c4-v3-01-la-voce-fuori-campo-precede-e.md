@@ -9,9 +9,9 @@ subtopics:
 source:
   id: ae43c4ada774
   lang: en
-  title: Acousmatic Retention in Anne-Marie Miéville’s Le Livre de Marie – Senses of Cinema
+  title: Acousmatic Retention in Anne-Marie Miéville’s Le Livre de Marie
   author: Kyle Sossamon October 2026 CTEQ Annotations on Film
-  site: www.sensesofcinema.com
+  site: Senses of Cinema
   url: https://www.sensesofcinema.com/2026/cteq/acousmatic-retention-in-anne-marie-mievilles-le-livre-de-marie/
 anchor: the spectator awaits the visual revelation of a character’s form coming into view to embody that voice
 anchor_check: exact
