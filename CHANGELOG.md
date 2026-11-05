@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.1.17](https://github.com/MichelePolo/pillole/compare/v0.1.16...v0.1.17) (2026-11-05)
+
+
+### Bug Fixes
+
+* **app:** ideas.json più leggero, vettori compressi e limite del precache ([#52](https://github.com/MichelePolo/pillole/issues/52)) ([942d181](https://github.com/MichelePolo/pillole/commit/942d1819c1459be4cc15bd8a455ce14cf612f4e6))
+
 ## [0.1.16](https://github.com/MichelePolo/pillole/compare/v0.1.15...v0.1.16) (2026-11-05)
 
 
