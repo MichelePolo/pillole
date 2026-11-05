@@ -1,0 +1,7 @@
+# File della libreria che crescono solo per aggiunta di righe: quando due PR aggiungono
+# righe nello stesso punto (il registro in fondo, due idee vicine nell'ordine degli id),
+# il merge tiene le righe di entrambe invece di segnalare un conflitto.
+# Per reviews.jsonl vale l'ultima revisione di ogni idea, ma due PR non rivedono la stessa idea.
+library/runs.jsonl merge=union
+library/reviews.jsonl merge=union
+library/embeddings/*.jsonl merge=union
