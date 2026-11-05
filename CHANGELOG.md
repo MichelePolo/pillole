@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.1.16](https://github.com/MichelePolo/pillole/compare/v0.1.15...v0.1.16) (2026-11-05)
+
+
+### Features
+
+* **app:** scroll infinito nelle salvate al posto delle pagine ([#49](https://github.com/MichelePolo/pillole/issues/49)) ([d498b64](https://github.com/MichelePolo/pillole/commit/d498b6473d8ff2c5a6009ad0216ffc517a292674))
+
 ## [0.1.15](https://github.com/MichelePolo/pillole/compare/v0.1.14...v0.1.15) (2026-11-04)
 
 
