@@ -1,0 +1,128 @@
+{
+  "https://aeon.co/feed.rss": {
+    "seen": [
+      "https://aeon.co/essays/the-psychology-of-separating-church-and-state"
+    ],
+    "checkedAt": "2026-11-05T00:02:36.619Z"
+  },
+  "https://antirez.com/rss": {
+    "seen": [
+      "http://antirez.com/news/167"
+    ],
+    "checkedAt": "2026-11-05T00:02:31.423Z"
+  },
+  "https://daily.jstor.org/feed/": {
+    "seen": [
+      "https://daily.jstor.org/how-the-phone-book-taught-america-to-ask-for-answers/"
+    ],
+    "checkedAt": "2026-11-05T00:02:37.073Z"
+  },
+  "https://danluu.com/atom.xml": {
+    "seen": [
+      "https://danluu.com/ambitious/"
+    ],
+    "checkedAt": "2026-11-05T00:02:33.107Z"
+  },
+  "https://lilianweng.github.io/index.xml": {
+    "seen": [
+      "https://lilianweng.github.io/posts/2026-07-04-harness/"
+    ],
+    "checkedAt": "2026-11-05T00:02:31.600Z"
+  },
+  "https://maddmaths.simai.eu/feed/": {
+    "seen": [
+      "https://maddmaths.simai.eu/news-2/quasi-risolta-la-congettura-di-graham/"
+    ],
+    "checkedAt": "2026-11-05T00:02:36.050Z"
+  },
+  "https://plato.stanford.edu/rss/sep.xml": {
+    "seen": [
+      "https://plato.stanford.edu/entries/closure-epistemic/"
+    ],
+    "checkedAt": "2026-11-05T00:02:36.466Z"
+  },
+  "https://psyche.co/feed": {
+    "seen": [
+      "https://psyche.co/turning-points/how-a-revelation-at-home-made-me-rethink-delusion"
+    ],
+    "checkedAt": "2026-11-05T00:02:36.998Z"
+  },
+  "https://publicdomainreview.org/rss.xml": {
+    "seen": [
+      "https://publicdomainreview.org/collection/marian-wawrzeniecki"
+    ],
+    "checkedAt": "2026-11-05T00:02:45.599Z"
+  },
+  "https://simonwillison.net/atom/entries/": {
+    "seen": [
+      "https://simonwillison.net/2026/Nov/3/qwen-can-interpret-model-weights/"
+    ],
+    "checkedAt": "2026-11-05T00:02:30.116Z"
+  },
+  "https://theconversation.com/profiles/nello-cristianini-241151/articles.atom": {
+    "seen": [
+      "https://theconversation.com/ai-could-soon-be-making-major-scientific-discoveries-a-machine-could-even-win-a-nobel-prize-one-day-243996"
+    ],
+    "checkedAt": "2026-11-05T00:02:33.347Z"
+  },
+  "https://thegradient.pub/rss/": {
+    "seen": [
+      "https://thegradient.pub/virtue-ethics-ai-alignment/"
+    ],
+    "checkedAt": "2026-11-05T00:02:32.477Z"
+  },
+  "https://www.agendadigitale.eu/feed/": {
+    "seen": [
+      "https://www.agendadigitale.eu/quantum-computing/quantum-protagonisti/planckian-e-i-qubit-superconduttivi-tecnologia-e-obiettivi/"
+    ],
+    "checkedAt": "2026-11-05T00:02:31.543Z"
+  },
+  "https://www.doppiozero.com/rss.xml": {
+    "seen": [
+      "https://www.doppiozero.com/lascaux-il-rettangolo-originario"
+    ],
+    "checkedAt": "2026-11-05T00:02:43.732Z"
+  },
+  "https://www.ilpost.it/scienza/feed/": {
+    "seen": [
+      "https://www.ilpost.it/2026/11/03/dentifricio-brufoli-serve-danni/"
+    ],
+    "checkedAt": "2026-11-05T00:02:36.242Z"
+  },
+  "https://www.iltascabile.com/feed/": {
+    "seen": [
+      "https://www.iltascabile.com/linguaggi/sogno-carnevale-rimosso/"
+    ],
+    "checkedAt": "2026-11-05T00:02:41.801Z"
+  },
+  "https://www.lavoce.info/feed/": {
+    "seen": [
+      "https://lavoce.info/archives/114919/dal-risiko-bancario-alla-sfida-del-mercato-finanziario-unico/"
+    ],
+    "checkedAt": "2026-11-05T00:02:40.755Z"
+  },
+  "https://www.quantamagazine.org/feed/": {
+    "seen": [
+      "https://www.quantamagazine.org/new-research-tests-whether-ai-models-know-their-own-thoughts-20261104/"
+    ],
+    "checkedAt": "2026-11-05T00:02:33.588Z"
+  },
+  "https://www.scienzainrete.it/rss.xml": {
+    "seen": [
+      "https://www.scienzainrete.it/articoli/reclutamento-universitario-bibliometria/"
+    ],
+    "checkedAt": "2026-11-05T00:02:34.510Z"
+  },
+  "https://www.sensesofcinema.com/feed/": {
+    "seen": [
+      "https://www.sensesofcinema.com/2026/cteq/acousmatic-retention-in-anne-marie-mievilles-le-livre-de-marie/"
+    ],
+    "checkedAt": "2026-11-05T00:02:44.993Z"
+  },
+  "https://www.theparisreview.org/blog/feed/": {
+    "seen": [
+      "https://www.theparisreview.org/blog/2026/11/03/campaign-literature-election-day-midterms/"
+    ],
+    "checkedAt": "2026-11-05T00:02:43.911Z"
+  }
+}
