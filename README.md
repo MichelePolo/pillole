@@ -113,7 +113,7 @@ Dopo le 6 idee nuove, la pillola mette in coda fino a 3 **ripassi** tra le idee 
 
 - **Pianificazione** (`app/src/reviews.ts`): [ts-fsrs](https://github.com/open-spaced-repetition/ts-fsrs) senza passi nella stessa giornata (Ricordavo: 3, 14, 57, 196 giorni…). Un'idea salvata entra in ripasso dal giorno dopo.
 - **La coda**: 3 ripassi al giorno in tutto (anche con *Un'altra pillola*), scelti a caso tra quelli scaduti, preferendo fonti e temi diversi tra loro; un ripasso scaduto da più di 10 giorni esce senza tornare. Non serve ripassare tutto: con chi salva molto la coda non si smaltisce, ma il ripasso resta leggero.
-- **Salvate**: a pagine da 10; le idee ripassate hanno l'etichetta *Ripassata* e, aperte, il pulsante *Apri il ripasso* con la card quiz in sola lettura (un voto da lì sposterebbe la pianificazione).
+- **Salvate**: con scroll infinito (15 idee alla volta, le successive caricate prima di arrivare in fondo, più un pulsante *Mostra altre* per tastiera e screen reader); le idee ripassate hanno l'etichetta *Ripassata* e, aperte, il pulsante *Apri il ripasso* con la card quiz in sola lettura (un voto da lì sposterebbe la pianificazione).
 - **Stato**: ogni voto è un evento `review` nel registro; le schede FSRS si ricostruiscono dagli eventi a ogni apertura, come il profilo. Togliere un'idea dalle salvate la toglie dal ripasso.
 - I ripassi non toccano il profilo dei gusti: non ricordare un'idea non vuol dire che non ti interessi.
 

@@ -8,7 +8,10 @@ import { gradeLabel, type ReviewItem } from './reviews';
 import { ThemeChips } from './ThemeChip';
 import type { Idea } from './types';
 
-const PAGE_SIZE = 10;
+// Scroll infinito: si mostrano BATCH idee alla volta e se ne aggiungono altre quando la fine
+// della lista è a meno di PREFETCH_PX dal fondo, così non si arriva mai ad aspettare.
+const BATCH = 15;
+const PREFETCH_PX = 400;
 
 const shortDate = (ms: number) => new Date(ms).toLocaleDateString('it-IT', { day: 'numeric', month: 'long' });
 
@@ -19,20 +22,32 @@ interface Props {
   reviews: Map<string, ReviewItem>;
 }
 
-// Le idee salvate, dalla più recente, a pagine. Aprirne una da qui è una riapertura spontanea
+// Le idee salvate, dalla più recente, con scroll infinito. Aprirne una da qui è una riapertura spontanea
 // (origin 'library'): è la metrica guida della sezione 13. Da un'idea già ripassata si apre
 // anche la card del ripasso, in sola lettura: un voto da qui sposterebbe la pianificazione.
 export function Library({ ideas, onUnsave, ideasVersion, reviews }: Props) {
   const [open, setOpen] = useState<string | null>(null);
-  const [page, setPage] = useState(0);
+  const [count, setCount] = useState(BATCH);
   const [quiz, setQuiz] = useState<Idea | null>(null);
   const [exported, setExported] = useState<string | null>(null);
   const list = useRef<HTMLDivElement>(null);
   const dialog = useRef<HTMLDialogElement>(null);
+  const sentinel = useRef<HTMLDivElement>(null);
 
-  const pages = Math.max(1, Math.ceil(ideas.length / PAGE_SIZE));
-  const current = Math.min(page, pages - 1); // togliere idee può accorciare la lista
-  const shown = ideas.slice(current * PAGE_SIZE, (current + 1) * PAGE_SIZE);
+  const shown = ideas.slice(0, count);
+  const more = ideas.length - shown.length;
+  const showMore = () => setCount((c) => c + BATCH);
+
+  // Una sentinella in fondo alla lista: quando entra nella zona di prefetch, un altro blocco.
+  // L'osservatore si ricrea a ogni blocco: se la sentinella è ancora visibile (idee corte,
+  // schermo alto) scatta subito di nuovo, finché la lista non riempie lo schermo.
+  useEffect(() => {
+    const el = sentinel.current;
+    if (!el || more <= 0) return;
+    const io = new IntersectionObserver(([e]) => e.isIntersecting && showMore(), { root: list.current, rootMargin: `0px 0px ${PREFETCH_PX}px 0px` });
+    io.observe(el);
+    return () => io.disconnect();
+  }, [count, more]);
 
   useEffect(() => {
     if (quiz) dialog.current?.showModal();
@@ -72,12 +87,6 @@ export function Library({ ideas, onUnsave, ideasVersion, reviews }: Props) {
     const next = open === idea.id ? null : idea.id;
     setOpen(next);
     if (next) void logEvent({ ideaId: idea.id, type: 'open', origin: 'library' });
-  }
-
-  function goTo(p: number) {
-    setPage(p);
-    setOpen(null);
-    list.current?.scrollTo({ top: 0 });
   }
 
   const quizItem = quiz ? reviews.get(quiz.id) : undefined;
@@ -127,18 +136,14 @@ export function Library({ ideas, onUnsave, ideasVersion, reviews }: Props) {
         })}
       </ul>
 
-      {pages > 1 && (
-        <nav aria-label="Pagine delle salvate" className="mt-4 flex items-center justify-between text-sm">
-          <button type="button" onClick={() => goTo(current - 1)} disabled={current === 0} className="min-h-11 rounded-full px-4 font-medium disabled:opacity-40">
-            ‹ Più recenti
+      {more > 0 && (
+        <>
+          <div ref={sentinel} aria-hidden className="h-px" />
+          {/* Per tastiera e screen reader, dove lo scroll infinito da solo non basta. */}
+          <button type="button" onClick={showMore} className="mt-3 min-h-11 w-full rounded-full text-sm font-medium text-stone-600 dark:text-stone-400">
+            Mostra altre ({more})
           </button>
-          <span className="text-stone-500 tabular-nums" aria-current="page">
-            {current + 1} di {pages}
-          </span>
-          <button type="button" onClick={() => goTo(current + 1)} disabled={current === pages - 1} className="min-h-11 rounded-full px-4 font-medium disabled:opacity-40">
-            Meno recenti ›
-          </button>
-        </nav>
+        </>
       )}
 
       {exportBar}
