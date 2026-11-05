@@ -23,6 +23,6 @@ model: claude-haiku-5-5
 created: 2026-11-05T07:14:27.531Z
 ---
 
-# Il DNA datа gli incroci tra popolazioni
+# Il DNA data gli incroci tra popolazioni
 
 Il DNA di una popolazione registra la storia dei suoi incroci. Quando due gruppi diversi si mescolano, i figli ereditano lunghi blocchi genetici da entrambi; a ogni generazione la ricombinazione spezza questi blocchi in frammenti sempre più corti. Misurando la lunghezza dei segmenti, i ricercatori possono quindi stimare da quante generazioni è iniziato un incrocio. Nel caso della grotta del Ladakh, l'unione tra la componente indiana e quella tibetana risale a circa 2.800 anni fa, molto prima dell'Impero tibetano. ==La lunghezza dei frammenti funziona come un orologio genetico.==

@@ -23,6 +23,6 @@ model: claude-haiku-5-5
 created: 2026-11-05T07:14:27.479Z
 ---
 
-# Il campo elettrico nei atomi esotici sfida l'elettrodinamica quantistica
+# Il campo elettrico negli atomi esotici sfida l'elettrodinamica quantistica
 
 Quando un atomo si restringe, il campo elettrico al suo interno aumenta, secondo la legge di Coulomb. Negli atomi kaonici o antiprotonici il campo cresce di circa un milione di volte. Questo permette di mettere alla prova l'elettrodinamica quantistica, la teoria che descrive l'elettromagnetismo a livello quantistico, in condizioni che non si possono ottenere altrimenti in laboratorio. Secondo l'autore, questo è uno dei modi più forti per testare i pilastri della fisica moderna.
