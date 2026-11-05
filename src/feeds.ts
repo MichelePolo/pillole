@@ -40,6 +40,10 @@ function normalize(url: string): string {
   return u.toString();
 }
 
+// Chiave per riconoscere lo stesso articolo sotto forme diverse del link: il feed di
+// antirez dà http://, sources.txt aveva https://, e la stessa pagina è stata distillata due volte.
+const articleKey = (url: string) => normalize(url).replace(/^https?:\/\/(www\.)?/, '').replace(/\/$/, '');
+
 export function parseFeed(xml: string, base: string): Item[] {
   // Qualche feed (Il Post) ha spazi prima della dichiarazione XML, che il parser rifiuta.
   const { document } = new JSDOM(xml.trimStart(), { contentType: 'text/xml' }).window;
@@ -82,7 +86,7 @@ async function main(): Promise<void> {
   const feeds = await readFeeds();
   const state: State = existsSync(STATE_FILE) ? (JSON.parse(await readFile(STATE_FILE, 'utf8')) as State) : {};
   // Gli articoli già in biblioteca (per esempio aggiunti a mano in sources.txt) non si rifanno.
-  const known = new Set((await loadIdeas()).flatMap((i) => (i.meta.source.url ? [normalize(i.meta.source.url)] : [])));
+  const known = new Set((await loadIdeas()).flatMap((i) => (i.meta.source.url ? [articleKey(i.meta.source.url)] : [])));
   const chosen: string[] = [];
 
   console.log(`Feed · ${feeds.length} in ${FEEDS_FILE} · fino a ${max} articoli nuovi per feed${values['dry-run'] ? ' · prova a secco' : ''}\n`);
@@ -99,7 +103,7 @@ async function main(): Promise<void> {
       if (items.length === 0) throw new Error('nessuna voce nel feed');
       const seen = new Set(st.seen);
       const fresh = items
-        .filter((i) => !seen.has(i.link) && !known.has(i.link) && !NOT_TEXT.test(new URL(i.link).pathname))
+        .filter((i) => !seen.has(i.link) && !known.has(articleKey(i.link)) && !NOT_TEXT.test(new URL(i.link).pathname))
         .sort((a, b) => b.date - a.date)
         .slice(0, max);
       for (const i of fresh) console.log(`  + ${i.title || i.link}`);

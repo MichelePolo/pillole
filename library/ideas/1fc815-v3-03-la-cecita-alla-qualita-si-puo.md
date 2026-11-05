@@ -26,4 +26,4 @@ created: 2026-11-05T09:37:00.542Z
 
 # La cecità alla qualità si può curare con la segnalazione
 
-Secondo l'autore, chi è disposto ad ascoltare può imparare a notare i difetti se qualcuno glielì indica con pazienza. Dopo poche settimane molte persone iniziano a vedere bug ovunque, e alcune anni dopo dicono ancora di vederli. Il limite è che chi non vuole vedere resta cieco: le persone hanno una capacità infinita di cecità volontaria. ==Far notare i difetti funziona solo con chi è recettivo==.
+Secondo l'autore, chi è disposto ad ascoltare può imparare a notare i difetti se qualcuno gliele indica con pazienza. Dopo poche settimane molte persone iniziano a vedere bug ovunque, e alcune anni dopo dicono ancora di vederli. Il limite è che chi non vuole vedere resta cieco: le persone hanno una capacità infinita di cecità volontaria. ==Far notare i difetti funziona solo con chi è recettivo==.
