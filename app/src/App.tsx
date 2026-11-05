@@ -12,6 +12,7 @@ import { SwipeCard, type Direction, type SwipeCardHandle } from './SwipeCard';
 import { Themes } from './Themes';
 import type { IdeaEvent } from './db';
 import type { Idea, IdeasFile } from './types';
+import { decodeVec } from './vectors';
 
 const UNDO_MS = 5000;
 
@@ -71,7 +72,8 @@ export function App() {
 
   useEffect(() => {
     Promise.all([fetch('./ideas.json').then((r) => r.json() as Promise<IdeasFile>), loadState()])
-      .then(async ([file, st]) => {
+      .then(async ([raw, st]) => {
+        const file = { ...raw, ideas: raw.ideas.map((i): Idea => ({ ...i, vec: i.vec ? decodeVec(i.vec) : undefined })) };
         setIdeas(file.ideas);
         setIdeasVersion(file.version);
         setState(st);
