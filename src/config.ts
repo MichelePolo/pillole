@@ -22,9 +22,11 @@ export const SOURCES_DIR = path.join(LIBRARY_DIR, 'sources');
 export const REVIEWS_FILE = path.join(LIBRARY_DIR, 'reviews.jsonl');
 export const RUNS_FILE = path.join(LIBRARY_DIR, 'runs.jsonl');
 
-// Embedding delle idee (npm run embed): un file per modello, id → vettore normalizzato.
+// Embedding delle idee (npm run embed): un file per modello, una riga JSON per idea
+// ({"id", "vec"}, vettore normalizzato), in ordine di id. Una riga per idea fa sì che due
+// PR che aggiungono idee tocchino righe diverse e git le unisca da solo.
 export const EMBED_MODEL = 'Xenova/multilingual-e5-small';
-export const EMBEDDINGS_FILE = path.join(LIBRARY_DIR, 'embeddings', 'multilingual-e5-small.json');
+export const EMBEDDINGS_FILE = path.join(LIBRARY_DIR, 'embeddings', 'multilingual-e5-small.jsonl');
 
 // Oltre questa lunghezza il testo viene troncato. Con Haiku 5.5 un prompt sopra i
 // 100.000 token paga tariffe cinque volte più alte: 200.000 caratteri restano sotto.

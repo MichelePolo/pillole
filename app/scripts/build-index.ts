@@ -9,7 +9,8 @@ const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '../..')
 // config.ts risolve la libreria rispetto alla cartella corrente: va impostata prima di importarlo.
 process.env.PILLOLE_LIBRARY ??= path.join(root, 'library');
 
-const { COMPATIBLE_PROMPT_VERSIONS, EMBEDDINGS_FILE, PROMPT_VERSION, REVIEWS_FILE } = await import('../../src/config.js');
+const { COMPATIBLE_PROMPT_VERSIONS, PROMPT_VERSION, REVIEWS_FILE } = await import('../../src/config.js');
+const { loadEmbeddings } = await import('../../src/embeddings.js');
 const { loadIdeas } = await import('../../src/markdown.js');
 const { TOPICS } = await import('../../src/vocabulary.js');
 const { THEMES } = await import('../src/themes.js');
@@ -65,7 +66,7 @@ const ideas: Idea[] = all
 // Embedding centrati: e5 dà coseni tra 0,78 e 0,86 anche tra idee scollegate, e con
 // quella base i pesi di somiglianza e ridondanza della pillola sarebbero quasi costanti.
 // Sottraendo la media della libreria e rinormalizzando, i coseni vanno da circa -0,2 a +0,5.
-const raw: Record<string, number[]> = existsSync(EMBEDDINGS_FILE) ? JSON.parse(await readFile(EMBEDDINGS_FILE, 'utf8')) : {};
+const raw = await loadEmbeddings();
 const withVec = ideas.filter((i) => raw[i.id]);
 if (withVec.length > 1) {
   const dim = raw[withVec[0].id].length;
