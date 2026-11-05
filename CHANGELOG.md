@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.1.18](https://github.com/MichelePolo/pillole/compare/v0.1.17...v0.1.18) (2026-11-05)
+
+
+### Bug Fixes
+
+* **extract:** togli il nome del sito in coda ai titoli delle fonti ([#54](https://github.com/MichelePolo/pillole/issues/54)) ([0accba7](https://github.com/MichelePolo/pillole/commit/0accba7163181d82472203272e891b361f9d72be))
+
 ## [0.1.17](https://github.com/MichelePolo/pillole/compare/v0.1.16...v0.1.17) (2026-11-05)
 
 
