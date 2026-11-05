@@ -9,9 +9,9 @@ subtopics:
 source:
   id: 8aa874a3c97f
   lang: en
-  title: Haunted Cities, Spectral Intimacies and Lost Futures in All of Us Strangers and The Beast
+  title: Haunted Cities, Spectral Intimacies and Lost Futures in All of Us Strangers and The Beast – Senses of Cinema
   author: Milo Farragher-Hanks October 2026 Feature Articles
-  site: Senses of Cinema
+  site: www.sensesofcinema.com
   url: https://www.sensesofcinema.com/2026/feature-articles/nights-that-wont-happen-haunted-cities-spectral-intimacies-and-lost-futures-in-all-of-us-strangers-and-the-beast/
 anchor: haunting, then, can be construed as a failed mourning
 anchor_check: exact

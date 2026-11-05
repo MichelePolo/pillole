@@ -9,9 +9,9 @@ subtopics:
 source:
   id: c2fa30a909e0
   lang: en
-  title: Radical Documentary in the 1960s, by Julia Alekseyeva
+  title: Radical Documentary in the 1960s, by Julia Alekseyeva – Senses of Cinema
   author: Daniel Fairfax October 2026 Book Reviews
-  site: Senses of Cinema
+  site: www.sensesofcinema.com
   url: https://www.sensesofcinema.com/2026/book-reviews/revolutions-of-the-self-antifascism-and-the-avant-garde-radical-documentary-in-the-1960s-by-julia-alekseyeva/
 anchor: their favoured technique of allegorising the nation through the stand-in of a suffering woman’s body
 anchor_check: exact

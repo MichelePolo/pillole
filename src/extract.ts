@@ -125,7 +125,19 @@ async function fromFile(file: string): Promise<Omit<Source, 'id' | 'chars' | 'tr
 // «Titolo – Senses of Cinema». Lo togliamo solo se coincide con il sito (nome o dominio),
 // così un sottotitolo vero («… – L'INTERVISTA») resta. Se il sito è solo un dominio e
 // il suffisso è un nome per esteso («Senses of Cinema», non «<antirez>»), prendiamo quello.
-const SITE_SUFFIX = /^(.{10,}?)\s+[|–—-]\s+([^|–—]+)$/;
+// Il titolo viene da pagine non fidate: si cerca l'ultimo separatore con una scansione
+// lineare, non con una regex a quantificatori annidati che su titoli lunghi pieni di
+// « - » farebbe backtracking quadratico.
+const SEPARATOR = / [|–—-] /g;
+
+function lastSuffix(title: string): [string, string] | undefined {
+  let at = -1;
+  for (const m of title.matchAll(SEPARATOR)) at = m.index;
+  if (at < 10) return undefined;
+  const suffix = title.slice(at + 3).trim();
+  return suffix && !/[|–—]/.test(suffix) ? [title.slice(0, at).trim(), suffix] : undefined;
+}
+
 const squash = (s: string) =>
   s
     .toLowerCase()
@@ -134,11 +146,11 @@ const squash = (s: string) =>
     .replace(/[^\p{L}\p{N}]/gu, '');
 
 export function splitSiteSuffix(title: string, site?: string): { title: string; site?: string } {
-  const m = title.match(SITE_SUFFIX);
-  if (!m || !site || squash(m[2]) !== squash(site)) return { title, site };
+  const m = lastSuffix(title);
+  if (!m || !site || squash(m[1]) !== squash(site)) return { title, site };
   const isHost = /^[\w-]+(\.[\w-]+)+$/.test(site);
-  const isName = /^[\p{L}\p{N}’'&.]+( [\p{L}\p{N}’'&.]+)+$/u.test(m[2]);
-  return { title: m[1], site: isHost && isName ? m[2] : site };
+  const isName = /^[\p{L}\p{N}’'&.]+( [\p{L}\p{N}’'&.]+)+$/u.test(m[1]);
+  return { title: m[0], site: isHost && isName ? m[1] : site };
 }
 
 // Metadati da pagine e PDF non fidati: su una riga sola (vedi oneLine).

@@ -9,9 +9,9 @@ subtopics:
 source:
   id: 9d689d5cb3c5
   lang: en
-  title: Marta Mateus on her films
+  title: Marta Mateus on her films – Senses of Cinema
   author: Jonathan Mackris October 2026 Interviews
-  site: Senses of Cinema
+  site: www.sensesofcinema.com
   url: https://www.sensesofcinema.com/2026/interviews/a-daughter-of-revolution-marta-mateus-on-her-films/
 anchor: When you work with sunlight, you have a very clear sense that earth is moving.
 anchor_check: exact

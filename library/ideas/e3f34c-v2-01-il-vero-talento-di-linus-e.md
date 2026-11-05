@@ -11,7 +11,7 @@ subtopics:
 source:
   id: e3f34c1a0808
   lang: en
-  title: Being Linux Torvalds
+  title: Being Linux Torvalds - <antirez>
   site: antirez.com
   url: http://antirez.com/news/171
 anchor: he is also a maintainer, an incredible designer, and one capable of handling a huge project ideas and structure in a coherent way

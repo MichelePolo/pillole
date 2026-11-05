@@ -9,7 +9,7 @@ subtopics:
 source:
   id: b348f790cf9e
   lang: en
-  title: How Spiders Spin ‘Silk Dope’ Into Nature’s Toughest Material
+  title: How Spiders Spin ‘Silk Dope’ Into Nature’s Toughest Material | Quanta Magazine
   author: By Yasemin Saplakoglu October 28, 2026
   site: Quanta Magazine
   url: https://www.quantamagazine.org/how-spiders-spin-silk-dope-into-natures-toughest-material-20261028/

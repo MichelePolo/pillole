@@ -9,9 +9,9 @@ subtopics:
 source:
   id: 83f952ed2f00
   lang: en
-  title: Big Questions in the Small Form
+  title: Big Questions in the Small Form – Senses of Cinema
   author: Tony McKibbin October 2026 Book Reviews
-  site: Senses of Cinema
+  site: www.sensesofcinema.com
   url: https://www.sensesofcinema.com/2026/book-reviews/big-questions-in-the-small-form/
 anchor: Small and Large do not merely designate forms of action, but conceptions
 anchor_check: exact

@@ -11,9 +11,9 @@ subtopics:
 source:
   id: 27c1ae1f36a8
   lang: en
-  title: Nakahira, Kō
+  title: Nakahira, Kō – Senses of Cinema
   author: Andy Lauer October 2026 Great Directors
-  site: Senses of Cinema
+  site: www.sensesofcinema.com
   url: https://www.sensesofcinema.com/2026/great-directors/nakahira-ko/
 anchor: His great themes are sex and survival
 anchor_check: exact

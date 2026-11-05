@@ -10,9 +10,9 @@ subtopics:
 source:
   id: 487b93f2726a
   lang: en
-  title: "A Little Too Close to Home: Les Tricheurs"
+  title: "A Little Too Close to Home: Les Tricheurs – Senses of Cinema"
   author: Colette de Castro October 2026 CTEQ Annotations on Film
-  site: Senses of Cinema
+  site: www.sensesofcinema.com
   url: https://www.sensesofcinema.com/2026/cteq/a-little-too-close-to-home-les-tricheurs/
 anchor: a film which purports to describe your generation
 anchor_check: exact

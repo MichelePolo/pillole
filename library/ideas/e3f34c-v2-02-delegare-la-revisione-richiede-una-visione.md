@@ -9,7 +9,7 @@ subtopics:
 source:
   id: e3f34c1a0808
   lang: en
-  title: Being Linux Torvalds
+  title: Being Linux Torvalds - <antirez>
   site: antirez.com
   url: http://antirez.com/news/171
 anchor: He does not look at every patch line by line, every time.
