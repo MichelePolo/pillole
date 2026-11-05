@@ -23,7 +23,17 @@ if (missing.length || orphans.length) {
   console.error(`Temi non allineati al vocabolario: mancano ${missing.join(', ') || '—'} · in più ${orphans.join(', ') || '—'} (app/src/themes.ts)`);
   process.exit(1);
 }
-type Idea = import('../src/types.js').Idea;
+type Idea = import('../src/types.js').StoredIdea;
+
+// Oltre questa dimensione si avvisa: il precache del service worker ha un limite (vite.config.ts).
+const WARN_BYTES = 4 * 1024 * 1024;
+
+// 384 float in [-1, 1] → 384 interi a 8 bit su scala 127, in base64. L'app li decodifica
+// e rinormalizza (src/vectors.ts): 512 caratteri al posto di ~2.450.
+function encodeVec(v: number[]): string {
+  const max = Math.max(...v.map(Math.abs)) || 1;
+  return Buffer.from(Int8Array.from(v, (x) => Math.round((x / max) * 127)).buffer).toString('base64');
+}
 
 const discarded = new Set<string>();
 if (existsSync(REVIEWS_FILE)) {
@@ -75,13 +85,16 @@ if (withVec.length > 1) {
   for (const i of withVec) {
     const v = raw[i.id].map((x, k) => x - mean[k]);
     const norm = Math.hypot(...v);
-    i.vec = v.map((x) => Math.round((x / norm) * 1e3) / 1e3);
+    i.vec = encodeVec(v.map((x) => x / norm));
   }
 }
 const missingVec = ideas.length - withVec.length;
 
 const out = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '../public/ideas.json');
 await mkdir(path.dirname(out), { recursive: true });
-await writeFile(out, JSON.stringify({ version, generated: new Date().toISOString(), ideas }));
-console.log(`ideas.json: ${ideas.length} idee dei prompt ${published.join(', ')} (${discarded.size} scartate in revisione escluse)`);
+const json = JSON.stringify({ version, generated: new Date().toISOString(), ideas });
+await writeFile(out, json);
+const bytes = Buffer.byteLength(json);
+console.log(`ideas.json: ${ideas.length} idee dei prompt ${published.join(', ')} (${discarded.size} scartate in revisione escluse), ${(bytes / 1024 / 1024).toFixed(2)} MB`);
+if (bytes > WARN_BYTES) console.warn(`  ideas.json supera ${WARN_BYTES / 1024 / 1024} MB: si avvicina al limite del precache in vite.config.ts`);
 if (missingVec) console.warn(`  ${missingVec} idee senza embedding: lancia «npm run embed» nella radice`);

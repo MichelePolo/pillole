@@ -34,6 +34,9 @@ export default defineConfig({
       workbox: {
         // ideas.json è nel precache: l'app funziona offline con l'ultima libreria scaricata.
         globPatterns: ['**/*.{js,css,html,svg,json}'],
+        // Il default di Workbox è 2 MiB e ideas.json cresce ogni notte. Con i vettori compressi
+        // un'idea pesa ~1,7 KB: 6 MiB bastano per circa 3.500 idee; build-index avvisa a 4 MiB.
+        maximumFileSizeToCacheInBytes: 6 * 1024 * 1024,
       },
     }),
   ],
