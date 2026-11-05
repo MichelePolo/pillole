@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.1.19](https://github.com/MichelePolo/pillole/compare/v0.1.18...v0.1.19) (2026-11-05)
+
+
+### Bug Fixes
+
+* **feeds:** non ridistillare lo stesso articolo con http e https, e revisione della notte [#51](https://github.com/MichelePolo/pillole/issues/51) ([#56](https://github.com/MichelePolo/pillole/issues/56)) ([72b223e](https://github.com/MichelePolo/pillole/commit/72b223ecaa4cee19a3d9551fad83f2ebd97fe45b))
+
 ## [0.1.18](https://github.com/MichelePolo/pillole/compare/v0.1.17...v0.1.18) (2026-11-05)
 
 
