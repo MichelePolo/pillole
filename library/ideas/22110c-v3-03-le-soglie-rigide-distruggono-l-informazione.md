@@ -26,4 +26,4 @@ created: 2026-11-06T09:31:46.763Z
 
 # Le soglie rigide distruggono l'informazione nei punteggi rumorosi
 
-Quando un punteggio continuo viene convertito in un esito binario con una soglia netta, due risultati quasi identici possono finire uno promosso e l'altro bocciato. Se la misura è già rumorosa, la soglia rende il risultato ancora meno affidabile. Un funzione continua, anche se arbitraria, evita questo effetto e rende più visibile quanto siano arbitrari i pesi. L'autore sostiene che le funzioni con discontinuità vengano spesso scelte proprio perché nascondono questa arbitrarietà.
+Quando un punteggio continuo viene convertito in un esito binario con una soglia netta, due risultati quasi identici possono finire uno promosso e l'altro bocciato. Se la misura è già rumorosa, la soglia rende il risultato ancora meno affidabile. Una funzione continua, anche se arbitraria, evita questo effetto e rende più visibile quanto siano arbitrari i pesi. L'autore sostiene che le funzioni con discontinuità vengano spesso scelte proprio perché nascondono questa arbitrarietà.

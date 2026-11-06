@@ -26,4 +26,4 @@ created: 2026-11-06T09:31:46.763Z
 
 # Un giudizio automatico varia molto con il modello che lo esegue
 
-Quando un modello linguistico valuta la qualità di un codice, il risultato può cambiare da una ripetizione all'altra e anche cambiando modello di valutazione. Secondo l'autore, in una valutazione l'esito cambiava in circa un caso su cinque anche con lo stesso modello e la stessa configurazione. Questo significa che un giudizio di qualità automatizzato può essere sbagliato in una quota non trascurabile dei casi. Quando non esiste un buon criterio numerico, meglio non inventare un numero finto che assegnarne uno privo di senso.
+Quando un modello linguistico valuta la qualità di un codice, il risultato può cambiare da una ripetizione all'altra e anche cambiando modello di valutazione. Secondo l'autore, in una valutazione l'esito cambiava in circa un caso su cinque anche con lo stesso modello e la stessa configurazione. Questo significa che un giudizio di qualità automatizzato può essere sbagliato in una quota non trascurabile dei casi. Quando non esiste un buon criterio numerico, meglio non assegnare alcun numero che inventarne uno privo di senso.

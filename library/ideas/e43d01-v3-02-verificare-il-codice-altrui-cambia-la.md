@@ -27,4 +27,4 @@ created: 2026-11-06T09:31:46.723Z
 
 # Verificare il codice altrui cambia la cooperazione
 
-Secondo l'autore, quando i programmi possono leggere il codice degli altri prima di decidere, le interazioni cambiano radicalmente. Ciascun programma può cercare di dimostrare come si comporterà l'altro. Nel caso analizzato, due copie di un programma che sembra più benevole finiscono per tradire, mentre due copie dell'altro iniziano a cooperare. L'intuizione su quale strategia favorisca la cooperazione risulta quindi rovesciata.
+Secondo l'autore, quando i programmi possono leggere il codice degli altri prima di decidere, le interazioni cambiano radicalmente. Ciascun programma può cercare di dimostrare come si comporterà l'altro. Nel caso analizzato, due copie di un programma che sembra più benevolo finiscono per tradire, mentre due copie dell'altro iniziano a cooperare. L'intuizione su quale strategia favorisca la cooperazione risulta quindi rovesciata.

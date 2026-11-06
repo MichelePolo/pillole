@@ -25,4 +25,4 @@ created: 2026-11-06T09:31:46.909Z
 
 # Il pianto ha un costo che rende visibile la vulnerabilità
 
-Le lacrime abbondanti offuscano la vista e riducono la prontezza di reazione. Secondo il biologo evoluzionista Oren Hasson, questo svantaggio temporaneo è un vero handicap: chi piange è meno efficace nell'attacco e nella difesa e mostra, almeno per un momento, di aver abbassato le proprie difese. Proprio questo costo contribuisce a rendere il pianto un segnale credibile di esposizione emotiva. L'idea è presentata come interpretazione dell'autore e di Hasson.
+Le lacrime abbondanti offuscano la vista e riducono la prontezza di reazione. Secondo il biologo evoluzionista Oren Hasson, questo svantaggio temporaneo è un vero handicap: chi piange è meno efficace nell'attacco e nella difesa e mostra, almeno per un momento, di aver abbassato le proprie difese. Proprio questo costo contribuisce a rendere il pianto un segnale credibile di esposizione emotiva. L'idea è presentata come interpretazione dell'autrice e di Hasson.

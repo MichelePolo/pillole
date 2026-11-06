@@ -17,7 +17,7 @@ anchor: Spencer was a sociologist in part. But he was even more a moral philosop
 anchor_check: exact
 quiz:
   q: Perché l'autore non considera Spencer un libertario coerente?
-  a: Perché abbandonò posizioni come il diritto di ignorare lo Stato e il suffragio universale quando le valutò controproducenti per l'utilità generale.
+  a: Perché abbandonò posizioni come quelle sul diritto alla terra e sul suffragio universale quando le valutò controproducenti per l'utilità generale.
 prompt_version: v3
 model: claude-haiku-5-5
 created: 2026-11-06T09:31:46.683Z

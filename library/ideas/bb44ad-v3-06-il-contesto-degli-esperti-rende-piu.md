@@ -25,4 +25,4 @@ created: 2026-11-06T09:31:46.808Z
 
 # Il contesto degli esperti rende più utili i modelli
 
-Secondo l'autore, gli LLM aumentano la produttività di chi è già esperto più di quella dei principianti. Il motivo è che i modelli producono imitazioni plausibili delle cose, e solo un esperto riesce a distinguere un falso da un risultato reale. Per chi ha competenze, quindi, la capacità di giudicare il risultato diventa più preziosa, non meno. Questo è un'opinione dell'autore, basata su osservazioni personali e su un commento di Max Bittker.
+Secondo l'autore, gli LLM aumentano la produttività di chi è già esperto più di quella dei principianti. Il motivo è che i modelli producono imitazioni plausibili delle cose, e solo un esperto riesce a distinguere un falso da un risultato reale. Per chi ha competenze, quindi, la capacità di giudicare il risultato diventa più preziosa, non meno. Questa è un'opinione dell'autore, basata su osservazioni personali e su un commento di Max Bittker.

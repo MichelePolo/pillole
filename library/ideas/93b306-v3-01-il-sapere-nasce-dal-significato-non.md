@@ -17,7 +17,7 @@ anchor: Learning by heart all the terms would never be a science
 anchor_check: exact
 quiz:
   q: Secondo Avempace, che cosa distingue una vera scienza dalla semplice memorizzazione dei termini?
-  a: Una vera scienza consiste nel afferrare i significati dei termini e nel formare concetti nella mente, mentre la memorizzazione non basta.
+  a: Una vera scienza consiste nell'afferrare i significati dei termini e nel formare concetti nella mente, mentre la memorizzazione non basta.
 prompt_version: v3
 model: claude-haiku-5-5
 created: 2026-11-06T09:31:46.605Z
@@ -25,4 +25,4 @@ created: 2026-11-06T09:31:46.605Z
 
 # Il sapere nasce dal significato, non dalla memoria
 
-Avempace sostiene che imparare una scienza significa afferrare i significati dei termini e formare concetti nella mente, non memorizzare parole. Secondo lui, chi impara a memoria tutti i termini non possiede una scienza. Il ostacolo principale non sarebbe una mancanza naturale di capacità, ma il fatto che la maggior parte delle persone soffoca presto la capacità di distinguere i segni dei termini. ==Sapere significa afferrare i significati==, e questa capacità va coltivata fin dall'infanzia.
+Avempace sostiene che imparare una scienza significa afferrare i significati dei termini e formare concetti nella mente, non memorizzare parole. Secondo lui, chi impara a memoria tutti i termini non possiede una scienza. L'ostacolo principale non sarebbe una mancanza naturale di capacità, ma il fatto che la maggior parte delle persone soffoca presto la capacità di distinguere i segni dei termini. ==Sapere significa afferrare i significati==, e questa capacità va coltivata fin dall'infanzia.

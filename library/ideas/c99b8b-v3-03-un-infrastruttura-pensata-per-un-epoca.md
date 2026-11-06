@@ -27,4 +27,4 @@ created: 2026-11-06T09:31:46.690Z
 
 # Un'infrastruttura pensata per un'epoca può sopravvivere alla sua
 
-La Palisades Parkway, concepita negli anni Venti come strada panoramica riservata alle auto, fu costruita dal 1947 e completata nel 1962. Quando fu terminata era già un anachronismo, perché il sistema autostradale nazionale aveva cambiato il modo di muoversi. Le scelte tecniche e culturali di un'epoca restano incorporate nelle opere anche quando il contesto che le giustificava è scomparso. Le decisioni di pianificazione, una volta prese, tendono a durare molto più delle ragioni che le hanno generate.
+La Palisades Parkway, concepita negli anni Venti come strada panoramica riservata alle auto, fu costruita dal 1947 e completata nel 1962. Quando fu terminata era già un anacronismo, perché il sistema autostradale nazionale aveva cambiato il modo di muoversi. Le scelte tecniche e culturali di un'epoca restano incorporate nelle opere anche quando il contesto che le giustificava è scomparso. Le decisioni di pianificazione, una volta prese, tendono a durare molto più delle ragioni che le hanno generate.

@@ -27,4 +27,4 @@ created: 2026-11-06T09:31:46.706Z
 
 # Siamo fatti dagli altri che ci guardano
 
-Secondo l'autrice, il sé non nasce in isolamento ma si forma nello scambio di sguardi, soprattutto nei primi mesi di vita. Il neuropsichiatra Dan Siegel sostiene che le prime relazioni modellano le strutture neurali con cui interpretiamo l'esperienza e costruiamo la nostra idea di chi siamo. Anche da adulti, secondo questa tesi, scegliamo chi ci guarda, e questo scelta influenza ciò che diventiamo. Gli esseri umani restano sistemi aperti, plasmati continuamente dal modo in cui vengono visti e riconosciuti.
+Secondo l'autrice, il sé non nasce in isolamento ma si forma nello scambio di sguardi, soprattutto nei primi mesi di vita. Il neuropsichiatra Dan Siegel sostiene che le prime relazioni modellano le strutture neurali con cui interpretiamo l'esperienza e costruiamo la nostra idea di chi siamo. Anche da adulti, secondo questa tesi, scegliamo chi ci guarda, e questa scelta influenza ciò che diventiamo. Gli esseri umani restano sistemi aperti, plasmati continuamente dal modo in cui vengono visti e riconosciuti.
