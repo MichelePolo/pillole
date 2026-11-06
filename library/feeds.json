@@ -1,6 +1,9 @@
 {
   "https://aeon.co/feed.rss": {
     "seen": [
+      "https://aeon.co/essays/welcome-to-the-mixed-up-joyful-world-of-audhd",
+      "https://aeon.co/essays/living-in-community-is-where-self-illusions-go-to-die",
+      "https://aeon.co/essays/sometimes-you-just-know-somethings-off-but-how",
       "https://aeon.co/essays/we-need-a-language-to-name-the-grief-that-comes-without-death",
       "https://aeon.co/essays/what-cooperatives-for-an-anticapitalist-peace-look-like",
       "https://aeon.co/essays/why-a-world-without-friction-is-a-world-without-progress",
@@ -9,10 +12,13 @@
       "https://aeon.co/essays/how-to-use-physics-to-make-sense-of-the-messiness-of-life",
       "https://aeon.co/essays/the-psychology-of-separating-church-and-state"
     ],
-    "checkedAt": "2026-11-05T09:33:37.251Z"
+    "checkedAt": "2026-11-06T09:27:57.517Z"
   },
   "https://antirez.com/rss": {
     "seen": [
+      "http://antirez.com/news/160",
+      "http://antirez.com/news/159",
+      "http://antirez.com/news/158",
       "http://antirez.com/news/163",
       "http://antirez.com/news/162",
       "http://antirez.com/news/161",
@@ -21,10 +27,13 @@
       "http://antirez.com/news/164",
       "http://antirez.com/news/167"
     ],
-    "checkedAt": "2026-11-05T09:33:32.476Z"
+    "checkedAt": "2026-11-06T09:27:50.900Z"
   },
   "https://daily.jstor.org/feed/": {
     "seen": [
+      "https://daily.jstor.org/the-art-and-science-of-disneys-fantasia/",
+      "https://daily.jstor.org/how-big-oil-shaped-americas-parks/",
+      "https://daily.jstor.org/teaching-students-to-see-what-they-miss/",
       "https://daily.jstor.org/londons-railway-for-the-dead/",
       "https://daily.jstor.org/how-telepathy-helped-build-the-russian-internet/",
       "https://daily.jstor.org/mental-hospitals-at-the-movies/",
@@ -33,10 +42,13 @@
       "https://daily.jstor.org/the-rise-and-fall-of-shanghais-sing-song-girls/",
       "https://daily.jstor.org/how-the-phone-book-taught-america-to-ask-for-answers/"
     ],
-    "checkedAt": "2026-11-05T09:33:37.480Z"
+    "checkedAt": "2026-11-06T09:27:57.770Z"
   },
   "https://danluu.com/atom.xml": {
     "seen": [
+      "https://danluu.com/pl-tokens/",
+      "https://danluu.com/exercise-7/",
+      "https://danluu.com/ai-coding/",
       "https://danluu.com/bug-blind/",
       "https://danluu.com/no-slow/",
       "https://danluu.com/benchpocalypse/",
@@ -45,10 +57,13 @@
       "https://danluu.com/zitron/",
       "https://danluu.com/ambitious/"
     ],
-    "checkedAt": "2026-11-05T09:33:33.689Z"
+    "checkedAt": "2026-11-06T09:27:52.060Z"
   },
   "https://lilianweng.github.io/index.xml": {
     "seen": [
+      "https://lilianweng.github.io/posts/2023-10-25-adv-attack-llm/",
+      "https://lilianweng.github.io/posts/2023-06-23-agent/",
+      "https://lilianweng.github.io/posts/2023-03-15-prompt-engineering/",
       "https://lilianweng.github.io/posts/2024-07-07-hallucination/",
       "https://lilianweng.github.io/posts/2024-04-12-diffusion-video/",
       "https://lilianweng.github.io/posts/2024-02-05-human-data-quality/",
@@ -57,10 +72,13 @@
       "https://lilianweng.github.io/posts/2024-11-28-reward-hacking/",
       "https://lilianweng.github.io/posts/2026-07-04-harness/"
     ],
-    "checkedAt": "2026-11-05T09:33:32.721Z"
+    "checkedAt": "2026-11-06T09:27:50.992Z"
   },
   "https://maddmaths.simai.eu/feed/": {
     "seen": [
+      "https://maddmaths.simai.eu/ricerca/mathai/je-nai-pas-le-temps-ma-lia-si-il-teorema-enorme-43-milioni-di-righe-e-qualche-sorpresa/",
+      "https://maddmaths.simai.eu/rudi-mathematici/problemi/ls-2610/",
+      "https://maddmaths.simai.eu/divulgazione/rubriche/la-lente-matematica/sicurezza-matematica-dellai-la-versione-di-tsimerman/",
       "https://maddmaths.simai.eu/divulgazione/i-librini-di-maddmaths-giuseppe-arnone-eureka-lo-lascio-a-voi/",
       "https://maddmaths.simai.eu/news-2/la-matematica-potrebbe-aiutare-a-combattere-lalzheimer/",
       "https://maddmaths.simai.eu/divulgazione/letture-matematiche/marx-e-la-matematica/",
@@ -69,10 +87,13 @@
       "https://maddmaths.simai.eu/divulgazione/codogno-il-non-praticante/mai-fidarsi-di-una-risposta-semplice/",
       "https://maddmaths.simai.eu/news-2/quasi-risolta-la-congettura-di-graham/"
     ],
-    "checkedAt": "2026-11-05T09:33:36.776Z"
+    "checkedAt": "2026-11-06T09:27:56.673Z"
   },
   "https://plato.stanford.edu/rss/sep.xml": {
     "seen": [
+      "https://plato.stanford.edu/entries/spencer/",
+      "https://plato.stanford.edu/entries/bioethics-moral-reasoning/",
+      "https://plato.stanford.edu/entries/ibn-bajja/",
       "https://plato.stanford.edu/entries/content-narrow/",
       "https://plato.stanford.edu/entries/meaning-holism/",
       "https://plato.stanford.edu/entries/green/",
@@ -81,10 +102,13 @@
       "https://plato.stanford.edu/entries/consequentializing/",
       "https://plato.stanford.edu/entries/closure-epistemic/"
     ],
-    "checkedAt": "2026-11-05T09:33:37.085Z"
+    "checkedAt": "2026-11-06T09:27:56.981Z"
   },
   "https://psyche.co/feed": {
     "seen": [
+      "https://psyche.co/notes-to-self/the-perils-of-stopping-an-activity-that-forms-your-identity",
+      "https://psyche.co/guides/how-to-take-notes-that-actually-help-you-learn",
+      "https://psyche.co/ideas/everyone-says-they-have-anxiety-clinical-anxiety-is-different",
       "https://psyche.co/ideas/when-giving-up-teaches-you-more-than-persevering-ever-could",
       "https://psyche.co/portraits/ellah-wakatama-the-godmother-of-african-books",
       "https://psyche.co/ideas/on-japans-shinkansen-trains-pork-buns-split-reality-in-two",
@@ -93,10 +117,13 @@
       "https://psyche.co/turning-points/my-er-regulars-spat-at-me-and-opened-my-mind",
       "https://psyche.co/turning-points/how-a-revelation-at-home-made-me-rethink-delusion"
     ],
-    "checkedAt": "2026-11-05T09:33:37.343Z"
+    "checkedAt": "2026-11-06T09:27:57.639Z"
   },
   "https://publicdomainreview.org/rss.xml": {
     "seen": [
+      "https://publicdomainreview.org/collection/history-of-the-devil",
+      "https://publicdomainreview.org/collection/mutus-liber",
+      "https://publicdomainreview.org/essay/philip-sidney-and-the-extreme-disgraces-of-the-parenthesis",
       "https://publicdomainreview.org/collection/krishna-and-radha-exchanging-clothes",
       "https://publicdomainreview.org/essay/the-jumping-frenchmen-of-maine",
       "https://publicdomainreview.org/collection/kalvach-postcards",
@@ -105,10 +132,13 @@
       "https://publicdomainreview.org/collection/zetetic-astronomy",
       "https://publicdomainreview.org/collection/marian-wawrzeniecki"
     ],
-    "checkedAt": "2026-11-05T09:33:47.716Z"
+    "checkedAt": "2026-11-06T09:28:06.552Z"
   },
   "https://simonwillison.net/atom/entries/": {
     "seen": [
+      "https://simonwillison.net/2026/Sep/27/2026-in-llms-so-far/",
+      "https://simonwillison.net/2026/Sep/22/opus-and-sol-and-luna/",
+      "https://simonwillison.net/2026/Sep/21/jev/",
       "https://simonwillison.net/2026/Oct/9/built-using-my-voice/",
       "https://simonwillison.net/2026/Oct/7/claude-haiku-5-5/",
       "https://simonwillison.net/2026/Sep/29/openai-devday-2026-live-blog/",
@@ -117,7 +147,7 @@
       "https://simonwillison.net/2026/Oct/12/python-3-15/",
       "https://simonwillison.net/2026/Nov/3/qwen-can-interpret-model-weights/"
     ],
-    "checkedAt": "2026-11-05T09:33:30.768Z"
+    "checkedAt": "2026-11-06T09:27:49.124Z"
   },
   "https://theconversation.com/profiles/nello-cristianini-241151/articles.atom": {
     "seen": [
@@ -129,10 +159,13 @@
       "https://theconversation.com/eu-approves-draft-law-to-regulate-ai-heres-how-it-will-work-205672",
       "https://theconversation.com/ai-could-soon-be-making-major-scientific-discoveries-a-machine-could-even-win-a-nobel-prize-one-day-243996"
     ],
-    "checkedAt": "2026-11-05T09:33:33.910Z"
+    "checkedAt": "2026-11-06T09:27:52.323Z"
   },
   "https://thegradient.pub/rss/": {
     "seen": [
+      "https://thegradient.pub/mamba-explained/",
+      "https://thegradient.pub/car-gpt/",
+      "https://thegradient.pub/text-embedding-inversion/",
       "https://thegradient.pub/we-need-positive-visions-for-ai-grounded-in-wellbeing/",
       "https://thegradient.pub/financial-market-applications-of-llms/",
       "https://thegradient.pub/gender-bias-in-ai/",
@@ -141,10 +174,13 @@
       "https://thegradient.pub/dialog/",
       "https://thegradient.pub/virtue-ethics-ai-alignment/"
     ],
-    "checkedAt": "2026-11-05T09:33:33.049Z"
+    "checkedAt": "2026-11-06T09:27:51.466Z"
   },
   "https://www.agendadigitale.eu/feed/": {
     "seen": [
+      "https://www.agendadigitale.eu/sicurezza/quantum-computing-e-sicurezza-cosa-devono-fare-oggi-le-aziende/",
+      "https://www.agendadigitale.eu/cultura-digitale/ai-e-lavoro-litalia-comincia-a-misurare-impatti-per-decidere-le-politiche/",
+      "https://www.agendadigitale.eu/cultura-digitale/dallassistente-agli-agenti-ai-come-cambia-il-comportamento-umano/",
       "https://www.agendadigitale.eu/infrastrutture/data-center/lai-corre-le-batterie-no-il-paradosso-energetico-dei-data-center/",
       "https://www.agendadigitale.eu/industry-4-0/il-debito-nascosto-dellai-perche-tagliare-i-costi-puo-svuotare-limpresa/",
       "https://www.agendadigitale.eu/cittadinanza-digitale/lai-nella-pa-cresce-ma-la-maturita-operativa-resta-lontana/",
@@ -153,10 +189,13 @@
       "https://www.agendadigitale.eu/industry-4-0/elezioni-usa-gli-effetti-su-digitale-e-ai-che-vedremo-anche-in-europa/",
       "https://www.agendadigitale.eu/quantum-computing/quantum-protagonisti/planckian-e-i-qubit-superconduttivi-tecnologia-e-obiettivi/"
     ],
-    "checkedAt": "2026-11-05T09:33:32.670Z"
+    "checkedAt": "2026-11-06T09:27:50.953Z"
   },
   "https://www.doppiozero.com/rss.xml": {
     "seen": [
+      "https://www.doppiozero.com/weizman-architettura-del-genocidio",
+      "https://www.doppiozero.com/iona-heath-e-john-berger-clinica-poetica",
+      "https://www.doppiozero.com/incrinature-teatro-roma",
       "https://www.doppiozero.com/latronico-e-il-cantiere-delle-illusioni",
       "https://www.doppiozero.com/la-frontiera-di-richard-avedon",
       "https://www.doppiozero.com/gli-adolescenti-come-imputati",
@@ -165,10 +204,13 @@
       "https://www.doppiozero.com/il-gatto-selvatico-2-era-nato-per-il-cinema",
       "https://www.doppiozero.com/lascaux-il-rettangolo-originario"
     ],
-    "checkedAt": "2026-11-05T09:33:44.478Z"
+    "checkedAt": "2026-11-06T09:28:04.857Z"
   },
   "https://www.ilpost.it/scienza/feed/": {
     "seen": [
+      "https://www.ilpost.it/2026/11/04/nasa-swfit-osservatorio-ritorno-terra/",
+      "https://www.ilpost.it/2026/10/26/cesareo-parto-vaginale-vbac/",
+      "https://www.ilpost.it/2026/10/24/weekly-beasts-612/",
       "https://www.ilpost.it/2026/10/30/morti-caldo-italia-stime-diverse/",
       "https://www.ilpost.it/2026/10/29/raffreddore-rimedi/",
       "https://www.ilpost.it/2026/10/27/nasa-artemis-allunaggio-2028/",
@@ -177,10 +219,12 @@
       "https://www.ilpost.it/2026/10/30/posto-sicuro-treno/",
       "https://www.ilpost.it/2026/11/03/dentifricio-brufoli-serve-danni/"
     ],
-    "checkedAt": "2026-11-05T09:33:36.984Z"
+    "checkedAt": "2026-11-06T09:27:56.869Z"
   },
   "https://www.iltascabile.com/feed/": {
     "seen": [
+      "https://www.iltascabile.com/recensioni/internazionale-rifiuto-mikkel-bolt-rasmussen/",
+      "https://www.iltascabile.com/scienze/grammatica-pianto/",
       "https://www.iltascabile.com/letterature/stati-salute/",
       "https://www.iltascabile.com/letterature/torre-crolla/",
       "https://www.iltascabile.com/societa/limmagine-qualunquista-politica/",
@@ -189,10 +233,13 @@
       "https://www.iltascabile.com/linguaggi/fauna-cadaverica-controculture/",
       "https://www.iltascabile.com/linguaggi/sogno-carnevale-rimosso/"
     ],
-    "checkedAt": "2026-11-05T09:33:42.116Z"
+    "checkedAt": "2026-11-06T09:28:02.604Z"
   },
   "https://www.lavoce.info/feed/": {
     "seen": [
+      "https://lavoce.info/archives/115338/la-riforma-usa-che-potrebbe-aumentare-il-rischio-di-crisi-bancarie/",
+      "https://lavoce.info/archives/115335/prima-di-sospendere-lets-riformiamo-le-imposte-sullenergia/",
+      "https://lavoce.info/archives/115331/nordhaus-leconomista-che-ha-dato-un-prezzo-al-clima/",
       "https://lavoce.info/archives/115229/lezioni-americane-nel-dopo-midterm/",
       "https://lavoce.info/archives/115239/il-capitalismo-fragile-la-crisi-della-fiducia-e-lamerica-di-trump/",
       "https://lavoce.info/archives/115230/tassare-i-ricchi-il-costo-morale-dellelusione/",
@@ -201,7 +248,7 @@
       "https://lavoce.info/archives/114881/il-punto-462/",
       "https://lavoce.info/archives/114919/dal-risiko-bancario-alla-sfida-del-mercato-finanziario-unico/"
     ],
-    "checkedAt": "2026-11-05T09:33:40.532Z"
+    "checkedAt": "2026-11-06T09:28:01.104Z"
   },
   "https://www.quantamagazine.org/feed/": {
     "seen": [
@@ -211,10 +258,13 @@
       "https://www.quantamagazine.org/how-do-you-take-a-picture-of-a-black-hole-20261029/",
       "https://www.quantamagazine.org/new-research-tests-whether-ai-models-know-their-own-thoughts-20261104/"
     ],
-    "checkedAt": "2026-11-05T09:33:34.116Z"
+    "checkedAt": "2026-11-06T09:27:52.372Z"
   },
   "https://www.scienzainrete.it/rss.xml": {
     "seen": [
+      "https://www.scienzainrete.it/articoli/turismo-fa-bene-intervista-paolo-casetti/",
+      "https://www.scienzainrete.it/articoli/bambini-adolescenti-schermi-digitali-rapporto-ripensare/",
+      "https://www.scienzainrete.it/articoli/cosa-insegna-caso-cornell-7/",
       "https://www.scienzainrete.it/articoli/attento-cio-desideri-loracolo-dellia-futuro-matematica/",
       "https://www.scienzainrete.it/articoli/costo-dipendenza-combustibili-fossili/",
       "https://www.scienzainrete.it/articoli/achille-patroclo-toro-asino-etologia/",
@@ -223,10 +273,13 @@
       "https://www.scienzainrete.it/articoli/data-center-lombardia-comitati/",
       "https://www.scienzainrete.it/articoli/reclutamento-universitario-bibliometria/"
     ],
-    "checkedAt": "2026-11-05T09:33:35.219Z"
+    "checkedAt": "2026-11-06T09:27:53.140Z"
   },
   "https://www.sensesofcinema.com/feed/": {
     "seen": [
+      "https://www.sensesofcinema.com/2026/feature-articles/disobedient-images-dokufest-at-25/",
+      "https://www.sensesofcinema.com/2026/festival-reports/the-heat-is-on-generational-divides-the-79th-locarno-film-festival/",
+      "https://www.sensesofcinema.com/2026/editorial/issue-119-welcomes-you/",
       "https://www.sensesofcinema.com/2026/book-reviews/big-questions-in-the-small-form/",
       "https://www.sensesofcinema.com/2026/book-reviews/revolutions-of-the-self-antifascism-and-the-avant-garde-radical-documentary-in-the-1960s-by-julia-alekseyeva/",
       "https://www.sensesofcinema.com/2026/great-directors/nakahira-ko/",
@@ -235,10 +288,13 @@
       "https://www.sensesofcinema.com/2026/interviews/a-daughter-of-revolution-marta-mateus-on-her-films/",
       "https://www.sensesofcinema.com/2026/cteq/acousmatic-retention-in-anne-marie-mievilles-le-livre-de-marie/"
     ],
-    "checkedAt": "2026-11-05T09:33:46.915Z"
+    "checkedAt": "2026-11-06T09:28:05.752Z"
   },
   "https://www.theparisreview.org/blog/feed/": {
     "seen": [
+      "https://www.theparisreview.org/blog/2026/10/23/turner-brooks-spatial-memories/",
+      "https://www.theparisreview.org/blog/2026/10/22/unexpected-literary-history-of-the-dildo/",
+      "https://www.theparisreview.org/blog/2026/10/20/the-uncanny-catharsis-of-the-ai-emomercial/",
       "https://www.theparisreview.org/blog/2026/10/28/elizabeth-glaessner-big-head/",
       "https://www.theparisreview.org/blog/2026/10/27/second-life-of-cynthia-buchanans-maiden/",
       "https://www.theparisreview.org/blog/2026/10/26/ernest-hemingway-the-sun-also-rises/",
@@ -247,6 +303,6 @@
       "https://www.theparisreview.org/blog/2026/10/29/alisa-weilersteins-cello-lucy-ellmann/",
       "https://www.theparisreview.org/blog/2026/11/03/campaign-literature-election-day-midterms/"
     ],
-    "checkedAt": "2026-11-05T09:33:44.566Z"
+    "checkedAt": "2026-11-06T09:28:04.919Z"
   }
 }
