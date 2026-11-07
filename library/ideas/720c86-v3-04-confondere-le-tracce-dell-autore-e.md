@@ -25,4 +25,4 @@ created: 2026-11-07T08:54:21.443Z
 
 # Confondere le tracce dell'autore è una mossa
 
-Nelle minacce ibride non conta solo colpire, ma anche rendere incerto chi ha colpito. Gli episodi tra supermercati, sanità e aeroporti non hanno, per ora, un'unica regia dimostrata, e la rivendicazione dei gruppi filorussi va presa con cautela. Secondo l'autore, questa incertezza fa parte della strategia: rende più difficile reagire in modo coordinato e sicuro. Chi analizza questi eventi deve quindi distinguere tra ciò che è provato e ciò che è solo rivendicato, senza trarre conclusioni troppo rapide sull'autore.
+Nelle minacce ibride non conta solo colpire, ma anche rendere incerto chi ha colpito. Gli episodi tra supermercati, sanità e aeroporti non hanno, per ora, un'unica regia dimostrata, e la rivendicazione dei gruppi filorussi va presa con cautela. Secondo l'autrice, questa incertezza fa parte della strategia: rende più difficile reagire in modo coordinato e sicuro. Chi analizza questi eventi deve quindi distinguere tra ciò che è provato e ciò che è solo rivendicato, senza trarre conclusioni troppo rapide sull'autore.

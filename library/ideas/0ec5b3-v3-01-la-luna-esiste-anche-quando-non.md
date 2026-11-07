@@ -25,6 +25,6 @@ model: claude-haiku-5-5
 created: 2026-11-07T08:54:21.376Z
 ---
 
-# La luna esiste anche quando non la guardiamo
+# La luna esiste anche quando non la guardiamo?
 
 Il teorema PBR, pubblicato nel 2012, sostiene che se la realtà oggettiva esiste, allora anche lo stato quantistico deve essere reale, cioè una proprietà che sta nelle cose e non solo nella nostra conoscenza. Il problema è che la fisica non ci dice se la realtà esista davvero: lascia aperta anche la possibilità che nulla sia reale, e che la realtà dipenda dall'osservazione. Einstein riteneva assurda questa seconda ipotesi, e la domanda su cosa esista quando nessuno guarda resta quindi senza risposta definitiva.

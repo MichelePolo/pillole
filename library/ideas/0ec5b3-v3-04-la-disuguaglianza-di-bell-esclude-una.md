@@ -25,4 +25,4 @@ created: 2026-11-07T08:54:21.378Z
 
 # La disuguaglianza di Bell esclude una realtà locale
 
-Nel 1964 John Stewart Bell mostrò che non si possono avere insieme realtà oggettiva e localität, cioè l'idea che le influenze non viaggino più veloci della luce. Le ipotesi di Einstein, sia la realtà delle proprietà sia la località, non possono essere entrambe vere. Gli esperimenti successivi, condotti negli anni Ottanta, hanno confermato le previsioni della meccanica quantistica. Il mondo, quindi, non può essere allo stesso tempo reale e locale, e qualcosa deve cedere.
+Nel 1964 John Stewart Bell mostrò che non si possono avere insieme realtà oggettiva e località, cioè l'idea che le influenze non viaggino più veloci della luce. Le ipotesi di Einstein, sia la realtà delle proprietà sia la località, non possono essere entrambe vere. Gli esperimenti successivi, condotti negli anni Ottanta, hanno confermato le previsioni della meccanica quantistica. Il mondo, quindi, non può essere allo stesso tempo reale e locale, e qualcosa deve cedere.

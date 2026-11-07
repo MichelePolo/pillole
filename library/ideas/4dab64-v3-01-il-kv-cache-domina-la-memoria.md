@@ -25,6 +25,6 @@ model: claude-haiku-5-5
 created: 2026-11-07T08:54:21.319Z
 ---
 
-# Il KV cache domina la memoria durante la generazione
+# La cache KV domina la memoria durante la generazione
 
 Durante la generazione di testo un grande modello linguistico deve conservare in memoria la cache KV, cioè le informazioni intermedie di tutti i token già elaborati. Con batch e contesti grandi, questa cache può superare la dimensione stessa del modello. Per questo l'inferenza è costosa non solo in calcolo ma soprattutto in memoria, e ottimizzarla richiede di agire su questo collo di bottiglia.

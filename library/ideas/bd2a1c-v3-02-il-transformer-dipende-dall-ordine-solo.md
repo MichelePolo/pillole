@@ -27,4 +27,4 @@ created: 2026-11-07T08:54:21.450Z
 
 # Il Transformer dipende dall'ordine solo tramite codifiche posizionali
 
-L'auto-attenzione è invariante rispetto alle permutazioni: tratta l'input come un insieme e quindi non conosce l'ordine degli elementi. Per questo il modello somma alle embedding dei vettori posizionali che portano l'informazione sulla posizione. Le codifiche sinusoidali sono una soluzione, ma ne esistono molte altre, come quelle apprese o quelle relative, e la scelta influisce sulla capacità del modello di generalizzare a sequenze più lunghe.
+L'auto-attenzione è invariante rispetto alle permutazioni: tratta l'input come un insieme e quindi non conosce l'ordine degli elementi. Per questo il modello somma agli embedding dei vettori posizionali che portano l'informazione sulla posizione. Le codifiche sinusoidali sono una soluzione, ma ne esistono molte altre, come quelle apprese o quelle relative, e la scelta influisce sulla capacità del modello di generalizzare a sequenze più lunghe.

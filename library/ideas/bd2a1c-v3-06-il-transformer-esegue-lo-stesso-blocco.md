@@ -23,6 +23,6 @@ model: claude-haiku-5-5
 created: 2026-11-07T08:54:21.452Z
 ---
 
-# Il Transformer esegue lo stesso blocco in ricorrenza
+# L'Universal Transformer esegue lo stesso blocco in ricorrenza
 
-Universal Transformer combina l'auto-attenzione del Transformer con la ricorrenza delle RNN: lo stesso blocco viene applicato iterativamente ai rappresentanti di ciascuna posizione, con parametri condivisi. Se il numero di passi è fisso, il modello equivale a un Transformer multistrato con pesi condivisi tra gli strati. La versione adattiva decide dinamicamente quanti passi eseguire per ogni token, il che permette di spendere più calcolo dove serve.
+Universal Transformer combina l'auto-attenzione del Transformer con la ricorrenza delle RNN: lo stesso blocco viene applicato iterativamente alle rappresentazioni di ciascuna posizione, con parametri condivisi. Se il numero di passi è fisso, il modello equivale a un Transformer multistrato con pesi condivisi tra gli strati. La versione adattiva decide dinamicamente quanti passi eseguire per ogni token, il che permette di spendere più calcolo dove serve.

@@ -24,6 +24,6 @@ model: claude-haiku-5-5
 created: 2026-11-07T08:54:21.327Z
 ---
 
-# Filtrare durante la ricerca grafica evita di esplorare tutto
+# Filtrare durante la ricerca sul grafo evita di esplorare tutto
 
 Per combinare la ricerca per similarità con condizioni sui metadati, si può applicare il filtro durante la discesa greedy nel grafo, invece di filtrare dopo. L'idea è che interessano solo i risultati vicini al vettore di query, quindi non serve esplorare tutto il grafo quando poche condizioni sono soddisfatte. Lo sforzo di ricerca può essere limitato dall'utente. Secondo l'autore, spesso è anche più efficiente creare chiavi separate per le categorie più usate.

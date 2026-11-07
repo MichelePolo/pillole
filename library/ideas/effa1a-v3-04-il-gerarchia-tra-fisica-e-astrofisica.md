@@ -25,6 +25,6 @@ model: claude-haiku-5-5
 created: 2026-11-07T08:54:21.468Z
 ---
 
-# Il gerarchia tra fisica e astrofisica nasce dai fondi
+# La gerarchia tra fisica e astrofisica nasce dai fondi
 
 Secondo l'autore, la crescita dell'astrofisica è stata favorita dalla geopolitica della Guerra fredda, che finanziò grandi progetti di fisica delle particelle. Quando i fondi per gli acceleratori terrestri si sono ridotti, l'universo è diventato il sostituto naturale di questi laboratori, perché offre eventi energetici che nessun collisore può riprodurre. Questo spiega perché l'astronomia sia stata spesso vista come un ripiego e non come un campo autonomo.

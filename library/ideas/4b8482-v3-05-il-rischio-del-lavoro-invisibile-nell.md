@@ -29,4 +29,4 @@ created: 2026-11-07T08:54:21.306Z
 
 # Il rischio del lavoro invisibile nell'automazione
 
-Quando un'organizzazione automatizza un compito per ridurre i costi, può usare il lavoro umano necessario per addestrare il modello senza riconoscerlo né compensarlo. Secondo l'autore, questo è un problema etico e pratico: se i tecnici esperti vengono sostituiti, quando il modello deriva non restano persone capaci di riportarlo in carreggiata, e la capacità di tutela dell'ambiente si indebolisce.
+Quando un'organizzazione automatizza un compito per ridurre i costi, può usare il lavoro umano necessario per addestrare il modello senza riconoscerlo né compensarlo. Secondo l'autore, questo è un problema etico e pratico: se i tecnici esperti vengono sostituiti, quando il modello va alla deriva non restano persone capaci di riportarlo in carreggiata, e la capacità di tutela dell'ambiente si indebolisce.

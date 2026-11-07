@@ -26,4 +26,4 @@ created: 2026-11-07T08:54:21.401Z
 
 # Le posizioni delle carte rivelano informazioni nascoste
 
-In Codenames la disposizione fisica delle parole sul tavolo è vincolata dalle carte di configurazione, che sono in numero limitato. Chi ha giocato molto sviluppa un'intuizione su quali schemi sono comuni e quali sembrano "troppo strani", e può usarla come una sorta di canale laterale. ==Il gioco diventa vulnerabile non alle parole, ma alla forma* del tavolo.== Questo tipo di vantaggio non richiede di conoscere il significato delle parole, solo di riconoscere regolarità spaziali.
+In Codenames la disposizione fisica delle parole sul tavolo è vincolata dalle carte di configurazione, che sono in numero limitato. Chi ha giocato molto sviluppa un'intuizione su quali schemi sono comuni e quali sembrano "troppo strani", e può usarla come una sorta di canale laterale. ==Il gioco diventa vulnerabile non alle parole, ma alla forma del tavolo.== Questo tipo di vantaggio non richiede di conoscere il significato delle parole, solo di riconoscere regolarità spaziali.

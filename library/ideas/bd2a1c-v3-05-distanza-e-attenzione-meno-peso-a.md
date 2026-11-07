@@ -25,4 +25,4 @@ created: 2026-11-07T08:54:21.451Z
 
 # Distanza e attenzione: meno peso a ciò che è lontano
 
-ALiBi aggiunge ai punteggi di attenzione un termine proporzionale alla distanza tra query e chiave, che favorisce i token recenti e penalizza quelli molto lontani. Le penalità crescono a velocità diverse nelle varie teste, con pesi fissati secondo una progressione geometrica invece che appresi. Secondo l'autore, questo approccio permette al modello di estrapolare a contesti più lunghi di quelli visti in addestramento, e l'idea è simile a quella delle codifiche posizionali relative.
+ALiBi aggiunge ai punteggi di attenzione un termine proporzionale alla distanza tra query e chiave, che favorisce i token recenti e penalizza quelli molto lontani. Le penalità crescono a velocità diverse nelle varie teste, con pesi fissati secondo una progressione geometrica invece che appresi. Secondo l'autrice, questo approccio permette al modello di estrapolare a contesti più lunghi di quelli visti in addestramento, e l'idea è simile a quella delle codifiche posizionali relative.

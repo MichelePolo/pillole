@@ -11,7 +11,7 @@ source:
   id: e8c9620d9e9e
   lang: en
   title: Grain, Rebellion and the Radical Uses of Super 8 in Brazil
-  author: Letícia Longo October 2026 Feature Articles
+  author: Letícia Longo
   site: Senses of Cinema
   url: https://www.sensesofcinema.com/2026/feature-articles/grain-rebellion-and-the-radical-uses-of-super-8-in-brazil/
 anchor: What united these filmmakers was not a shared aesthetic, but rather a method grounded in contradiction

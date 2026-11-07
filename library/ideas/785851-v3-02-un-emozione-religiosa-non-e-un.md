@@ -19,7 +19,7 @@ anchor: there is no emotion type that is distinctive of religion as such
 anchor_check: exact
 quiz:
   q: Qual è la critica dell'autore all'essenzialismo sulle emozioni religiose?
-  a: Che esso cerca un'unica emozione-essenza, mentre le emozioni religiose sono molte e si distinguono per il contenuto che ricevono da Dio.
+  a: Che esso cerca un'unica emozione-essenza, mentre le emozioni religiose sono molte e si distinguono per il contenuto che ricevono dalla dottrina su Dio.
 prompt_version: v3
 model: claude-haiku-5-5
 created: 2026-11-07T08:54:21.336Z
