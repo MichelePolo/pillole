@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.1.21](https://github.com/MichelePolo/pillole/compare/v0.1.20...v0.1.21) (2026-11-07)
+
+
+### Bug Fixes
+
+* **extract:** titoli completi e firme pulite (Senses of Cinema, Quanta, Aeon) ([#62](https://github.com/MichelePolo/pillole/issues/62)) ([ac9589b](https://github.com/MichelePolo/pillole/commit/ac9589b995c08db02891e38fc24ae78ff4061833))
+
 ## [0.1.20](https://github.com/MichelePolo/pillole/compare/v0.1.19...v0.1.20) (2026-11-07)
 
 
