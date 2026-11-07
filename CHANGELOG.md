@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.1.20](https://github.com/MichelePolo/pillole/compare/v0.1.19...v0.1.20) (2026-11-07)
+
+
+### Features
+
+* **feeds:** bilancia i temi, meno AI e otto fonti nuove ([#60](https://github.com/MichelePolo/pillole/issues/60)) ([994069e](https://github.com/MichelePolo/pillole/commit/994069e6040e9b2b5e6938a7aa10b7c0432365a9))
+
 ## [0.1.19](https://github.com/MichelePolo/pillole/compare/v0.1.18...v0.1.19) (2026-11-05)
 
 
