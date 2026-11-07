@@ -137,7 +137,7 @@ Il workflow usa il secret `CLOUDFLARE_API_TOKEN` (token con il modello *Edit Clo
 
 Ogni notte GitHub Actions (workflow `nightly`, alle 3:17 italiane) porta idee nuove dai feed di `feeds.txt`:
 
-1. `npm run feeds` sceglie per ogni feed fino a 3 articoli nuovi, i più recenti. Esclude video, podcast e articoli già in biblioteca. Li segna come visti in `library/feeds.json`.
+1. `npm run feeds` sceglie per ogni feed fino a 3 articoli nuovi, i più recenti (meno se la riga del feed ha `max=N`: i feed di AI e tecnologia ne portano uno, per bilanciare i temi). Esclude video, podcast e articoli già in biblioteca. Li segna come visti in `library/feeds.json`.
 2. `npm run distill -- --batch` li distilla con l'[API batch](https://platform.claude.com/docs/en/build-with-claude/batch-processing), a metà prezzo: la risposta arriva in qualche minuto, al massimo in 5 ore. Alla fine calcola gli embedding e scarta i duplicati.
 3. Il job apre una PR `chore: idee della notte del …` con le idee nuove e il registro del giro.
 

@@ -70,15 +70,20 @@ export function parseFeed(xml: string, base: string): Item[] {
   return items;
 }
 
-async function readFeeds(): Promise<{ url: string; name: string }[]> {
+// Una riga di feeds.txt: «URL [max=N] # nome». max=N abbassa per quel feed il numero di articoli
+// a notte (mai sopra --max): serve a bilanciare i temi senza togliere le fonti.
+export function parseFeedLine(line: string): { url: string; name: string; max?: number } | null {
+  const l = line.trim();
+  if (!/^https?:\/\//.test(l)) return null;
+  const [head, ...comment] = l.split('#');
+  const [url, ...opts] = head.trim().split(/\s+/);
+  const m = opts.map((o) => /^max=(\d+)$/.exec(o)).find(Boolean);
+  return { url, name: comment.join('#').trim() || new URL(url).hostname, ...(m && { max: Number(m[1]) }) };
+}
+
+async function readFeeds(): Promise<{ url: string; name: string; max?: number }[]> {
   const lines = (await readFile(FEEDS_FILE, 'utf8')).split('\n');
-  return lines
-    .map((l) => l.trim())
-    .filter((l) => /^https?:\/\//.test(l))
-    .map((l) => {
-      const [url, ...comment] = l.split('#');
-      return { url: url.trim(), name: comment.join('#').trim() || new URL(url.trim()).hostname };
-    });
+  return lines.map(parseFeedLine).filter((f): f is NonNullable<typeof f> => f !== null);
 }
 
 async function main(): Promise<void> {
@@ -105,9 +110,9 @@ async function main(): Promise<void> {
       const fresh = items
         .filter((i) => !seen.has(i.link) && !known.has(articleKey(i.link)) && !NOT_TEXT.test(new URL(i.link).pathname))
         .sort((a, b) => b.date - a.date)
-        .slice(0, max);
+        .slice(0, Math.min(max, feed.max ?? max));
       for (const i of fresh) console.log(`  + ${i.title || i.link}`);
-      console.log(`• ${feed.name}: ${items.length} voci, ${fresh.length} nuove scelte`);
+      console.log(`• ${feed.name}: ${items.length} voci, ${fresh.length} nuove scelte${feed.max !== undefined ? ` (max ${feed.max})` : ''}`);
       chosen.push(...fresh.map((i) => i.link));
       st.seen = [...fresh.map((i) => i.link), ...st.seen].slice(0, SEEN_PER_FEED);
       delete st.error;
