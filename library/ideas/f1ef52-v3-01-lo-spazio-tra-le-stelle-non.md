@@ -9,8 +9,8 @@ subtopics:
 source:
   id: f1ef52488deb
   lang: en
-  title: A New Map of ‘Empty’ Space Challenges a Tranquil Picture of the Galaxy | Quanta Magazine
-  author: By Perri Thaler October 30, 2026
+  title: A New Map of ‘Empty’ Space Challenges a Tranquil Picture of the Galaxy
+  author: Perri Thaler
   site: Quanta Magazine
   url: https://www.quantamagazine.org/a-new-map-of-empty-space-challenges-a-tranquil-picture-of-the-galaxy-20261030/
 anchor: But mostly empty space is less simple than it seems.

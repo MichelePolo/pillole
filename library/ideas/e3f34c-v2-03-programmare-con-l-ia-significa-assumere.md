@@ -11,7 +11,7 @@ subtopics:
 source:
   id: e3f34c1a0808
   lang: en
-  title: Being Linux Torvalds - <antirez>
+  title: Being Linux Torvalds
   site: antirez.com
   url: http://antirez.com/news/171
 anchor: automatic programming, when it is done well, means to assume the role of Linus

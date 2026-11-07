@@ -9,8 +9,8 @@ subtopics:
 source:
   id: f75f4711bdca
   lang: en
-  title: DokuFest at 25
-  author: Amanda Barbour October 2026 Feature Articles
+  title: "Disobedient Images: DokuFest at 25"
+  author: Amanda Barbour
   site: Senses of Cinema
   url: https://www.sensesofcinema.com/2026/feature-articles/disobedient-images-dokufest-at-25/
 anchor: separate and individual narratives that cannot be easily drawn together into a meaningful whole

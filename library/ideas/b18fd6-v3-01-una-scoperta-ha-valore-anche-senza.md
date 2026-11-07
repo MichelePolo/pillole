@@ -11,8 +11,8 @@ subtopics:
 source:
   id: b18fd62b6771
   lang: en
-  title: Is There Anything Left in the Dream of Cold Fusion? | Quanta Magazine
-  author: By George Musser November 2, 2026
+  title: Is There Anything Left in the Dream of Cold Fusion?
+  author: George Musser
   site: Quanta Magazine
   url: https://www.quantamagazine.org/is-there-anything-left-in-the-dream-of-cold-fusion-20261102/
 anchor: Will this research program be interesting, even if the main claim falls short?

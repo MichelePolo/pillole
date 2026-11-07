@@ -10,8 +10,7 @@ subtopics:
 source:
   id: f4d81f9dca93
   lang: en
-  title: How Do You Take a Picture of a Black Hole? | Quanta Magazine
-  author: By
+  title: How Do You Take a Picture of a Black Hole?
   site: Quanta Magazine
   url: https://www.quantamagazine.org/how-do-you-take-a-picture-of-a-black-hole-20261029/
 anchor: the time it takes matter to orbit Sagittarius A* is only about half an hour

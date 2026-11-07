@@ -9,9 +9,9 @@ subtopics:
 source:
   id: c2fa30a909e0
   lang: en
-  title: Radical Documentary in the 1960s, by Julia Alekseyeva – Senses of Cinema
-  author: Daniel Fairfax October 2026 Book Reviews
-  site: www.sensesofcinema.com
+  title: "Revolutions of the Self: Antifascism and the Avant-Garde: Radical Documentary in the 1960s, by Julia Alekseyeva"
+  author: Daniel Fairfax
+  site: Senses of Cinema
   url: https://www.sensesofcinema.com/2026/book-reviews/revolutions-of-the-self-antifascism-and-the-avant-garde-radical-documentary-in-the-1960s-by-julia-alekseyeva/
 anchor: while the balance might change from film to film, it is always important for both aspects to be present
 anchor_check: exact
