@@ -11,8 +11,8 @@ subtopics:
 source:
   id: da12f1490c72
   lang: en
-  title: New Research Tests Whether AI Models Know Their Own Thoughts | Quanta Magazine
-  author: By Ben Brubaker November 4, 2026
+  title: New Research Tests Whether AI Models Know Their Own Thoughts
+  author: Ben Brubaker
   site: Quanta Magazine
   url: https://www.quantamagazine.org/new-research-tests-whether-ai-models-know-their-own-thoughts-20261104/
 anchor: Lederman and Mahowald decided to study the questions separately.

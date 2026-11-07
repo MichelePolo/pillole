@@ -9,9 +9,9 @@ subtopics:
 source:
   id: 8aa874a3c97f
   lang: en
-  title: Haunted Cities, Spectral Intimacies and Lost Futures in All of Us Strangers and The Beast – Senses of Cinema
-  author: Milo Farragher-Hanks October 2026 Feature Articles
-  site: www.sensesofcinema.com
+  title: "Nights That Won’t Happen: Haunted Cities, Spectral Intimacies and Lost Futures in All of Us Strangers and The Beast"
+  author: Milo Farragher-Hanks
+  site: Senses of Cinema
   url: https://www.sensesofcinema.com/2026/feature-articles/nights-that-wont-happen-haunted-cities-spectral-intimacies-and-lost-futures-in-all-of-us-strangers-and-the-beast/
 anchor: in which we now struggle to define the present and ergo to imagine the future
 anchor_check: exact

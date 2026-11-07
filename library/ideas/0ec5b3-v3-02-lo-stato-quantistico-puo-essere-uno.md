@@ -12,7 +12,7 @@ source:
   id: 0ec5b3370c5a
   lang: en
   title: A Strange Quantum Theorem Has Killed Einstein’s Reality
-  author: By Charlie Wood November 6, 2026
+  author: Charlie Wood
   site: Quanta Magazine
   url: https://www.quantamagazine.org/a-strange-quantum-theorem-has-killed-einsteins-reality-20261106/
 anchor: the wave function is like a weather forecast

@@ -10,7 +10,7 @@ source:
   id: 74e4e20570aa
   lang: en
   title: "The art of shaping a festival: conversation with Karel Och, artistic director of the Karlovy Vary International Film Festival"
-  author: Maria Giovanna Vagenas October 2026 Interviews
+  author: Maria Giovanna Vagenas
   site: Senses of Cinema
   url: https://www.sensesofcinema.com/2026/interviews/the-art-of-shaping-a-festival-conversation-with-karel-och-artistic-director-of-the-karlovy-vary-international-film-festival/
 anchor: The architects designed the building so that you could watch a film in the Grand Hall and then head up to the swimming pool

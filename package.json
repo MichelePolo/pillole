@@ -15,7 +15,8 @@
     "dedup": "tsx src/dedup-cli.ts",
     "feeds": "tsx src/feeds.ts",
     "stats": "tsx src/review.ts --stats",
-    "typecheck": "tsc --noEmit"
+    "typecheck": "tsc --noEmit",
+    "test": "node --import tsx --test src/*.test.ts"
   },
   "dependencies": {
     "@anthropic-ai/sdk": "^1.4.0",

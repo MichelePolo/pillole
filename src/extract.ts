@@ -103,13 +103,19 @@ async function fromUrl(url: string): Promise<Omit<Source, 'id' | 'chars' | 'trun
 
   const virtualConsole = new VirtualConsole(); // silenzia gli errori CSS di jsdom
   const dom = new JSDOM(body, { url, virtualConsole });
+  // Titolo e nome del sito prima di Readability, che modifica il documento. Se la pagina non
+  // dichiara il sito, il nome si ricava dal <title> («… – Senses of Cinema») anche quando il
+  // titolo arriva dall'<h1>.
+  const title = pageTitle(dom.window.document);
+  const host = new URL(url).hostname;
+  const siteFromTitle = splitSiteSuffix(oneLine(dom.window.document.title ?? ''), host).site;
   const article = new Readability(dom.window.document).parse();
   if (!article?.content) throw new Error(`Readability non ha trovato un articolo in ${url}`);
   return {
     url,
-    title: article.title?.trim() || url,
+    title: title || article.title?.trim() || url,
     author: article.byline?.trim() || undefined,
-    site: article.siteName?.trim() || new URL(url).hostname,
+    site: article.siteName?.trim() || siteFromTitle || host,
     text: cleanText(htmlToParagraphs(article.content)),
   };
 }
@@ -147,16 +153,49 @@ const squash = (s: string) =>
 
 export function splitSiteSuffix(title: string, site?: string): { title: string; site?: string } {
   const m = lastSuffix(title);
-  if (!m || !site || squash(m[1]) !== squash(site)) return { title, site };
+  // Il suffisso è il sito se coincide con il suo nome o dominio, o se ne è una sezione che comincia
+  // con il nome («Aeon Essays», «Psyche Ideas» per Aeon e Psyche).
+  const suffix = m && squash(m[1]);
+  const name = site && squash(site);
+  if (!m || !name || !suffix || !(suffix === name || (name.length >= 4 && suffix.startsWith(name)))) return { title, site };
   const isHost = /^[\w-]+(\.[\w-]+)+$/.test(site);
   const isName = /^[\p{L}\p{N}’'&.]+( [\p{L}\p{N}’'&.]+)+$/u.test(m[1]);
   return { title: m[0], site: isHost && isName ? m[1] : site };
 }
 
+// Il titolo completo dell'articolo. Readability riconosce come separatori del <title> solo
+// | - \\ / > », non il trattino lungo: con «80 is the New 60: More Into… – Senses of Cinema»
+// tiene solo la parte dopo l'ultimo «:». Quindi: og:title se c'è; altrimenti l'unico <h1>, se il
+// <title> comincia con quello (è il titolo senza il nome del sito); altrimenti il <title> intero.
+// Il nome del sito in coda lo toglie poi splitSiteSuffix.
+export function pageTitle(doc: Document): string | undefined {
+  const og = doc.querySelector('meta[property="og:title"], meta[name="twitter:title"]')?.getAttribute('content')?.trim();
+  if (og) return og;
+  const docTitle = doc.title?.trim();
+  const h1 = [...doc.querySelectorAll('h1')].map((h) => h.textContent?.replace(/\s+/g, ' ').trim()).filter(Boolean) as string[];
+  if (h1.length === 1 && docTitle?.startsWith(h1[0])) return h1[0];
+  return docTitle || undefined;
+}
+
+// La firma di alcuni siti mette dopo il nome la data e la rubrica: «Tony McKibbin October 2026
+// Book Reviews» (Senses of Cinema). Si taglia dove cominciano (giorno,) mese e anno.
+const MONTHS =
+  'january|february|march|april|may|june|july|august|september|october|november|december|gennaio|febbraio|marzo|aprile|maggio|giugno|luglio|agosto|settembre|ottobre|novembre|dicembre';
+// «October 2026», «3 novembre 2026», «November 6, 2026».
+const DATELINE = new RegExp(`\\s+(?:\\d{1,2}\\s+)?(?:${MONTHS})(?:\\s+\\d{1,2},?)?\\s+\\d{4}\\b.*$`, 'iu');
+// Anche «By Nome» → «Nome», e una firma vuota («By», Quanta) non è un autore.
+export const cleanAuthor = (author: string): string =>
+  author
+    .replace(DATELINE, '')
+    .replace(/^(?:by|di)\b\s*/i, '')
+    .trim();
+
 // Metadati da pagine e PDF non fidati: su una riga sola (vedi oneLine).
 function clean<T extends { title: string; author?: string; site?: string }>(s: T): T {
   const { title, site } = splitSiteSuffix(oneLine(s.title), s.site && oneLine(s.site));
-  return { ...s, title, ...(s.author ? { author: oneLine(s.author) } : {}), ...(site ? { site } : {}) };
+  const author = s.author ? cleanAuthor(oneLine(s.author)) : '';
+  const { author: _raw, ...rest } = s; // una firma vuota dopo la pulizia non resta nell'oggetto
+  return { ...rest, title, ...(author ? { author } : {}), ...(site ? { site } : {}) } as T;
 }
 
 export async function loadSource(input: string, opts: { refresh?: boolean } = {}): Promise<Source> {

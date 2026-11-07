@@ -11,8 +11,8 @@ subtopics:
 source:
   id: 1bf57186ea31
   lang: en
-  title: More Into than Out of the Past at the 2026 Karlovy Vary International Film Festival
-  author: Cerise Howard October 2026 Festival Reports
+  title: "80 is the New 60: More Into than Out of the Past at the 2026 Karlovy Vary International Film Festival"
+  author: Cerise Howard
   site: Senses of Cinema
   url: https://www.sensesofcinema.com/2026/festival-reports/80-is-the-new-60-more-into-than-out-of-the-past-at-the-2026-karlovy-vary-international-film-festival/
 anchor: its forced alternation with the Moscow International Film Festival from 1959 to ‘93
