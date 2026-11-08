@@ -195,11 +195,16 @@ export const cleanAuthor = (author: string): string =>
 // Entità HTML sopravvissute alla doppia codifica («Veronese&amp;#39;s Dogs»): il testo arriva già
 // decodificato una volta da jsdom, quindi qui restano solo forme numeriche e le cinque di base.
 const NAMED: Record<string, string> = { amp: '&', lt: '<', gt: '>', quot: '"', apos: "'" };
+// Un'entità non deve poter reintrodurre ciò che oneLine toglie: caratteri di controllo (C0, DEL, C1)
+// e separatori di riga diventano uno spazio. Questi testi finiscono nei log della nightly, dove una
+// riga che comincia con «::» è un comando di GitHub Actions.
+const safeChar = (cp: number): string =>
+  !Number.isInteger(cp) || cp < 0x20 || (cp >= 0x7f && cp <= 0x9f) || cp === 0x2028 || cp === 0x2029 || cp > 0x10ffff ? ' ' : String.fromCodePoint(cp);
 export function decodeEntities(text: string): string {
   let t = text;
   for (let k = 0; k < 2 && /&(?:#\d+|#x[\da-f]+|amp|lt|gt|quot|apos);/i.test(t); k++)
     t = t.replace(/&(#\d+|#x[\da-f]+|amp|lt|gt|quot|apos);/gi, (_, e: string) =>
-      e[0] === '#' ? String.fromCodePoint(e[1].toLowerCase() === 'x' ? parseInt(e.slice(2), 16) : Number(e.slice(1))) : NAMED[e.toLowerCase()],
+      e[0] === '#' ? safeChar(e[1].toLowerCase() === 'x' ? parseInt(e.slice(2), 16) : Number(e.slice(1))) : NAMED[e.toLowerCase()],
     );
   return t;
 }
@@ -211,8 +216,9 @@ export const plainTitle = (title: string): string => decodeEntities(title).repla
 
 // Metadati da pagine e PDF non fidati: su una riga sola (vedi oneLine).
 function clean<T extends { title: string; author?: string; site?: string }>(s: T): T {
-  const { title, site } = splitSiteSuffix(plainTitle(oneLine(s.title)), s.site && oneLine(s.site));
-  const author = s.author ? cleanAuthor(decodeEntities(oneLine(s.author))) : '';
+  // Prima si decodifica, poi oneLine: così oneLine vede anche ciò che le entità nascondevano.
+  const { title, site } = splitSiteSuffix(oneLine(plainTitle(s.title)), s.site && oneLine(s.site));
+  const author = s.author ? cleanAuthor(oneLine(decodeEntities(s.author))) : '';
   const { author: _raw, ...rest } = s; // una firma vuota dopo la pulizia non resta nell'oggetto
   return { ...rest, title, ...(author ? { author } : {}), ...(site ? { site } : {}) } as T;
 }

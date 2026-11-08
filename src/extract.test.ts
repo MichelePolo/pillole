@@ -44,5 +44,9 @@ describe('metadati delle fonti', () => {
     assert.equal(decodeEntities('Niente da fare'), 'Niente da fare');
     assert.equal(plainTitle('The Alchemical Transformations of the *Mutus Liber* (1677)'), 'The Alchemical Transformations of the Mutus Liber (1677)');
     assert.equal(plainTitle('2 * 3 = 6'), '2 * 3 = 6');
+    // Un'entità non reintroduce a capo né caratteri di controllo (log della nightly: «::comando::»).
+    assert.equal(decodeEntities('Titolo&#10;::warning::x'), 'Titolo ::warning::x');
+    assert.equal(decodeEntities('a&#x2028;b&#0;c&#x9F;d'), 'a b c d');
+    assert.equal(decodeEntities('&#1114112;'), ' ');
   });
 });
