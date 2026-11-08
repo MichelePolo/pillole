@@ -9,7 +9,7 @@ subtopics:
 source:
   id: 9e9af5336bf0
   lang: en
-  title: "“There is Nothing but Immortality!”: Walt Whitman and *The Book of Heavenly Death* (1905)"
+  title: "“There is Nothing but Immortality!”: Walt Whitman and The Book of Heavenly Death (1905)"
   author: Mathilde Montpetit
   site: The Public Domain Review
   url: https://publicdomainreview.org/collection/the-book-of-heavenly-death

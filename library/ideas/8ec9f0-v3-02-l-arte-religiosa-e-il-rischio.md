@@ -11,7 +11,7 @@ subtopics:
 source:
   id: 8ec9f099be26
   lang: en
-  title: Veronese&#39;s Dogs
+  title: "Veronese's Dogs"
   site: The Public Domain Review
   url: https://publicdomainreview.org/essay/veroneses-dogs
 anchor: We painters take the same licence the poets and the jesters take

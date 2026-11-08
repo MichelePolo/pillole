@@ -1,7 +1,7 @@
 import assert from 'node:assert/strict';
 import { describe, it } from 'node:test';
 import { JSDOM } from 'jsdom';
-import { cleanAuthor, pageTitle, splitSiteSuffix } from './extract.js';
+import { cleanAuthor, decodeEntities, pageTitle, plainTitle, splitSiteSuffix } from './extract.js';
 
 const doc = (head: string, body = '') => new JSDOM(`<!doctype html><html><head>${head}</head><body>${body}</body></html>`).window.document;
 
@@ -32,5 +32,21 @@ describe('metadati delle fonti', () => {
     assert.equal(cleanAuthor('By Jordana Cepelewicz'), 'Jordana Cepelewicz');
     assert.equal(cleanAuthor('By Charlie Wood November 6, 2026'), 'Charlie Wood'); // Quanta
     assert.equal(cleanAuthor('Byron Smith'), 'Byron Smith'); // non è «By»
+    assert.equal(cleanAuthor('Text by Thom Sliwowski'), 'Thom Sliwowski'); // Public Domain Review
+    assert.equal(cleanAuthor('Sarah Finley |'), 'Sarah Finley');
+    assert.equal(cleanAuthor('Testo di Laura Porta'), 'Laura Porta');
+    assert.equal(cleanAuthor('Dino Text'), 'Dino Text');
+  });
+
+  it('le entità HTML rimaste nei titoli si decodificano', () => {
+    assert.equal(decodeEntities('Veronese&amp;#39;s Dogs'), "Veronese's Dogs");
+    assert.equal(decodeEntities('Tom &amp; Jerry &#8211; storia'), 'Tom & Jerry – storia');
+    assert.equal(decodeEntities('Niente da fare'), 'Niente da fare');
+    assert.equal(plainTitle('The Alchemical Transformations of the *Mutus Liber* (1677)'), 'The Alchemical Transformations of the Mutus Liber (1677)');
+    assert.equal(plainTitle('2 * 3 = 6'), '2 * 3 = 6');
+    // Un'entità non reintroduce a capo né caratteri di controllo (log della nightly: «::comando::»).
+    assert.equal(decodeEntities('Titolo&#10;::warning::x'), 'Titolo ::warning::x');
+    assert.equal(decodeEntities('a&#x2028;b&#0;c&#x9F;d'), 'a b c d');
+    assert.equal(decodeEntities('&#1114112;'), ' ');
   });
 });

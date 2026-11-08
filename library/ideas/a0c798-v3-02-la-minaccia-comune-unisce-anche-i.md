@@ -9,8 +9,8 @@ subtopics:
 source:
   id: a0c79815aa72
   lang: en
-  title: Albrecht Dürer’s *Monument to the Vanquished Peasants* (1525)
-  author: Text by Thom Sliwowski
+  title: Albrecht Dürer’s Monument to the Vanquished Peasants (1525)
+  author: Thom Sliwowski
   site: The Public Domain Review
   url: https://publicdomainreview.org/collection/monument-to-the-vanquished-peasants
 anchor: The necessity of suppressing the revolt united Catholic and Lutheran nobles.

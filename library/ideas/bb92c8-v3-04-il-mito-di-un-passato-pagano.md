@@ -12,7 +12,7 @@ source:
   id: bb92c802396c
   lang: en
   title: "Slavdom Unearthed: Marian Wawrzeniecki’s Neopagan Paintings (1891–1923)"
-  author: Text by Thom Sliwowski
+  author: Thom Sliwowski
   site: The Public Domain Review
   url: https://publicdomainreview.org/collection/marian-wawrzeniecki
 anchor: finding a radical rupture between this paradise and the Christianized fallen world
