@@ -6,6 +6,7 @@
 # (alcuni siti rispondono ai lettori automatici con una pagina anti-bot).
 # Esclusi per questo (novembre 2026): Knowable Magazine, Smithsonian Magazine, The Scientist,
 # History Today e Smarthistory (403); Symmetry (403 sul feed). Finestre sull'Arte: quasi solo cronaca.
+# Physics Magazine (APS): si legge dal PC, ma risponde 403 ai server di GitHub Actions (notte dell'8 novembre).
 # The Paris Review risponde 403 a parte degli articoli: quelli si saltano.
 
 # --- AI e tecnologia: un articolo per feed a notte, il tema è già il più rappresentato
@@ -22,7 +23,7 @@ https://www.quantamagazine.org/feed/ # Quanta Magazine (EN)
 https://www.scienzainrete.it/rss.xml # Scienza in rete, Gruppo 2003 (IT)
 https://maddmaths.simai.eu/feed/ # MaddMaths!, SIMAI e UMI (IT)
 https://www.ilpost.it/scienza/feed/ # Il Post, Scienza (IT)
-https://feeds.aps.org/rss/recent/physics.xml max=2 # Physics Magazine, American Physical Society (EN)
+https://physicsworld.com/feed/ max=2 # Physics World, Institute of Physics (EN)
 https://www.media.inaf.it/feed/ max=2 # Media INAF, Istituto Nazionale di Astrofisica (IT)
 https://plus.maths.org/content/rss.xml max=2 # Plus Magazine, Università di Cambridge (EN)
 https://www.thetransmitter.org/feed/ max=2 # The Transmitter, neuroscienze (EN)
