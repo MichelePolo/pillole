@@ -10,7 +10,7 @@ source:
   id: a7a101bc8964
   lang: en
   title: Rudolf Kalvach’s Wiener Werkstätte Postcards (1907)
-  author: Text by Thea Applebaum Licht
+  author: Thea Applebaum Licht
   site: The Public Domain Review
   url: https://publicdomainreview.org/collection/kalvach-postcards
 anchor: to aestheticize every corner of daily life and transform it into a “total work of art”

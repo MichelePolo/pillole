@@ -9,8 +9,8 @@ subtopics:
 source:
   id: c97c0909ab81
   lang: en
-  title: Paul Carus’ *The History of the Devil and the Idea of Evil* (1899)
-  author: Text by Ross MacFarlane
+  title: Paul Carus’ The History of the Devil and the Idea of Evil (1899)
+  author: Ross MacFarlane
   site: The Public Domain Review
   url: https://publicdomainreview.org/collection/history-of-the-devil
 anchor: For it is a sprinkling of petty vices that makes even a great man human.

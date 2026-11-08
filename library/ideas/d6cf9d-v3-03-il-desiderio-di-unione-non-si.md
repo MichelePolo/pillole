@@ -12,7 +12,7 @@ source:
   id: d6cf9d99f474
   lang: en
   title: "Immortal Beloved: Krishna and Rādhā Exchanging Clothes (ca. 1700–1900)"
-  author: Text by Erica X Eisen
+  author: Erica X Eisen
   site: The Public Domain Review
   url: https://publicdomainreview.org/collection/krishna-and-radha-exchanging-clothes
 anchor: a yearning, longing, desire, to separate, recombine, be together in different ways continues to exist

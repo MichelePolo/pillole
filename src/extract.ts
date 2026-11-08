@@ -183,17 +183,36 @@ const MONTHS =
   'january|february|march|april|may|june|july|august|september|october|november|december|gennaio|febbraio|marzo|aprile|maggio|giugno|luglio|agosto|settembre|ottobre|novembre|dicembre';
 // «October 2026», «3 novembre 2026», «November 6, 2026».
 const DATELINE = new RegExp(`\\s+(?:\\d{1,2}\\s+)?(?:${MONTHS})(?:\\s+\\d{1,2},?)?\\s+\\d{4}\\b.*$`, 'iu');
-// Anche «By Nome» → «Nome», e una firma vuota («By», Quanta) non è un autore.
+// Anche «By Nome», «Text by Nome» (Public Domain Review), «Testo di Nome» → «Nome»; via i separatori
+// rimasti in coda («Sarah Finley |»). Una firma vuota («By», Quanta) non è un autore.
 export const cleanAuthor = (author: string): string =>
   author
     .replace(DATELINE, '')
-    .replace(/^(?:by|di)\b\s*/i, '')
+    .replace(/^(?:(?:text|words)\s+by|testo\s+di|by|di)\b\s*/i, '')
+    .replace(/[\s|·•,;:–—-]+$/u, '')
     .trim();
+
+// Entità HTML sopravvissute alla doppia codifica («Veronese&amp;#39;s Dogs»): il testo arriva già
+// decodificato una volta da jsdom, quindi qui restano solo forme numeriche e le cinque di base.
+const NAMED: Record<string, string> = { amp: '&', lt: '<', gt: '>', quot: '"', apos: "'" };
+export function decodeEntities(text: string): string {
+  let t = text;
+  for (let k = 0; k < 2 && /&(?:#\d+|#x[\da-f]+|amp|lt|gt|quot|apos);/i.test(t); k++)
+    t = t.replace(/&(#\d+|#x[\da-f]+|amp|lt|gt|quot|apos);/gi, (_, e: string) =>
+      e[0] === '#' ? String.fromCodePoint(e[1].toLowerCase() === 'x' ? parseInt(e.slice(2), 16) : Number(e.slice(1))) : NAMED[e.toLowerCase()],
+    );
+  return t;
+}
+
+// Il titolo come testo: entità decodificate e senza il corsivo Markdown che alcune pagine mettono
+// nei titoli («The Alchemical Transformations of the *Mutus Liber*», Public Domain Review): l'app
+// lo mostrerebbe con gli asterischi.
+export const plainTitle = (title: string): string => decodeEntities(title).replace(/\*([^*\n]+)\*/g, '$1');
 
 // Metadati da pagine e PDF non fidati: su una riga sola (vedi oneLine).
 function clean<T extends { title: string; author?: string; site?: string }>(s: T): T {
-  const { title, site } = splitSiteSuffix(oneLine(s.title), s.site && oneLine(s.site));
-  const author = s.author ? cleanAuthor(oneLine(s.author)) : '';
+  const { title, site } = splitSiteSuffix(plainTitle(oneLine(s.title)), s.site && oneLine(s.site));
+  const author = s.author ? cleanAuthor(decodeEntities(oneLine(s.author))) : '';
   const { author: _raw, ...rest } = s; // una firma vuota dopo la pulizia non resta nell'oggetto
   return { ...rest, title, ...(author ? { author } : {}), ...(site ? { site } : {}) } as T;
 }

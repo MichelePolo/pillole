@@ -11,7 +11,7 @@ subtopics:
 source:
   id: 4502dbda01a5
   lang: en
-  title: The Alchemical Transformations of the *Mutus Liber* (1677)
+  title: The Alchemical Transformations of the Mutus Liber (1677)
   author: Mathilde Montpetit
   site: The Public Domain Review
   url: https://publicdomainreview.org/collection/mutus-liber

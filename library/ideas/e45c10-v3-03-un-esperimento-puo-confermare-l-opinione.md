@@ -11,7 +11,7 @@ subtopics:
 source:
   id: e45c105e369f
   lang: en
-  title: "“Earth Not a Globe”: Parallax’s *Zetetic Astronomy* (1865)"
+  title: "“Earth Not a Globe”: Parallax’s Zetetic Astronomy (1865)"
   author: Mathilde Montpetit
   site: The Public Domain Review
   url: https://publicdomainreview.org/collection/zetetic-astronomy

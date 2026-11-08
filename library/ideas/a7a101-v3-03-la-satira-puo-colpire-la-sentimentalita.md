@@ -10,7 +10,7 @@ source:
   id: a7a101bc8964
   lang: en
   title: Rudolf Kalvach’s Wiener Werkstätte Postcards (1907)
-  author: Text by Thea Applebaum Licht
+  author: Thea Applebaum Licht
   site: The Public Domain Review
   url: https://publicdomainreview.org/collection/kalvach-postcards
 anchor: Most, however, make a mockery of the greeting card’s sentimentality.
