@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.1.23](https://github.com/MichelePolo/pillole/compare/v0.1.22...v0.1.23) (2026-11-08)
+
+
+### Features
+
+* **app:** equilibrio tra i temi scelti e bonus a gradini nella pillola ([#68](https://github.com/MichelePolo/pillole/issues/68)) ([cfbbe78](https://github.com/MichelePolo/pillole/commit/cfbbe7819e6990279f46e869448575853c80fe74))
+
 ## [0.1.22](https://github.com/MichelePolo/pillole/compare/v0.1.21...v0.1.22) (2026-11-08)
 
 
