@@ -12,7 +12,7 @@ source:
   id: e45c105e369f
   lang: en
   title: "“Earth Not a Globe”: Parallax’s *Zetetic Astronomy* (1865)"
-  author: Text by Mathilde Montpetit
+  author: Mathilde Montpetit
   site: The Public Domain Review
   url: https://publicdomainreview.org/collection/zetetic-astronomy
 anchor: The flag and the boat down to the water's edge were clearly visible throughout the whole distance

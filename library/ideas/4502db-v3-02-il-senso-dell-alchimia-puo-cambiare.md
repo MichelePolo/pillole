@@ -12,7 +12,7 @@ source:
   id: 4502dbda01a5
   lang: en
   title: The Alchemical Transformations of the *Mutus Liber* (1677)
-  author: Text by Mathilde Montpetit
+  author: Mathilde Montpetit
   site: The Public Domain Review
   url: https://publicdomainreview.org/collection/mutus-liber
 anchor: alchemy was not a search for the transmutation of metal, but for the transmutation of the self

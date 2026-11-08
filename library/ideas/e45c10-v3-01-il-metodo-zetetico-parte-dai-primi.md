@@ -12,7 +12,7 @@ source:
   id: e45c105e369f
   lang: en
   title: "“Earth Not a Globe”: Parallax’s *Zetetic Astronomy* (1865)"
-  author: Text by Mathilde Montpetit
+  author: Mathilde Montpetit
   site: The Public Domain Review
   url: https://publicdomainreview.org/collection/zetetic-astronomy
 anchor: an astronomy that begins from first principles rather than received ideas
