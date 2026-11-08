@@ -10,7 +10,7 @@ source:
   id: e727ba2ba253
   lang: en
   title: Out of the Lab
-  author: HPrizm |
+  author: HPrizm
   site: Musicology Now
   url: https://musicologynow.org/out-of-the-lab/
 anchor: The terms “cut” and “paste” in common tech functions are derived from earlier analog processes

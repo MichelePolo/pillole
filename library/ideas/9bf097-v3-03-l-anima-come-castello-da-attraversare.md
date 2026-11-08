@@ -10,7 +10,7 @@ source:
   id: 9bf09787342f
   lang: en
   title: Listening for Foremothers in Rosalía’s Lux
-  author: Sarah Finley |
+  author: Sarah Finley
   site: Musicology Now
   url: https://musicologynow.org/listening-for-foremothers-in-rosalias-lux/
 anchor: Here, the mystic imagines ecstatic union as a passage from the castle’s outer walls—the body—to its innermost sanctum

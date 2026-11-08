@@ -10,7 +10,7 @@ source:
   id: e727ba2ba253
   lang: en
   title: Out of the Lab
-  author: HPrizm |
+  author: HPrizm
   site: Musicology Now
   url: https://musicologynow.org/out-of-the-lab/
 anchor: copying small musical phrases onto magnetic tape to extend particular sections

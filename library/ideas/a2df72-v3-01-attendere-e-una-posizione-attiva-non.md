@@ -27,4 +27,4 @@ created: 2026-11-08T09:06:54.734Z
 
 # Attendere è una posizione attiva, non passività
 
-Aspettare è una condizione che subiamo, mentre attendere è una scelta che implica tensione verso ciò che può trascenderci. Secondo l'autore, la speranza, essendo connotata soprattutto di passività, si associa all'adattamento, mentre l'attesa ha un carattere attivo nel suo manifestarsi. ==La differenza sta nel passare dal subire il tempo al tendere verso qualcosa==. Questa distinzione permette di leggere l'attesa creativa non come vuoto da riempire, ma come lavoro di apertura verso ciò che ancora non ha forma.
+Aspettare è una condizione che subiamo, mentre attendere è una scelta che implica tensione verso ciò che può trascenderci. Secondo l'autrice, la speranza, essendo connotata soprattutto di passività, si associa all'adattamento, mentre l'attesa ha un carattere attivo nel suo manifestarsi. ==La differenza sta nel passare dal subire il tempo al tendere verso qualcosa==. Questa distinzione permette di leggere l'attesa creativa non come vuoto da riempire, ma come lavoro di apertura verso ciò che ancora non ha forma.

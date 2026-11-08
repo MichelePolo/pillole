@@ -12,7 +12,7 @@ source:
   id: e727ba2ba253
   lang: en
   title: Out of the Lab
-  author: HPrizm |
+  author: HPrizm
   site: Musicology Now
   url: https://musicologynow.org/out-of-the-lab/
 anchor: Yet, as is often the case with transformative technologies, creators quickly pushed beyond their intended use-cases.

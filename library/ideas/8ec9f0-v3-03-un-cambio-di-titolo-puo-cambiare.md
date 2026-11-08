@@ -26,4 +26,4 @@ created: 2026-11-08T09:06:54.699Z
 
 # Un cambio di titolo può cambiare il significato di un'opera
 
-Per evitare la condanna, il monastero di San Giovanni e Paolo non modificò il dipinto, ma gli diede una nuova etichetta: da Ultima Cena divenne Festa in casa di Levi. Il cambio di nome spostò il senso della scena da un banchetto sacro, in cui cani e buffoni sembravano fuori luogo, a un pranzo con pubblicani. L'autore mostra come il titolo possa rendere accettabile ciò che prima non lo era. ==Il significato di un'immagine dipende anche da come viene nominata==, un'idea utile per leggere ogni opera con cautela.
+Per evitare la condanna, il convento dei Santi Giovanni e Paolo non modificò il dipinto, ma gli diede una nuova etichetta: da Ultima Cena divenne Festa in casa di Levi. Il cambio di nome spostò il senso della scena da un banchetto sacro, in cui cani e buffoni sembravano fuori luogo, a un pranzo con pubblicani. L'autore mostra come il titolo possa rendere accettabile ciò che prima non lo era. ==Il significato di un'immagine dipende anche da come viene nominata==, un'idea utile per leggere ogni opera con cautela.

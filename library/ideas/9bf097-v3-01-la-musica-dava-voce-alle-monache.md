@@ -12,7 +12,7 @@ source:
   id: 9bf09787342f
   lang: en
   title: Listening for Foremothers in Rosalía’s Lux
-  author: Sarah Finley |
+  author: Sarah Finley
   site: Musicology Now
   url: https://musicologynow.org/listening-for-foremothers-in-rosalias-lux/
 anchor: music, among other mediums, was an important vehicle for agency and self-expression within and beyond the limits placed upon cloistered women in the Hispanic world

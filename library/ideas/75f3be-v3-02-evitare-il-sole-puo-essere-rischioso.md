@@ -25,4 +25,4 @@ created: 2026-11-08T09:06:54.894Z
 
 # Evitare il sole può essere rischioso come fumare
 
-Il dato citato nella fonte viene da uno studio su quasi 30.000 donne svedesi seguite per vent'anni. Secondo quella ricerca, evitare la luce del sole sarebbe un fattore di rischio di morte paragonabile a quello del fumo. ==Il risultato è abbastanza sorprendente da mettere in discussione l'abitudine di evitare il sole a ogni costo.== Il dato va letto come affermazione riportata dall'autore, non come verità assoluta, e non implica che il sole vada cercato senza limiti.
+Il dato citato nella fonte viene da uno studio su quasi 30.000 donne svedesi seguite per vent'anni. Secondo quella ricerca, evitare la luce del sole sarebbe un fattore di rischio di morte paragonabile a quello del fumo. ==Il risultato è abbastanza sorprendente da mettere in discussione l'abitudine di evitare il sole a ogni costo.== Il dato va letto come affermazione riportata dall'autrice, non come verità assoluta, e non implica che il sole vada cercato senza limiti.

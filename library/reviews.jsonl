@@ -1118,3 +1118,116 @@
 {"id":"2d8f1e-v3-02-un-esposizione-potenziale-non-e-un","prompt_version":"v3","verdict":"discard","reason":"duplicato","note":"scartata in automatico, ripete «Gli studi sull'impatto dell'AI misurano cose diverse»: Ripete l'affermazione di «Gli studi sull'impatto dell'AI misurano cose diverse» che l'indice di esposizione misura attività potenzialmente svolgibili dall'AI e non l'uso effettivo, con un esempio (INAPP) che non aggiunge nulla di sostanziale.","by":"auto","duplicate_of":"49fafa-v3-02-gli-studi-sull-impatto-dell-ai","at":"2026-11-08T09:07:30.860Z"}
 {"id":"2d8f1e-v3-05-il-valore-dell-ai-nelle-organizzazioni","prompt_version":"v3","verdict":"discard","reason":"duplicato","note":"scartata in automatico, ripete «L'AI rende utile solo se entra nei processi»: Sostiene che il valore dell'AI nelle organizzazioni richiede di riprogettare processi e responsabilità, affermazione già detta da «L'AI rende utile solo se entra nei processi» (l'AI produce valore solo se entra nei processi e richiede di ripensare l'organizzazione del lavoro).","by":"auto","duplicate_of":"0207cc-v3-01-l-ai-rende-utile-solo-se","at":"2026-11-08T09:07:30.861Z"}
 {"id":"33133a-v3-03-la-liberta-accademica-si-difende-con","prompt_version":"v3","verdict":"discard","reason":"duplicato","note":"scartata in automatico, ripete «La libertà di ricerca richiede di non dipendere dai contenuti»: «La libertà accademica si difende con standard di metodo, non di contenuto» afferma che la libertà accademica si difende con standard di metodo e giudizio dei pari invece che sul contenuto; «La libertà di ricerca richiede di non dipendere dai contenuti» dice già che i limiti devono dipendere dagli standard metodologici e non dal contenuto delle tesi, quindi l'affermazione centrale è la stessa, arricchita solo dal ruolo dei pari.","by":"auto","duplicate_of":"33133a-v3-02-la-liberta-di-ricerca-richiede-di","at":"2026-11-08T09:07:34.027Z"}
+{"id":"10ca67-v3-01-fermarsi-prima-di-agire-sblocca-il","prompt_version":"v3","verdict":"discard","reason":"vago","note":"revisione di Claude: consiglio pratico di autoaiuto (fai una pausa, respira, fissa una fine) più che un'idea; la risposta del quiz parla di stress, che nel testo non compare.","at":"2026-11-08T10:45:22.690Z"}
+{"id":"10ca67-v3-02-la-memoria-di-lavoro-dimentica-le","prompt_version":"v3","verdict":"keep","at":"2026-11-08T10:45:22.690Z"}
+{"id":"10ca67-v3-03-il-primo-passo-deve-essere-davvero","prompt_version":"v3","verdict":"keep","at":"2026-11-08T10:45:22.690Z"}
+{"id":"10ca67-v3-04-controllare-significa-confrontarsi-con-l-intenzione","prompt_version":"v3","verdict":"discard","reason":"vago","note":"revisione di Claude: istruzioni pratiche (controlla a metà e alla fine, usa un timer) senza una tesi; le domande citate senza virgolette si leggono male.","at":"2026-11-08T10:45:22.690Z"}
+{"id":"10ca67-v3-05-il-tempo-invisibile-va-reso-visibile","prompt_version":"v3","verdict":"keep","at":"2026-11-08T10:45:22.690Z"}
+{"id":"10ca67-v3-06-lavorare-accanto-a-qualcuno-aiuta-a","prompt_version":"v3","verdict":"keep","at":"2026-11-08T10:45:22.690Z"}
+{"id":"57cf4a-v3-01-le-immagini-diventano-testo-per-un","prompt_version":"v3","verdict":"keep","at":"2026-11-08T10:45:22.690Z"}
+{"id":"57cf4a-v3-02-congelare-il-modello-linguistico-conserva-la","prompt_version":"v3","verdict":"keep","at":"2026-11-08T10:45:22.690Z"}
+{"id":"57cf4a-v3-03-il-modello-deve-vedere-le-immagini","prompt_version":"v3","verdict":"keep","at":"2026-11-08T10:45:22.690Z"}
+{"id":"57cf4a-v3-04-modelli-diversi-possono-collaborare-tramite-il","prompt_version":"v3","verdict":"keep","at":"2026-11-08T10:45:22.690Z"}
+{"id":"57cf4a-v3-05-il-linguaggio-come-memoria-per-rispondere","prompt_version":"v3","verdict":"discard","reason":"duplicato","note":"revisione di Claude: stessa tesi di «Modelli diversi possono collaborare tramite il linguaggio»: l'immagine si traduce in testo e il modello linguistico ragiona su quello.","duplicate_of":"57cf4a-v3-04-modelli-diversi-possono-collaborare-tramite-il","at":"2026-11-08T10:45:22.690Z"}
+{"id":"33133a-v3-01-la-liberta-accademica-nasce-come-liberta","prompt_version":"v3","verdict":"keep","at":"2026-11-08T10:45:22.690Z"}
+{"id":"33133a-v3-02-la-liberta-di-ricerca-richiede-di","prompt_version":"v3","verdict":"keep","at":"2026-11-08T10:45:22.690Z"}
+{"id":"33133a-v3-04-il-ricercatore-deve-liberarsi-dall-ortodossia","prompt_version":"v3","verdict":"keep","at":"2026-11-08T10:45:22.690Z"}
+{"id":"33133a-v3-05-la-liberta-di-espressione-privata-non","prompt_version":"v3","verdict":"keep","at":"2026-11-08T10:45:22.690Z"}
+{"id":"57e602-v3-01-la-guerra-si-avvia-come-un","prompt_version":"v3","verdict":"discard","reason":"forma","note":"revisione di Claude: la frase sul capo della polizia arriva senza contesto e spezza il ragionamento; la tesi che resta (le guerre si preparano con la propaganda) è nota.","at":"2026-11-08T10:45:22.690Z"}
+{"id":"57e602-v3-02-un-fatto-regge-solo-con-due","prompt_version":"v3","verdict":"keep","at":"2026-11-08T10:45:22.690Z"}
+{"id":"57e602-v3-03-un-film-puo-lasciare-domande-aperte","prompt_version":"v3","verdict":"keep","at":"2026-11-08T10:45:22.690Z"}
+{"id":"57e602-v3-04-cancellare-una-figura-scomoda-dalla-storia","prompt_version":"v3","verdict":"keep","at":"2026-11-08T10:45:22.690Z"}
+{"id":"75f3be-v3-01-un-esposizione-moderata-al-sole-fa","prompt_version":"v3","verdict":"keep","at":"2026-11-08T10:45:22.690Z"}
+{"id":"75f3be-v3-02-evitare-il-sole-puo-essere-rischioso","prompt_version":"v3","verdict":"keep","at":"2026-11-08T10:45:22.690Z"}
+{"id":"75f3be-v3-03-luce-e-buio-regolano-il-ritmo","prompt_version":"v3","verdict":"discard","reason":"banale","note":"revisione di Claude: che luce e buio regolino il ritmo circadiano e il sonno è un'idea nota.","at":"2026-11-08T10:45:22.690Z"}
+{"id":"75f3be-v3-04-il-sole-puo-proteggere-dalla-depressione","prompt_version":"v3","verdict":"keep","at":"2026-11-08T10:45:22.690Z"}
+{"id":"0b31b1-v3-01-concentrare-i-fondi-riduce-il-ritorno","prompt_version":"v3","verdict":"keep","at":"2026-11-08T10:45:22.690Z"}
+{"id":"0b31b1-v3-02-bandi-molto-competitivi-consumano-tempo-prezioso","prompt_version":"v3","verdict":"keep","at":"2026-11-08T10:45:22.690Z"}
+{"id":"0b31b1-v3-03-le-grandi-infrastrutture-non-bastano-da","prompt_version":"v3","verdict":"discard","reason":"duplicato","note":"revisione di Claude: ripete «Concentrare i fondi riduce il ritorno per euro»: meglio fondi diffusi che concentrati in pochi grandi progetti.","duplicate_of":"0b31b1-v3-01-concentrare-i-fondi-riduce-il-ritorno","at":"2026-11-08T10:45:22.690Z"}
+{"id":"4447a3-v3-01-la-navigazione-spaziale-non-dipende-solo","prompt_version":"v3","verdict":"keep","at":"2026-11-08T10:45:22.690Z"}
+{"id":"4447a3-v3-02-il-segnale-spaziale-compare-quasi-ovunque","prompt_version":"v3","verdict":"discard","reason":"duplicato","note":"revisione di Claude: stessa conclusione di «La navigazione spaziale non dipende solo dall'ippocampo» (l'informazione spaziale è distribuita); il quiz poi riguarda la tesi di un'altra idea.","duplicate_of":"4447a3-v3-01-la-navigazione-spaziale-non-dipende-solo","at":"2026-11-08T10:45:22.690Z"}
+{"id":"4447a3-v3-03-decodificare-un-segnale-non-prova-che","prompt_version":"v3","verdict":"keep","at":"2026-11-08T10:45:22.690Z"}
+{"id":"8ec9f0-v3-01-lo-sguardo-del-cane-come-chiave","prompt_version":"v3","verdict":"keep","at":"2026-11-08T10:45:22.690Z"}
+{"id":"8ec9f0-v3-02-l-arte-religiosa-e-il-rischio","prompt_version":"v3","verdict":"keep","at":"2026-11-08T10:45:22.690Z"}
+{"id":"8ec9f0-v3-03-un-cambio-di-titolo-puo-cambiare","prompt_version":"v3","verdict":"keep","at":"2026-11-08T10:45:22.690Z"}
+{"id":"a6ca24-v3-01-comunicare-bene-conta-piu-di-tutto","prompt_version":"v3","verdict":"discard","reason":"duplicato","note":"revisione di Claude: stessa tesi di «Le specifiche ambigue mettono in difficoltà sia umani sia LLM»: con un modello conta descrivere il problema con chiarezza.","duplicate_of":"391bba-v3-03-le-specifiche-ambigue-mettono-in-difficolta","at":"2026-11-08T10:45:22.690Z"}
+{"id":"a6ca24-v3-02-il-contesto-ampio-fa-la-differenza","prompt_version":"v3","verdict":"keep","at":"2026-11-08T10:45:22.690Z"}
+{"id":"a6ca24-v3-03-restare-nel-ciclo-evitare-agenti-opachi","prompt_version":"v3","verdict":"discard","reason":"effimero","note":"revisione di Claude: consiglio sugli strumenti dell'estate 2025 (copiare il codice a mano nell'interfaccia web, evitare gli agenti), già superato.","at":"2026-11-08T10:45:22.690Z"}
+{"id":"c9607a-v3-01-il-riccio-immagina-gli-altri-invece","prompt_version":"v3","verdict":"keep","at":"2026-11-08T10:45:22.690Z"}
+{"id":"c9607a-v3-02-il-silenzio-nasce-dall-incertezza-su","prompt_version":"v3","verdict":"keep","at":"2026-11-08T10:45:22.690Z"}
+{"id":"a1aff3-v3-01-il-riscaldamento-del-suolo-non-e","prompt_version":"v3","verdict":"discard","reason":"forma","note":"revisione di Claude: corpo, quiz e ancora sono rimasti al segnaposto «placeholder».","at":"2026-11-08T10:45:22.690Z"}
+{"id":"f02568-v3-01-le-decisioni-sul-rischio-spesso-sono","prompt_version":"v3","verdict":"keep","at":"2026-11-08T10:45:22.690Z"}
+{"id":"f02568-v3-02-definire-con-precisione-il-rischio-prima","prompt_version":"v3","verdict":"keep","at":"2026-11-08T10:45:22.690Z"}
+{"id":"f02568-v3-03-il-modo-di-esprimere-le-probabilita","prompt_version":"v3","verdict":"keep","at":"2026-11-08T10:45:22.690Z"}
+{"id":"f02568-v3-04-le-medie-possono-nascondere-la-realta","prompt_version":"v3","verdict":"keep","at":"2026-11-08T10:45:22.690Z"}
+{"id":"f02568-v3-05-le-probabilita-hanno-bisogno-di-contesto","prompt_version":"v3","verdict":"keep","at":"2026-11-08T10:45:22.690Z"}
+{"id":"f02568-v3-06-le-emozioni-e-le-esperienze-personali","prompt_version":"v3","verdict":"discard","reason":"duplicato","note":"revisione di Claude: ripete il bias di conferma già pubblicato in «Il bias di conferma seleziona le prove che ci danno ragione».","duplicate_of":"d5341a-v3-03-il-bias-di-conferma-seleziona-le","at":"2026-11-08T10:45:22.690Z"}
+{"id":"6f7f88-v3-01-la-negazione-e-il-catastrofismo-bloccano","prompt_version":"v3","verdict":"keep","at":"2026-11-08T10:45:22.690Z"}
+{"id":"6f7f88-v3-02-il-disagio-ambientale-e-una-perdita","prompt_version":"v3","verdict":"keep","at":"2026-11-08T10:45:22.690Z"}
+{"id":"6f7f88-v3-03-la-speranza-radicale-nasce-dalla-dimensione","prompt_version":"v3","verdict":"keep","at":"2026-11-08T10:45:22.690Z"}
+{"id":"6f7f88-v3-04-il-pericolo-maggiore-e-l-illusione","prompt_version":"v3","verdict":"keep","at":"2026-11-08T10:45:22.690Z"}
+{"id":"6f7f88-v3-05-decarbonizzare-l-economia-richiede-di-cambiare","prompt_version":"v3","verdict":"keep","at":"2026-11-08T10:45:22.690Z"}
+{"id":"3b4756-v3-01-gli-sconosciuti-in-auto-si-aprono","prompt_version":"v3","verdict":"keep","at":"2026-11-08T10:45:22.690Z"}
+{"id":"3b4756-v3-02-il-montaggio-ricuce-riprese-girate-a","prompt_version":"v3","verdict":"keep","at":"2026-11-08T10:45:22.690Z"}
+{"id":"3b4756-v3-03-lasciare-cose-fuori-accende-la-curiosita","prompt_version":"v3","verdict":"keep","at":"2026-11-08T10:45:22.690Z"}
+{"id":"3b4756-v3-04-frammenti-accostati-fanno-emergere-il-presente","prompt_version":"v3","verdict":"discard","reason":"vago","note":"revisione di Claude: descrive l'estetica di un film senza un'idea generale chiara e riutilizzabile.","at":"2026-11-08T10:45:22.690Z"}
+{"id":"673582-v3-01-l-esito-non-basta-a-spiegare","prompt_version":"v3","verdict":"keep","at":"2026-11-08T10:45:22.690Z"}
+{"id":"673582-v3-02-il-finale-rende-la-storia-falsamente","prompt_version":"v3","verdict":"keep","at":"2026-11-08T10:45:22.690Z"}
+{"id":"673582-v3-03-i-sistemi-cambiano-anche-senza-incidenti","prompt_version":"v3","verdict":"keep","at":"2026-11-08T10:45:22.690Z"}
+{"id":"673582-v3-04-il-segnale-descrive-lo-stato-presente","prompt_version":"v3","verdict":"keep","at":"2026-11-08T10:45:22.690Z"}
+{"id":"9bf097-v3-01-la-musica-dava-voce-alle-monache","prompt_version":"v3","verdict":"keep","at":"2026-11-08T10:45:22.690Z"}
+{"id":"9bf097-v3-02-il-suono-puo-aggiungere-un-secondo","prompt_version":"v3","verdict":"keep","at":"2026-11-08T10:45:22.690Z"}
+{"id":"9bf097-v3-03-l-anima-come-castello-da-attraversare","prompt_version":"v3","verdict":"keep","at":"2026-11-08T10:45:22.690Z"}
+{"id":"9bf097-v3-04-i-fiori-segnavano-la-morte-al","prompt_version":"v3","verdict":"keep","at":"2026-11-08T10:45:22.690Z"}
+{"id":"142fe4-v3-01-la-diffusione-culturale-precede-spesso-la","prompt_version":"v3","verdict":"discard","reason":"classificazione","note":"revisione di Claude: l'esempio portante è il punto G, contenuto sessuale non adatto al PEGI 3.","at":"2026-11-08T10:45:22.690Z"}
+{"id":"142fe4-v3-02-il-punto-g-resta-un-unicorno","prompt_version":"v3","verdict":"discard","reason":"classificazione","note":"revisione di Claude: tratta di anatomia e piacere sessuale, non adatto al PEGI 3.","at":"2026-11-08T10:45:22.690Z"}
+{"id":"142fe4-v3-03-il-punto-nacque-da-una-regione","prompt_version":"v3","verdict":"discard","reason":"classificazione","note":"revisione di Claude: descrive anatomia vaginale e stimolazione sessuale, non adatto al PEGI 3.","at":"2026-11-08T10:45:22.690Z"}
+{"id":"457eb4-v3-01-i-fields-medal-premiano-il-lavoro","prompt_version":"v3","verdict":"keep","at":"2026-11-08T10:45:22.690Z"}
+{"id":"457eb4-v3-02-il-carl-friedrich-gauss-prize-premia","prompt_version":"v3","verdict":"keep","at":"2026-11-08T10:45:22.690Z"}
+{"id":"457eb4-v3-03-la-matematica-dell-informazione-ha-un","prompt_version":"v3","verdict":"discard","reason":"vago","note":"revisione di Claude: si limita a dire che esiste un premio, senza un'idea da imparare.","at":"2026-11-08T10:45:22.690Z"}
+{"id":"9154ad-v3-01-il-contatto-diretto-con-i-laboratori","prompt_version":"v3","verdict":"keep","at":"2026-11-08T10:45:22.690Z"}
+{"id":"9154ad-v3-02-la-trasparenza-migliora-anche-la-progettazione","prompt_version":"v3","verdict":"keep","at":"2026-11-08T10:45:22.690Z"}
+{"id":"9154ad-v3-03-la-trasparenza-istituzionale-si-e-diffusa","prompt_version":"v3","verdict":"discard","reason":"effimero","note":"revisione di Claude: elenco di accordi, conteggi e primati («oggi il più grande», «più di seicento») destinati a invecchiare.","at":"2026-11-08T10:45:22.690Z"}
+{"id":"e36976-v3-01-i-libri-animati-nascevano-come-strumento","prompt_version":"v3","verdict":"keep","at":"2026-11-08T10:45:22.690Z"}
+{"id":"e36976-v3-02-il-piacere-di-un-testo-puo","prompt_version":"v3","verdict":"keep","at":"2026-11-08T10:45:22.690Z"}
+{"id":"e36976-v3-03-un-testo-popolare-si-adatta-e","prompt_version":"v3","verdict":"keep","at":"2026-11-08T10:45:22.690Z"}
+{"id":"cb8bef-v3-01-un-disco-di-risate-divenne-un","prompt_version":"v3","verdict":"keep","at":"2026-11-08T10:45:22.690Z"}
+{"id":"cb8bef-v3-02-dopo-la-guerra-il-mercato-chiede","prompt_version":"v3","verdict":"keep","at":"2026-11-08T10:45:22.690Z"}
+{"id":"293e45-v3-01-il-bias-dell-ia-e-un","prompt_version":"v3","verdict":"keep","at":"2026-11-08T10:45:22.690Z"}
+{"id":"293e45-v3-02-il-bias-non-e-nuovo-esiste","prompt_version":"v3","verdict":"keep","at":"2026-11-08T10:45:22.690Z"}
+{"id":"293e45-v3-03-piu-diversita-nei-team-non-basta","prompt_version":"v3","verdict":"keep","at":"2026-11-08T10:45:22.690Z"}
+{"id":"293e45-v3-04-il-mercato-premia-la-velocita-piu","prompt_version":"v3","verdict":"discard","reason":"duplicato","note":"revisione di Claude: stessa tesi di «I sistemi automatici sostituiscono le persone quando costano meno» (il mercato premia prezzo e funzioni, non la qualità), già ripresa qui da «Testare meglio il software è spesso semplice».","duplicate_of":"99a9b0-v3-05-i-sistemi-automatici-sostituiscono-le-persone","at":"2026-11-08T10:45:22.690Z"}
+{"id":"293e45-v3-05-testare-meglio-il-software-e-spesso","prompt_version":"v3","verdict":"keep","at":"2026-11-08T10:45:22.690Z"}
+{"id":"4c3bf6-v3-01-la-salute-mentale-dipende-dalle-scelte","prompt_version":"v3","verdict":"keep","at":"2026-11-08T10:45:22.690Z"}
+{"id":"4c3bf6-v3-02-l-offerta-di-servizi-crea-la","prompt_version":"v3","verdict":"keep","at":"2026-11-08T10:45:22.690Z"}
+{"id":"4c3bf6-v3-03-senza-dati-affidabili-la-sanita-procede","prompt_version":"v3","verdict":"discard","reason":"banale","note":"revisione di Claude: «senza dati non si sa cosa funziona» è un truismo, e la battuta di Deming è evocata senza essere riportata.","at":"2026-11-08T10:45:22.690Z"}
+{"id":"4c3bf6-v3-04-lo-scarto-tra-obiettivi-e-mezzi","prompt_version":"v3","verdict":"keep","at":"2026-11-08T10:45:22.690Z"}
+{"id":"4c3bf6-v3-05-la-cronaca-violenta-alimenta-lo-stigma","prompt_version":"v3","verdict":"keep","at":"2026-11-08T10:45:22.690Z"}
+{"id":"a2df72-v3-01-attendere-e-una-posizione-attiva-non","prompt_version":"v3","verdict":"keep","at":"2026-11-08T10:45:22.690Z"}
+{"id":"a2df72-v3-02-scolpire-come-togliere-non-aggiungere","prompt_version":"v3","verdict":"keep","at":"2026-11-08T10:45:22.690Z"}
+{"id":"a2df72-v3-03-capacita-negativa-restare-nell-incertezza-senza","prompt_version":"v3","verdict":"keep","at":"2026-11-08T10:45:22.690Z"}
+{"id":"a2df72-v3-04-il-seme-nascosto-fare-la-propria","prompt_version":"v3","verdict":"discard","reason":"banale","note":"revisione di Claude: «fai la tua parte e lascia andare il risultato» è un luogo comune, e il racconto del seminatore non viene spiegato.","at":"2026-11-08T10:45:22.690Z"}
+{"id":"a2df72-v3-05-la-creativita-e-propria-di-tutti","prompt_version":"v3","verdict":"discard","reason":"banale","note":"revisione di Claude: «la creatività è di tutti» è un truismo, e la distinzione finale tra chi non ha gli strumenti e chi è bloccato resta confusa.","at":"2026-11-08T10:45:22.690Z"}
+{"id":"6da9de-v3-01-l-allineamento-algoritmico-predice-la-capacita","prompt_version":"v3","verdict":"keep","at":"2026-11-08T10:45:22.690Z"}
+{"id":"6da9de-v3-02-le-reti-neurali-tendono-a-imparare","prompt_version":"v3","verdict":"discard","reason":"duplicato","note":"revisione di Claude: stessa idea di «Le previsioni corrette possono nascondere euristiche superficiali»: il modello impara scorciatoie valide solo sulla distribuzione di addestramento.","duplicate_of":"1dc008-v3-02-le-previsioni-corrette-possono-nascondere-euristiche","at":"2026-11-08T10:45:22.690Z"}
+{"id":"6da9de-v3-03-un-algoritmo-perfetto-su-input-sbagliati","prompt_version":"v3","verdict":"keep","at":"2026-11-08T10:45:22.690Z"}
+{"id":"6da9de-v3-04-un-processore-neurale-puo-sostituire-il","prompt_version":"v3","verdict":"discard","reason":"forma","note":"revisione di Claude: descrizione tecnica con gergo non tradotto (blueprint, pipeline) e risposta del quiz che introduce la differenziabilità, assente nel testo.","at":"2026-11-08T10:45:22.690Z"}
+{"id":"e727ba-v3-01-il-campionamento-sfugge-allo-scopo-per","prompt_version":"v3","verdict":"keep","at":"2026-11-08T10:45:22.690Z"}
+{"id":"e727ba-v3-02-il-linguaggio-digitale-eredita-gesti-del","prompt_version":"v3","verdict":"discard","reason":"altro","note":"revisione di Claude: presenta come un fatto un'etimologia inesatta: «taglia e incolla» viene dal lavoro sulla carta con forbici e colla, non dal montaggio del nastro magnetico","at":"2026-11-08T10:45:22.690Z"}
+{"id":"e727ba-v3-03-la-musica-concreta-tratta-il-suono","prompt_version":"v3","verdict":"keep","at":"2026-11-08T10:45:22.690Z"}
+{"id":"e727ba-v3-04-il-tape-loop-allunga-le-sezioni","prompt_version":"v3","verdict":"keep","at":"2026-11-08T10:45:22.690Z"}
+{"id":"2d8f1e-v3-01-misurare-l-impatto-dell-ai-non","prompt_version":"v3","verdict":"discard","reason":"duplicato","note":"revisione di Claude: stesso punto di «Le politiche sul lavoro e l'AI richiedono misurazione continua»: i dati sull'impatto dell'AI servono a orientare le politiche.","duplicate_of":"49fafa-v3-01-le-politiche-sul-lavoro-e-l","at":"2026-11-08T10:45:22.690Z"}
+{"id":"2d8f1e-v3-03-la-formazione-funziona-se-segue-progetti","prompt_version":"v3","verdict":"discard","reason":"vago","note":"revisione di Claude: è un consiglio pratico sulla formazione aziendale, non un'idea.","at":"2026-11-08T10:45:22.690Z"}
+{"id":"2d8f1e-v3-04-la-fiducia-pubblica-dipende-da-regole","prompt_version":"v3","verdict":"discard","reason":"vago","note":"revisione di Claude: «servono regole chiare» è generico, e i casi austriaco e francese sono solo accennati senza spiegarli.","at":"2026-11-08T10:45:22.690Z"}
+{"id":"53b1e2-v3-01-il-meccanismo-prevedeva-i-cicli-celesti","prompt_version":"v3","verdict":"keep","at":"2026-11-08T10:45:22.690Z"}
+{"id":"53b1e2-v3-02-ricostruire-con-gli-strumenti-antichi-aiuta","prompt_version":"v3","verdict":"keep","at":"2026-11-08T10:45:22.690Z"}
+{"id":"53b1e2-v3-03-la-tomografia-svela-l-interno-di","prompt_version":"v3","verdict":"discard","reason":"banale","note":"revisione di Claude: che la tomografia mostri l'interno degli oggetti senza aprirli è noto, e la frase evidenziata («ogni indagine chiarisce alcuni punti e ne apre altri») è un truismo.","at":"2026-11-08T10:45:22.690Z"}
+{"id":"98235e-v3-01-i-meteoriti-marziani-sono-campioni-naturali","prompt_version":"v3","verdict":"keep","at":"2026-11-08T10:45:22.690Z"}
+{"id":"98235e-v3-02-lo-zircone-permette-di-datare-le","prompt_version":"v3","verdict":"keep","at":"2026-11-08T10:45:22.690Z"}
+{"id":"98235e-v3-03-marte-primordiale-poteva-essere-simile-alla","prompt_version":"v3","verdict":"keep","at":"2026-11-08T10:45:22.690Z"}
+{"id":"0e4256-v3-01-i-bambini-affrontano-la-morte-con","prompt_version":"v3","verdict":"keep","at":"2026-11-08T10:45:22.690Z"}
+{"id":"0e4256-v3-02-la-solitudine-dell-osservatore-e-la","prompt_version":"v3","verdict":"keep","at":"2026-11-08T10:45:22.690Z"}
+{"id":"1b27c9-v3-01-un-sequel-puo-ripetere-e-ribaltare","prompt_version":"v3","verdict":"keep","at":"2026-11-08T10:45:22.690Z"}
+{"id":"1b27c9-v3-02-lo-spettacolo-celebrativo-cancella-l-ambiguita","prompt_version":"v3","verdict":"discard","reason":"duplicato","note":"revisione di Claude: ripete «Un sequel può ripetere e ribaltare il prototipo» (Rocky II rinuncia all'ambiguità per celebrare l'eroe), con un testo più faticoso.","duplicate_of":"1b27c9-v3-01-un-sequel-puo-ripetere-e-ribaltare","at":"2026-11-08T10:45:22.690Z"}
+{"id":"d3c577-v3-01-la-fantascienza-italiana-fatica-a-diventare","prompt_version":"v3","verdict":"keep","at":"2026-11-08T10:45:22.690Z"}
+{"id":"d3c577-v3-02-il-popolare-come-dialogo-tra-artista","prompt_version":"v3","verdict":"discard","reason":"vago","note":"revisione di Claude: «il popolare è un dialogo tra artista e pubblico» resta generico e non dice nulla di verificabile.","at":"2026-11-08T10:45:22.690Z"}

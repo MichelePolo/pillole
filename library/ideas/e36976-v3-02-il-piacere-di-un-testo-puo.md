@@ -12,7 +12,7 @@ source:
   id: e36976345691
   lang: en
   title: "Metamorphosis: Transformations in the Early Modern Flap Book (early 19th century)"
-  author: Text by Mathilde Montpetit
+  author: Mathilde Montpetit
   site: The Public Domain Review
   url: https://publicdomainreview.org/collection/metamorphosis-early-modern-flap-book
 anchor: what was to stop a child from turning Adam into a "creature of fable"?

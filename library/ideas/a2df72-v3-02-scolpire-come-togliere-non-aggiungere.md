@@ -18,7 +18,7 @@ source:
 anchor: attendere è togliere, è scolpirsi “per forza di levare”
 anchor_check: exact
 quiz:
-  q: Perché l'autore associa l'attesa alla scultura e non alla pittura?
+  q: Perché l'autrice associa l'attesa alla scultura e non alla pittura?
   a: Perché la scultura procede per sottrazione, liberando una forma già racchiusa nella materia, mentre la pittura aggiunge colore su una superficie vuota.
 prompt_version: v3
 model: claude-haiku-5-5

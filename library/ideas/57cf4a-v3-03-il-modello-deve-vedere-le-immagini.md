@@ -25,4 +25,4 @@ created: 2026-11-08T09:06:54.725Z
 
 # Il modello deve vedere le immagini al momento giusto
 
-Secondo gli esperimenti di ablazione riportati, la scelta più importante per VisualBERT è integrare le informazioni visive presto nei livelli del transformer e pre-addestrare il modello su un dataset di didascalie. Invece l'inizializzazione da un BERT pre-addestrato e l'obiettivo di predizione frase-immagine hanno effetti relativamente piccoli. Secondo l'autore, il punto decisivo è quindi dove e quando la visione entra nel modello.
+Secondo gli esperimenti di ablazione riportati, la scelta più importante per VisualBERT è integrare le informazioni visive presto nei livelli del transformer e pre-addestrare il modello su un dataset di didascalie. Invece l'inizializzazione da un BERT pre-addestrato e l'obiettivo di predizione frase-immagine hanno effetti relativamente piccoli. Secondo l'autrice, il punto decisivo è quindi dove e quando la visione entra nel modello.

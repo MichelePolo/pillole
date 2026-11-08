@@ -12,7 +12,7 @@ source:
   id: cb8bef0fdf29
   lang: en
   title: It’s “A Cat-astrophe”! (1919)
-  author: Text by Mathilde Montpetit
+  author: Mathilde Montpetit
   site: The Public Domain Review
   url: https://publicdomainreview.org/collection/cat-astrophe
 anchor: became a surprise worldwide hit then

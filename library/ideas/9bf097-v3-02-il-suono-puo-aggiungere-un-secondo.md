@@ -10,7 +10,7 @@ source:
   id: 9bf09787342f
   lang: en
   title: Listening for Foremothers in Rosalía’s Lux
-  author: Sarah Finley |
+  author: Sarah Finley
   site: Musicology Now
   url: https://musicologynow.org/listening-for-foremothers-in-rosalias-lux/
 anchor: its sonic proximity to “llanto” or “weeping” folds the suffering of human existence

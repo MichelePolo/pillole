@@ -25,4 +25,4 @@ created: 2026-11-08T09:06:54.895Z
 
 # Il sole può proteggere dalla depressione
 
-Quando la pelle è esposta al sole, il corpo rilascia endorfine, che l'autore descrive come oppioidi naturali. Secondo questa lettura, l'esposizione al sole potrebbe contribuire a proteggere dalla depressione. ==Il beneficio mentale della luce dipende da un meccanismo biologico concreto, non solo dall'umore del momento.== Va però ricordato che si parla di un possibile effetto, non di una cura. Anche qui la quantità conta, e la prudenza resta necessaria.
+Quando la pelle è esposta al sole, il corpo rilascia endorfine, che l'autrice descrive come oppioidi naturali. Secondo questa lettura, l'esposizione al sole potrebbe contribuire a proteggere dalla depressione. ==Il beneficio mentale della luce dipende da un meccanismo biologico concreto, non solo dall'umore del momento.== Va però ricordato che si parla di un possibile effetto, non di una cura. Anche qui la quantità conta, e la prudenza resta necessaria.
