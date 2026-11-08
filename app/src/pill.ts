@@ -16,10 +16,11 @@ const W_SAME_SOURCE = 0.5; // diversità: una seconda card dalla stessa fonte de
 // non solo dentro la pillola. Una fonte letta due volte di recente pesa quanto una ripetuta qui.
 const W_SOURCE_FATIGUE = 0.5;
 const SOURCE_FATIGUE_SATURATION = 2;
-const W_BRIDGE = 0.1; // card ponte: idee con due argomenti
+const W_BRIDGE = 0.1; // card ponte: idee con due argomenti (con temi scelti, solo se li hai scelti entrambi)
 // Temi scelti: più dell'intera escursione degli altri termini (circa da -2 a +1,5),
 // così un'idea fuori tema entra solo quando quelle nei temi sono finite.
-const IN_THEME_BONUS = 3;
+const IN_THEME_BONUS = 3; // tutti i temi dell'idea sono tra quelli scelti
+const PARTIAL_THEME_BONUS = 2; // solo alcuni («AI · Filosofia» a chi ha scelto Filosofia): sopra le idee fuori tema, dietro quelle pure
 
 export type Reason =
   | { kind: 'similar'; to: string } // titolo dell'idea salvata più vicina
@@ -42,6 +43,16 @@ export function composePill(pool: Idea[], p: Profile, { interests = [], n = PILL
   const cands = [...pool];
   const chosen = new Set(interests);
   const inTheme = (i: Idea) => chosen.size === 0 || i.topics.some((t) => chosen.has(t));
+  const allInTheme = (i: Idea) => chosen.size === 0 || i.topics.every((t) => chosen.has(t));
+  // Equilibrio tra i temi scelti: quante card ha già ciascun tema (un'idea con due temi scelti conta
+  // per entrambi). A ogni card si sceglie tra le idee che coprono un tema rimasto indietro.
+  const covered = new Map([...chosen].map((t) => [t, 0]));
+  const behind = (): Set<string> => {
+    const open = [...covered].filter(([t]) => cands.some((i) => i.topics.includes(t))); // temi con idee ancora disponibili
+    if (open.length === 0) return new Set();
+    const min = Math.min(...open.map(([, n]) => n));
+    return new Set(open.filter(([, n]) => n === min).map(([t]) => t));
+  };
   // La quota evergreen vale solo se la filosofia è tra i temi (o se non se ne è scelto nessuno).
   const evergreenMin = chosen.size === 0 || chosen.has('filosofia') ? EVERGREEN_MIN : 0;
   const isEvergreen = (i: Idea) => i.topics.includes('filosofia');
@@ -50,7 +61,9 @@ export function composePill(pool: Idea[], p: Profile, { interests = [], n = PILL
     // Se gli slot rimasti bastano appena per la quota evergreen, si sceglie solo tra la filosofia.
     const evergreenNeeded = evergreenMin - pill.filter((c) => isEvergreen(c.idea)).length;
     const forceEvergreen = evergreenNeeded > 0 && n - pill.length <= evergreenNeeded && cands.some(isEvergreen);
-    const eligible = forceEvergreen ? cands.filter(isEvergreen) : cands;
+    const lagging = behind();
+    const balanced = cands.filter((i) => i.topics.some((t) => lagging.has(t)));
+    const eligible = forceEvergreen ? cands.filter(isEvergreen) : balanced.length > 0 ? balanced : cands;
 
     let best: { idea: Idea; score: number; taste: Taste } | null = null;
     for (const idea of eligible) {
@@ -60,14 +73,15 @@ export function composePill(pool: Idea[], p: Profile, { interests = [], n = PILL
       const sameSource = pill.some((c) => c.idea.source.id === idea.source.id) ? 1 : 0;
       const readFromSource = p.recent.reduce((sum, r) => sum + (r.sourceId === idea.source.id ? r.w : 0), 0);
       const fatigue = Math.min(1, readFromSource / SOURCE_FATIGUE_SATURATION);
-      const bridge = idea.topics.length > 1 ? 1 : 0;
-      const theme = inTheme(idea) ? IN_THEME_BONUS : 0;
+      const bridge = idea.topics.length > 1 && allInTheme(idea) ? 1 : 0;
+      const theme = allInTheme(idea) ? IN_THEME_BONUS : inTheme(idea) ? PARTIAL_THEME_BONUS : 0;
       const score = theme + taste.value + W_SIM * sim - W_REDUNDANCY * redundancy - W_SAME_SOURCE * sameSource - W_SOURCE_FATIGUE * fatigue + W_BRIDGE * bridge;
       if (!best || score > best.score) best = { idea, score, taste };
     }
     if (!best) break;
     pill.push({ idea: best.idea, reason: inTheme(best.idea) ? reasonFor(best.idea, best.taste, p, forceEvergreen) : { kind: 'outside' } });
     cands.splice(cands.indexOf(best.idea), 1);
+    for (const t of best.idea.topics) if (covered.has(t)) covered.set(t, covered.get(t)! + 1);
   }
   return pill;
 }
