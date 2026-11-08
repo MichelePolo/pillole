@@ -1,5 +1,13 @@
 # Changelog
 
+## [0.1.22](https://github.com/MichelePolo/pillole/compare/v0.1.21...v0.1.22) (2026-11-08)
+
+
+### Bug Fixes
+
+* **extract:** firme «Text by» e «… |», entità e corsivo nei titoli ([#66](https://github.com/MichelePolo/pillole/issues/66)) ([8c96334](https://github.com/MichelePolo/pillole/commit/8c96334b4f95aefd6ad436536be9d45946d0ae09))
+* **feeds:** Physics World al posto di Physics Magazine (APS) ([#65](https://github.com/MichelePolo/pillole/issues/65)) ([96f74d0](https://github.com/MichelePolo/pillole/commit/96f74d0f66f175ee4e013bdd2668fbe706534674))
+
 ## [0.1.21](https://github.com/MichelePolo/pillole/compare/v0.1.20...v0.1.21) (2026-11-07)
 
 
