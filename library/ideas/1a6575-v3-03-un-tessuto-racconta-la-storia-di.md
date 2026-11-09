@@ -25,4 +25,4 @@ created: 2026-11-09T09:56:12.628Z
 
 # Un tessuto racconta la storia di una regione
 
-Un singolo tessuto ikat di Bukhara riflette la varietà etnica della regione. Gli ebrei bukhariani si occupavano spesso dell'indaco, i tagiki della tintura rossa e gialla, e gli uzbeki della tessitura vera e propria. Il tessuto diventa così un documento delle relazioni tra gruppi diversi. Secondo l'autore, in un solo pezzo di stoffa si concentrano la storia e la complessità di un'intera area.
+Un singolo tessuto ikat di Bukhara riflette la varietà etnica della regione. Gli ebrei bukhariani si occupavano spesso dell'indaco, i tagiki della tintura rossa e gialla, e gli uzbeki della tessitura vera e propria. Il tessuto diventa così un documento delle relazioni tra gruppi diversi. Secondo l'autrice, in un solo pezzo di stoffa si concentrano la storia e la complessità di un'intera area.

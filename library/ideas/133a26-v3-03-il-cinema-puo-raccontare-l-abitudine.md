@@ -25,4 +25,4 @@ created: 2026-11-09T09:56:12.676Z
 
 # Il cinema può raccontare l'abitudine, non l'evento
 
-Il film sembra porsi una domanda sul proprio linguaggio: la lunga sequenza nell'appartamento è un solo lungo notte, oppure la fusione di molti incontri simili? L'autore suggerisce che la regista cerchi l'equivalente cinematografico dell'imperfetto, cioè il modo di dire « questo accadeva » invece di « questo è accaduto ». Il montaggio rende ambigue le due letture. ==Il racconto può mostrare ciò che si ripete nel tempo, non soltanto ciò che accade una volta==, e in questo sta la sua forza espressiva.
+Il film sembra porsi una domanda sul proprio linguaggio: la lunga sequenza nell'appartamento è una sola lunga notte, oppure la fusione di molti incontri simili? L'autore suggerisce che la regista cerchi l'equivalente cinematografico dell'imperfetto, cioè il modo di dire « questo accadeva » invece di « questo accadde ». Il montaggio rende ambigue le due letture. ==Il racconto può mostrare ciò che si ripete nel tempo, non soltanto ciò che accade una volta==, e in questo sta la sua forza espressiva.

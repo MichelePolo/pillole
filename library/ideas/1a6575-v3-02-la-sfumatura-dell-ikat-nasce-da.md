@@ -25,4 +25,4 @@ created: 2026-11-09T09:56:12.627Z
 
 # La sfumatura dell'ikat nasce da un limite tecnico
 
-I legacci usati per proteggere i fili dal colorante non sono mai perfettamente stagni, e il colore tende a filtrare un po' oltre i bordi previsti. Questo difetto produce la caratteristica sfumatura dei tessuti ikat. L'autore lo descrive come un limite metodologico trasformato in un valore estetico riconosciuto. Il pregio di un oggetto può quindi derivare proprio dall'imperfezione del suo processo.
+I legacci usati per proteggere i fili dal colorante non sono mai perfettamente stagni, e il colore tende a filtrare un po' oltre i bordi previsti. Questo difetto produce la caratteristica sfumatura dei tessuti ikat. L'autrice lo descrive come un limite metodologico trasformato in un valore estetico riconosciuto. Il pregio di un oggetto può quindi derivare proprio dall'imperfezione del suo processo.

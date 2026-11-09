@@ -16,7 +16,7 @@ anchor: The process, however, cannot be rushed
 anchor_check: exact
 quiz:
   q: Qual è la contraddizione tra la promessa dell'Ars notoria e il suo metodo?
-  a: Prometteva sapere immediato, ma richiedeva ripetizioni regolari per un intero mese lunare e una lunga disciplina.
+  a: Prometteva sapere immediato, ma richiedeva ripetizioni in otto giorni di un mese lunare e una lunga disciplina.
 prompt_version: v3
 model: claude-haiku-5-5
 created: 2026-11-09T09:56:12.701Z

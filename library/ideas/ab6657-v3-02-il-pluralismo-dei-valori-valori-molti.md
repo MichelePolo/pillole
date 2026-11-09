@@ -23,6 +23,6 @@ model: claude-haiku-5-5
 created: 2026-11-09T09:56:12.720Z
 ---
 
-# Il pluralismo dei valori: valori molti e in conflitto
+# Il pluralismo dei valori: molti valori in conflitto
 
 Secondo Berlin i valori autentici sono molteplici e possono entrare in conflitto tra loro: libertà ed eguaglianza, misericordia e giustizia, amore e imparzialità. Non è sempre possibile stabilire a priori che un valore prevalga sempre sugli altri. Quando due valori si scontrano, questo non dipende da un errore di comprensione. Per l'autore il conflitto è un elemento strutturale della vita umana, e l'idea di una piena realizzazione totale è una chimera. ==Il conflitto tra valori appartiene all'essenza della vita umana==, non è un difetto da eliminare.

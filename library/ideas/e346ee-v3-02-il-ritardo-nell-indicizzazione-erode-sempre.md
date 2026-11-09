@@ -23,6 +23,6 @@ model: claude-haiku-5-5
 created: 2026-11-09T09:56:12.595Z
 ---
 
-# Il ritardo nell'indicizzazione erode sempre il potere d'acquisto
+# Il ritardo nell'indicizzazione erode il potere d'acquisto quando l'inflazione sale
 
 Le pensioni vengono rivalutate con un anno di ritardo: l'aumento di un anno riflette l'inflazione dell'anno precedente. Anche con la piena rivalutazione, quindi, la crescita delle pensioni non coincide mai con l'inflazione dello stesso anno. Nel 2022 l'inflazione fu dell'8,1 per cento, ma il tasso di riferimento applicato fu solo dell'1,9 per cento. Questo sfasamento significa che, in periodi di inflazione crescente, i pensionati perdono potere d'acquisto anche quando la rivalutazione funziona correttamente.
