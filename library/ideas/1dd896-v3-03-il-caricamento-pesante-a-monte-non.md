@@ -24,4 +24,4 @@ created: 2026-11-10T10:33:53.475Z
 
 # Il caricamento pesante a monte non ripaga sul dispositivo
 
-Molti sostengono che fare molto lavoro all'inizio renda le interazioni successive più veloci. Secondo l'autore, nelle pagine testate non è così: sono più lente al primo caricamento, più lente nei caricamenti successivi e più lente dopo il caricamento. Il lavoro anticipato, se non è ben progettato, si paga in ogni momento successivo. ==Spostare il costo in avanti non lo elimina, spesso lo aumenta==.
+Molti sostengono che fare molto lavoro all'inizio renda le interazioni successive più veloci. Secondo l'autore, nelle pagine testate non è così: sono più lente al primo caricamento, più lente nei caricamenti successivi e più lente dopo il caricamento. Il lavoro anticipato, se non è ben progettato, si paga in ogni momento successivo. ==Anticipare il costo non lo elimina, spesso lo aumenta==.

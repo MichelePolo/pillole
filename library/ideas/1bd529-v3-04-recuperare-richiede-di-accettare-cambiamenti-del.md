@@ -24,4 +24,4 @@ created: 2026-11-10T10:33:53.385Z
 
 # Recuperare richiede di accettare cambiamenti del corpo
 
-L'unico modo per ripristinare l'equilibrio energetico è mangiare di più oppure ridurre o rendere meno intensi gli allenamenti. Entrambe le strade comportano un possibile aumento di peso e un cambiamento della forma fisica, che molte atlete percepiscono come inaccettabile. Il recupero è quindi non solo fisico ma anche psicologico, perché richiede di rinunciare all'immagine e alla prestazione costruite con fatica, e spesso l'ambiente sportivo rende questa scelta ancora più difficile.
+L'unico modo per ripristinare l'equilibrio energetico è mangiare di più oppure ridurre o rendere meno intensi gli allenamenti. Entrambe le strade comportano un possibile aumento di peso e un cambiamento della forma fisica, che molte atlete percepiscono come inaccettabili. Il recupero è quindi non solo fisico ma anche psicologico, perché richiede di rinunciare all'immagine e alla prestazione costruite con fatica, e spesso l'ambiente sportivo rende questa scelta ancora più difficile.

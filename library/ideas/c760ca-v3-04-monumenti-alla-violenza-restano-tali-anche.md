@@ -29,4 +29,4 @@ created: 2026-11-10T10:33:53.579Z
 
 # Monumenti alla violenza restano tali anche se belli
 
-Lo storico Ruth Ben-Ghiat, citato nell'articolo, osserva che in Italia i reperti fascisti sono spesso considerati una parte normale del passato oppure oggetti belli senza contesto. Questo dimentica un punto decisivo: i monumenti fascisti, pur belli, restano monumenti alla violenza. La sua tesi è che la bellezza formale non cancella il contesto che li ha prodotti.
+La storica Ruth Ben-Ghiat, citato nell'articolo, osserva che in Italia i reperti fascisti sono spesso considerati una parte normale del passato oppure oggetti belli senza contesto. Questo dimentica un punto decisivo: i monumenti fascisti, pur belli, restano monumenti alla violenza. La sua tesi è che la bellezza formale non cancella il contesto che li ha prodotti.

@@ -28,4 +28,4 @@ created: 2026-11-10T10:33:53.487Z
 
 # Misurare distanze con hardware comune è possibile
 
-Il paper BeepBeep, come riportato dall'autore, presenta un sistema di misura di distanze basato su suoni che non richiede infrastrutture preesistenti. Usa solo un altoparlante, un microfono e una forma di comunicazione tra dispositivi, quindi funziona su telefoni e dispositivi a basso costo. Raggiunge alta precisione combinando tre tecniche: sensing bidirezionale, auto-registrazione e conteggio dei campioni.
+Il paper BeepBeep, come riportato dall'autore, presenta un sistema di misura di distanze basato su suoni che non richiede infrastrutture preesistenti. Usa solo un altoparlante, un microfono e una forma di comunicazione tra dispositivi, quindi funziona su telefoni e dispositivi a basso costo. Raggiunge alta precisione combinando tre tecniche: rilevamento bidirezionale, auto-registrazione e conteggio dei campioni.

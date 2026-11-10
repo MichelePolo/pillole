@@ -16,7 +16,7 @@ source:
 anchor: In matematica, infatti, non conta solo il risultato finale
 anchor_check: exact
 quiz:
-  q: Che cosa può rivelare, secondo la terza puntata, l’osservazione dei processi di ragionamento?
+  q: Che cosa può rivelare, secondo il podcast, l’osservazione dei processi di ragionamento?
   a: Come gli studenti apprendono, più del solo risultato finale.
 prompt_version: v3
 model: claude-haiku-5-5

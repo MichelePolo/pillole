@@ -25,6 +25,6 @@ model: claude-haiku-5-5
 created: 2026-11-10T10:33:53.324Z
 ---
 
-# Le desideri non sono meno nostri perché nascono altrove
+# I desideri non sono meno nostri perché nascono altrove
 
-Galbraith sosteneva che le imprese creano i desideri che poi cercano di soddisfare, un fenomeno chiamato effetto di dipendenza. Hayek rispondeva che conta meno da dove nascono i nostri desideri e più se la loro soddisfazione migliora la nostra vita. L'autore dice di non condividere in generale le posizioni libertarie di Hayek, ma di ritenerlo probabilmente più convincente su questo punto. La domanda utile diventa quindi se un'esperienza ci rende davvero migliori la vita, non la sua origine.
+Galbraith sosteneva che le imprese creano i desideri che poi cercano di soddisfare, un fenomeno chiamato effetto di dipendenza. Hayek rispondeva che conta meno da dove nascono i nostri desideri e più se la loro soddisfazione migliora la nostra vita. L'autore dice di non condividere in generale le posizioni libertarie di Hayek, ma di ritenerlo probabilmente più convincente su questo punto. La domanda utile diventa quindi se un'esperienza ci rende davvero migliore la vita, non la sua origine.

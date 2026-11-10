@@ -25,6 +25,6 @@ model: claude-haiku-5-5
 created: 2026-11-10T10:33:53.567Z
 ---
 
-# Poronfirio fu il primo platonico a commentare Aristotele
+# Porfirio fu il primo platonico a commentare Aristotele
 
 Porfirio è considerato il primo platonico a scrivere commenti completi alle opere di Aristotele. Prima di lui, i platonici conoscevano poco i trattati scolastici aristotelici, e il suo lavoro inaugura un modo nuovo di confrontarsi con Aristotele. Dopo di lui, l'idea che Platone e Aristotele concordino nei punti essenziali diventa patrimonio comune dei neoplatonici, che fanno dello studio di Aristotele, a partire dalle Categorie, la preparazione allo studio di Platone.

@@ -24,6 +24,6 @@ model: claude-haiku-5-5
 created: 2026-11-10T10:33:53.569Z
 ---
 
-# Le idee possono essere ricostruite come sistema di potenze
+# Le idee di Porfirio possono essere ricostruite come sistema di potenze
 
 Porfirio descrive la relazione tra i livelli della realtà non soltanto come un'attività interna accompagnata da un'attività esterna, ma come un doppio potere: ogni livello possiede una potenza interna che appartiene alla sua essenza e produce una potenza esterna che costituisce il livello inferiore. Così la discesa della realtà è un progressivo indebolimento della potenza, mentre il ritorno è un'unificazione guidata da una sovrabbondanza di potenza. Questo modello rende la realtà più continua e dinamica.

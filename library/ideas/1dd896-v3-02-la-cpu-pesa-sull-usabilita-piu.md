@@ -15,8 +15,8 @@ source:
 anchor: it's hard to cheat on CPU time and make optimizations that significantly move the number without impacting user experience
 anchor_check: exact
 quiz:
-  q: Perché, secondo l'autore, il tempo di CPU è una metrica più affidabile del LCP per valutare l'usabilità?
-  a: Perché è difficile manipolarlo senza migliorare davvero l'esperienza, mentre il LCP può essere ottimizzato con trucchi che non aiutano l'utente.
+  q: Perché, secondo l'autore, il tempo di CPU è una metrica più affidabile dell'LCP per valutare l'usabilità?
+  a: Perché è difficile manipolarlo senza migliorare davvero l'esperienza, mentre l'LCP può essere ottimizzato con trucchi che non aiutano l'utente.
 prompt_version: v3
 model: claude-haiku-5-5
 created: 2026-11-10T10:33:53.475Z

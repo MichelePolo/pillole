@@ -27,4 +27,4 @@ created: 2026-11-10T10:33:53.377Z
 
 # Le previsioni possono causare ciò che prevedono
 
-Nell'economia una previsione può modificare il comportamento che cerca di descrivere. L'autore richiama l'effetto Edipo di Karl Popper, per cui una previsione contribuisce a causare l'evento annunciato, e la self-fulfilling prophecy di Robert K. Merton. Gli algoritmi e la virtualizzazione possono amplificare questa circolarità, rendendo i mercati più efficienti ma anche più volatili. Per questo, secondo l'autore, servono persone con valutazioni indipendenti che impediscano al mercato di ragionare come se avesse una sola mente.
+Nell'economia una previsione può modificare il comportamento che cerca di descrivere. L'autore richiama l'effetto Edipo di Karl Popper, per cui una previsione contribuisce a causare l'evento annunciato, e la profezia che si autoavvera di Robert K. Merton. Gli algoritmi e la virtualizzazione possono amplificare questa circolarità, rendendo i mercati più efficienti ma anche più volatili. Per questo, secondo l'autore, servono persone con valutazioni indipendenti che impediscano al mercato di ragionare come se avesse una sola mente.

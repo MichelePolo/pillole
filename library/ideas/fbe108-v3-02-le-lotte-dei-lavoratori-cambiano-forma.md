@@ -27,4 +27,4 @@ created: 2026-11-10T10:33:53.351Z
 
 # Le lotte dei lavoratori cambiano forma, non sostanza
 
-Secondo l'autrice, le richieste dei lavoratori restano le stesse nel tempo: un luogo di lavoro sicuro, il rispetto e un salario dignitoso per mantenere la famiglia. Cambiano invece gli strumenti con cui si organizzano i sindacati e la forma della repressione, che oggi passa spesso dalle forze dell'ordine anziché dalle armi private. ==Il bisogno di dignità è costante, mentre i metodi di lotta e di controllo si trasformano.== Questa lettura suggerisce che i film sul lavoro restino attuali anche quando il contesto cambia.
+Secondo Kopple, le richieste dei lavoratori restano le stesse nel tempo: un luogo di lavoro sicuro, il rispetto e un salario dignitoso per mantenere la famiglia. Cambiano invece gli strumenti con cui si organizzano i sindacati e la forma della repressione, che oggi passa spesso dalle forze dell'ordine anziché dalle armi private. ==Il bisogno di dignità è costante, mentre i metodi di lotta e di controllo si trasformano.== Questa lettura suggerisce che i film sul lavoro restino attuali anche quando il contesto cambia.

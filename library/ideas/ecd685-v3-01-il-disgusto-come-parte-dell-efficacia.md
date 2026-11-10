@@ -27,4 +27,4 @@ created: 2026-11-10T10:33:53.417Z
 
 # Il disgusto come parte dell'efficacia percepita
 
-Secondo lo storico Harris, i medici antichi usavano sostanze ripugnanti anche perché shockavano il paziente. Il disgusto veniva letto come segno che la cura stava agendo sul corpo. ==Una sostanza più repellente sembrava più potente==, e questa convinzione spingeva a preferire rimedi come escrementi, urina e insetti schiacciati. Non si trattava solo di ignoranza: l'effetto psicologico della rottura di una norma era considerato parte della terapia.
+Secondo lo storico Harris, i medici antichi usavano sostanze ripugnanti anche perché scioccavano il paziente. Il disgusto veniva letto come segno che la cura stava agendo sul corpo. ==Una sostanza più repellente sembrava più potente==, e questa convinzione spingeva a preferire rimedi come escrementi, urina e insetti schiacciati. Non si trattava solo di ignoranza: l'effetto psicologico della rottura di una norma era considerato parte della terapia.

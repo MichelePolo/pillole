@@ -18,7 +18,7 @@ source:
 anchor: the jury. When ‘12 men of the neighbourhood’ sat in judgment over a fellow commoner
 anchor_check: exact
 quiz:
-  q: Perché la giuria dava credibilità all'idea che i comuni fossero pari ai nobili?
+  q: Perché la giuria dava credibilità all'idea che i cittadini comuni fossero pari ai nobili?
   a: Perché nella giuria persone diverse per ricchezza e istruzione agivano come pari, mettendo da parte le differenze mentre giudicavano.
 prompt_version: v3
 model: claude-haiku-5-5
