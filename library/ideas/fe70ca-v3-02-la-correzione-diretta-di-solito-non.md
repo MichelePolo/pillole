@@ -25,4 +25,4 @@ created: 2026-11-11T10:12:51.143Z
 
 # La correzione diretta di solito non aiuta
 
-Chi sta vivendo un delirio tende a sentire la propria interpretazione come reale e logica. Cercare di smontarla frontalmente, con domande a raffica o con rassicurazioni, provoca spesso difesa, allontanamento o più angoscia, e può perfino rafforzare la convinzione. Gli autori suggeriscono di partire dalla curiosità e dalla convalida delle emozioni: la paura o la confusione della persona sono reali anche quando la credenza non lo è. ==Prima si cerca di capire, poi, eventualmente, si esplorano alternative.==
+Chi sta vivendo un delirio tende a sentire la propria interpretazione come reale e logica. Cercare di smontarla frontalmente, con domande a raffica o con rassicurazioni, provoca spesso difesa, allontanamento o più angoscia, e può perfino rafforzare la convinzione. L'autrice suggerisce di partire dalla curiosità e dalla convalida delle emozioni: la paura o la confusione della persona sono reali anche quando la credenza non lo è. ==Prima si cerca di capire, poi, eventualmente, si esplorano alternative.==

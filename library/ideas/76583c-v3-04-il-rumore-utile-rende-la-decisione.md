@@ -27,4 +27,4 @@ created: 2026-11-11T10:12:51.186Z
 
 # Il rumore utile rende la decisione più liscia
 
-Nel self-training con Noisy Student, il modello insegnante produce le etichette senza rumore, mentre lo studente viene addestrato con rumore come dropout, stochastic depth e RandAugment. Secondo l'autore, questo rumore spinge il confine decisionale a essere più regolare sia sui dati etichettati sia su quelli non etichettati. Lo studente, inoltre, deve essere più grande dell'insegnante per imparare di più.
+Nel self-training con Noisy Student, il modello insegnante produce le etichette senza rumore, mentre lo studente viene addestrato con rumore come dropout, stochastic depth e RandAugment. Secondo l'autrice, questo rumore spinge il confine decisionale a essere più regolare sia sui dati etichettati sia su quelli non etichettati. Lo studente, inoltre, deve essere più grande dell'insegnante per imparare di più.

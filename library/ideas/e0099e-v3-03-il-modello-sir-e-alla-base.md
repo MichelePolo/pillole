@@ -23,6 +23,6 @@ model: claude-haiku-5-5
 created: 2026-11-11T10:12:51.298Z
 ---
 
-# Il modello SIR è alla base
+# Il modello SIR è alla base dell'epidemiologia
 
 Il modello SIR è un'introduzione semplice ma importante alla modellistica delle epidemie. Divide la popolazione in gruppi, per esempio persone che possono ammalarsi, persone malate e persone guarite, e descrive come le persone passano da un gruppo all'altro. ==È il punto di partenza su cui si fonda gran parte del lavoro dei modellisti delle malattie infettive.== Conoscerlo aiuta a capire come funzionano anche modelli più complessi, perché molti di essi ne sono delle estensioni.

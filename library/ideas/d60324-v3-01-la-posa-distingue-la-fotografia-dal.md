@@ -27,4 +27,4 @@ created: 2026-11-11T10:12:51.133Z
 
 # La posa distingue la fotografia dal cinema
 
-Secondo l'autore, Roland Barthes, ne La camera chiara, distingueva cinema e fotografia attraverso la posa. Nel flusso continuo delle azioni cinematografiche la posa non c'è, mentre nella fotografia è ciò che la caratterizza. Le cose e le persone che Lange registra restano ferme, anche quando danzano o camminano per strada. ==La fotografia resta still, immagine e non natura morta, perché blocca un istante scelto.== Così lo scatto non mostra un movimento interrotto, ma un momento fissato dallo sguardo di chi lo ha creato.
+Secondo l'autrice, Roland Barthes ne La camera chiara distingueva cinema e fotografia attraverso la posa. Nel flusso continuo delle azioni cinematografiche la posa non c'è, mentre nella fotografia è ciò che la caratterizza. Le cose e le persone che Lange registra restano ferme, anche quando danzano o camminano per strada. ==La fotografia resta un fermo immagine (still), non una natura morta, perché blocca un istante scelto.== Così lo scatto non mostra un movimento interrotto, ma un momento fissato dallo sguardo di chi lo ha creato.

@@ -27,4 +27,4 @@ created: 2026-11-11T10:12:51.300Z
 
 # Le gocce chimiche possono ereditare una composizione
 
-Una goccia piena di molecole che si favoriscono a vicenda può crescere, dividersi e passare la propria composizione alle figlie. Le molecole non vengono copiate lettera per lettera come il DNA: una certa proporzione passa alla generazione successiva, e questo basta a creare una forma di ereditarietà imperfetta. Quando una variazione rende una goccia più veloce a crescere, le sue discendenti finiscono per prevalere. È una tesi dell'autore che, in un modello al computer, questo meccanismo soddisfi i requisiti della selezione naturale.
+Una goccia piena di molecole che si favoriscono a vicenda può crescere, dividersi e passare la propria composizione alle figlie. Le molecole non vengono copiate lettera per lettera come il DNA: una certa proporzione passa alla generazione successiva, e questo basta a creare una forma di ereditarietà imperfetta. Quando una variazione rende una goccia più veloce a crescere, le sue discendenti finiscono per prevalere. Secondo un modello al computer di Doron Lancet e Daniel Segrè, questo meccanismo soddisfa i requisiti della selezione naturale.

@@ -25,4 +25,4 @@ created: 2026-11-11T10:12:51.149Z
 
 # La medicina d'iniziativa anticipa la malattia
 
-La medicina d'iniziativa consiste nel non aspettare che il paziente si presenti quando sta male, ma nel programmare visite ed esami per tenere sotto controllo i fattori di rischio. Un esempio è richiamare periodicamente una persona con diabete per i controlli, prima che la malattia produca complicanze. Secondo l'autore, questo approccio è l'idea giusta alla base delle Case della comunità, e il suo valore sta nel passare da una logica di risposta all'emergenza a una di prevenzione e presa in carico nel tempo.
+La medicina d'iniziativa consiste nel non aspettare che il paziente si presenti quando sta male, ma nel programmare visite ed esami per tenere sotto controllo i fattori di rischio. Un esempio è richiamare periodicamente una persona con diabete per i controlli, prima che la malattia produca complicanze. Secondo Giuseppe Belleri, questo approccio è l'idea giusta alla base delle Case della comunità, e il suo valore sta nel passare da una logica di risposta all'emergenza a una di prevenzione e presa in carico nel tempo.

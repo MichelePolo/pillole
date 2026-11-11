@@ -25,4 +25,4 @@ created: 2026-11-11T10:12:51.162Z
 
 # La scienza informa, la politica decide
 
-Secondo l'autore, scienza e politica devono collaborare lealmente restando distinte nei ruoli. Alla comunità scientifica spetta offrire le migliori evidenze disponibili in un dato momento, dichiarandone solidità, incertezza e rischi delle diverse opzioni. Alle decisioni operative provvede invece la politica, che ne porta la piena responsabilità e deve tenere conto anche delle implicazioni sociali, economiche, educative e istituzionali. ==La scienza deve mettere il decisore nelle condizioni di scegliere, senza sostituirlo.==
+Secondo il Patto Trasversale per la Scienza, scienza e politica devono collaborare lealmente restando distinte nei ruoli. Alla comunità scientifica spetta offrire le migliori evidenze disponibili in un dato momento, dichiarandone solidità, incertezza e rischi delle diverse opzioni. Alle decisioni operative provvede invece la politica, che ne porta la piena responsabilità e deve tenere conto anche delle implicazioni sociali, economiche, educative e istituzionali. ==La scienza deve mettere il decisore nelle condizioni di scegliere, senza sostituirlo.==

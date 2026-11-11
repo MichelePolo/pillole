@@ -27,4 +27,4 @@ created: 2026-11-11T10:12:51.243Z
 
 # Lo studio della lingua richiede sguardi di altre discipline
 
-Secondo il testo, la storia della lingua è per natura transdisciplinare. Termini come "allotropo" arrivano dalla chimica, mentre la geografia offre le isoglosse per tracciare i confini dei fenomeni linguistici. La psicanalisi ispira la nozione di "represso linguistico" e l'iconologia aiuta a leggere le didascalie dipinte, come quelle scurrili dell'affresco romano di San Clemente. Ogni disciplina porta uno strumento che nessuna sarebbe in grado di fornire da sola.
+Secondo il testo, la storia della lingua è per natura transdisciplinare. Termini come "allotropo" arrivano dalla chimica, mentre la geografia offre le isoglosse per tracciare i confini dei fenomeni linguistici. La psicanalisi ispira la nozione di "represso linguistico" e l'iconologia aiuta a leggere le didascalie dipinte, come quelle scurrili dell'affresco romano di San Clemente. Ogni disciplina porta uno strumento che la linguistica da sola non saprebbe fornire.

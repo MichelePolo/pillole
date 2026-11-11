@@ -25,4 +25,4 @@ created: 2026-11-11T10:12:51.213Z
 
 # La morte come ultima fase dello sviluppo
 
-Dopo anni accanto ai malati terminali, Halifax ha iniziato a vedere la morte in modo diverso. Per lei non era il fallimento della medicina, ma una fase dello sviluppo umano che merita attenzione anche quando la guarigione non è più possibile. Questo cambia il ruolo di chi assiste: il compito non finisce dove finisce la cura. ==La morte diventa una parte della vita da accompagnare==. Secondo l'autrice, questa prospettiva nasce dall'esperienza diretta più che dalla teoria.
+Dopo anni accanto ai malati terminali, Halifax ha iniziato a vedere la morte in modo diverso. Per lei non era il fallimento della medicina, ma una fase dello sviluppo umano che merita attenzione anche quando la guarigione non è più possibile. Questo cambia il ruolo di chi assiste: il compito non finisce dove finisce la cura. ==La morte diventa una parte della vita da accompagnare==. Secondo l'autore, questa prospettiva nasce dall'esperienza diretta più che dalla teoria.

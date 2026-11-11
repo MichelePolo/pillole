@@ -25,4 +25,4 @@ created: 2026-11-11T10:12:51.225Z
 
 # Le misure aggiuntive contano più di quelle già esistenti
 
-Un intervento è davvero di ripristino solo se è addizionale, cioè aggiuntivo rispetto a ciò che sarebbe avvenuto comunque. Usare programmi esistenti, come il PNRR o la Politica agricola comune, è ragionevole, ma un piano dovrebbe distinguere ciò che è già realizzato da ciò che resta da attuare. Altrimenti una semplice ricognizione amministrativa può sembrare un passo avanti concreto, mentre è solo una azione preliminare.
+Un intervento è davvero di ripristino solo se è addizionale, cioè aggiuntivo rispetto a ciò che sarebbe avvenuto comunque. Usare programmi esistenti, come il PNRR o la Politica agricola comune, è ragionevole, ma un piano dovrebbe distinguere ciò che è già realizzato da ciò che resta da attuare. Altrimenti una semplice ricognizione amministrativa può sembrare un passo avanti concreto, mentre è solo un'azione preliminare.

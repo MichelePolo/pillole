@@ -24,6 +24,6 @@ model: claude-haiku-5-5
 created: 2026-11-11T10:12:51.285Z
 ---
 
-# Chi sbaglia nei ban deve essere contato
+# I ban sbagliati vanno contati
 
 Un sistema antifrode che banna per errore una persona legittima non è un dettaglio trascurabile. L'autore racconta che alcune aziende non tracciavano affatto i falsi positivi, ossia i casi in cui il ban era sbagliato. Se si misurano solo i falsi negativi, cioè le truffe non prese, il sistema tende ad allargarsi senza freno. Il ragionamento secondo cui quasi tutti i ban sono giusti va verificato, perché 'quasi tutti' non significa 'tutti'. Un tasso di errore accettabile esiste, ma va scelto e monitorato esplicitamente.

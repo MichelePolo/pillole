@@ -27,4 +27,4 @@ created: 2026-11-11T10:12:51.186Z
 
 # Le etichette false possono sostenere il confirmation bias
 
-Il pseudo-labeling assegna etichette provvisorie ai dati non etichettati usando le previsioni del modello stesso. Se il modello di partenza sbaglia, lo studente rischia di imparare proprio quegli errori, fenomeno detto confirmation bias. Per limitarlo si usano soglie di confidenza, mixup, minimo di esempi etichettati per batch e augmentation forti. L'autore sottolinea che l'overfitting su etichette sbagliate non produce un modello migliore.
+Lo pseudo-labeling assegna etichette provvisorie ai dati non etichettati usando le previsioni del modello stesso. Se il modello di partenza sbaglia, lo studente rischia di imparare proprio quegli errori, fenomeno detto confirmation bias. Per limitarlo si usano soglie di confidenza, mixup, minimo di esempi etichettati per batch e augmentation forti. L'autrice sottolinea che l'overfitting su etichette sbagliate non produce un modello migliore.

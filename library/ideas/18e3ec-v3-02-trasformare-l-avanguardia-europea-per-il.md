@@ -27,4 +27,4 @@ created: 2026-11-11T10:12:51.222Z
 
 # Trasformare l'avanguardia europea per il contesto locale
 
-Mariátegui non si limitò a interpretare i movimenti d'avanguardia europei, ma cercò di adattarli alle condizioni specifiche del Perù degli anni Venti. Nelle arti visive scelse l'indigenismo, un movimento che voleva dare visibilità estetica alle popolazioni native come contrappeso alla celebrazione dominante del continente. Secondo l'autore, il punto non era copiare le avanguardie, ma piegarle alla realtà locale, e questo principio di adattamento vale per ogni cultura che importa idee dall'esterno.
+Mariátegui non si limitò a interpretare i movimenti d'avanguardia europei, ma cercò di adattarli alle condizioni specifiche del Perù degli anni Venti. Nelle arti visive scelse l'indigenismo, un movimento che voleva dare visibilità estetica alle popolazioni native come contrappeso alla celebrazione dominante del continente. Secondo l'autrice, il punto non era copiare le avanguardie, ma piegarle alla realtà locale, e questo principio di adattamento vale per ogni cultura che importa idee dall'esterno.

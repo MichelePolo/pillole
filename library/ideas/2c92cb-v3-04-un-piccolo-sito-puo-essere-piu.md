@@ -18,7 +18,7 @@ anchor: there's still a single person who provides the vision for what should ha
 anchor_check: exact
 quiz:
   q: Perché il moderatore singolo di Digg era più efficace dell'algoritmo?
-  a: Perché una persona che vagliava, infiltrava e bloccava le manipolazioni valeva più di un algoritmo semplice che non le riconosceva.
+  a: Perché una persona che vagliava, infiltrava e bloccava le manipolazioni valeva più degli algoritmi, che non le riconoscevano.
 warnings:
   - titolo di 11 parole (avviso oltre 10)
 prompt_version: v3

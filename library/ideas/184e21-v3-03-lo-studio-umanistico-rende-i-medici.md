@@ -10,7 +10,7 @@ source:
   id: 184e21e49868
   lang: en
   title: In Defense of the Humanities
-  author: Jonathan Aprea
+  author: Maria Papadouris
   site: JSTOR Daily
   url: https://daily.jstor.org/in-defense-of-the-humanities/
 anchor: exposure to the humanities had an appreciable influence on their

@@ -27,4 +27,4 @@ created: 2026-11-11T10:12:51.148Z
 
 # Il generalista decide nell'incertezza
 
-Secondo l'autore, la formazione universitaria premia le specialità e le malattie ben definite, mentre il medico di famiglia lavora spesso davanti a disturbi comuni e sintomi che non sono ancora diventati una diagnosi. Deve quindi decidere con informazioni incomplete, valutando se approfondire o aspettare. Questa difficoltà è poco riconosciuta, eppure è una competenza clinica specifica, che richiede un tipo di ragionamento diverso da quello dello specialista.
+Secondo Giuseppe Belleri, la formazione universitaria premia le specialità e le malattie ben definite, mentre il medico di famiglia lavora spesso davanti a disturbi comuni e sintomi che non sono ancora diventati una diagnosi. Deve quindi decidere con informazioni incomplete, valutando se approfondire o aspettare. Questa difficoltà è poco riconosciuta, eppure è una competenza clinica specifica, che richiede un tipo di ragionamento diverso da quello dello specialista.

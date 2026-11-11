@@ -25,4 +25,4 @@ created: 2026-11-11T10:12:51.213Z
 
 # Servire può nascondere il bisogno di approvazione
 
-Halifax raccontava con orgoglio le proprie buone azioni al maestro Seung Sahn. Lui rispose con durezza che era un cattivo bodhisattva. Lei capì che stava tenendo il conto di ciò che faceva. Il suo servizio si era intrecciato con il bisogno di approvazione e con l'abitudine di fare troppo per gli altri, fino a togliere loro il potere di agire. Secondo l'autrice, la lezione fu dolorosa ma preziosa. ==Chi serve deve verificare perché lo fa==.
+Halifax raccontava con orgoglio le proprie buone azioni al maestro Seung Sahn. Lui rispose con durezza che era un cattivo bodhisattva. Lei capì che stava tenendo il conto di ciò che faceva. Il suo servizio si era intrecciato con il bisogno di approvazione e con l'abitudine di fare troppo per gli altri, fino a togliere loro il potere di agire. Per Halifax, la lezione fu dolorosa ma preziosa. ==Chi serve deve verificare perché lo fa==.

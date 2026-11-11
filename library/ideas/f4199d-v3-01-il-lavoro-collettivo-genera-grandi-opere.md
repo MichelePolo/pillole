@@ -25,4 +25,4 @@ created: 2026-11-11T10:12:51.202Z
 
 # Il lavoro collettivo genera grandi opere di riferimento
 
-La rivista Notes & Queries era costruita sui contributi di molti appassionati, ciascuno con un piccolo frammento di sapere. Secondo lo studioso Patrick Leary, questo metodo di produzione collettiva indicò la strada a grandi progetti a più autori, come l'Oxford English Dictionary e l'Oxford Dictionary of National Biography. Il valore non stava nel singolo contributo, ma nell'insieme che si costruiva nel tempo. Invece di restare fermo su un lavoro mai finito, il sapere condiviso da molte persone può arrivare a risultati che nessuno raggiungerebbe da solo.
+La rivista Notes & Queries era costruita sui contributi di molti appassionati, ciascuno con un piccolo frammento di sapere. Secondo lo studioso Patrick Leary, questo metodo di produzione collettiva indicò la strada a grandi progetti a più autori, come l'Oxford English Dictionary e l'Oxford Dictionary of National Biography. Il valore non stava nel singolo contributo, ma nell'insieme che si costruiva nel tempo. Il sapere condiviso da molte persone può arrivare a risultati che nessuno raggiungerebbe da solo.

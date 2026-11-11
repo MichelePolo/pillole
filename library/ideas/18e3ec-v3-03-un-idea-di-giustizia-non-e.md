@@ -27,4 +27,4 @@ created: 2026-11-11T10:12:51.222Z
 
 # Un'idea di giustizia non è solo estetica
 
-Secondo l'autore, l'indigenismo di Sabogal attirò critiche da sinistra: il movimento era dominato da artisti urbani, borghesi e in gran parte bianchi, e la sua rappresentazione dei popoli indigeni rischiava di essere esotica e romantica, con poco spazio per le oppressioni concrete. Il testo osserva che questa critica non mette in dubbio la sincerità dell'impegno di Mariátegui per una società giusta. Il caso mostra la differenza tra rappresentare un gruppo come simbolo e costruire con esso condizioni di vita migliori.
+Secondo l'autrice, l'indigenismo di Sabogal attirò critiche da sinistra: il movimento era dominato da artisti urbani, borghesi e in gran parte bianchi, e la sua rappresentazione dei popoli indigeni rischiava di essere esotica e romantica, con poco spazio per le oppressioni concrete. Il testo osserva che questa critica non mette in dubbio la sincerità dell'impegno di Mariátegui per una società giusta. Il caso mostra la differenza tra rappresentare un gruppo come simbolo e costruire con esso condizioni di vita migliori.

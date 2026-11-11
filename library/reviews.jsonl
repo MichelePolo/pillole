@@ -1511,3 +1511,119 @@
 {"id":"c9ff10-v3-03-il-sistema-assorbe-anche-le-controculture","prompt_version":"v3","verdict":"discard","reason":"duplicato","note":"scartata in automatico, ripete «Raccontarsi può consegnare la ribellione al mercato»: «Raccontarsi può consegnare la ribellione al mercato» afferma che la ribellione raccontata e documentata viene assorbita e trasformata in merce dal sistema dominante, la stessa affermazione centrale che «Il sistema assorbe anche le controculture ribelli» esprime con l'esempio della neutralizzazione commerciale delle controculture.","by":"auto","duplicate_of":"92ea73-v3-04-raccontarsi-puo-consegnare-la-ribellione-al","at":"2026-11-11T10:14:27.965Z"}
 {"id":"d60324-v3-03-ogni-fotografia-e-una-proiezione-mai","prompt_version":"v3","verdict":"discard","reason":"duplicato","note":"scartata in automatico, ripete «L'architettura non è mai neutrale»: La fotografia come proiezione dello stato interno del fotografo e non documento neutro ripete in sostanza «L'architettura non è mai neutrale» (nessuna forma è innocente, ogni manufatto porta la visione di chi lo produce) applicata alla fotografia; è lo stesso principio di non neutralità, con un caso diverso ma senza nuova affermazione.","by":"auto","duplicate_of":"794e24-v3-01-l-architettura-non-e-mai-neutrale","at":"2026-11-11T10:14:30.696Z"}
 {"id":"edd9c3-v3-02-il-senso-della-poesia-e-inseparabile","prompt_version":"v3","verdict":"discard","reason":"duplicato","note":"scartata in automatico, ripete «La poesia comunica poco a chi la capisce»: Ripete l'affermazione di «La poesia comunica poco a chi la capisce» che il senso della poesia non è separabile dalla sua forma sonora e ritmica, e che parafrasarla ne fa perdere una parte; l'esempio di Sambi non aggiunge nulla di nuovo.","by":"auto","duplicate_of":"edd9c3-v3-01-la-poesia-comunica-poco-a-chi","at":"2026-11-11T10:14:44.091Z"}
+{"id":"fe70ca-v3-01-le-convinzioni-deliranti-si-riconoscono-dall","prompt_version":"v3","verdict":"keep","at":"2026-11-11T23:59:13.159Z"}
+{"id":"fe70ca-v3-02-la-correzione-diretta-di-solito-non","prompt_version":"v3","verdict":"keep","at":"2026-11-11T23:59:13.159Z"}
+{"id":"fe70ca-v3-03-validare-l-emozione-senza-condividere-la","prompt_version":"v3","verdict":"discard","reason":"duplicato","note":"revisione di Claude: ripete la convalida delle emozioni già contenuta in «La correzione diretta di solito non aiuta» della stessa fonte.","duplicate_of":"fe70ca-v3-02-la-correzione-diretta-di-solito-non","at":"2026-11-11T23:59:13.159Z"}
+{"id":"fe70ca-v3-04-il-delirio-e-un-tentativo-del","prompt_version":"v3","verdict":"keep","at":"2026-11-11T23:59:13.159Z"}
+{"id":"fe70ca-v3-05-scarsa-consapevolezza-non-significa-ostinazione","prompt_version":"v3","verdict":"keep","at":"2026-11-11T23:59:13.159Z"}
+{"id":"fe70ca-v3-06-la-guarigione-spesso-non-cancella-il","prompt_version":"v3","verdict":"keep","at":"2026-11-11T23:59:13.159Z"}
+{"id":"e3515f-v3-01-la-lingua-e-un-organismo-vivente","prompt_version":"v3","verdict":"discard","reason":"banale","note":"revisione di Claude: che la lingua cambi sempre e le grammatiche ne fotografino un momento è un luogo comune.","at":"2026-11-11T23:59:13.159Z"}
+{"id":"e3515f-v3-02-non-esiste-un-confine-netto-tra","prompt_version":"v3","verdict":"keep","at":"2026-11-11T23:59:13.159Z"}
+{"id":"e3515f-v3-03-la-storia-della-lingua-non-e","prompt_version":"v3","verdict":"keep","at":"2026-11-11T23:59:13.159Z"}
+{"id":"e3515f-v3-04-lo-studio-della-lingua-richiede-sguardi","prompt_version":"v3","verdict":"keep","at":"2026-11-11T23:59:13.159Z"}
+{"id":"e3515f-v3-05-il-declino-culturale-italiano-ha-radici","prompt_version":"v3","verdict":"keep","at":"2026-11-11T23:59:13.159Z"}
+{"id":"82ba4a-v3-01-la-famiglia-e-un-passato-che","prompt_version":"v3","verdict":"keep","at":"2026-11-11T23:59:13.159Z"}
+{"id":"82ba4a-v3-02-la-memoria-familiare-e-insieme-ricchezza","prompt_version":"v3","verdict":"discard","reason":"vago","note":"revisione di Claude: dire che la memoria familiare è insieme ricchezza e dolore e che la letteratura ne esplora l'ambiguità non dà un'affermazione concreta.","at":"2026-11-11T23:59:13.159Z"}
+{"id":"82ba4a-v3-03-la-letteratura-impegnata-rischia-la-propaganda","prompt_version":"v3","verdict":"keep","at":"2026-11-11T23:59:13.159Z"}
+{"id":"82ba4a-v3-04-il-valore-di-un-opera-si","prompt_version":"v3","verdict":"keep","at":"2026-11-11T23:59:13.159Z"}
+{"id":"edd9c3-v3-01-la-poesia-comunica-poco-a-chi","prompt_version":"v3","verdict":"keep","at":"2026-11-11T23:59:13.159Z"}
+{"id":"edd9c3-v3-03-la-speranza-e-un-azzardo-eppure","prompt_version":"v3","verdict":"keep","at":"2026-11-11T23:59:13.159Z"}
+{"id":"edd9c3-v3-04-la-gratitudine-nasce-dalla-possibilita-di","prompt_version":"v3","verdict":"keep","at":"2026-11-11T23:59:13.159Z"}
+{"id":"edd9c3-v3-05-tradurre-poesia-e-rinnovare-non-ripetere","prompt_version":"v3","verdict":"keep","at":"2026-11-11T23:59:13.159Z"}
+{"id":"25bddd-v3-01-una-coppia-di-quasar-molto-antica","prompt_version":"v3","verdict":"discard","reason":"effimero","note":"revisione di Claude: è un primato di scoperta («la più antica finora nota») destinato a essere superato.","at":"2026-11-11T23:59:13.159Z"}
+{"id":"25bddd-v3-02-i-buchi-neri-giganti-esistevano-presto","prompt_version":"v3","verdict":"keep","at":"2026-11-11T23:59:13.159Z"}
+{"id":"25bddd-v3-03-risolvere-due-sorgenti-vicine-richiede-condizioni","prompt_version":"v3","verdict":"discard","reason":"banale","note":"revisione di Claude: resoconto della singola osservazione con una morale ovvia: in astronomia servono strumenti, tempismo e fortuna.","at":"2026-11-11T23:59:13.159Z"}
+{"id":"8ec925-v3-01-il-montaggio-parallelo-costruisce-un-giudizio","prompt_version":"v3","verdict":"keep","at":"2026-11-11T23:59:13.159Z"}
+{"id":"8ec925-v3-02-controllare-l-offerta-significa-poter-fissare","prompt_version":"v3","verdict":"keep","at":"2026-11-11T23:59:13.159Z"}
+{"id":"8ec925-v3-03-chi-scambia-il-grano-non-ne","prompt_version":"v3","verdict":"discard","reason":"duplicato","note":"revisione di Claude: la speculazione che sposta ricchezza da chi coltiva e chi mangia a chi controlla il mercato è già detta in «Controllare l'offerta significa poter fissare il prezzo».","duplicate_of":"8ec925-v3-02-controllare-l-offerta-significa-poter-fissare","at":"2026-11-11T23:59:13.159Z"}
+{"id":"224243-v3-01-una-licenza-non-e-aperta-se","prompt_version":"v3","verdict":"discard","reason":"duplicato","note":"revisione di Claude: stessa tesi della pubblicata «Una licenza conta anche per quanto è compresa» (antirez, SSPL contro AGPL).","duplicate_of":"5a1ed2-v3-01-una-licenza-conta-anche-per-quanto","at":"2026-11-11T23:59:13.159Z"}
+{"id":"224243-v3-02-la-motivazione-cresce-quando-il-proprio","prompt_version":"v3","verdict":"discard","reason":"vago","note":"revisione di Claude: è un aneddoto personale dell'autore generalizzato senza un meccanismo psicologico preciso.","at":"2026-11-11T23:59:13.159Z"}
+{"id":"712c7a-v3-01-giudicare-le-decisioni-con-le-informazioni","prompt_version":"v3","verdict":"keep","at":"2026-11-11T23:59:13.159Z"}
+{"id":"712c7a-v3-02-la-scienza-informa-la-politica-decide","prompt_version":"v3","verdict":"keep","at":"2026-11-11T23:59:13.159Z"}
+{"id":"06b87a-v3-01-il-bene-eccessivo-puo-diventare-un","prompt_version":"v3","verdict":"keep","at":"2026-11-11T23:59:13.159Z"}
+{"id":"06b87a-v3-02-aiutare-richiede-di-riconoscere-i-propri","prompt_version":"v3","verdict":"keep","at":"2026-11-11T23:59:13.159Z"}
+{"id":"06b87a-v3-03-la-morte-come-ultima-fase-dello","prompt_version":"v3","verdict":"keep","at":"2026-11-11T23:59:13.159Z"}
+{"id":"06b87a-v3-04-servire-puo-nascondere-il-bisogno-di","prompt_version":"v3","verdict":"keep","at":"2026-11-11T23:59:13.159Z"}
+{"id":"06b87a-v3-05-guardare-la-sofferenza-senza-distogliere-lo","prompt_version":"v3","verdict":"keep","at":"2026-11-11T23:59:13.159Z"}
+{"id":"3ef417-v3-01-il-machine-learning-vede-strutture-che","prompt_version":"v3","verdict":"discard","reason":"duplicato","note":"revisione di Claude: stessa tesi già pubblicata in «Ipotizzare è diverso dal verificare»: la macchina propone dove guardare, la verifica resta umana.","duplicate_of":"537920-v3-03-ipotizzare-e-diverso-dal-verificare","at":"2026-11-11T23:59:13.159Z"}
+{"id":"3ef417-v3-02-un-metodo-semplice-rende-leggibile-il","prompt_version":"v3","verdict":"discard","reason":"vago","note":"revisione di Claude: dice solo che l'interpretabilità è desiderabile e il ruolo della PCA nella scoperta resta confuso; la scoperta è già raccontata in «Un pattern nascosto nei numeri primi».","at":"2026-11-11T23:59:13.159Z"}
+{"id":"3ef417-v3-03-un-test-per-le-scoperte-matematiche","prompt_version":"v3","verdict":"keep","at":"2026-11-11T23:59:13.159Z"}
+{"id":"3ef417-v3-04-un-pattern-nascosto-nei-numeri-primi","prompt_version":"v3","verdict":"keep","at":"2026-11-11T23:59:13.159Z"}
+{"id":"3ef417-v3-05-il-rango-rivela-le-soluzioni-razionali","prompt_version":"v3","verdict":"keep","at":"2026-11-11T23:59:13.159Z"}
+{"id":"18e3ec-v3-01-amauta-come-movimento-non-semplice-rivista","prompt_version":"v3","verdict":"keep","at":"2026-11-11T23:59:13.159Z"}
+{"id":"18e3ec-v3-02-trasformare-l-avanguardia-europea-per-il","prompt_version":"v3","verdict":"keep","at":"2026-11-11T23:59:13.159Z"}
+{"id":"18e3ec-v3-03-un-idea-di-giustizia-non-e","prompt_version":"v3","verdict":"keep","at":"2026-11-11T23:59:13.159Z"}
+{"id":"18e3ec-v3-04-le-idee-sopravvivono-alla-repressione","prompt_version":"v3","verdict":"discard","reason":"banale","note":"revisione di Claude: la conclusione che la censura non cancella le idee è un luogo comune e il caso di Amauta è raccontato in modo troppo esile.","at":"2026-11-11T23:59:13.159Z"}
+{"id":"a70cb0-v3-01-un-piano-di-ripristino-va-misurato","prompt_version":"v3","verdict":"keep","at":"2026-11-11T23:59:13.159Z"}
+{"id":"a70cb0-v3-02-le-misure-aggiuntive-contano-piu-di","prompt_version":"v3","verdict":"keep","at":"2026-11-11T23:59:13.159Z"}
+{"id":"a70cb0-v3-03-il-monitoraggio-va-preparato-prima-dell","prompt_version":"v3","verdict":"keep","at":"2026-11-11T23:59:13.159Z"}
+{"id":"a70cb0-v3-04-le-regole-urbane-contano-quanto-le","prompt_version":"v3","verdict":"discard","reason":"forma","note":"revisione di Claude: il titolo parla di regole urbane mentre il testo parla di medie calcolate sul territorio sbagliato, e la prima frase non si regge in italiano.","at":"2026-11-11T23:59:13.159Z"}
+{"id":"f4199d-v3-01-il-lavoro-collettivo-genera-grandi-opere","prompt_version":"v3","verdict":"keep","at":"2026-11-11T23:59:13.159Z"}
+{"id":"f4199d-v3-02-la-paura-di-perdere-il-passato","prompt_version":"v3","verdict":"keep","at":"2026-11-11T23:59:13.159Z"}
+{"id":"f4199d-v3-03-la-storia-scientifica-sostituisce-l-antiquaria","prompt_version":"v3","verdict":"keep","at":"2026-11-11T23:59:13.159Z"}
+{"id":"f4199d-v3-04-la-storia-si-concentra-sui-grandi","prompt_version":"v3","verdict":"keep","at":"2026-11-11T23:59:13.159Z"}
+{"id":"e0099e-v3-01-il-numero-r-dice-se-un","prompt_version":"v3","verdict":"discard","reason":"vago","note":"revisione di Claude: non dice mai la soglia (R maggiore o minore di 1), quindi il lettore non sa come leggere il numero che l'idea promette di spiegare.","at":"2026-11-11T23:59:13.159Z"}
+{"id":"e0099e-v3-02-i-modelli-matematici-hanno-limiti-da","prompt_version":"v3","verdict":"discard","reason":"banale","note":"revisione di Claude: che un modello sia una semplificazione con dei limiti è un'ovvietà, senza esempi concreti sulle epidemie.","at":"2026-11-11T23:59:13.159Z"}
+{"id":"e0099e-v3-03-il-modello-sir-e-alla-base","prompt_version":"v3","verdict":"keep","at":"2026-11-11T23:59:13.159Z"}
+{"id":"498eac-v3-01-tagliare-il-metano-rallenta-il-riscaldamento","prompt_version":"v3","verdict":"keep","at":"2026-11-11T23:59:13.159Z"}
+{"id":"498eac-v3-02-elettrificare-riduce-emissioni-solo-con-elettricita","prompt_version":"v3","verdict":"keep","at":"2026-11-11T23:59:13.159Z"}
+{"id":"d60324-v3-01-la-posa-distingue-la-fotografia-dal","prompt_version":"v3","verdict":"keep","at":"2026-11-11T23:59:13.159Z"}
+{"id":"d60324-v3-02-lo-strumento-riflette-la-personalita-del","prompt_version":"v3","verdict":"keep","at":"2026-11-11T23:59:13.159Z"}
+{"id":"184e21-v3-01-le-discipline-umanistiche-collegano-il-personale","prompt_version":"v3","verdict":"keep","at":"2026-11-11T23:59:13.159Z"}
+{"id":"184e21-v3-02-le-discipline-umanistiche-insegnano-a-giudicare","prompt_version":"v3","verdict":"keep","at":"2026-11-11T23:59:13.159Z"}
+{"id":"184e21-v3-03-lo-studio-umanistico-rende-i-medici","prompt_version":"v3","verdict":"discard","reason":"duplicato","note":"revisione di Claude: stessa tesi di «La narrativa insegna al medico ad ascoltare»: la letteratura rende i medici più capaci di comprendere i pazienti.","duplicate_of":"2e1e78-v3-01-la-narrativa-insegna-al-medico-ad","at":"2026-11-11T23:59:13.159Z"}
+{"id":"184e21-v3-04-logiche-economiche-penalizzano-le-discipline-umanistiche","prompt_version":"v3","verdict":"keep","at":"2026-11-11T23:59:13.159Z"}
+{"id":"184e21-v3-05-l-etica-aiuta-a-leggere-ia","prompt_version":"v3","verdict":"discard","reason":"vago","note":"revisione di Claude: afferma solo che l'etica offre intuizioni sulle nuove tecnologie, senza dire quali.","at":"2026-11-11T23:59:13.159Z"}
+{"id":"76583c-v3-01-il-pre-training-riduce-il-bisogno","prompt_version":"v3","verdict":"keep","at":"2026-11-11T23:59:13.159Z"}
+{"id":"76583c-v3-02-la-coerenza-tra-versioni-della-stessa","prompt_version":"v3","verdict":"keep","at":"2026-11-11T23:59:13.159Z"}
+{"id":"76583c-v3-03-le-etichette-false-possono-sostenere-il","prompt_version":"v3","verdict":"keep","at":"2026-11-11T23:59:13.159Z"}
+{"id":"76583c-v3-04-il-rumore-utile-rende-la-decisione","prompt_version":"v3","verdict":"keep","at":"2026-11-11T23:59:13.159Z"}
+{"id":"76583c-v3-05-pre-training-e-self-training-sono","prompt_version":"v3","verdict":"keep","at":"2026-11-11T23:59:13.159Z"}
+{"id":"1ab576-v3-01-gli-algoritmi-pubblicitari-imparano-solo-dai","prompt_version":"v3","verdict":"keep","at":"2026-11-11T23:59:13.159Z"}
+{"id":"1ab576-v3-02-il-browser-perde-una-parte-delle","prompt_version":"v3","verdict":"keep","at":"2026-11-11T23:59:13.159Z"}
+{"id":"1ab576-v3-03-un-server-intermedio-raccoglie-e-distribuisce","prompt_version":"v3","verdict":"keep","at":"2026-11-11T23:59:13.159Z"}
+{"id":"1ab576-v3-04-il-server-side-non-aggira-il","prompt_version":"v3","verdict":"keep","at":"2026-11-11T23:59:13.159Z"}
+{"id":"af4434-v3-01-un-automazione-sostituisce-una-competenza-solo","prompt_version":"v3","verdict":"keep","at":"2026-11-11T23:59:13.159Z"}
+{"id":"af4434-v3-02-formulare-e-valutare-conta-piu-dell","prompt_version":"v3","verdict":"discard","reason":"duplicato","note":"revisione di Claude: stesso punto di «Definire bene l'obiettivo è ingegneria del software»: con l'IA la competenza si sposta sul formulare il problema e valutare la soluzione.","duplicate_of":"558841-v3-04-definire-bene-l-obiettivo-e-ingegneria","at":"2026-11-11T23:59:13.159Z"}
+{"id":"af4434-v3-03-si-impara-risolvendo-problemi-non-guardando","prompt_version":"v3","verdict":"discard","reason":"duplicato","note":"revisione di Claude: l'apprendimento attivo con feedback è già in «Il feedback potenzia il recupero attivo», e «dipende da come si usa l'IA» in «L'IA può moltiplicare il pensiero o atrofizzarlo».","duplicate_of":"afb3af-v3-03-il-feedback-potenzia-il-recupero-attivo","at":"2026-11-11T23:59:13.159Z"}
+{"id":"af4434-v3-04-l-intuizione-cresce-facendo-il-lavoro","prompt_version":"v3","verdict":"discard","reason":"duplicato","note":"revisione di Claude: stesso punto di «Il rischio dell'IA sta nel deskilling silenzioso»: delegando il lavoro all'IA la competenza non si forma.","duplicate_of":"96eb54-v3-05-il-rischio-dell-ia-sta-nel","at":"2026-11-11T23:59:13.159Z"}
+{"id":"03bb71-v3-01-le-ottiche-migliori-nascono-dalle-mani","prompt_version":"v3","verdict":"keep","at":"2026-11-11T23:59:13.159Z"}
+{"id":"03bb71-v3-02-un-movimento-nato-in-un-seminterrato","prompt_version":"v3","verdict":"keep","at":"2026-11-11T23:59:13.159Z"}
+{"id":"03bb71-v3-03-passioni-amatoriali-possono-formare-competenze-professionali","prompt_version":"v3","verdict":"discard","reason":"banale","note":"revisione di Claude: la tesi che una passione possa formare competenze professionali è ovvia; l'aneddoto su Hubble resta senza meccanismo.","at":"2026-11-11T23:59:13.159Z"}
+{"id":"62799a-v3-01-musica-allegra-rende-sopportabile-la-disillusione","prompt_version":"v3","verdict":"keep","at":"2026-11-11T23:59:13.159Z"}
+{"id":"62799a-v3-02-cantare-insieme-crea-una-comunita-di","prompt_version":"v3","verdict":"keep","at":"2026-11-11T23:59:13.159Z"}
+{"id":"62799a-v3-03-il-futuro-appare-piu-difficile-da","prompt_version":"v3","verdict":"discard","reason":"duplicato","note":"revisione di Claude: la tesi di Fisher sull'impossibilità di immaginare alternative è già in «Senza futuro credibile, il presente perde forma».","duplicate_of":"8aa874-v3-03-senza-futuro-credibile-il-presente-perde","at":"2026-11-11T23:59:13.159Z"}
+{"id":"f2791f-v3-01-il-cervello-potrebbe-centralizzarsi-prima-di","prompt_version":"v3","verdict":"keep","at":"2026-11-11T23:59:13.159Z"}
+{"id":"f2791f-v3-02-senza-regioni-specializzate-il-comportamento-resta","prompt_version":"v3","verdict":"keep","at":"2026-11-11T23:59:13.159Z"}
+{"id":"f2791f-v3-03-specie-lontane-rivelano-meglio-l-evoluzione","prompt_version":"v3","verdict":"keep","at":"2026-11-11T23:59:13.159Z"}
+{"id":"df78cd-v3-01-sgravi-senza-condizioni-rafforzano-i-bilanci","prompt_version":"v3","verdict":"keep","at":"2026-11-11T23:59:13.159Z"}
+{"id":"df78cd-v3-02-l-incertezza-normativa-frena-gli-investimenti","prompt_version":"v3","verdict":"discard","reason":"duplicato","note":"revisione di Claude: l'incertezza che frena gli investimenti è già in «L'incertezza sui costi frena gli investimenti»; già scartata come duplicato «L'incertezza dei fondi riduce l'impegno di lungo periodo» (2de9e4-v3-02).","duplicate_of":"a21c08-v3-05-l-incertezza-sui-costi-frena-gli","at":"2026-11-11T23:59:13.159Z"}
+{"id":"2c92cb-v3-01-le-piattaforme-grandi-peggiorano-in-moderazione","prompt_version":"v3","verdict":"keep","at":"2026-11-11T23:59:13.159Z"}
+{"id":"2c92cb-v3-02-il-costo-di-un-errore-cresce","prompt_version":"v3","verdict":"keep","at":"2026-11-11T23:59:13.159Z"}
+{"id":"2c92cb-v3-03-chi-sbaglia-nei-ban-deve-essere","prompt_version":"v3","verdict":"keep","at":"2026-11-11T23:59:13.159Z"}
+{"id":"2c92cb-v3-04-un-piccolo-sito-puo-essere-piu","prompt_version":"v3","verdict":"keep","at":"2026-11-11T23:59:13.159Z"}
+{"id":"2c92cb-v3-05-gli-argomenti-teorici-vanno-verificati-con","prompt_version":"v3","verdict":"discard","reason":"banale","note":"revisione di Claude: stessa tesi di «Le affermazioni sulla verifica vanno testate, non date per scontate» (1e7cbf-v3-01), già scartata come banale; ripete anche il confronto tra piattaforme della prima idea.","at":"2026-11-11T23:59:13.159Z"}
+{"id":"a02571-v3-01-la-medicina-di-famiglia-e-la","prompt_version":"v3","verdict":"discard","reason":"banale","note":"revisione di Claude: che il medico di famiglia sia il primo punto di contatto con il sistema sanitario è noto a tutti.","at":"2026-11-11T23:59:13.159Z"}
+{"id":"a02571-v3-02-il-generalista-decide-nell-incertezza","prompt_version":"v3","verdict":"keep","at":"2026-11-11T23:59:13.159Z"}
+{"id":"a02571-v3-03-le-strutture-devono-nascere-dai-modelli","prompt_version":"v3","verdict":"keep","at":"2026-11-11T23:59:13.159Z"}
+{"id":"a02571-v3-04-la-medicina-d-iniziativa-anticipa-la","prompt_version":"v3","verdict":"keep","at":"2026-11-11T23:59:13.159Z"}
+{"id":"a02571-v3-05-il-valore-del-confronto-tra-colleghi","prompt_version":"v3","verdict":"keep","at":"2026-11-11T23:59:13.159Z"}
+{"id":"1e3506-v3-01-riascoltare-un-brano-puo-dare-piacere","prompt_version":"v3","verdict":"keep","at":"2026-11-11T23:59:13.159Z"}
+{"id":"1e3506-v3-02-il-piacere-del-riascolto-nasce-dall","prompt_version":"v3","verdict":"keep","at":"2026-11-11T23:59:13.159Z"}
+{"id":"1e3506-v3-03-il-sospetto-verso-la-ripetizione-e","prompt_version":"v3","verdict":"keep","at":"2026-11-11T23:59:13.159Z"}
+{"id":"1e3506-v3-04-le-regole-anti-bot-spingono-all","prompt_version":"v3","verdict":"keep","at":"2026-11-11T23:59:13.159Z"}
+{"id":"c9ff10-v3-01-l-oppressione-va-letta-nelle-sue","prompt_version":"v3","verdict":"keep","at":"2026-11-11T23:59:13.159Z"}
+{"id":"c9ff10-v3-02-la-poverta-non-e-colpa-ne","prompt_version":"v3","verdict":"keep","at":"2026-11-11T23:59:13.159Z"}
+{"id":"c9ff10-v3-04-il-femminismo-riguarda-anche-gli-uomini","prompt_version":"v3","verdict":"keep","at":"2026-11-11T23:59:13.159Z"}
+{"id":"c9ff10-v3-05-un-leader-non-basta-servono-movimenti","prompt_version":"v3","verdict":"keep","at":"2026-11-11T23:59:13.159Z"}
+{"id":"10b67e-v3-01-la-sazieta-indebolisce-la-fame-di","prompt_version":"v3","verdict":"discard","reason":"banale","note":"revisione di Claude: il successo che spegne la fame di vittoria è un luogo comune, qui generalizzato da una recensione di film.","at":"2026-11-11T23:59:13.159Z"}
+{"id":"10b67e-v3-02-lo-sport-diventa-spettacolo-e-circo","prompt_version":"v3","verdict":"keep","at":"2026-11-11T23:59:13.159Z"}
+{"id":"10b67e-v3-03-gli-avversari-crescono-come-nei-videogiochi","prompt_version":"v3","verdict":"keep","at":"2026-11-11T23:59:13.159Z"}
+{"id":"7c5737-v3-01-una-membrana-serve-prima-della-chimica","prompt_version":"v3","verdict":"keep","at":"2026-11-11T23:59:13.159Z"}
+{"id":"7c5737-v3-02-le-gocce-chimiche-possono-ereditare-una","prompt_version":"v3","verdict":"keep","at":"2026-11-11T23:59:13.159Z"}
+{"id":"7c5737-v3-03-un-ipotesi-puo-cambiare-forma-senza","prompt_version":"v3","verdict":"keep","at":"2026-11-11T23:59:13.159Z"}
+{"id":"f55cb9-v3-01-formazione-in-moduli-brevi-e-accumulabili","prompt_version":"v3","verdict":"keep","at":"2026-11-11T23:59:13.159Z"}
+{"id":"f55cb9-v3-02-pagare-i-risultati-puo-distorcere-i","prompt_version":"v3","verdict":"discard","reason":"duplicato","note":"revisione di Claude: il meccanismo è quello di «Quando la misura diventa obiettivo, perde significato», applicato ai servizi per l'impiego.","duplicate_of":"8d0942-v3-02-quando-la-misura-diventa-obiettivo-perde","at":"2026-11-11T23:59:13.159Z"}
+{"id":"f55cb9-v3-03-le-politiche-del-lavoro-richiedono-anche","prompt_version":"v3","verdict":"keep","at":"2026-11-11T23:59:13.159Z"}
+{"id":"212abe-v3-01-ogni-stanza-custodisce-chi-l-ha","prompt_version":"v3","verdict":"keep","at":"2026-11-11T23:59:13.159Z"}
+{"id":"d60324-v3-03-ogni-fotografia-e-una-proiezione-mai","prompt_version":"v3","verdict":"discard","reason":"duplicato","note":"revisione di Claude: ripete «Lo strumento riflette la personalità del fotografo» della stessa fonte (nessuno sguardo è neutro); il doppione indicato dal controllo automatico era sbagliato.","duplicate_of":"d60324-v3-02-lo-strumento-riflette-la-personalita-del","at":"2026-11-11T23:59:13.159Z"}
