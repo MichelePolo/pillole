@@ -1627,3 +1627,160 @@
 {"id":"f55cb9-v3-03-le-politiche-del-lavoro-richiedono-anche","prompt_version":"v3","verdict":"keep","at":"2026-11-11T23:59:13.159Z"}
 {"id":"212abe-v3-01-ogni-stanza-custodisce-chi-l-ha","prompt_version":"v3","verdict":"keep","at":"2026-11-11T23:59:13.159Z"}
 {"id":"d60324-v3-03-ogni-fotografia-e-una-proiezione-mai","prompt_version":"v3","verdict":"discard","reason":"duplicato","note":"revisione di Claude: ripete «Lo strumento riflette la personalità del fotografo» della stessa fonte (nessuno sguardo è neutro); il doppione indicato dal controllo automatico era sbagliato.","duplicate_of":"d60324-v3-02-lo-strumento-riflette-la-personalita-del","at":"2026-11-11T23:59:13.159Z"}
+{"id":"06db86-v3-04-il-medico-che-usa-l-ai","prompt_version":"v3","verdict":"discard","reason":"duplicato","note":"scartata in automatico, ripete «Il rischio dell'IA sta nel deskilling silenzioso»: Riporta il deskilling dei medici esposti all'AI, con dati di colonscopia, ma «Il rischio dell'IA sta nel deskilling silenzioso» descrive già il deskilling silenzioso e il rischio per i ruoli junior, quindi l'idea centrale che l'uso dell'AI erode la competenza è la stessa, con un caso clinico più specifico che non insegna nulla di nuovo sul concetto.","by":"auto","duplicate_of":"96eb54-v3-05-il-rischio-dell-ia-sta-nel","at":"2026-11-13T09:39:37.885Z"}
+{"id":"150e64-v3-02-il-cibo-accessibile-richiede-piu-che","prompt_version":"v3","verdict":"discard","reason":"duplicato","note":"scartata in automatico, ripete «La carestia dipende dal denaro, non dal raccolto»: La distinzione tra disponibilità fisica di cibo e accesso economico ripete l'idea di «La carestia dipende dal denaro, non dal raccolto» che la carestia dipende dal denaro e non dal raccolto, applicata al cibo fresco nei quartieri.","by":"auto","duplicate_of":"83f952-v3-04-la-carestia-dipende-dal-denaro-non","at":"2026-11-13T09:39:48.539Z"}
+{"id":"97f620-v3-02-il-metodo-funziona-dove-esiste-un","prompt_version":"v3","verdict":"discard","reason":"duplicato","note":"scartata in automatico, ripete «Ricerca iterativa guidata da un test automatico»: Ripete l'affermazione centrale di «Ricerca iterativa guidata da un test automatico» con parole diverse: il metodo funziona dove esiste una verifica numerica rapida e senza un controllo affidabile non seleziona le soluzioni migliori; l'aggiunta sui problemi senza riferimento è solo una conseguenza dello stesso principio.","by":"auto","duplicate_of":"97f620-v3-01-ricerca-iterativa-guidata-da-un-test","at":"2026-11-13T09:41:14.876Z"}
+{"id":"17cb6f-v3-01-la-ragione-conferma-cio-che-la","prompt_version":"v3","verdict":"keep","at":"2026-11-13T20:31:43.499Z"}
+{"id":"17cb6f-v3-02-la-conoscenza-nasce-dai-sensi-e","prompt_version":"v3","verdict":"keep","at":"2026-11-13T20:31:43.499Z"}
+{"id":"17cb6f-v3-03-il-mondo-non-esiste-da-sempre","prompt_version":"v3","verdict":"keep","at":"2026-11-13T20:31:43.499Z"}
+{"id":"17cb6f-v3-04-il-dio-creatore-sfugge-a-ogni","prompt_version":"v3","verdict":"keep","at":"2026-11-13T20:31:43.499Z"}
+{"id":"17cb6f-v3-05-la-liberta-di-scelta-rende-l","prompt_version":"v3","verdict":"keep","at":"2026-11-13T20:31:43.499Z"}
+{"id":"17cb6f-v3-06-il-giusto-mezzo-tra-i-desideri","prompt_version":"v3","verdict":"keep","at":"2026-11-13T20:31:43.499Z"}
+{"id":"0a3b44-v3-01-le-spugne-da-cucina-ospitano-colonie","prompt_version":"v3","verdict":"keep","at":"2026-11-13T20:31:43.499Z"}
+{"id":"0a3b44-v3-02-aspetto-e-odore-non-dicono-quanto","prompt_version":"v3","verdict":"discard","reason":"duplicato","note":"revisione di Claude: ripete «Le spugne da cucina ospitano colonie batteriche stabili», che già dice che la spugna diventa un serbatoio di microbi prima di sembrare sporca.","duplicate_of":"0a3b44-v3-01-le-spugne-da-cucina-ospitano-colonie","at":"2026-11-13T20:31:43.499Z"}
+{"id":"0a3b44-v3-03-il-disinfettante-puo-creare-una-falsa","prompt_version":"v3","verdict":"keep","at":"2026-11-13T20:31:43.499Z"}
+{"id":"0a3b44-v3-04-strizzare-la-spugna-diffonde-i-batteri","prompt_version":"v3","verdict":"keep","at":"2026-11-13T20:31:43.499Z"}
+{"id":"0a3b44-v3-05-separare-le-spugne-per-stoviglie-e","prompt_version":"v3","verdict":"discard","reason":"vago","note":"revisione di Claude: consiglio pratico di igiene domestica, non un'idea.","at":"2026-11-13T20:31:43.499Z"}
+{"id":"a59d6c-v3-01-le-scelte-morali-delle-macchine-non","prompt_version":"v3","verdict":"discard","reason":"vago","note":"revisione di Claude: «non esistono soluzioni facili» è generico; il punto sui compromessi resi visibili è già in «Il dilemma morale obbliga a scegliere e a giustificarsi».","at":"2026-11-13T20:31:43.499Z"}
+{"id":"a59d6c-v3-02-le-preferenze-morali-variano-tra-culture","prompt_version":"v3","verdict":"keep","at":"2026-11-13T20:31:43.499Z"}
+{"id":"a59d6c-v3-03-un-auto-altruista-puo-essere-poco","prompt_version":"v3","verdict":"keep","at":"2026-11-13T20:31:43.499Z"}
+{"id":"a59d6c-v3-04-il-paradosso-di-volere-sicurezza-ma","prompt_version":"v3","verdict":"discard","reason":"duplicato","note":"revisione di Claude: stessa tesi di «Un'auto altruista può essere poco desiderata dai compratori»: chi è a bordo vuole protezione e scarica il rischio sui pedoni.","duplicate_of":"a59d6c-v3-03-un-auto-altruista-puo-essere-poco","at":"2026-11-13T20:31:43.499Z"}
+{"id":"a59d6c-v3-05-il-dilemma-morale-obbliga-a-scegliere","prompt_version":"v3","verdict":"keep","at":"2026-11-13T20:31:43.499Z"}
+{"id":"150e64-v3-01-un-alimentazione-giusta-richiede-piacere-accessibile","prompt_version":"v3","verdict":"keep","at":"2026-11-13T20:31:43.499Z"}
+{"id":"150e64-v3-03-le-politiche-efficaci-agiscono-sugli-incentivi","prompt_version":"v3","verdict":"keep","at":"2026-11-13T20:31:43.499Z"}
+{"id":"150e64-v3-04-la-diversificazione-puo-colmare-il-divario","prompt_version":"v3","verdict":"keep","at":"2026-11-13T20:31:43.499Z"}
+{"id":"150e64-v3-05-il-consumo-di-cibo-e-un","prompt_version":"v3","verdict":"keep","at":"2026-11-13T20:31:43.499Z"}
+{"id":"7de882-v3-01-un-catalogo-condiviso-accelera-la-ricerca","prompt_version":"v3","verdict":"discard","reason":"banale","note":"revisione di Claude: che una nomenclatura comune faciliti la comunicazione tra laboratori è un'ovvietà.","at":"2026-11-13T20:31:43.499Z"}
+{"id":"7de882-v3-02-le-classificazioni-cerebrali-vanno-riviste-man","prompt_version":"v3","verdict":"keep","at":"2026-11-13T20:31:43.499Z"}
+{"id":"7de882-v3-03-modelli-animali-validi-ma-con-differenze","prompt_version":"v3","verdict":"keep","at":"2026-11-13T20:31:43.499Z"}
+{"id":"7de882-v3-04-una-mappa-spaziale-rivela-la-logica","prompt_version":"v3","verdict":"keep","at":"2026-11-13T20:31:43.499Z"}
+{"id":"e008ec-v3-01-i-repertori-affettivi-decidono-cosa-e","prompt_version":"v3","verdict":"keep","at":"2026-11-13T20:31:43.499Z"}
+{"id":"e008ec-v3-02-farsi-ascoltare-e-condizione-della-soggettivita","prompt_version":"v3","verdict":"keep","at":"2026-11-13T20:31:43.499Z"}
+{"id":"e008ec-v3-03-il-femminismo-performativo-rende-visibili-corpi","prompt_version":"v3","verdict":"discard","reason":"duplicato","note":"revisione di Claude: ripete con meno sostanza «Farsi ascoltare è condizione della soggettività politica» (la politica passa per corpo e suono).","duplicate_of":"e008ec-v3-02-farsi-ascoltare-e-condizione-della-soggettivita","at":"2026-11-13T20:31:43.499Z"}
+{"id":"e008ec-v3-04-il-microfono-diventa-terreno-di-disputa","prompt_version":"v3","verdict":"keep","at":"2026-11-13T20:31:43.499Z"}
+{"id":"8db32f-v3-01-il-tempo-narrativo-puo-essere-manipolato","prompt_version":"v3","verdict":"discard","reason":"banale","note":"revisione di Claude: che la narrativa possa saltare avanti e indietro nel tempo è noto a ogni lettore, e il confronto con le altre arti è discutibile.","at":"2026-11-13T20:31:43.499Z"}
+{"id":"8db32f-v3-02-una-scena-breve-puo-contenere-decenni","prompt_version":"v3","verdict":"keep","at":"2026-11-13T20:31:43.499Z"}
+{"id":"8db32f-v3-03-il-passato-modella-il-presente-attraverso","prompt_version":"v3","verdict":"keep","at":"2026-11-13T20:31:43.499Z"}
+{"id":"aacb9b-v3-01-alcune-stelle-collassano-senza-esplodere-in","prompt_version":"v3","verdict":"keep","at":"2026-11-13T20:31:43.499Z"}
+{"id":"aacb9b-v3-02-le-onde-gravitazionali-rivelano-l-origine","prompt_version":"v3","verdict":"keep","at":"2026-11-13T20:31:43.499Z"}
+{"id":"aacb9b-v3-03-una-lacuna-di-massa-potrebbe-indicare","prompt_version":"v3","verdict":"keep","at":"2026-11-13T20:31:43.499Z"}
+{"id":"fb1a1c-v3-01-il-lobo-frontale-frena-capacita-che","prompt_version":"v3","verdict":"discard","reason":"duplicato","note":"revisione di Claude: stessa tesi di «Forse tutti abbiamo l'orecchio assoluto, ma è inibito»: la lesione allenta un'inibizione e libera capacità latenti.","duplicate_of":"fb1a1c-v3-02-forse-tutti-abbiamo-l-orecchio-assoluto","at":"2026-11-13T20:31:43.499Z"}
+{"id":"fb1a1c-v3-02-forse-tutti-abbiamo-l-orecchio-assoluto","prompt_version":"v3","verdict":"keep","at":"2026-11-13T20:31:43.499Z"}
+{"id":"fb1a1c-v3-03-il-cervello-compensa-le-aree-danneggiate","prompt_version":"v3","verdict":"discard","reason":"duplicato","note":"revisione di Claude: già pubblicata come «Il cervello si riorganizza dopo i danni».","duplicate_of":"cba9fe-v3-04-il-cervello-si-riorganizza-dopo-i","at":"2026-11-13T20:31:43.499Z"}
+{"id":"97f620-v3-01-ricerca-iterativa-guidata-da-un-test","prompt_version":"v3","verdict":"discard","reason":"duplicato","note":"revisione di Claude: il ciclo proposta-valutazione-selezione guidato da un controllo automatico è già in «Un'idea di ottimizzazione: cercare nello spazio delle impalcature» (e in «Ricompense verificabili aprono nuova strada allo scaling»).","duplicate_of":"2bc4a9-v3-03-un-idea-di-ottimizzazione-cercare-nello","at":"2026-11-13T20:31:43.499Z"}
+{"id":"97f620-v3-03-piu-efficienza-non-sempre-significa-piu","prompt_version":"v3","verdict":"keep","at":"2026-11-13T20:31:43.499Z"}
+{"id":"c811c8-v3-01-il-collo-di-bottiglia-e-la","prompt_version":"v3","verdict":"keep","at":"2026-11-13T20:31:43.499Z"}
+{"id":"c811c8-v3-02-pipeline-riduce-i-tempi-morti-con","prompt_version":"v3","verdict":"keep","at":"2026-11-13T20:31:43.499Z"}
+{"id":"c811c8-v3-03-il-compromesso-tra-sincronia-e-velocita","prompt_version":"v3","verdict":"keep","at":"2026-11-13T20:31:43.499Z"}
+{"id":"c811c8-v3-04-dividere-un-solo-calcolo-tra-piu","prompt_version":"v3","verdict":"keep","at":"2026-11-13T20:31:43.499Z"}
+{"id":"c811c8-v3-05-il-routing-per-esperti-permette-modelli","prompt_version":"v3","verdict":"keep","at":"2026-11-13T20:31:43.499Z"}
+{"id":"c811c8-v3-06-il-checkpointing-di-attivazioni-scambia-calcolo","prompt_version":"v3","verdict":"keep","at":"2026-11-13T20:31:43.499Z"}
+{"id":"279ca1-v3-01-l-origine-della-vita-non-ha","prompt_version":"v3","verdict":"keep","at":"2026-11-13T20:31:43.499Z"}
+{"id":"279ca1-v3-02-il-problema-giusto-e-come-non","prompt_version":"v3","verdict":"keep","at":"2026-11-13T20:31:43.499Z"}
+{"id":"279ca1-v3-03-la-vita-e-un-continuo-non","prompt_version":"v3","verdict":"keep","at":"2026-11-13T20:31:43.499Z"}
+{"id":"279ca1-v3-04-luca-era-gia-una-comunita-complessa","prompt_version":"v3","verdict":"keep","at":"2026-11-13T20:31:43.499Z"}
+{"id":"279ca1-v3-05-ricreare-l-evoluzione-e-piu-importante","prompt_version":"v3","verdict":"keep","at":"2026-11-13T20:31:43.499Z"}
+{"id":"ad7245-v3-01-le-regole-sulla-moderazione-non-trovano","prompt_version":"v3","verdict":"keep","at":"2026-11-13T20:31:43.499Z"}
+{"id":"ad7245-v3-02-il-consenso-apparente-della-maggioranza-e","prompt_version":"v3","verdict":"keep","at":"2026-11-13T20:31:43.499Z"}
+{"id":"ad7245-v3-03-le-opinioni-su-temi-carichi-sono","prompt_version":"v3","verdict":"discard","reason":"duplicato","note":"revisione di Claude: stessa tesi di «Le regole sulla moderazione non trovano mai un accordo condiviso» (nessuna politica di moderazione mette d'accordo gli utenti delle grandi piattaforme), che resta.","duplicate_of":"ad7245-v3-01-le-regole-sulla-moderazione-non-trovano","at":"2026-11-13T20:31:43.499Z"}
+{"id":"ad7245-v3-04-un-forum-senza-moderazione-finisce-sommerso","prompt_version":"v3","verdict":"keep","at":"2026-11-13T20:31:43.499Z"}
+{"id":"ad7245-v3-05-il-federalismo-non-risolve-il-problema","prompt_version":"v3","verdict":"keep","at":"2026-11-13T20:31:43.499Z"}
+{"id":"206334-v3-01-lo-stile-di-scrittura-si-legge","prompt_version":"v3","verdict":"keep","at":"2026-11-13T20:31:43.499Z"}
+{"id":"206334-v3-02-dividere-per-la-deviazione-standard-amplifica","prompt_version":"v3","verdict":"discard","reason":"duplicato","note":"revisione di Claude: la standardizzazione degli scarti è già spiegata in «Lo stile di scrittura si legge nelle parole sovra- e sottoutilizzate»; da sola è la definizione del punteggio z.","duplicate_of":"206334-v3-01-lo-stile-di-scrittura-si-legge","at":"2026-11-13T20:31:43.499Z"}
+{"id":"206334-v3-03-il-numero-di-parole-piu-frequenti","prompt_version":"v3","verdict":"keep","at":"2026-11-13T20:31:43.499Z"}
+{"id":"206334-v3-04-un-identico-stile-puo-rivelare-account","prompt_version":"v3","verdict":"keep","at":"2026-11-13T20:31:43.499Z"}
+{"id":"85b543-v3-01-il-narratore-bluffa-la-trama-non","prompt_version":"v3","verdict":"keep","at":"2026-11-13T20:31:43.499Z"}
+{"id":"85b543-v3-02-l-allegoria-che-respinge-l-interpretazione","prompt_version":"v3","verdict":"keep","at":"2026-11-13T20:31:43.499Z"}
+{"id":"85b543-v3-03-il-progetto-e-catturare-cio-che","prompt_version":"v3","verdict":"keep","at":"2026-11-13T20:31:43.499Z"}
+{"id":"85b543-v3-04-un-romanzo-che-mostra-l-adolescenza","prompt_version":"v3","verdict":"keep","at":"2026-11-13T20:31:43.499Z"}
+{"id":"ee57d7-v3-01-un-pianeta-puo-sparire-senza-essersi","prompt_version":"v3","verdict":"keep","at":"2026-11-13T20:31:43.499Z"}
+{"id":"ee57d7-v3-02-le-eclissi-sono-rare-perche-l","prompt_version":"v3","verdict":"keep","at":"2026-11-13T20:31:43.499Z"}
+{"id":"ee57d7-v3-03-un-anomalia-nel-segnale-puo-rivelare","prompt_version":"v3","verdict":"keep","at":"2026-11-13T20:31:43.499Z"}
+{"id":"ee57d7-v3-04-i-giganti-vicino-alle-stelle-probabilmente","prompt_version":"v3","verdict":"keep","at":"2026-11-13T20:31:43.499Z"}
+{"id":"9b644e-v3-01-l-utopia-socialista-si-dipingeva-con","prompt_version":"v3","verdict":"keep","at":"2026-11-13T20:31:43.499Z"}
+{"id":"9b644e-v3-02-anarchici-e-socialisti-restano-divisi-dopo","prompt_version":"v3","verdict":"keep","at":"2026-11-13T20:31:43.499Z"}
+{"id":"9b644e-v3-03-le-vignette-allegoriche-accusano-piu-cose","prompt_version":"v3","verdict":"keep","at":"2026-11-13T20:31:43.499Z"}
+{"id":"cceeee-v3-01-la-guerra-professionale-creo-la-fiscalita","prompt_version":"v3","verdict":"keep","at":"2026-11-13T20:31:43.499Z"}
+{"id":"cceeee-v3-02-il-mercenario-come-figura-sociale-ambigua","prompt_version":"v3","verdict":"keep","at":"2026-11-13T20:31:43.499Z"}
+{"id":"cceeee-v3-03-l-eroismo-militare-come-mistificazione","prompt_version":"v3","verdict":"keep","at":"2026-11-13T20:31:43.499Z"}
+{"id":"0c596f-v3-01-la-guerra-nasce-dal-bisogno-di","prompt_version":"v3","verdict":"discard","reason":"vago","note":"revisione di Claude: tesi psicanalitica senza un contenuto verificabile (io bellico, alterità, ascolto) e l'evidenziazione ripete il titolo.","at":"2026-11-13T20:31:43.499Z"}
+{"id":"0c596f-v3-02-la-pittura-rinascimentale-come-tecnica-di","prompt_version":"v3","verdict":"keep","at":"2026-11-13T20:31:43.499Z"}
+{"id":"2e849a-v3-01-una-richiesta-diventa-forza-se-dice","prompt_version":"v3","verdict":"keep","at":"2026-11-13T20:31:43.499Z"}
+{"id":"2e849a-v3-02-il-disagio-privato-diventa-politico-quando","prompt_version":"v3","verdict":"keep","at":"2026-11-13T20:31:43.499Z"}
+{"id":"933756-v3-01-la-paura-spegne-il-giudizio-razionale","prompt_version":"v3","verdict":"discard","reason":"banale","note":"revisione di Claude: che la paura tolga lucidità è un luogo comune; l'aneddoto della tormenta non aggiunge un meccanismo.","at":"2026-11-13T20:31:43.499Z"}
+{"id":"df2e99-v3-01-le-cose-si-capiscono-nelle-loro","prompt_version":"v3","verdict":"keep","at":"2026-11-13T20:31:43.499Z"}
+{"id":"df2e99-v3-02-reti-reali-hanno-architetture-simili-pur","prompt_version":"v3","verdict":"keep","at":"2026-11-13T20:31:43.499Z"}
+{"id":"df2e99-v3-03-le-reti-crescono-e-i-nuovi","prompt_version":"v3","verdict":"keep","at":"2026-11-13T20:31:43.499Z"}
+{"id":"df2e99-v3-04-le-reti-casuali-non-descrivono-la","prompt_version":"v3","verdict":"keep","at":"2026-11-13T20:31:43.499Z"}
+{"id":"df2e99-v3-05-le-malattie-occupano-aree-specifiche-della","prompt_version":"v3","verdict":"keep","at":"2026-11-13T20:31:43.499Z"}
+{"id":"df2e99-v3-06-molti-farmaci-agiscono-a-valle-della","prompt_version":"v3","verdict":"keep","at":"2026-11-13T20:31:43.499Z"}
+{"id":"2d27a0-v3-01-lo-strumento-e-neutro-conta-chi","prompt_version":"v3","verdict":"discard","reason":"banale","note":"revisione di Claude: «Lo strumento è neutro, conta chi lo usa» ripete il luogo comune sulla neutralità della tecnologia senza aggiungere un'idea nuova.","at":"2026-11-13T20:31:43.499Z"}
+{"id":"2d27a0-v3-02-il-suono-senza-tempo-non-appartiene","prompt_version":"v3","verdict":"keep","at":"2026-11-13T20:31:43.499Z"}
+{"id":"2d27a0-v3-03-nessun-artista-crea-davvero-qualcosa-di","prompt_version":"v3","verdict":"keep","at":"2026-11-13T20:31:43.499Z"}
+{"id":"2d27a0-v3-04-la-tecnologia-guida-la-nascita-dei","prompt_version":"v3","verdict":"keep","at":"2026-11-13T20:31:43.499Z"}
+{"id":"2d27a0-v3-05-la-pioggia-come-suono-piu-naturale","prompt_version":"v3","verdict":"discard","reason":"vago","note":"revisione di Claude: È una preferenza personale di Jean-Michel Jarre (il suono della pioggia come eredità), non un'idea che il lettore possa imparare.","at":"2026-11-13T20:31:43.499Z"}
+{"id":"c562f6-v3-01-anche-i-prudenti-cadono-nell-inganno","prompt_version":"v3","verdict":"discard","reason":"duplicato","note":"revisione di Claude: Stessa tesi di «Giudicare le vittime fa dimenticare il truffatore» (la forza sta in chi inganna, non nella stupidità delle vittime), che è più originale; inoltre l'ex poliziotto Nygaard non è mai stato truffato.","duplicate_of":"c562f6-v3-03-giudicare-le-vittime-fa-dimenticare-il","at":"2026-11-13T20:31:43.499Z"}
+{"id":"c562f6-v3-02-il-dolore-puo-rendere-ciechi-di","prompt_version":"v3","verdict":"keep","at":"2026-11-13T20:31:43.499Z"}
+{"id":"c562f6-v3-03-giudicare-le-vittime-fa-dimenticare-il","prompt_version":"v3","verdict":"keep","at":"2026-11-13T20:31:43.499Z"}
+{"id":"c562f6-v3-04-i-trucchi-dei-sensitivi-sono-antichi","prompt_version":"v3","verdict":"discard","reason":"vago","note":"revisione di Claude: Elenco di trucchi ricorrenti dei sensitivi con una morale generica sul riconoscerli: idea psicologica troppo esile.","at":"2026-11-13T20:31:43.499Z"}
+{"id":"c562f6-v3-05-la-frode-conta-non-la-credenza","prompt_version":"v3","verdict":"keep","at":"2026-11-13T20:31:43.499Z"}
+{"id":"586d57-v3-01-l-ingiustizia-estetica-e-un-danno","prompt_version":"v3","verdict":"keep","at":"2026-11-13T20:31:43.499Z"}
+{"id":"586d57-v3-02-avere-voce-sul-proprio-aspetto-e","prompt_version":"v3","verdict":"keep","at":"2026-11-13T20:31:43.499Z"}
+{"id":"586d57-v3-03-le-risorse-estetiche-sono-un-prerequisito","prompt_version":"v3","verdict":"keep","at":"2026-11-13T20:31:43.499Z"}
+{"id":"586d57-v3-04-le-norme-dell-aspetto-rispettabile-escludono","prompt_version":"v3","verdict":"keep","at":"2026-11-13T20:31:43.499Z"}
+{"id":"d86574-v3-01-le-piantagioni-del-sud-si-fondavano","prompt_version":"v3","verdict":"discard","reason":"banale","note":"revisione di Claude: Che le piantagioni del Sud si reggessero sul lavoro schiavo è un fatto noto a qualunque lettore.","at":"2026-11-13T20:31:43.499Z"}
+{"id":"d86574-v3-02-la-storia-dimenticata-si-racconta-anche","prompt_version":"v3","verdict":"keep","at":"2026-11-13T20:31:43.499Z"}
+{"id":"d86574-v3-03-le-narrazioni-storiche-riflettono-chi-le","prompt_version":"v3","verdict":"keep","at":"2026-11-13T20:31:43.499Z"}
+{"id":"d86574-v3-04-lo-sfruttamento-dei-detenuti-continuo-dopo","prompt_version":"v3","verdict":"keep","at":"2026-11-13T20:31:43.499Z"}
+{"id":"0425b7-v3-01-gli-shock-energetici-si-trasmettono-ai","prompt_version":"v3","verdict":"discard","reason":"duplicato","note":"revisione di Claude: Già pubblicata «I rincari energetici restano anche dopo», che spiega lo stesso passaggio lento dei rincari energetici ai prezzi finali.","duplicate_of":"a21c08-v3-02-i-rincari-energetici-restano-anche-dopo","at":"2026-11-13T20:31:43.499Z"}
+{"id":"0425b7-v3-02-le-aspettative-di-inflazione-possono-amplificare","prompt_version":"v3","verdict":"keep","at":"2026-11-13T20:31:43.499Z"}
+{"id":"0425b7-v3-03-la-dipendenza-dal-gas-rende-l","prompt_version":"v3","verdict":"discard","reason":"duplicato","note":"revisione di Claude: Già pubblicata «La dipendenza energetica è un costo in sé»: dipendere da una fonte importata espone agli shock esterni; qui cambia solo il dato italiano del 2024.","duplicate_of":"a21c08-v3-01-la-dipendenza-energetica-e-un-costo","at":"2026-11-13T20:31:43.499Z"}
+{"id":"3eba06-v3-01-la-nostalgia-puo-servire-a-immaginare","prompt_version":"v3","verdict":"keep","at":"2026-11-13T20:31:43.499Z"}
+{"id":"3eba06-v3-02-un-suono-puo-colpire-il-corpo","prompt_version":"v3","verdict":"keep","at":"2026-11-13T20:31:43.499Z"}
+{"id":"3eba06-v3-03-il-cinema-puo-ricreare-come-il","prompt_version":"v3","verdict":"keep","at":"2026-11-13T20:31:43.499Z"}
+{"id":"a062e0-v3-01-la-musica-moderna-non-divide-il","prompt_version":"v3","verdict":"keep","at":"2026-11-13T20:31:43.499Z"}
+{"id":"a062e0-v3-02-il-suono-puo-mostrare-la-propria","prompt_version":"v3","verdict":"discard","reason":"vago","note":"revisione di Claude: Formulazione lirica sull'incrinatura del suono senza un esempio né una tesi verificabile.","at":"2026-11-13T20:31:43.499Z"}
+{"id":"a062e0-v3-03-pensare-con-la-musica","prompt_version":"v3","verdict":"keep","at":"2026-11-13T20:31:43.499Z"}
+{"id":"d0b8db-v3-01-il-doppio-uso-rende-fragile-la","prompt_version":"v3","verdict":"keep","at":"2026-11-13T20:31:43.499Z"}
+{"id":"d0b8db-v3-02-la-scuola-costruisce-le-funzioni-esecutive","prompt_version":"v3","verdict":"discard","reason":"banale","note":"revisione di Claude: Che la scuola sviluppi attenzione, autocontrollo e socialità e che interromperla danneggi i bambini è un'idea psicologica risaputa.","at":"2026-11-13T20:31:43.499Z"}
+{"id":"d0b8db-v3-03-il-riprocidio-nomina-la-distruzione-della","prompt_version":"v3","verdict":"keep","at":"2026-11-13T20:31:43.499Z"}
+{"id":"40abee-v3-01-crescita-economica-ed-emissioni-possono-separarsi","prompt_version":"v3","verdict":"keep","at":"2026-11-13T20:31:43.499Z"}
+{"id":"40abee-v3-02-le-rinnovabili-piu-economiche-sostituiscono-i","prompt_version":"v3","verdict":"discard","reason":"banale","note":"revisione di Claude: Che le rinnovabili più economiche sostituiscano i fossili è risaputo, e la chiusa «una tecnologia più economica sostituisce la precedente» è un truismo.","at":"2026-11-13T20:31:43.499Z"}
+{"id":"016f01-v3-01-il-contenzioso-colpisce-poche-gare-ma","prompt_version":"v3","verdict":"keep","at":"2026-11-13T20:31:43.499Z"}
+{"id":"016f01-v3-02-il-ricorso-allunga-i-tempi-di","prompt_version":"v3","verdict":"keep","at":"2026-11-13T20:31:43.499Z"}
+{"id":"016f01-v3-03-dopo-un-ricorso-le-amministrazioni-riducono","prompt_version":"v3","verdict":"keep","at":"2026-11-13T20:31:43.499Z"}
+{"id":"016f01-v3-04-la-capacita-amministrativa-riduce-il-contenzioso","prompt_version":"v3","verdict":"keep","at":"2026-11-13T20:31:43.499Z"}
+{"id":"016f01-v3-05-il-ritardo-dei-ricorsi-non-e","prompt_version":"v3","verdict":"keep","at":"2026-11-13T20:31:43.499Z"}
+{"id":"06db86-v3-01-i-modelli-ai-sbagliano-quando-la","prompt_version":"v3","verdict":"keep","at":"2026-11-13T20:31:43.499Z"}
+{"id":"06db86-v3-02-i-modelli-non-segnalano-quando-non","prompt_version":"v3","verdict":"discard","reason":"duplicato","note":"revisione di Claude: stessa tesi di «Le allucinazioni nascono dalla preferenza per una risposta sicura»: i modelli rispondono con sicurezza invece di ammettere di non sapere.","duplicate_of":"537920-v3-05-le-allucinazioni-nascono-dalla-preferenza-per","at":"2026-11-13T20:31:43.499Z"}
+{"id":"06db86-v3-03-la-somma-di-componenti-eccellenti-non","prompt_version":"v3","verdict":"keep","at":"2026-11-13T20:31:43.499Z"}
+{"id":"06db86-v3-05-la-sicurezza-non-puo-dipendere-dal","prompt_version":"v3","verdict":"keep","at":"2026-11-13T20:31:43.499Z"}
+{"id":"06db86-v3-06-l-ai-funziona-dove-il-compito","prompt_version":"v3","verdict":"keep","at":"2026-11-13T20:31:43.499Z"}
+{"id":"2e7b54-v3-01-sapiens-e-neanderthal-si-sono-incrociati","prompt_version":"v3","verdict":"keep","at":"2026-11-13T20:31:43.499Z"}
+{"id":"2e7b54-v3-02-le-varianti-ereditate-non-hanno-tutte","prompt_version":"v3","verdict":"keep","at":"2026-11-13T20:31:43.499Z"}
+{"id":"2e7b54-v3-03-il-dna-arcaico-puo-ancora-avere","prompt_version":"v3","verdict":"keep","at":"2026-11-13T20:31:43.499Z"}
+{"id":"2e7b54-v3-04-i-neanderthal-non-erano-gruppi-isolati","prompt_version":"v3","verdict":"keep","at":"2026-11-13T20:31:43.499Z"}
+{"id":"2e7b54-v3-05-le-ricostruzioni-dei-neanderthal-richiedono-cautela","prompt_version":"v3","verdict":"keep","at":"2026-11-13T20:31:43.499Z"}
+{"id":"fe2a4d-v3-01-vedere-i-sintomi-altrui-puo-modellare","prompt_version":"v3","verdict":"keep","at":"2026-11-13T20:31:43.499Z"}
+{"id":"fe2a4d-v3-02-sintomi-comuni-non-bastano-a-diagnosticare","prompt_version":"v3","verdict":"discard","reason":"banale","note":"revisione di Claude: che sintomi generici non bastino a una diagnosi e che serva il medico è un'ovvietà.","at":"2026-11-13T20:31:43.499Z"}
+{"id":"fe2a4d-v3-03-gli-algoritmi-premiano-i-contenuti-che","prompt_version":"v3","verdict":"keep","at":"2026-11-13T20:31:43.499Z"}
+{"id":"fe2a4d-v3-04-le-richieste-dei-pazienti-influenzano-le","prompt_version":"v3","verdict":"keep","at":"2026-11-13T20:31:43.499Z"}
+{"id":"fe2a4d-v3-05-per-le-cure-biomediche-conviene-chiedere","prompt_version":"v3","verdict":"discard","reason":"vago","note":"revisione di Claude: è un consiglio pratico (chiedere al medico), non un'idea.","at":"2026-11-13T20:31:43.499Z"}
+{"id":"dbe321-v3-01-i-modelli-artificiali-non-sono-organismi","prompt_version":"v3","verdict":"keep","at":"2026-11-13T20:31:43.499Z"}
+{"id":"dbe321-v3-02-la-storia-evolutiva-comune-rende-i","prompt_version":"v3","verdict":"keep","at":"2026-11-13T20:31:43.499Z"}
+{"id":"dbe321-v3-03-le-somiglianze-esterne-non-bastano-per","prompt_version":"v3","verdict":"keep","at":"2026-11-13T20:31:43.499Z"}
+{"id":"dbe321-v3-04-le-stranezze-evolutive-rivelano-funzioni-e","prompt_version":"v3","verdict":"keep","at":"2026-11-13T20:31:43.499Z"}
+{"id":"2f1d8c-v3-01-il-machine-learning-guida-la-ricerca","prompt_version":"v3","verdict":"keep","at":"2026-11-13T20:31:43.499Z"}
+{"id":"2f1d8c-v3-02-la-modellazione-matematica-batte-il-tentativo","prompt_version":"v3","verdict":"discard","reason":"banale","note":"revisione di Claude: che simulare prima di costruire faccia risparmiare tentativi è un luogo comune; l'esempio del bioreattore non aggiunge un meccanismo.","at":"2026-11-13T20:31:43.499Z"}
+{"id":"2f1d8c-v3-03-il-grasso-e-cio-che-da","prompt_version":"v3","verdict":"keep","at":"2026-11-13T20:31:43.499Z"}
+{"id":"5508b6-v3-01-separare-reclutamento-e-progressioni-di-carriera","prompt_version":"v3","verdict":"keep","at":"2026-11-13T20:31:43.499Z"}
+{"id":"5508b6-v3-02-il-localismo-si-contiene-vietando-i","prompt_version":"v3","verdict":"keep","at":"2026-11-13T20:31:43.499Z"}
+{"id":"5508b6-v3-03-la-produttivita-accademica-non-si-misura","prompt_version":"v3","verdict":"discard","reason":"duplicato","note":"revisione di Claude: stessa tesi di «Il valore scientifico non si riduce a un conteggio»; in più chiude con un commento sulla tesi stessa.","duplicate_of":"8d0942-v3-01-il-valore-scientifico-non-si-riduce","at":"2026-11-13T20:31:43.499Z"}
+{"id":"a2d2f1-v3-01-rocky-iv-riflette-la-propaganda-della","prompt_version":"v3","verdict":"discard","reason":"banale","note":"revisione di Claude: che Rocky IV sia propaganda da Guerra Fredda e che un film rifletta il suo tempo è risaputo.","at":"2026-11-13T20:31:43.499Z"}
+{"id":"a2d2f1-v3-02-la-tecnologia-come-gioco-o-come","prompt_version":"v3","verdict":"keep","at":"2026-11-13T20:31:43.499Z"}
+{"id":"a2d2f1-v3-03-l-eroe-guarda-la-politica-dalla","prompt_version":"v3","verdict":"keep","at":"2026-11-13T20:31:43.499Z"}
+{"id":"e5d399-v3-01-l-ia-produce-violenza-speculativa-attraverso","prompt_version":"v3","verdict":"keep","at":"2026-11-13T20:31:43.499Z"}
+{"id":"e5d399-v3-02-lo-shock-provocatorio-come-strategia-politica","prompt_version":"v3","verdict":"discard","reason":"duplicato","note":"revisione di Claude: stessa tesi di «La propaganda normalizza ciò che prima sembrava inaccettabile»: provocazioni ripetute spostano il limite del dicibile.","duplicate_of":"b4985a-v2-03-la-propaganda-normalizza-cio-che-prima","at":"2026-11-13T20:31:43.499Z"}
+{"id":"e5d399-v3-03-le-immagini-come-meccanismi-di-rinforzo","prompt_version":"v3","verdict":"keep","at":"2026-11-13T20:31:43.499Z"}
+{"id":"7e4ad5-v3-01-scrivere-di-se-senza-distacco-analitico","prompt_version":"v3","verdict":"keep","at":"2026-11-13T20:31:43.499Z"}
+{"id":"7e4ad5-v3-02-il-futuro-si-presenta-come-passato","prompt_version":"v3","verdict":"discard","reason":"vago","note":"revisione di Claude: formula astratta e oscura su un romanzo che non viene nominato; nessuna tesi concreta.","at":"2026-11-13T20:31:43.499Z"}
