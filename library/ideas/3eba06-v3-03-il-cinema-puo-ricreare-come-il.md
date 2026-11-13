@@ -25,4 +25,4 @@ created: 2026-11-13T09:39:20.041Z
 
 # Il cinema può ricreare come il passato si sentiva
 
-Il film ISTTVG non vuole ricostruire fedelmente la vita degli anni Novanta. Crea piuttosto uno spazio fantastico, quasi fantasmatico, in cui il passato torna come possibilità perdute e non come fatti accurati. L'autore sostiene che questa forma spettrale, cioè come il passato sembrava vivere, permette ai giovani di esplorare domande su identità e appartenenza che la realtà attuale chiude in anticipo. Una rappresentazione del passato può quindi essere più vera emotivamente che storicamente esatta.
+Il film I Saw the TV Glow non vuole ricostruire fedelmente la vita degli anni Novanta. Crea piuttosto uno spazio fantastico, quasi fantasmatico, in cui il passato torna come possibilità perdute e non come fatti accurati. L'autore sostiene che questa forma spettrale, cioè come il passato sembrava vivere, permette ai giovani di esplorare domande su identità e appartenenza che la realtà attuale chiude in anticipo. Una rappresentazione del passato può quindi essere più vera emotivamente che storicamente esatta.

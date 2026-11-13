@@ -25,4 +25,4 @@ created: 2026-11-13T09:39:19.936Z
 
 # La frode conta, non la credenza nel paranormale
 
-Nygaard non indaga sulla possibilità che i veggenti abbiano poteri soprannaturali. Non arresta nessuno perché dice di essere un sensitivo. Il suo obiettivo è chi mente su come usa i soldi dei clienti, per esempio comprando auto e orologi invece di celebrare rituali. Il confine che conta per la legge è quindi l'inganno ai danni di chi si fida, non la fede di chi crede. Questa distinzione permette di perseguire il reato senza entrare in questioni metafisiche che nessun tribunale può risolvere.
+Bob Nygaard, ex poliziotto diventato investigatore privato, non indaga sulla possibilità che i veggenti abbiano poteri soprannaturali. Non arresta nessuno perché dice di essere un sensitivo. Il suo obiettivo è chi mente su come usa i soldi dei clienti, per esempio comprando auto e orologi invece di celebrare rituali. Il confine che conta per la legge è quindi l'inganno ai danni di chi si fida, non la fede di chi crede. Questa distinzione permette di perseguire il reato senza entrare in questioni metafisiche che nessun tribunale può risolvere.

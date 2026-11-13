@@ -27,4 +27,4 @@ created: 2026-11-13T09:39:20.091Z
 
 # Ricreare l'evoluzione è più importante che copiare la vita
 
-Alcuni ricercatori non cercano di riprodurre le molecole esatte della vita attuale, ma le sue funzioni: replicarsi, metabolizzare ed evolvere. Secondo la fonte, Otto ha mostrato che strutture chimiche diverse dal DNA possono immagazzinare e trasmettere informazione. La strada per capire l'origine della vita passa quindi dal ricreare il meccanismo evolutivo, cioè la capacità di adattarsi a un ambiente che cambia, più che la lista dei materiali. Il fatto che ==la funzione conti più della materia==ormai è un'idea centrale per il campo.
+Alcuni ricercatori non cercano di riprodurre le molecole esatte della vita attuale, ma le sue funzioni: replicarsi, metabolizzare ed evolvere. Secondo la fonte, Otto ha mostrato che strutture chimiche diverse dal DNA possono immagazzinare e trasmettere informazione. La strada per capire l'origine della vita passa quindi dal ricreare il meccanismo evolutivo, cioè la capacità di adattarsi a un ambiente che cambia, più che la lista dei materiali. Il fatto che ==la funzione conti più della materia== ormai è un'idea centrale per il campo.

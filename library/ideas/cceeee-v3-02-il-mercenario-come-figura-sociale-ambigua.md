@@ -16,7 +16,7 @@ anchor: The mercenary was therefore a dyadic social figure
 anchor_check: exact
 quiz:
   q: Perché l'autore definisce il mercenario una figura sociale duplice?
-  a: Perché incarnava insieme il cercatore di gloria affascinante e il individuo pericoloso e dissoluto, con costi concreti per la società.
+  a: Perché incarnava insieme il cercatore di gloria affascinante e l'individuo pericoloso e dissoluto, con costi concreti per la società.
 prompt_version: v3
 model: claude-haiku-5-5
 created: 2026-11-13T09:39:20.104Z

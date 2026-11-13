@@ -25,4 +25,4 @@ created: 2026-11-13T09:39:20.099Z
 
 # Dopo un ricorso, le amministrazioni riducono l'attività
 
-Confrontando le stazioni appaltanti dopo il primo ricorso con quelle che non ne avevano ancora ricevuto uno, il numero di gare pubblicate scende di circa un terzo e il valore bandito del 60 per cento. Cambia anche la composizione: diminuiscono le procedure aperte e aumentano gli affidamenti diretti. Secondo l'articolo, la causa può essere una risposta difensiva, oppure la scarsità di personale impegnato nel ricorso, che ha meno tempo per preparare nuove gare.
+Confrontando le stazioni appaltanti dopo il primo ricorso con quelle che non ne avevano ancora ricevuto uno, il numero di gare pubblicate scende di circa un terzo e il valore bandito del 60 per cento. Cambia anche la composizione: diminuiscono le procedure aperte e aumentano gli affidamenti diretti. Secondo l'articolo, la causa può essere una risposta difensiva, oppure un vincolo di risorse, perché il personale impegnato nel ricorso ha meno tempo per preparare nuove gare.

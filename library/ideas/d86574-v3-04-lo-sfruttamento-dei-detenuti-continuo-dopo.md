@@ -25,4 +25,4 @@ created: 2026-11-13T09:39:20.072Z
 
 # Lo sfruttamento dei detenuti continuò dopo la schiavitù
 
-Dopo la fine della schiavitù, la piantagione passò a usare manodopera carceraria, e questa pratica si ripeté più volte nel corso del secolo. Nel 1875 investigatori statali documentarono la "particular cruelty" con cui i detenuti vi erano trattati, e l'arrangiamento cessò per un periodo. Il fatto mostra che lo sfruttamento del lavoro forzato non finì con l'abolizione formale della schiavitù, ma cambiò forma. Questa continuità è una delle lezioni più durevoli che il caso di Varner-Hogg offre sulla storia americana.
+Dopo la fine della schiavitù, la piantagione passò a usare manodopera carceraria, e questa pratica si ripeté più volte nel corso del secolo. Nel 1875 investigatori statali documentarono la "particolare crudeltà" con cui i detenuti vi erano trattati, e l'accordo cessò per un periodo. Il fatto mostra che lo sfruttamento del lavoro forzato non finì con l'abolizione formale della schiavitù, ma cambiò forma. Questa continuità è una delle lezioni più durevoli che il caso di Varner-Hogg offre sulla storia americana.

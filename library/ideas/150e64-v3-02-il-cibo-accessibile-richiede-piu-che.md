@@ -10,7 +10,7 @@ source:
   id: 150e64fc3041
   lang: en
   title: Democratic Hedonism Comes to Dinner
-  author: Imani Radney
+  author: Molly MacVeagh
   site: Public Books
   url: https://www.publicbooks.org/democratic-hedonism-comes-to-dinner/
 anchor: expand food availability, or the mere presence of fresh food, instead of real food access, which would require said food to be affordable

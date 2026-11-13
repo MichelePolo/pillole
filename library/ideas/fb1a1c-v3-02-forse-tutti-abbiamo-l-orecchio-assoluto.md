@@ -17,7 +17,7 @@ source:
 anchor: Un’ipotesi di chi studia l’orecchio assoluto è che tutte le persone ne siano dotate
 anchor_check: exact
 quiz:
-  q: Secondo l'ipotesi citata, perché la maggior parte delle persone non sente l'orecchio assoluto?
+  q: Secondo l'ipotesi citata, perché la maggior parte delle persone non manifesta l'orecchio assoluto?
   a: Perché la capacità sarebbe costantemente inibita dal cervello per permettere l'elaborazione di altre informazioni.
 prompt_version: v3
 model: claude-haiku-5-5

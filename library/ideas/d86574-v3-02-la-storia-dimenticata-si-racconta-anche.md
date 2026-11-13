@@ -27,4 +27,4 @@ created: 2026-11-13T09:39:20.071Z
 
 # La storia dimenticata si racconta anche con gli scavi
 
-Secondo l'autore, l'archeologia di comunità non serve solo a produrre conoscenza tra gli specialisti: rende il sapere accessibile alle comunità locali, che possono discuterlo, portare le proprie conoscenze e sentirsi coinvolte. Citando Yvonne Marshall, l'archeologia di comunità è l'unico modo in cui i popoli indigeni e le comunità discendenti possono ==possedere il passato== che gli archeologi sono chiamati a ricostruire. Il passato diventa così un bene condiviso e non l'esclusiva di chi scava.
+Secondo uno studio di V. Camille Westmont ed Elizabeth Clay, l'archeologia di comunità non serve solo a produrre conoscenza tra gli specialisti: rende il sapere accessibile alle comunità locali, che possono discuterlo, portare le proprie conoscenze e sentirsi coinvolte. Citando Yvonne Marshall, l'archeologia di comunità è l'unico modo in cui i popoli indigeni e le comunità discendenti possono ==possedere il passato== che gli archeologi sono chiamati a ricostruire. Il passato diventa così un bene condiviso e non l'esclusiva di chi scava.

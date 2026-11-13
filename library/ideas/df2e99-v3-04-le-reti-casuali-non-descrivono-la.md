@@ -25,4 +25,4 @@ created: 2026-11-13T09:39:20.064Z
 
 # Le reti casuali non descrivono la realtà
 
-Il modello di grafo casuale di Erdős e Rényi era matematicamente elegante, ma secondo la fonte non rappresenta bene i sistemi reali. In una rete casuale il numero di collegamenti per nodo è sorprendentemente uniforme, mentre nel web la maggior parte delle pagine ha pochissimi link e pochi hub ne hanno un numero enorme. Lo stesso Strogatz precisa che Erdős e Rényi cercavano un problema matematico più che una descrizione della realtà. Il valore del modello casuale sta quindi nella teoria, non nella sua aderenza alle reti concrete.
+Il modello di grafo casuale di Erdős e Rényi era matematicamente elegante, ma secondo la fonte non rappresenta bene i sistemi reali. In una rete casuale il numero di collegamenti per nodo è sorprendentemente uniforme, mentre nel web la maggior parte delle pagine ha pochissimi link e pochi hub ne hanno un numero enorme. Il matematico Steven Strogatz precisa che Erdős e Rényi cercavano un problema matematico più che una descrizione della realtà. Il valore del modello casuale sta quindi nella teoria, non nella sua aderenza alle reti concrete.

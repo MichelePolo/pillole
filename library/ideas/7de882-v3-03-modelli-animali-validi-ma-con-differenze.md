@@ -26,4 +26,4 @@ created: 2026-11-13T09:39:20.048Z
 
 # Modelli animali validi, ma con differenze reali
 
-Le somiglianze molecolari tra primati e topi suggeriscono che molto di ciò che si osserva negli animali da laboratorio possa valere anche per gli esseri umani. Secondo gli autori, la struttura di base è condivisa, e questo rende plausibile trasferire alcune conclusioni. Tuttavia, la stessa popolazione neuronale può trovarsi in una zona diversa del cervello, e l'abbondanza e l'espressione dei geni variano tra specie. La conclusione è che i modelli animali sono utili purché si verifichi caso per caso ciò che si trasferisce.
+Le somiglianze molecolari tra primati e topi suggeriscono che molto di ciò che si osserva negli animali da laboratorio possa valere anche per gli esseri umani. Secondo i ricercatori, la struttura di base è condivisa, e questo rende plausibile trasferire alcune conclusioni. Tuttavia, la stessa popolazione neuronale può trovarsi in una zona diversa del cervello, e l'abbondanza e l'espressione dei geni variano tra specie. La conclusione è che i modelli animali sono utili purché si verifichi caso per caso ciò che si trasferisce.

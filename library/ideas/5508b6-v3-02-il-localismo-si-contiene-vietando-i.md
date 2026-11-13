@@ -23,6 +23,6 @@ model: claude-haiku-5-5
 created: 2026-11-13T09:39:20.078Z
 ---
 
-# Il localismo si contiene vietando i concorsi interni
+# Il localismo si contiene riservando i posti a chi ha lavorato altrove
 
 Secondo l'autore, il problema dell'inbreeding, cioè il reclutamento dei candidati interni all'ateneo, si può limitare imponendo che le posizioni di ricercatore a tenure track siano riservate a chi ha avuto almeno 36 mesi di contratti fuori dall'ateneo. L'autore osserva che nei paesi anglosassoni e in Germania il fenomeno praticamente non esiste, per ragioni culturali nel primo caso e normative nel secondo. Questa regola sarebbe già possibile con il quadro normativo esistente, senza bisogno di nuove leggi.

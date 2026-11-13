@@ -23,6 +23,6 @@ model: claude-haiku-5-5
 created: 2026-11-13T09:39:19.947Z
 ---
 
-# Il federalismo non risolve il problema delle regole comuni
+# La federazione non risolve il problema delle regole comuni
 
 Secondo l'autore, presentare la federazione come soluzione universale è un errore. Gli utenti di server diversi vogliono cose diverse da ammettere, quindi chi cambia server per seguire qualcuno scopre spesso che un altro profilo che gli interessa è bloccato. Il problema della moderazione non sparisce con la decentralizzazione: si sposta semplicemente su più server, e la frammentazione rende più difficile seguire tutto ciò che si vuole vedere.

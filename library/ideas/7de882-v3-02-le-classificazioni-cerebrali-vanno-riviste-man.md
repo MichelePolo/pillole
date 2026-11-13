@@ -17,7 +17,7 @@ source:
 anchor: It will continue to evolve as we gain more information.
 anchor_check: exact
 quiz:
-  q: Perché secondo gli autori la classificazione dei tipi cellulari non è mai definitiva?
+  q: Perché secondo i ricercatori la classificazione dei tipi cellulari non è mai definitiva?
   a: Perché nuovi dati possono rivelare tipi ibridi e differenze che le categorie precedenti non catturavano, quindi la tassonomia deve evolvere.
 prompt_version: v3
 model: claude-haiku-5-5
@@ -26,4 +26,4 @@ created: 2026-11-13T09:39:20.048Z
 
 # Le classificazioni cerebrali vanno riviste man mano
 
-Le categorie dei neuroni non sono definitive: i dati nuovi le mettono continuamente in discussione. La distinzione tra due sottoclassi di neuroni spinosi, usata dagli anni Novanta, è stata messa in crisi da tipi cellulari ibridi, che non rientrano in modo netto in nessuna delle due. Secondo gli autori, una tassonomia va considerata come una versione provvisoria, destinata a evolversi quando emergono nuove informazioni. Accettare questa provvisorietà è parte del metodo scientifico, non un suo difetto.
+Le categorie dei neuroni non sono definitive: i dati nuovi le mettono continuamente in discussione. La distinzione tra due sottoclassi di neuroni spinosi, usata dagli anni Novanta, è stata messa in crisi da tipi cellulari ibridi, che non rientrano in modo netto in nessuna delle due. Secondo i ricercatori, una tassonomia va considerata come una versione provvisoria, destinata a evolversi quando emergono nuove informazioni. Accettare questa provvisorietà è parte del metodo scientifico, non un suo difetto.

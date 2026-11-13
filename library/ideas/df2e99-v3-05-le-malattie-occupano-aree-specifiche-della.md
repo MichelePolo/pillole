@@ -24,4 +24,4 @@ created: 2026-11-13T09:39:20.064Z
 
 # Le malattie occupano aree specifiche della rete
 
-Secondo l'autore, i geni collegati a una malattia non sono distribuiti a caso nella rete cellulare, ma si raggruppano in un ==vicinato di rete== specifico, chiamato modulo della malattia. La metafora è una mappa della città: le malattie mentali starebbero intorno a Times Square, quelle metaboliche a Wall Street. Capire dove si trova il modulo indica dove intervenire per curare il problema. Questa tesi deriva dal lavoro del gruppo dell'autore attorno al 2015.
+Secondo Albert-László Barabási, i geni collegati a una malattia non sono distribuiti a caso nella rete cellulare, ma si raggruppano in un ==vicinato di rete== specifico, chiamato modulo della malattia. La metafora è una mappa della città: le malattie mentali starebbero intorno a Times Square, quelle metaboliche a Wall Street. Capire dove si trova il modulo indica dove intervenire per curare il problema. Questa tesi deriva dal lavoro del gruppo di Barabási attorno al 2015.

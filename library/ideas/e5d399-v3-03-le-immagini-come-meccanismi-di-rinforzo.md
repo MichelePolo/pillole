@@ -27,4 +27,4 @@ created: 2026-11-13T09:39:19.976Z
 
 # Le immagini come meccanismi di rinforzo, non come prove
 
-Secondo Della Ratta, le immagini nell'epoca dell'IA cambiano funzione: non servono più a verificare un fatto, ma a confermare una verità già data per presunta. Non chiedono di essere controllate, solo creduta. Un'immagine di questo tipo rafforza un'opinione preesistente invece di metterla alla prova. Il punto è rilevante per chiunque si occupi di verifica delle informazioni, perché il criterio classico della prova visiva perde gran parte del suo valore.
+Secondo Della Ratta, le immagini nell'epoca dell'IA cambiano funzione: non servono più a verificare un fatto, ma a confermare una verità già data per scontata. Non chiedono di essere controllate, solo credute. Un'immagine di questo tipo rafforza un'opinione preesistente invece di metterla alla prova. Il punto è rilevante per chiunque si occupi di verifica delle informazioni, perché il criterio classico della prova visiva perde gran parte del suo valore.

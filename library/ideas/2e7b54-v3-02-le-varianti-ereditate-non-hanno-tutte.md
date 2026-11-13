@@ -18,7 +18,7 @@ anchor: alcune sono state progressivamente eliminate dalla selezione naturale, a
 anchor_check: exact
 quiz:
   q: Perché alcune regioni del genoma contengono pochissimo DNA neandertaliano?
-  a: Secondo gli autori potrebbero esserci combinazioni tra varianti sapiens e neandertaliane poco compatibili, che riducevano fertilità o sopravvivenza degli ibridi e venivano quindi eliminate.
+  a: Secondo Pfennig e Lachance potrebbero esserci combinazioni tra varianti sapiens e neandertaliane poco compatibili, che riducevano fertilità o sopravvivenza degli ibridi e venivano quindi eliminate.
 prompt_version: v3
 model: claude-haiku-5-5
 created: 2026-11-13T09:39:20.119Z

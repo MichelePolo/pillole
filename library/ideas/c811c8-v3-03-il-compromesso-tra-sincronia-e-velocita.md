@@ -17,7 +17,7 @@ source:
 anchor: "Bulk synchronous parallels (BSP): Workers sync data at the end of every minibatch."
 anchor_check: exact
 quiz:
-  q: Qual è il rischio di non sincronizzare mai i workers durante l'addestramento?
+  q: Qual è il rischio di non sincronizzare mai le macchine durante l'addestramento?
   a: L'uso di pesi obsoleti, che riduce l'efficienza statistica dell'apprendimento.
 prompt_version: v3
 model: claude-haiku-5-5
@@ -26,4 +26,4 @@ created: 2026-11-13T09:39:20.096Z
 
 # Il compromesso tra sincronia e velocità nei gradienti
 
-Quando più workers addestrano insieme il modello, devono scambiarsi i gradienti. Se aspettano tutti a ogni passo, l'apprendimento è stabile ma le macchine più lente frenano le altre. Se non aspettano mai, lavorano più in fretta ma usano pesi obsoleti, perdendo efficienza di apprendimento. Le soluzioni intermedie, come accumulare gradienti per più iterazioni, cercano un equilibrio tra questi due estremi.
+Quando più macchine addestrano insieme il modello, devono scambiarsi i gradienti. Se aspettano tutti a ogni passo, l'apprendimento è stabile ma le macchine più lente frenano le altre. Se non aspettano mai, lavorano più in fretta ma usano pesi obsoleti, perdendo efficienza di apprendimento. Le soluzioni intermedie, come accumulare gradienti per più iterazioni, cercano un equilibrio tra questi due estremi.

@@ -19,7 +19,7 @@ anchor: ci sono preferenze universali stabili
 anchor_check: exact
 quiz:
   q: Quali preferenze morali risultano universali secondo lo studio citato?
-  a: Salvare gli esseri umani rispetto agli animali, salvare il maggior numero di vite e proteggere i giovani.
+  a: Salvare gli esseri umani rispetto agli animali e salvare il maggior numero di vite.
 prompt_version: v3
 model: claude-haiku-5-5
 created: 2026-11-13T09:39:19.963Z

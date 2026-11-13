@@ -27,4 +27,4 @@ created: 2026-11-13T09:39:20.041Z
 
 # Un suono può colpire il corpo prima della ragione
 
-Certe forze agiscono prima che la mente costruisca un significato, come il sobbalzo involontario davanti a una porta che sbatte. L'autore usa il concetto di affetto per descrivere questa forza precedente al pensiero razionale. Nelle canzoni malinconiche e potenti dei Pumpkins, il desiderio struggente e la complessità emotiva arrivano all'ascoltatore prima di qualsiasi informazione sulle opinioni del cantante. Per questo la musica può toccare persone diverse in modi che le dichiarazioni dell'artista non prevedono.
+Certe forze agiscono prima che la mente costruisca un significato, come il sobbalzo involontario davanti a una porta che sbatte. L'autore usa il concetto di affetto per descrivere questa forza precedente al pensiero razionale. Nelle canzoni malinconiche e potenti degli Smashing Pumpkins, il desiderio struggente e la complessità emotiva arrivano all'ascoltatore prima di qualsiasi informazione sulle opinioni del cantante. Per questo la musica può toccare persone diverse in modi che le dichiarazioni dell'artista non prevedono.

@@ -25,4 +25,4 @@ created: 2026-11-13T09:39:19.935Z
 
 # Giudicare le vittime fa dimenticare il truffatore
 
-Dopo una seduta con una sedicente sensitiva, l'autore si sente superiore a chi ci cade e prova perfino fastidio per le vittime. Poi capisce che la sua attenzione si era spostata sul giudizio verso chi si lascia ingannare, perdendo di vista chi inganna. Il giudizio sulle vittime è una comoda scorciatoia: ci fa sentire al sicuro e ci nasconde quanto sia abile chi manipola. Ricordare la potenza dell'ingannatore è il primo passo per capire come si proteggono davvero le persone.
+Dopo una seduta con una sedicente sensitiva, l'autrice si sente superiore a chi ci cade e prova perfino fastidio per le vittime. Poi capisce che la sua attenzione si era spostata sul giudizio verso chi si lascia ingannare, perdendo di vista chi inganna. Il giudizio sulle vittime è una comoda scorciatoia: ci fa sentire al sicuro e ci nasconde quanto sia abile chi manipola. Ricordare la potenza dell'ingannatore è il primo passo per capire come si proteggono davvero le persone.

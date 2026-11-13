@@ -27,4 +27,4 @@ created: 2026-11-13T09:39:19.990Z
 
 # La ragione conferma ciò che la rivelazione insegna
 
-Nel kalām, la teologia razionale praticata dai pensatori musulmani, si assume che il contenuto della rivelazione coincida con la ragione. Saadya applica questo metodo al giudaismo: le verità religiose possono essere dimostrate con argomenti razionali, anche se alcune restano inaccessibili alla mente. Il testo presenta questa posizione come tesi dell'autore, cioè come la sua strategia per difendere la fede davanti a chi la contesta con la logica.
+Nel kalām, la teologia razionale praticata dai pensatori musulmani, si assume che il contenuto della rivelazione coincida con la ragione. Saadya applica questo metodo al giudaismo: le verità religiose possono essere dimostrate con argomenti razionali, anche se alcune restano inaccessibili alla mente. È la strategia con cui Saadya difende la fede davanti a chi la contesta con la logica.

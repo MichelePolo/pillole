@@ -27,4 +27,4 @@ created: 2026-11-13T09:39:20.096Z
 
 # Il routing per esperti permette modelli molto più grandi
 
-Nel modello Mixture-of-Experts, una rete contiene molti sotto-modelli chiamati esperti, e un meccanismo di gating decide quali attivare per ogni input. Così non tutti i parametri vengono usati a ogni passo, e la capacità del modello può crescere senza un proporzionale aumento di calcolo. ==Il punto cruciale è che il gating sceglie solo pochi esperti per ciascun input==, e l'idea di base è quella dell'ensemble: più apprendisti deboli combinati danno un apprendista forte.
+Nel modello Mixture-of-Experts, una rete contiene molti sotto-modelli chiamati esperti, e un meccanismo di gating decide quali attivare per ogni input. Così non tutti i parametri vengono usati a ogni passo, e la capacità del modello può crescere senza un proporzionale aumento di calcolo. ==Il punto cruciale è che il gating sceglie solo pochi esperti per ciascun input==, e l'idea di base è quella dell'ensemble: più modelli deboli combinati danno un modello forte.

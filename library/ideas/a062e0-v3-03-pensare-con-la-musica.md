@@ -27,4 +27,4 @@ created: 2026-11-13T09:39:20.112Z
 
 # Pensare con la musica
 
-Secondo l'autrice la musica non è soltanto oggetto di riflessione filosofica, ma è essa stessa un modo di pensare. Il rapporto tra musica e filosofia non è né duale né semplicemente dialettico: nessuna delle due ha l'ultima parola. Il libro indaga questo intreccio attraverso pensatori come Jankélévitch e Merleau-Ponty, mostrando che la crisi della ragione universale si rivela con particolare chiarezza nella creazione artistica. ==La musica può essere una forma di conoscenza==, non solo un suo ornamento.
+Secondo l'autrice la musica non è soltanto oggetto di riflessione filosofica, ma è essa stessa un modo di pensare. Il rapporto tra musica e filosofia non è né duale né semplicemente dialettico: nessuna delle due ha l'ultima parola. Il libro recensito, Il suono incrinato di Enrica Lisciani-Petrini, indaga questo intreccio attraverso pensatori come Jankélévitch e Merleau-Ponty, mostrando che la crisi della ragione universale si rivela con particolare chiarezza nella creazione artistica. ==La musica può essere una forma di conoscenza==, non solo un suo ornamento.

@@ -24,6 +24,6 @@ model: claude-haiku-5-5
 created: 2026-11-13T09:39:20.063Z
 ---
 
-# Reti reali hanno architetture simili pur diverse
+# Reti molto diverse hanno architetture simili
 
-Quando si è cominciato a mappare reti molto diverse tra loro, dal web alle reti di attori, dal metabolismo cellulare alle relazioni sociali, è emersa una sorpresa: condividono caratteristiche strutturali che non si spiegano con la natura dei loro componenti. Questo ha suggerito la presenza di ==principi organizzativi comuni== che governano come si formano le connessioni. Secondo l'autore, la scoperta fondamentale della nuova disciplina è stata proprio questa somiglianza architettonica, inattesa tra sistemi che hanno scopi e scale completamente diversi.
+Quando si è cominciato a mappare reti molto diverse tra loro, dal web alle reti di attori, dal metabolismo cellulare alle relazioni sociali, è emersa una sorpresa: condividono caratteristiche strutturali che non si spiegano con la natura dei loro componenti. Questo ha suggerito la presenza di ==principi organizzativi comuni== che governano come si formano le connessioni. Secondo Albert-László Barabási, la scoperta fondamentale della nuova disciplina è stata proprio questa somiglianza architettonica, inattesa tra sistemi che hanno scopi e scale completamente diversi.

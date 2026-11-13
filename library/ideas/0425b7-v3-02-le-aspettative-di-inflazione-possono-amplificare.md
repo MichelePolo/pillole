@@ -27,4 +27,4 @@ created: 2026-11-13T09:39:20.043Z
 
 # Le aspettative di inflazione possono amplificare i rincari
 
-Secondo l'autore, il ricordo di una recente crisi inflazionistica può influenzare le aspettative di famiglie e imprese. Se queste si aspettano nuovi aumenti, possono chiedere salari più alti o alzare i prezzi di conseguenza, e così ==un rincaro iniziale può diffondersi al resto dell'economia==. Il testo collega questo meccanismo al rischio di una spirale in cui i prezzi alimentano le richieste retributive e i maggiori costi del lavoro generano ulteriori rincari.
+Secondo le autrici, il ricordo di una recente crisi inflazionistica può influenzare le aspettative di famiglie e imprese. Se queste si aspettano nuovi aumenti, possono chiedere salari più alti o alzare i prezzi di conseguenza, e così ==un rincaro iniziale può diffondersi al resto dell'economia==. Il testo collega questo meccanismo al rischio di una spirale in cui i prezzi alimentano le richieste retributive e i maggiori costi del lavoro generano ulteriori rincari.

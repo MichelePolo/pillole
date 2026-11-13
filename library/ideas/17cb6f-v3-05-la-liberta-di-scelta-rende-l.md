@@ -25,4 +25,4 @@ created: 2026-11-13T09:39:19.992Z
 
 # La libertà di scelta rende l'uomo responsabile delle proprie azioni
 
-Secondo Saadya, una persona può essere considerata autrice di un atto solo se ha esercitato una libera scelta nel compierlo. Senza libertà non avrebbero senso né le leggi umane né il premio o la punizione divina nell'aldilà. Questa libertà è percepita direttamente dai sensi, perché ciascuno sente di poter parlare o tacere, agire o astenersi. Il testo presenta questa tesi come argomento dell'autore a favore del libero arbitrio, compatibile con la prescienza di Dio.
+Secondo Saadya, una persona può essere considerata autrice di un atto solo se ha esercitato una libera scelta nel compierlo. Senza libertà non avrebbero senso né le leggi umane né il premio o la punizione divina nell'aldilà. Questa libertà è percepita direttamente dai sensi, perché ciascuno sente di poter parlare o tacere, agire o astenersi. Per Saadya il libero arbitrio è compatibile con la prescienza di Dio.

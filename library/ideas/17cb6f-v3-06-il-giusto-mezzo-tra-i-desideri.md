@@ -26,4 +26,4 @@ created: 2026-11-13T09:39:19.992Z
 
 # Il giusto mezzo tra i desideri umani
 
-Nel decimo trattato Saadya analizza tredici obiettivi a cui gli uomini si dedicano, come il cibo, il denaro, la conoscenza, la famiglia e il potere. Ognuno è buono in sé, ma diventa dannoso quando diventa l'unico scopo della vita. La condotta ideale consiste nel bilanciarli, lasciando che la ragione stabilisca i limiti di ciascun desiderio. Il testo presenta questa come l'etica dell'autore, fondata sull'idea che la vita terrena sia solo una tappa verso il mondo futuro.
+Nel decimo trattato Saadya analizza tredici obiettivi a cui gli uomini si dedicano, come il cibo, il denaro, la conoscenza, la famiglia e il potere. Ognuno è buono in sé, ma diventa dannoso quando diventa l'unico scopo della vita. La condotta ideale consiste nel bilanciarli, lasciando che la ragione stabilisca i limiti di ciascun desiderio. È un'etica fondata sull'idea che la vita terrena sia solo una tappa verso il mondo futuro.

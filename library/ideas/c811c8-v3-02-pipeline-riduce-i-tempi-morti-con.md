@@ -25,6 +25,6 @@ model: claude-haiku-5-5
 created: 2026-11-13T09:39:20.095Z
 ---
 
-# Pipeline riduce i tempi morti con i microbatch
+# La pipeline riduce i tempi morti con i microbatch
 
 Nel parallelismo a pipeline un minibatch viene diviso in microbatch, così che più stadi di macchine lavorino contemporaneamente su parti diverse dei dati. Senza questo accorgimento, una rete divisa in strati farebbe lavorare una macchina alla volta, lasciando le altre inattive. ==Il tempo di inattività, la cosiddetta bolla, si riduce quando il numero di microbatch è molto maggiore del numero di partizioni.== Restano comunque costi di comunicazione e di sincronizzazione dei gradienti.

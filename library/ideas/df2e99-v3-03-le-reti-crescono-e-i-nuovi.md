@@ -28,4 +28,4 @@ created: 2026-11-13T09:39:20.064Z
 
 # Le reti crescono e i nuovi nodi preferiscono i più connessi
 
-Le reti reali non sono oggetti statici: si formano aggiungendo un nodo alla volta. Quando un nodo nuovo entra, tende a collegarsi preferibilmente a quelli già molto connessi, un meccanismo chiamato attaccamento preferenziale. Secondo gli autori, ==questa semplice regola di crescita basta a far emergere gli hub==, cioè pochi nodi con moltissime connessioni. Il modello spiega così reti tanto diverse come il web, le reti di attori e i circuiti dei chip.
+Le reti reali non sono oggetti statici: si formano aggiungendo un nodo alla volta. Quando un nodo nuovo entra, tende a collegarsi preferibilmente a quelli già molto connessi, un meccanismo chiamato attaccamento preferenziale. Secondo Albert-László Barabási, ==questa semplice regola di crescita basta a far emergere gli hub==, cioè pochi nodi con moltissime connessioni. Il modello spiega così reti tanto diverse come il web, le reti di attori e i circuiti dei chip.
