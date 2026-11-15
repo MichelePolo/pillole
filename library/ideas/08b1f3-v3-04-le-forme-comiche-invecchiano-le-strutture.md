@@ -29,4 +29,4 @@ created: 2026-11-14T09:05:17.455Z
 
 # Le forme comiche invecchiano, le strutture emotive restano
 
-Secondo Mangrum, alcune forme di umorismo legate alla tecnologia diventano obsolete in fretta, perché i riferimenti cambiano. Restano però strutture di sentimento, nel senso di Raymond Williams, che attraversano decenni. Tra queste c'è un'etica dell'autenticità, centrale nel modo in cui giudichiamo il computer. L'autore sostiene quindi un giudizio a due livelli: le battute datate e i sentimenti duraturi coesistono.
+Secondo Mangrum, alcune forme di umorismo legate alla tecnologia diventano obsolete in fretta, perché i riferimenti cambiano. Restano però strutture di sentimento, nel senso di Raymond Williams, che attraversano decenni. Tra queste c'è un'etica dell'autenticità, centrale nel modo in cui giudichiamo il computer. Mangrum sostiene quindi un giudizio a due livelli: le battute datate e i sentimenti duraturi coesistono.

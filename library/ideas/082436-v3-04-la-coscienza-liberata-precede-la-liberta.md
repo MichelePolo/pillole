@@ -27,4 +27,4 @@ created: 2026-11-14T09:05:17.349Z
 
 # La coscienza liberata precede la libertà del corpo
 
-Secondo l'autore, la prigionia del corpo dipende da una prigionia della mente, perciò l'emancipazione della coscienza è una condizione preliminare alla liberazione fisica. Il fuggitivo non ruba nulla di altrui: riprende ciò che gli era stato sottratto, cioè se stesso. Questa idea, ripresa da Frantz Fanon, descrive la resistenza come un cambiamento interiore che rende concepibile la fuga. ==Non si può uscire da una prigione che non si riesce neppure a immaginare.== Il concetto vale ben oltre la schiavitù storica.
+Secondo l'autore, la prigionia del corpo dipende da una prigionia della mente, perciò l'emancipazione della coscienza è una condizione preliminare alla liberazione fisica. Il fuggitivo non ruba nulla ad altri: riprende ciò che gli era stato sottratto, cioè se stesso. Questa idea, ripresa da Frantz Fanon, descrive la resistenza come un cambiamento interiore che rende concepibile la fuga. ==Non si può uscire da una prigione che non si riesce neppure a immaginare.== Il concetto vale ben oltre la schiavitù storica.

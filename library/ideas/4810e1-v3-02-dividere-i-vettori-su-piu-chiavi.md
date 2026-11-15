@@ -24,4 +24,4 @@ created: 2026-11-14T09:05:17.318Z
 
 # Dividere i vettori su più chiavi scala le scritture
 
-Se i vettori vengono distribuiti su N chiavi diverse, scegliendo la chiave con una funzione di hash sull'elemento inserito, ogni sottoinsieme riceve le proprie scritture. Così le inserzioni possono avvenire in parallelo e le scritture crescono in modo quasi lineare. Anche le interrogazioni su chiavi diverse, o su istanze diverse, si possono unire: basta ordinare i risultati per punteggio, dove 1 indica vettori identici e 0 vettori opposti. ==La scalabilità nasce dalla composizione di insiemi indipendenti.==
+Se i vettori vengono distribuiti su N chiavi diverse, scegliendo la chiave con una funzione di hash sull'elemento inserito, ogni sottoinsieme riceve le proprie scritture. Così gli inserimenti possono avvenire in parallelo e le scritture crescono in modo quasi lineare. Anche le interrogazioni su chiavi diverse, o su istanze diverse, si possono unire: basta ordinare i risultati per punteggio, dove 1 indica vettori identici e 0 vettori opposti. ==La scalabilità nasce dalla composizione di insiemi indipendenti.==

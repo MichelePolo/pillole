@@ -12,7 +12,7 @@ source:
   id: 4566965e02ae
   lang: en
   title: Gramsci’s Imprisonment @ 100
-  author: Megan Cummins
+  author: David Kalman
   site: Public Books
   url: https://www.publicbooks.org/gramscis-imprisonment-100/
 anchor: Gramsci distinguished the “war of position” from the “war of maneuver”
@@ -27,4 +27,4 @@ created: 2026-11-14T09:05:17.401Z
 
 # La guerra di posizione passa per cultura e senso comune
 
-Per Gramsci la lotta politica non si gioca solo nella conquista diretta dello Stato, che lui chiamava guerra di manovra, ma anche in una lunga battaglia per l'egemonia culturale e per il senso comune. Questa seconda forma, la guerra di posizione, richiede tempo e pazienza, perché si combatte nelle istituzioni, nei media e nella vita quotidiana. Secondo l'autore, entrambe le forme sono necessarie a ogni lotta politica organizzata, e la cultura non è un terreno separato dalla politica.
+Per Gramsci la lotta politica non si gioca solo nella conquista diretta dello Stato, che lui chiamava guerra di manovra, ma anche in una lunga battaglia per l'egemonia culturale e per il senso comune. Questa seconda forma, la guerra di posizione, richiede tempo e pazienza, perché si combatte nelle istituzioni, nei media e nella vita quotidiana. Secondo Robyn Marasco, entrambe le forme sono necessarie a ogni lotta politica organizzata, e la cultura non è un terreno separato dalla politica.

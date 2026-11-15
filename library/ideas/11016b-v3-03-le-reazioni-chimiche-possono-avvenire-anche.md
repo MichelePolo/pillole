@@ -25,6 +25,6 @@ model: claude-haiku-5-5
 created: 2026-11-14T09:05:17.360Z
 ---
 
-# Le reazioni chimiche possono avvenire anche senza enzimi
+# Le reazioni del metabolismo possono avvenire anche senza enzimi
 
 Gli esperimenti descritti nella fonte mostrano che composti chimici semplici, come anidride carbonica e idrogeno in presenza di minerali di nichel e ferro, possono combinarsi formando formiato, acetato e piruvato, cioè lo scheletro del percorso acetil-CoA, senza che esistano ancora enzimi o RNA. Lo stesso principio emerge da studi che mostrano come piruvato e gliossilato possano dare quasi tutti i componenti di un ciclo metabolico anche in acqua tiepida e senza catalizzatori metallici. ==Il metabolismo potrebbe quindi essere partito in condizioni molto diverse==, anche in pozze tiepide e non solo nei vulcani sottomarini.

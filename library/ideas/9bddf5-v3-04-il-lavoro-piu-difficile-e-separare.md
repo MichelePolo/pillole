@@ -27,4 +27,4 @@ created: 2026-11-14T09:05:17.377Z
 
 # Il lavoro più difficile è separare i segnali sovrapposti
 
-Quando lo spettro di una sorgente si sovrappone a quelli di oggetti vicini, un singolo pixel riceve luce da sorgenti diverse, anche a distanze diverse. Per districarle lo strumento acquisisce ogni spettro in quattro direzioni di dispersione, così i rettangoli ruotano leggermente e forniscono informazioni aggiuntive. La parte maggiore del lavoro consiste nel capire quanta luce di quel pixel proviene da ciascun oggetto. È un problema che nasce dalla progettazione stessa dello strumento e non si può evitare.
+Quando lo spettro di una sorgente si sovrappone a quelli di oggetti vicini, un singolo pixel riceve luce da sorgenti diverse, anche a distanze diverse. Per districarle lo strumento acquisisce ogni spettro in quattro direzioni di dispersione, così le strisce degli spettri ruotano leggermente e forniscono informazioni aggiuntive. La parte maggiore del lavoro consiste nel capire quanta luce di quel pixel proviene da ciascun oggetto. È un problema che nasce dalla progettazione stessa dello strumento e non si può evitare.

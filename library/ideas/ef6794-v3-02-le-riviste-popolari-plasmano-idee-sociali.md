@@ -27,4 +27,4 @@ created: 2026-11-14T09:05:17.451Z
 
 # Le riviste popolari plasmano idee sociali nella vita quotidiana
 
-Secondo l'autrice, Linglong era una rivista economica e tascabile, pensata per essere letta da molte persone, e non un testo di militanza femminista. Mescolava consigli di bellezza, articoli di costume e gossip sulle celebrità con messaggi sul ruolo delle donne. Proprio per la sua forma leggera, arrivava nelle case e nelle borsette delle lettrici e poteva diffondere idee radicali in modo meno esplicito. Il veicolo popolare, dunque, conta quanto il contenuto nel determinare quali idee sociali si diffondono.
+Secondo Louise Edwards, Linglong era una rivista economica e tascabile, pensata per essere letta da molte persone, e non un testo di militanza femminista. Mescolava consigli di bellezza, articoli di costume e gossip sulle celebrità con messaggi sul ruolo delle donne. Proprio per la sua forma leggera, arrivava nelle case e nelle borsette delle lettrici e poteva diffondere idee radicali in modo meno esplicito. Il veicolo popolare, dunque, conta quanto il contenuto nel determinare quali idee sociali si diffondono.

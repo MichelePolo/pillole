@@ -26,4 +26,4 @@ created: 2026-11-14T09:05:17.339Z
 
 # Il delitto nasce da cause convergenti, non da una sola
 
-Riprendendo Gadda, l'autore sostiene che un omicidio non ha mai una causa unica ma un groviglio di motivi che si intrecciano. La realtà di un delitto è caotica e non lineare, e chi indaga deve tenere insieme più fili invece di cercare un colpevole e una spiegazione semplice. Il punto vale anche fuori dalla letteratura: le spiegazioni a causa singola tendono a semplificare fatti che in realtà dipendono da molte concause che agiscono insieme.
+Riprendendo Gadda, Siti sostiene che un omicidio non ha mai una causa unica ma un groviglio di motivi che si intrecciano. La realtà di un delitto è caotica e non lineare, e chi indaga deve tenere insieme più fili invece di cercare un colpevole e una spiegazione semplice. Il punto vale anche fuori dalla letteratura: le spiegazioni a causa singola tendono a semplificare fatti che in realtà dipendono da molte concause che agiscono insieme.

@@ -18,7 +18,7 @@ source:
 anchor: computing technology has created phenomenological obsolescence as a structure of experience
 anchor_check: exact
 quiz:
-  q: Che cos'è, secondo l'autore, l'obsolescenza fenomenologica?
+  q: Che cos'è, secondo Mangrum, l'obsolescenza fenomenologica?
   a: È il rapido invecchiamento delle categorie con cui interpretiamo la nostra esperienza quotidiana, accelerato dal ritmo del cambiamento tecnologico.
 prompt_version: v3
 model: claude-haiku-5-5
@@ -27,4 +27,4 @@ created: 2026-11-14T09:05:17.456Z
 
 # L'obsolescenza fenomenologica accelera con la tecnologia
 
-Mangrum sostiene che il calcolo abbia creato una forma di obsolescenza fenomenologica: le categorie con cui diamo senso all'esperienza quotidiana diventano superate sempre più in fretta. La velocità del cambiamento tecnologico accelera questo processo. L'autore non vede però una rottura netta con il passato, perché la modernità stessa crea nuove forme di comunità e, allo stesso tempo, nuove forme di estraneità. La novità, dunque, ha una componente di continuità.
+Mangrum sostiene che il calcolo abbia creato una forma di obsolescenza fenomenologica: le categorie con cui diamo senso all'esperienza quotidiana diventano superate sempre più in fretta. La velocità del cambiamento tecnologico accelera questo processo. Mangrum non vede però una rottura netta con il passato, perché la modernità stessa crea nuove forme di comunità e, allo stesso tempo, nuove forme di estraneità. La novità, dunque, ha una componente di continuità.

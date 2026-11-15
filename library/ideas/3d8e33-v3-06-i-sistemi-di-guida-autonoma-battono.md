@@ -12,6 +12,7 @@ source:
   id: 3d8e33814b8c
   lang: en
   title: Notes on Cruise's pedestrian accident
+  author: Dan Luu
   site: danluu.com
   url: https://danluu.com/cruise-report/
 anchor: it's reliability and not peak performance that makes it useful
@@ -28,4 +29,4 @@ created: 2026-11-14T09:05:17.432Z
 
 # I sistemi di guida autonoma battono gli umani per affidabilità
 
-Secondo un ex dirigente citato dall'autore, i sistemi attuali di guida assistita non sono utili per la loro prestazione di punta, che resta inferiore a quella umana, ma per la costanza. Non si stancano, non bevono e non si distraggono. Il valore pratico sta quindi nella affidabilità media, non nella capacità di reagire in modo eccezionale alle situazioni rare.
+Secondo un ex dirigente citato dall'autore, i sistemi attuali di guida assistita non sono utili per la loro prestazione di punta, che resta inferiore a quella umana, ma per la costanza. Non si stancano, non bevono e non si distraggono. Il valore pratico sta quindi nell'affidabilità media, non nella capacità di reagire in modo eccezionale alle situazioni rare.

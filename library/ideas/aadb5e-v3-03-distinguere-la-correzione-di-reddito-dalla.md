@@ -18,7 +18,7 @@ source:
 anchor: Nel caso che ci interessa, si tratta di dare lo stesso peso a tutti gli individui
 anchor_check: exact
 quiz:
-  q: Qual è la differenza tra dare lo stesso peso a tutti e dare più peso ai sfavoriti?
+  q: Qual è la differenza tra dare lo stesso peso a tutti e dare più peso agli sfavoriti?
   a: La prima è una correzione tecnica di misurazione; la seconda è un giudizio di valore sulla distribuzione, di competenza politica.
 prompt_version: v3
 model: claude-haiku-5-5

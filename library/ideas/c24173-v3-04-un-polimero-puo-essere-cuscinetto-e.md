@@ -25,6 +25,6 @@ model: claude-haiku-5-5
 created: 2026-11-14T09:05:17.295Z
 ---
 
-# Un polimero può essere cuscinetto e conduttore
+# Un polimero può fare da cuscinetto senza bloccare le cariche
 
-Lo studio suggerisce che uno strato polimerico intermedio non serve solo come cuscinetto meccanico passivo. Scegliendo gruppi funzionali adatti, il polimero può anche preservare i percorsi elettrici. Nel caso descritto, i gruppi carbossilici caricati negativamente respingono gli elettroni, creando una barriera di campo che riduce la ricombinazione all'interfaccia e facilita l'estrazione delle lacune. Secondo gli autori, la chimica della superficie conta quanto la sua struttura fisica.
+Lo studio suggerisce che uno strato polimerico intermedio non serve solo come cuscinetto meccanico passivo. Scegliendo gruppi funzionali adatti, il polimero può anche preservare i percorsi elettrici. Nel caso descritto, i gruppi carbossilici caricati negativamente respingono gli elettroni, creando una barriera di campo che riduce la ricombinazione all'interfaccia e facilita l'estrazione delle lacune. Lo studio indica quindi che la chimica della superficie conta quanto la sua struttura fisica.

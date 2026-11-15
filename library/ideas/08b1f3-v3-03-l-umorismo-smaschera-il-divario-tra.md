@@ -27,4 +27,4 @@ created: 2026-11-14T09:05:17.455Z
 
 # L'umorismo smaschera il divario tra promesse e realtà
 
-Mangrum descrive quello che chiama il grande scherzo industriale tecnologico: uno scarto tra le promesse utopiche delle aziende tech e ciò che i prodotti ottengono davvero. Quando questo scarto viene messo in scena in modo assurdo, diventa comico e può trasformarsi in critica. L'autore precisa che il suo approccio è prima descrittivo e solo a volte critico. La struttura della battuta, quindi, può servire sia a rendere gradevole un prodotto sia a denunciarne i limiti.
+Mangrum descrive quello che chiama il grande scherzo industriale tecnologico: uno scarto tra le promesse utopiche delle aziende tech e ciò che i prodotti ottengono davvero. Quando questo scarto viene messo in scena in modo assurdo, diventa comico e può trasformarsi in critica. Mangrum precisa che il suo approccio è prima descrittivo e solo a volte critico. La struttura della battuta, quindi, può servire sia a rendere gradevole un prodotto sia a denunciarne i limiti.

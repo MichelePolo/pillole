@@ -27,4 +27,4 @@ created: 2026-11-14T09:05:17.353Z
 
 # Un modello predittivo può essere una seconda scatola nera
 
-Secondo John Krakauer, un modello del cervello che funzionasse davvero come il cervello sarebbe, in pratica, un secondo cervello da capire. Costruire un sistema complesso che replica il comportamento neurale non equivale a comprenderlo. Il problema della comprensione resta quindi aperto anche quando la simulazione riesce. Questa è la tesi dell'autore della fonte e di chi la sostiene, e riguarda il rapporto tra replicare e spiegare.
+Secondo John Krakauer, un modello del cervello che funzionasse davvero come il cervello sarebbe, in pratica, un secondo cervello da capire. Costruire un sistema complesso che replica il comportamento neurale non equivale a comprenderlo. Il problema della comprensione resta quindi aperto anche quando la simulazione riesce.

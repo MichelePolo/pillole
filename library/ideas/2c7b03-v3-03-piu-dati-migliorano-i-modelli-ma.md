@@ -25,6 +25,6 @@ model: claude-haiku-5-5
 created: 2026-11-14T09:05:17.353Z
 ---
 
-# Più dati migliorano i modelli, ma non all'infinito
+# Più dati migliorano i modelli del cervello, ma non si sa quanto
 
-I modelli di previsione dell'attività cerebrale tendono a migliorare con più dati, il che suggerisce che siano limitati dalla quantità di dati disponibili. Tuttavia la relazione tra quantità di dati e prestazioni non è nota e potrebbe differire da quella dei modelli linguistici. Aumentare le dimensioni del modello aiuta solo fino a un certo punto, e aggiungere persone aiuta poco. ==Serve capire le leggi di scala per ogni tipo di dato==, per sapere quanti dati bastano davvero.
+I modelli di previsione dell'attività cerebrale tendono a migliorare con più dati, il che suggerisce che siano limitati dalla quantità di dati disponibili. Tuttavia la relazione tra quantità di dati e prestazioni non è nota e potrebbe differire da quella dei modelli linguistici. Aumentare le dimensioni del modello aiuta solo fino a un certo punto, e aggiungere partecipanti aiuta poco. ==Serve capire le leggi di scala per ogni tipo di dato==, per sapere quanti dati bastano davvero.

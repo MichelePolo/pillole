@@ -27,4 +27,4 @@ created: 2026-11-14T09:05:17.349Z
 
 # Il sapere fuggitivo nasce dalla lotta per l'istruzione
 
-Secondo l'autore, nella storia l'istruzione è stata spesso criminalizzata perché l'alfabetizzazione emancipa. Frederick Douglass imparò a leggere nonostante il divieto del suo padrone, che temeva che sapesse anche scrivere e fuggire. Il padrone capiva che il sapere trasforma la coscienza. ==Nelle condizioni di oppressione, insegnare e imparare diventano atti di fuga.== Il saggio sostiene che la pedagogia clandestina è una forma di resistenza che si ripete in contesti diversi, dagli Stati Uniti schiavisti all'Afghanistan talebano.
+Secondo l'autore, nella storia l'istruzione è stata spesso criminalizzata perché l'alfabetizzazione emancipa. Frederick Douglass imparò a leggere nonostante il divieto del suo padrone, che temeva che imparasse anche a scrivere e poi fuggisse. Il padrone capiva che il sapere trasforma la coscienza. ==Nelle condizioni di oppressione, insegnare e imparare diventano atti di fuga.== Il saggio sostiene che la pedagogia clandestina è una forma di resistenza che si ripete in contesti diversi, dagli Stati Uniti schiavisti all'Afghanistan talebano.

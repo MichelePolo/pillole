@@ -26,4 +26,4 @@ created: 2026-11-14T09:05:17.459Z
 
 # Il mondo è fatto di relazioni, non di soggetti isolati
 
-Nella tesi esposta, nessuna cosa esiste isolata: ogni entità acquista significato solo nella relazione con le altre. Secondo l'autore, la relazione non presuppone i termini che la compongono, ma li produce. ==Il significato nasce dall'azione reciproca tra cose, e non da una mente che interpreta.== Questo spostamento porta a considerare anche le cose non viventi come capaci di significare, perché entrano in rapporti semiotici con le altre.
+Nessuna cosa esiste isolata: ogni entità acquista significato solo nella relazione con le altre. Secondo l'autore, la relazione non presuppone i termini che la compongono, ma li produce. ==Il significato nasce dall'azione reciproca tra cose, e non da una mente che interpreta.== Questo spostamento porta a considerare anche le cose non viventi come capaci di significare, perché entrano in rapporti semiotici con le altre.

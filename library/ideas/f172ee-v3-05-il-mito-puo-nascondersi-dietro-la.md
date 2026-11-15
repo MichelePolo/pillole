@@ -12,6 +12,7 @@ source:
   id: f172eec820b1
   lang: en
   title: Louis Pope Gratacap, A Curator in Lost Worlds
+  author: Richard Fallon
   site: The Public Domain Review
   url: https://publicdomainreview.org/essay/gratacap-curator-in-lost-worlds
 anchor: In Krocker Land, Genesis and geology — sin and sauropsida — are reconciled.

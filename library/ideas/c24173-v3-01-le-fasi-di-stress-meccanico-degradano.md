@@ -25,6 +25,6 @@ model: claude-haiku-5-5
 created: 2026-11-14T09:05:17.290Z
 ---
 
-# Le fasi di stress meccanico degradano le celle flessibili
+# I cicli di stress meccanico degradano le celle flessibili
 
-Le celle solari flessibili a perovskite sono composte da strati con diversa elasticità e dilatazione termica. Durante il giorno e la notte si accumulano tensioni residue che causano microfratture fragili. Col tempo lo strato che assorbe la luce può staccarsi dagli strati che trasportano le cariche, e così le prestazioni del dispositivo calano. Il problema è quindi meccanico oltre che elettrico, e va risolto insieme.
+Le celle solari flessibili a perovskite sono composte da strati con diversa elasticità e dilatazione termica. Con il riscaldamento diurno e il raffreddamento notturno si accumulano tensioni residue che causano microfratture fragili. Col tempo lo strato che assorbe la luce può staccarsi dagli strati che trasportano le cariche, e così le prestazioni del dispositivo calano. Il problema è quindi meccanico oltre che elettrico, e i due aspetti vanno affrontati insieme.

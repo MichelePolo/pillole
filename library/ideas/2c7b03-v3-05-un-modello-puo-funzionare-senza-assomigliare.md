@@ -27,4 +27,4 @@ created: 2026-11-14T09:05:17.354Z
 
 # Un modello può funzionare senza assomigliare al cervello
 
-Yamins sostiene che un modello addestrato a prevedere i dati neurali non ha motivo di avere strati interni simili a quelli del cervello: sarà semplicemente una macchina di previsione. Al contrario, i modelli addestrati su un compito hanno qualche possibilità di rappresentare internamente il cervello. Combinare entrambi gli approcci sembra la strada più promettente, ma non si sa ancora come farlo in pratica. Secondo l'autore, questa distinzione tra predire e somigliare è centrale nel dibattito.
+Yamins sostiene che un modello addestrato a prevedere i dati neurali non ha motivo di avere strati interni simili a quelli del cervello: sarà semplicemente una macchina di previsione. Al contrario, i modelli addestrati su un compito hanno qualche possibilità di rappresentare internamente il cervello. Combinare entrambi gli approcci sembra la strada più promettente, ma non si sa ancora come farlo in pratica. Secondo l'autrice, questa distinzione tra predire e somigliare è centrale nel dibattito.

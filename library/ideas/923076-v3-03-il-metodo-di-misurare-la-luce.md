@@ -24,6 +24,6 @@ model: claude-haiku-5-5
 created: 2026-11-14T09:05:17.373Z
 ---
 
-# Il metodo di misurare la luce e la corrente
+# Solo l'esperimento rivelò che cosa facesse la proteina
 
 Per capire cosa facesse la proteina, Nagel ha inserito le istruzioni genetiche dell'alga in una cellula uovo di rana. Dopo aver aggiunto il retinale, una molecola derivata dalla vitamina A che permette alla proteina di assorbire i fotoni, ha usato la luce per attivare il canale e misurare la corrente che attraversa la membrana. Così ha potuto attribuire l'apertura del canale alla proteina stessa. Le sequenze genetiche dicevano come era fatta la proteina, ma solo l'esperimento ne ha mostrato il comportamento.

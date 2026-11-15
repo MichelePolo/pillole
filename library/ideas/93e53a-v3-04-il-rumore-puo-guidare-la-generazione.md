@@ -26,4 +26,4 @@ created: 2026-11-14T09:05:17.330Z
 
 # Il rumore può guidare la generazione condizionata senza classificatore
 
-La guida senza classificatore combina le predizioni di un modello condizionato e di uno non condizionato, che può essere addestrato nella stessa rete azzerando casualmente l'informazione di condizione. Il risultato è un bilanciamento regolabile tra fedeltà alla condizione e qualità del campione, senza un classificatore esterno. Secondo l'autore, questa strategia ottiene un buon compromesso tra metriche di qualità e diversità, mentre la guida tramite CLIP tende a sfruttare esempi avversari.
+La guida senza classificatore combina le predizioni di un modello condizionato e di uno non condizionato, che può essere addestrato nella stessa rete azzerando casualmente l'informazione di condizione. Il risultato è un bilanciamento regolabile tra fedeltà alla condizione e qualità del campione, senza un classificatore esterno. Secondo gli studi citati dall'autrice, questa strategia ottiene un buon compromesso tra metriche di qualità e diversità, mentre la guida tramite CLIP tende a sfruttare esempi avversari.

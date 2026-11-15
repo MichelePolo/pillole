@@ -18,7 +18,7 @@ source:
 anchor: Restare, Teti lo ha affermato più volte, non è stare immobili
 anchor_check: exact
 quiz:
-  q: Che cosa significa, nella prospettiva dell'autore, restare in un luogo?
+  q: Che cosa significa, nella prospettiva di Teti, restare in un luogo?
   a: "Non stare immobili: significa abitare un paese che cambia, mantenendo al tempo stesso un legame con la propria storia personale e comunitaria."
 prompt_version: v3
 model: claude-haiku-5-5

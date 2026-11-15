@@ -10,7 +10,7 @@ source:
   id: a444f4133b35
   lang: it
   title: Ingeborg Bachmann - Qui non c'è nessuna donna (2026) di Regina Schilling - Recensione
-  author: Raffaele Meale
+  author: Francesco Puma
   site: Quinlan
   url: https://quinlan.it/2026/11/13/ingeborg-bachmann-qui-non-ce-nessuna-donna/
 anchor: accostarsi a una vita senza pretendere di ripeterla

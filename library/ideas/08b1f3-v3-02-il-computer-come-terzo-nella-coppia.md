@@ -27,4 +27,4 @@ created: 2026-11-14T09:05:17.454Z
 
 # Il computer come terzo nella coppia
 
-Nelle commedie sul computer, la macchina appare spesso come una minaccia per l'unione di una coppia. Alla fine, però, viene assimilata nel legame, e questo cambia la natura stessa della coppia. Mangrum collega questa dinamica alla teoria queer dell'antisocialità: il computer è percepito come forza che scioglie i legami sociali, eppure in alcune commedie viene integrato. Secondo l'autore, la struttura apparentemente tradizionale della trama nasconde così una complessità maggiore.
+Nelle commedie sul computer, la macchina appare spesso come una minaccia per l'unione di una coppia. Alla fine, però, viene assimilata nel legame, e questo cambia la natura stessa della coppia. Mangrum collega questa dinamica alla teoria queer dell'antisocialità: il computer è percepito come forza che scioglie i legami sociali, eppure in alcune commedie viene integrato. Secondo Mangrum, la struttura apparentemente tradizionale della trama nasconde così una complessità maggiore.

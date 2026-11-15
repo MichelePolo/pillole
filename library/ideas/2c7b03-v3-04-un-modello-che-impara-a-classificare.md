@@ -27,4 +27,4 @@ created: 2026-11-14T09:05:17.354Z
 
 # Un modello che impara a classificare può allontanarsi dal cervello
 
-Secondo la fonte, i modelli di visione addestrati a classificare immagini sono diventati via via meno precisi nel prevedere l'attività neurale man mano che miglioravano nel compito di classificazione. Questo suggerisce che l'ottimizzazione per un compito non garantisce di somigliare al cervello. Per questo alcuni ricercatori preferiscono addestrare i modelli direttamente sulle registrazioni neurali, soprattutto nelle fasi intermedie della percezione visiva. Anche questa è una tesi sostenuta da uno dei protagonisti del dibattito.
+Secondo la fonte, i modelli di visione addestrati a classificare immagini sono diventati via via meno precisi nel prevedere l'attività neurale man mano che miglioravano nel compito di classificazione. Questo suggerisce che l'ottimizzazione per un compito non garantisce di somigliare al cervello. Per questo alcuni ricercatori preferiscono addestrare i modelli direttamente sulle registrazioni neurali, soprattutto nelle fasi intermedie della percezione visiva.

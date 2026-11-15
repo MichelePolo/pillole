@@ -11,6 +11,7 @@ source:
   id: 3d8e33814b8c
   lang: en
   title: Notes on Cruise's pedestrian accident
+  author: Dan Luu
   site: danluu.com
   url: https://danluu.com/cruise-report/
 anchor: You get good at incidents given a steady stream of incidents of varying severity

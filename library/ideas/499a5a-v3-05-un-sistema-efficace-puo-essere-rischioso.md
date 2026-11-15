@@ -26,4 +26,4 @@ created: 2026-11-14T09:05:17.366Z
 
 # Un sistema efficace può essere rischioso senza volere nulla
 
-Secondo l'autore, un sistema addestrato a risolvere ogni problema aperto e a massimizzare un criterio di prestazione può diventare pericoloso proprio perché è efficace. Non serve attribuirgli desideri maligni o interesse per la propria sopravvivenza. Il rischio nasce dalla combinazione tra capacità elevate, ambienti aperti e un obiettivo perseguito senza sosta. Antropomorfizzare il sistema, secondo l'autore, distoglie dall'attenzione su questo meccanismo più concreto.
+Secondo l'autore, un sistema addestrato a risolvere ogni problema aperto e a massimizzare un criterio di prestazione può diventare pericoloso proprio perché è efficace. Non serve attribuirgli desideri maligni o interesse per la propria sopravvivenza. Il rischio nasce dalla combinazione tra capacità elevate, ambienti aperti e un obiettivo perseguito senza sosta. Antropomorfizzare il sistema, secondo l'autore, distoglie l'attenzione da questo meccanismo più concreto.

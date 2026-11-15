@@ -12,7 +12,7 @@ source:
   id: 4566965e02ae
   lang: en
   title: Gramsci’s Imprisonment @ 100
-  author: Megan Cummins
+  author: David Kalman
   site: Public Books
   url: https://www.publicbooks.org/gramscis-imprisonment-100/
 anchor: Caesarism is a “fix” but not a true resolution or reconstruction

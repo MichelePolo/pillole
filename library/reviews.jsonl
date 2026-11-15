@@ -1791,3 +1791,119 @@
 {"id":"9bddf5-v3-05-la-qualita-dei-dati-dipende-da","prompt_version":"v3","verdict":"discard","reason":"duplicato","note":"scartata in automatico, ripete «La qualità dei dati umani dipende da ogni fase»: Sostiene che la qualità degli spettri dipende da una filiera di calibrazione e cataloghi a fasi successive, che è un'idea simile a «La qualità dei dati umani dipende da ogni fase» sulla qualità dei dati umani per fasi, ma riferita a una pipeline astronomica specifica con dipendenza tra le fasi; l'affermazione centrale sulla dipendenza sequenziale è però già detta in «La qualità dei dati umani dipende da ogni fase».","by":"auto","duplicate_of":"e01d33-v3-01-la-qualita-dei-dati-umani-dipende","at":"2026-11-14T09:06:47.330Z"}
 {"id":"a1a0de-v3-02-la-digitalizzazione-richiede-di-cambiare-anche","prompt_version":"v3","verdict":"discard","reason":"duplicato","note":"scartata in automatico, ripete «Investire in tecnologia richiede investire anche nel lavoro»: L'idea che la digitalizzazione richiede di cambiare organizzazione e formazione ripete l'affermazione centrale di «Investire in tecnologia richiede investire anche nel lavoro» (investire in tecnologia richiede investire anche nel lavoro) e di «La digitalizzazione non basta a migliorare il lavoro» (la tecnologia non migliora da sola l'organizzazione), applicata agli ospedali e al caso Niguarda-Cardarelli, che però non insegna nulla di più.","by":"auto","duplicate_of":"24c5bd-v3-05-investire-in-tecnologia-richiede-investire-anche","at":"2026-11-14T09:06:49.825Z"}
 {"id":"aadb5e-v3-01-l-analisi-costi-benefici-tende-a","prompt_version":"v3","verdict":"discard","reason":"duplicato","note":"scartata in automatico, ripete «Le analisi costi-benefici favoriscono i redditi alti»: Afferma che l'analisi costi-benefici favorisce i redditi alti, la stessa tesi centrale di «Le analisi costi-benefici favoriscono i redditi alti», detta con parole diverse.","by":"auto","duplicate_of":"a1a0de-v3-01-le-analisi-costi-benefici-favoriscono-i","at":"2026-11-14T09:07:04.899Z"}
+{"id":"2c7b03-v3-01-predire-il-cervello-non-significa-necessariamente","prompt_version":"v3","verdict":"discard","reason":"duplicato","note":"revisione di Claude: Stessa tesi di «Un modello del cervello va testato con esperimenti reali» della stessa fonte (la prova è scoprire qualcosa di nuovo e verificarlo nel cervello), che ha in più un esempio concreto.","duplicate_of":"2c7b03-v3-06-un-modello-del-cervello-va-testato","at":"2026-11-15T09:02:04.030Z"}
+{"id":"2c7b03-v3-02-un-modello-predittivo-puo-essere-una","prompt_version":"v3","verdict":"keep","at":"2026-11-15T09:02:04.030Z"}
+{"id":"2c7b03-v3-03-piu-dati-migliorano-i-modelli-ma","prompt_version":"v3","verdict":"keep","at":"2026-11-15T09:02:04.030Z"}
+{"id":"2c7b03-v3-04-un-modello-che-impara-a-classificare","prompt_version":"v3","verdict":"keep","at":"2026-11-15T09:02:04.030Z"}
+{"id":"2c7b03-v3-05-un-modello-puo-funzionare-senza-assomigliare","prompt_version":"v3","verdict":"keep","at":"2026-11-15T09:02:04.030Z"}
+{"id":"2c7b03-v3-06-un-modello-del-cervello-va-testato","prompt_version":"v3","verdict":"keep","at":"2026-11-15T09:02:04.030Z"}
+{"id":"499a5a-v3-01-le-macchine-non-sono-organismi-che","prompt_version":"v3","verdict":"discard","reason":"duplicato","note":"revisione di Claude: Stessa distinzione di «Il valore negli organismi nasce dall'interno» della stessa fonte: criterio di successo imposto dall'esterno contro criterio che nasce dalla persistenza del sistema.","duplicate_of":"499a5a-v3-02-il-valore-negli-organismi-nasce-dall","at":"2026-11-15T09:02:04.030Z"}
+{"id":"499a5a-v3-02-il-valore-negli-organismi-nasce-dall","prompt_version":"v3","verdict":"keep","at":"2026-11-15T09:02:04.030Z"}
+{"id":"499a5a-v3-03-la-selezione-clonale-sceglie-varianti-gia","prompt_version":"v3","verdict":"keep","at":"2026-11-15T09:02:04.030Z"}
+{"id":"499a5a-v3-04-governare-non-significa-impostare-valori-giusti","prompt_version":"v3","verdict":"keep","at":"2026-11-15T09:02:04.030Z"}
+{"id":"499a5a-v3-05-un-sistema-efficace-puo-essere-rischioso","prompt_version":"v3","verdict":"keep","at":"2026-11-15T09:02:04.030Z"}
+{"id":"499a5a-v3-06-il-servo-che-diventa-padrone-senza","prompt_version":"v3","verdict":"discard","reason":"duplicato","note":"revisione di Claude: Già pubblicata «Il rischio dipende anche da scelte umane di delega»: il pericolo nasce dalla dipendenza e dalla delega della società, non dalla volontà della macchina; cambia solo l'esempio di Butler.","duplicate_of":"ddc54d-v3-04-il-rischio-dipende-anche-da-scelte","at":"2026-11-15T09:02:04.030Z"}
+{"id":"f172ee-v3-01-i-romanzi-di-mondi-perduti-giocano","prompt_version":"v3","verdict":"keep","at":"2026-11-15T09:02:04.030Z"}
+{"id":"f172ee-v3-02-la-scienza-come-fonte-di-mostri","prompt_version":"v3","verdict":"keep","at":"2026-11-15T09:02:04.030Z"}
+{"id":"f172ee-v3-03-la-scienza-puo-essere-in-ritardo","prompt_version":"v3","verdict":"discard","reason":"forma","note":"revisione di Claude: Titolo e tesi contraddicono i fatti del corpo: Osborn descrisse il T. rex nel 1905 e il romanzo è del 1915, quindi la letteratura non anticipò la scienza (il saggio dice solo che fu la prima opera di finzione a presentarlo).","at":"2026-11-15T09:02:04.030Z"}
+{"id":"f172ee-v3-04-il-contesto-morale-di-un-opera","prompt_version":"v3","verdict":"discard","reason":"banale","note":"revisione di Claude: Che un'opera colta possa riflettere i pregiudizi razziali della sua epoca è un'osservazione scontata, e il titolo («va letto insieme alla sua forma») non corrisponde al corpo.","at":"2026-11-15T09:02:04.030Z"}
+{"id":"f172ee-v3-05-il-mito-puo-nascondersi-dietro-la","prompt_version":"v3","verdict":"keep","at":"2026-11-15T09:02:04.030Z"}
+{"id":"d4bab5-v3-01-l-identita-e-una-storia-scritta","prompt_version":"v3","verdict":"keep","at":"2026-11-15T09:02:04.030Z"}
+{"id":"d4bab5-v3-02-la-nostra-storia-cambia-insieme-alle","prompt_version":"v3","verdict":"discard","reason":"duplicato","note":"revisione di Claude: Già pubblicata «Il lutto inizia dove l'identità viene scossa» (perdere qualcuno è perdere una versione di sé); ripete anche «L'identità è una storia scritta da più autori» della stessa fonte.","duplicate_of":"7e2f20-v3-02-il-lutto-inizia-dove-l-identita","at":"2026-11-15T09:02:04.030Z"}
+{"id":"d4bab5-v3-03-il-lutto-e-la-maternita-si","prompt_version":"v3","verdict":"discard","reason":"banale","note":"revisione di Claude: Che dolore e gioia possano convivere è un truismo psicologico raccontato come aneddoto personale, senza un'idea nuova.","at":"2026-11-15T09:02:04.030Z"}
+{"id":"d4bab5-v3-04-se-non-raccontiamo-noi-la-nostra","prompt_version":"v3","verdict":"discard","reason":"banale","note":"revisione di Claude: «Se non raccontiamo noi la nostra storia, qualcun altro lo farà» è un motto molto diffuso, senza sviluppo ulteriore.","at":"2026-11-15T09:02:04.030Z"}
+{"id":"5e0a21-v3-01-il-carbone-produce-piu-co2-di","prompt_version":"v3","verdict":"keep","at":"2026-11-15T09:02:04.030Z"}
+{"id":"5e0a21-v3-02-le-economie-legate-al-carbone-frenano","prompt_version":"v3","verdict":"discard","reason":"banale","note":"revisione di Claude: Che un paese dipendente da un combustibile fatichi ad abbandonarlo per lavoro e sicurezza degli approvvigionamenti è scontato.","at":"2026-11-15T09:02:04.030Z"}
+{"id":"5e0a21-v3-03-chi-presiede-i-negoziati-puo-orientarne","prompt_version":"v3","verdict":"keep","at":"2026-11-15T09:02:04.030Z"}
+{"id":"e6e056-v3-01-i-microesoni-modulano-le-proteine-del","prompt_version":"v3","verdict":"keep","at":"2026-11-15T09:02:04.030Z"}
+{"id":"e6e056-v3-02-il-machine-learning-prevede-l-effetto","prompt_version":"v3","verdict":"discard","reason":"banale","note":"revisione di Claude: Il punto centrale (un modello evita di testare ogni variante in laboratorio) è quello già scartato come banale in «La modellazione matematica batte il tentativo ed errore» (2f1d8c-v3-02).","at":"2026-11-15T09:02:04.030Z"}
+{"id":"e6e056-v3-03-varianti-non-codificanti-possono-alterare-la","prompt_version":"v3","verdict":"keep","at":"2026-11-15T09:02:04.030Z"}
+{"id":"4810e1-v3-02-dividere-i-vettori-su-piu-chiavi","prompt_version":"v3","verdict":"keep","at":"2026-11-15T09:02:04.030Z"}
+{"id":"53ecfd-v3-01-una-promessa-di-fondi-non-e","prompt_version":"v3","verdict":"keep","at":"2026-11-15T09:02:04.030Z"}
+{"id":"351d62-v3-01-il-buco-piu-grande-della-tutela","prompt_version":"v3","verdict":"discard","reason":"effimero","note":"revisione di Claude: fotografia delle coperture attuali e delle proiezioni al 2030 discusse alla COP17, numeri destinati a cambiare.","at":"2026-11-15T09:02:04.030Z"}
+{"id":"351d62-v3-02-proteggere-ettari-non-basta-senza-gestione","prompt_version":"v3","verdict":"keep","at":"2026-11-15T09:02:04.030Z"}
+{"id":"351d62-v3-03-i-sussidi-dannosi-superano-di-molto","prompt_version":"v3","verdict":"keep","at":"2026-11-15T09:02:04.030Z"}
+{"id":"351d62-v3-04-toccare-i-sussidi-significa-toccare-redditi","prompt_version":"v3","verdict":"discard","reason":"banale","note":"revisione di Claude: che chi beneficia di un sussidio si opponga alla sua eliminazione è un'osservazione ovvia, senza un meccanismo nuovo.","at":"2026-11-15T09:02:04.030Z"}
+{"id":"351d62-v3-05-la-fiducia-nella-governance-conta-per","prompt_version":"v3","verdict":"discard","reason":"vago","note":"revisione di Claude: il caso del Cali Fund resta cronaca negoziale e la tesi generale sulla fiducia è generica e poco consequenziale.","at":"2026-11-15T09:02:04.030Z"}
+{"id":"351d62-v3-06-il-finanziamento-deve-essere-prevedibile","prompt_version":"v3","verdict":"keep","at":"2026-11-15T09:02:04.030Z"}
+{"id":"93e53a-v3-01-il-rumore-aggiunto-a-passi-graduali","prompt_version":"v3","verdict":"keep","at":"2026-11-15T09:02:04.030Z"}
+{"id":"93e53a-v3-02-campionare-a-qualsiasi-passo-senza-simulare","prompt_version":"v3","verdict":"keep","at":"2026-11-15T09:02:04.030Z"}
+{"id":"93e53a-v3-03-dinamica-di-langevin-campionare-usando-solo","prompt_version":"v3","verdict":"keep","at":"2026-11-15T09:02:04.030Z"}
+{"id":"93e53a-v3-04-il-rumore-puo-guidare-la-generazione","prompt_version":"v3","verdict":"keep","at":"2026-11-15T09:02:04.030Z"}
+{"id":"93e53a-v3-05-un-campionamento-deterministico-rende-le-immagini","prompt_version":"v3","verdict":"keep","at":"2026-11-15T09:02:04.030Z"}
+{"id":"93e53a-v3-06-lavorare-nello-spazio-latente-riduce-il","prompt_version":"v3","verdict":"keep","at":"2026-11-15T09:02:04.030Z"}
+{"id":"11016b-v3-01-il-metabolismo-potrebbe-aver-preceduto-geni","prompt_version":"v3","verdict":"keep","at":"2026-11-15T09:02:04.030Z"}
+{"id":"11016b-v3-02-l-energia-che-attraversa-un-sistema","prompt_version":"v3","verdict":"keep","at":"2026-11-15T09:02:04.030Z"}
+{"id":"11016b-v3-03-le-reazioni-chimiche-possono-avvenire-anche","prompt_version":"v3","verdict":"keep","at":"2026-11-15T09:02:04.030Z"}
+{"id":"11016b-v3-04-la-difficolta-sta-nel-far-convivere","prompt_version":"v3","verdict":"keep","at":"2026-11-15T09:02:04.030Z"}
+{"id":"9bddf5-v3-01-lo-spettro-rivela-cio-che-l","prompt_version":"v3","verdict":"keep","at":"2026-11-15T09:02:04.030Z"}
+{"id":"9bddf5-v3-02-dal-redshift-si-ricava-la-distanza","prompt_version":"v3","verdict":"keep","at":"2026-11-15T09:02:04.030Z"}
+{"id":"9bddf5-v3-03-osservare-tutto-insieme-porta-scoperte-ma","prompt_version":"v3","verdict":"keep","at":"2026-11-15T09:02:04.030Z"}
+{"id":"9bddf5-v3-04-il-lavoro-piu-difficile-e-separare","prompt_version":"v3","verdict":"keep","at":"2026-11-15T09:02:04.030Z"}
+{"id":"131730-v3-01-il-vitalismo-attribuisce-alla-vita-un","prompt_version":"v3","verdict":"keep","at":"2026-11-15T09:02:04.030Z"}
+{"id":"131730-v3-02-il-mondo-e-fatto-di-relazioni","prompt_version":"v3","verdict":"keep","at":"2026-11-15T09:02:04.030Z"}
+{"id":"131730-v3-03-ogni-vivente-costruisce-il-proprio-mondo","prompt_version":"v3","verdict":"keep","at":"2026-11-15T09:02:04.030Z"}
+{"id":"837dc4-v3-01-il-delitto-nasce-da-cause-convergenti","prompt_version":"v3","verdict":"keep","at":"2026-11-15T09:02:04.030Z"}
+{"id":"837dc4-v3-02-lo-stile-pluristilistico-puo-mescolare-alto","prompt_version":"v3","verdict":"keep","at":"2026-11-15T09:02:04.030Z"}
+{"id":"837dc4-v3-03-un-luogo-familiare-puo-essere-piu","prompt_version":"v3","verdict":"keep","at":"2026-11-15T09:02:04.030Z"}
+{"id":"ef6794-v3-01-il-modernismo-cinese-come-equilibrio-tra","prompt_version":"v3","verdict":"keep","at":"2026-11-15T09:02:04.030Z"}
+{"id":"ef6794-v3-02-le-riviste-popolari-plasmano-idee-sociali","prompt_version":"v3","verdict":"keep","at":"2026-11-15T09:02:04.030Z"}
+{"id":"ef6794-v3-03-il-contrasto-tra-immagini-puo-comunicare","prompt_version":"v3","verdict":"keep","at":"2026-11-15T09:02:04.030Z"}
+{"id":"3d8e33-v3-01-le-sintesi-dei-giornali-sbagliano-spesso","prompt_version":"v3","verdict":"keep","at":"2026-11-15T09:02:04.030Z"}
+{"id":"3d8e33-v3-02-nelle-crisi-la-fretta-di-difendere","prompt_version":"v3","verdict":"keep","at":"2026-11-15T09:02:04.030Z"}
+{"id":"3d8e33-v3-03-un-sistema-di-sicurezza-dipende-dalla","prompt_version":"v3","verdict":"keep","at":"2026-11-15T09:02:04.030Z"}
+{"id":"3d8e33-v3-04-la-conformita-normativa-non-premia-il","prompt_version":"v3","verdict":"keep","at":"2026-11-15T09:02:04.030Z"}
+{"id":"3d8e33-v3-05-il-pullover-non-rende-sicuro-un","prompt_version":"v3","verdict":"discard","reason":"vago","note":"revisione di Claude: tesi generica («la sicurezza dipende dall'affidabilità complessiva») non presente nella fonte, con titolo in gergo non tradotto («pullover») e frase di commento finale.","at":"2026-11-15T09:02:04.030Z"}
+{"id":"3d8e33-v3-06-i-sistemi-di-guida-autonoma-battono","prompt_version":"v3","verdict":"keep","at":"2026-11-15T09:02:04.030Z"}
+{"id":"082436-v3-01-l-immaginazione-fuggitiva-sfida-l-immaginario","prompt_version":"v3","verdict":"keep","at":"2026-11-15T09:02:04.030Z"}
+{"id":"082436-v3-02-il-contrabbandiere-progetta-percorsi-come-un","prompt_version":"v3","verdict":"keep","at":"2026-11-15T09:02:04.030Z"}
+{"id":"082436-v3-03-il-sapere-fuggitivo-nasce-dalla-lotta","prompt_version":"v3","verdict":"keep","at":"2026-11-15T09:02:04.030Z"}
+{"id":"082436-v3-04-la-coscienza-liberata-precede-la-liberta","prompt_version":"v3","verdict":"keep","at":"2026-11-15T09:02:04.030Z"}
+{"id":"082436-v3-05-il-sapere-di-chi-sopravvive-alla","prompt_version":"v3","verdict":"keep","at":"2026-11-15T09:02:04.030Z"}
+{"id":"24c5bd-v3-01-la-digitalizzazione-non-basta-a-migliorare","prompt_version":"v3","verdict":"discard","reason":"duplicato","note":"revisione di Claude: stessa tesi della pubblicata «L'AI rende utile solo se entra nei processi»: lo strumento non basta senza ripensare il lavoro.","duplicate_of":"0207cc-v3-01-l-ai-rende-utile-solo-se","at":"2026-11-15T09:02:04.030Z"}
+{"id":"24c5bd-v3-02-il-carico-burocratico-puo-crescere-con","prompt_version":"v3","verdict":"keep","at":"2026-11-15T09:02:04.030Z"}
+{"id":"24c5bd-v3-03-la-tecnologia-puo-rafforzare-le-gerarchie","prompt_version":"v3","verdict":"keep","at":"2026-11-15T09:02:04.030Z"}
+{"id":"24c5bd-v3-04-l-apprendimento-tecnologico-scaricato-sugli-individui","prompt_version":"v3","verdict":"keep","at":"2026-11-15T09:02:04.030Z"}
+{"id":"24c5bd-v3-05-investire-in-tecnologia-richiede-investire-anche","prompt_version":"v3","verdict":"discard","reason":"duplicato","note":"revisione di Claude: ripete la pubblicata «L'AI accelera la riforma, non la sostituisce»: la tecnologia eredita i limiti dell'organizzazione che la riceve.","duplicate_of":"0207cc-v3-05-l-ai-accelera-la-riforma-non","at":"2026-11-15T09:02:04.030Z"}
+{"id":"a5b9e1-v3-01-i-nomi-degli-aquiloni-rivelano-come","prompt_version":"v3","verdict":"keep","at":"2026-11-15T09:02:04.030Z"}
+{"id":"a5b9e1-v3-02-gli-aquiloni-furono-strumenti-militari-per","prompt_version":"v3","verdict":"keep","at":"2026-11-15T09:02:04.030Z"}
+{"id":"a5b9e1-v3-03-l-aquilone-come-simbolo-religioso-e","prompt_version":"v3","verdict":"keep","at":"2026-11-15T09:02:04.030Z"}
+{"id":"a5b9e1-v3-04-gli-aquiloni-umani-prepararono-la-strada","prompt_version":"v3","verdict":"keep","at":"2026-11-15T09:02:04.030Z"}
+{"id":"3862da-v3-01-200-si-ottiene-sommando-quadrati-in","prompt_version":"v3","verdict":"discard","reason":"vago","note":"revisione di Claude: curiosità numerica legata al numero dell'edizione, senza un'idea generale; il resto è riempitivo («più di una storia interna da raccontare»).","at":"2026-11-15T09:02:04.030Z"}
+{"id":"3862da-v3-02-il-punto-di-partenza-puo-falsare","prompt_version":"v3","verdict":"keep","at":"2026-11-15T09:02:04.030Z"}
+{"id":"3862da-v3-03-l-inclusione-richiede-ambienti-di-apprendimento","prompt_version":"v3","verdict":"discard","reason":"vago","note":"revisione di Claude: stessa tesi di «Includere non significa percorsi separati per tutti» (84b75b-v3-01), già scartata come vaga.","at":"2026-11-15T09:02:04.030Z"}
+{"id":"a444f4-v3-01-avvicinarsi-a-una-vita-senza-possederla","prompt_version":"v3","verdict":"keep","at":"2026-11-15T09:02:04.030Z"}
+{"id":"a444f4-v3-02-il-documento-interrompe-sempre-l-illusione","prompt_version":"v3","verdict":"keep","at":"2026-11-15T09:02:04.030Z"}
+{"id":"a444f4-v3-03-il-giudizio-critico-rivela-chi-detiene","prompt_version":"v3","verdict":"keep","at":"2026-11-15T09:02:04.030Z"}
+{"id":"923076-v3-01-una-proteina-dell-alga-accende-i","prompt_version":"v3","verdict":"keep","at":"2026-11-15T09:02:04.030Z"}
+{"id":"923076-v3-03-il-metodo-di-misurare-la-luce","prompt_version":"v3","verdict":"keep","at":"2026-11-15T09:02:04.030Z"}
+{"id":"a1a0de-v3-01-le-analisi-costi-benefici-favoriscono-i","prompt_version":"v3","verdict":"discard","reason":"vago","note":"revisione di Claude: non spiega perché le analisi costi-benefici favoriscano i redditi alti e lega il problema a un rimedio (valutazione indipendente) che non lo risolve.","at":"2026-11-15T09:02:04.030Z"}
+{"id":"456696-v3-01-il-pensiero-di-gramsci-non-e","prompt_version":"v3","verdict":"keep","at":"2026-11-15T09:02:04.030Z"}
+{"id":"456696-v3-02-la-guerra-di-posizione-passa-per","prompt_version":"v3","verdict":"keep","at":"2026-11-15T09:02:04.030Z"}
+{"id":"456696-v3-03-la-politica-non-sta-a-valle","prompt_version":"v3","verdict":"keep","at":"2026-11-15T09:02:04.030Z"}
+{"id":"456696-v3-04-il-crollo-di-un-ordine-non","prompt_version":"v3","verdict":"keep","at":"2026-11-15T09:02:04.030Z"}
+{"id":"456696-v3-05-il-cesarismo-e-una-soluzione-apparente","prompt_version":"v3","verdict":"keep","at":"2026-11-15T09:02:04.030Z"}
+{"id":"456696-v3-06-lotte-antifasciste-e-anticoloniali-possono-unirsi","prompt_version":"v3","verdict":"discard","reason":"vago","note":"revisione di Claude: «Lotte antifasciste e anticoloniali possono unirsi» è una formula programmatica senza un meccanismo chiaro: l'esempio di Nasser resta inspiegato.","at":"2026-11-15T09:02:04.030Z"}
+{"id":"08b1f3-v3-01-la-commedia-aiuta-a-convivere-con","prompt_version":"v3","verdict":"keep","at":"2026-11-15T09:02:04.030Z"}
+{"id":"08b1f3-v3-02-il-computer-come-terzo-nella-coppia","prompt_version":"v3","verdict":"keep","at":"2026-11-15T09:02:04.030Z"}
+{"id":"08b1f3-v3-03-l-umorismo-smaschera-il-divario-tra","prompt_version":"v3","verdict":"keep","at":"2026-11-15T09:02:04.030Z"}
+{"id":"08b1f3-v3-04-le-forme-comiche-invecchiano-le-strutture","prompt_version":"v3","verdict":"keep","at":"2026-11-15T09:02:04.030Z"}
+{"id":"08b1f3-v3-05-l-obsolescenza-fenomenologica-accelera-con-la","prompt_version":"v3","verdict":"keep","at":"2026-11-15T09:02:04.030Z"}
+{"id":"7c200d-v3-01-il-paese-e-una-forma-di","prompt_version":"v3","verdict":"keep","at":"2026-11-15T09:02:04.030Z"}
+{"id":"7c200d-v3-02-restare-e-un-atto-attivo-non","prompt_version":"v3","verdict":"keep","at":"2026-11-15T09:02:04.030Z"}
+{"id":"7c200d-v3-03-il-borghismo-nega-la-complessita-dei","prompt_version":"v3","verdict":"keep","at":"2026-11-15T09:02:04.030Z"}
+{"id":"7c200d-v3-04-lo-spopolamento-e-frutto-di-scelte","prompt_version":"v3","verdict":"keep","at":"2026-11-15T09:02:04.030Z"}
+{"id":"7c200d-v3-05-il-sumud-palestinese-come-forma-di","prompt_version":"v3","verdict":"keep","at":"2026-11-15T09:02:04.030Z"}
+{"id":"c24173-v3-01-le-fasi-di-stress-meccanico-degradano","prompt_version":"v3","verdict":"keep","at":"2026-11-15T09:02:04.030Z"}
+{"id":"c24173-v3-02-il-compromesso-tra-stabilita-e-conducibilita","prompt_version":"v3","verdict":"keep","at":"2026-11-15T09:02:04.030Z"}
+{"id":"c24173-v3-03-isole-discontinue-come-equilibrio-tra-forza","prompt_version":"v3","verdict":"keep","at":"2026-11-15T09:02:04.030Z"}
+{"id":"c24173-v3-04-un-polimero-puo-essere-cuscinetto-e","prompt_version":"v3","verdict":"keep","at":"2026-11-15T09:02:04.030Z"}
+{"id":"570c54-v3-01-la-magia-spiegata-dal-bisogno-di","prompt_version":"v3","verdict":"keep","at":"2026-11-15T09:02:04.030Z"}
+{"id":"570c54-v3-02-le-credenze-viaggiano-con-le-idee","prompt_version":"v3","verdict":"keep","at":"2026-11-15T09:02:04.030Z"}
+{"id":"570c54-v3-03-le-classificazioni-coloniali-possono-fraintendere-le","prompt_version":"v3","verdict":"keep","at":"2026-11-15T09:02:04.030Z"}
+{"id":"aadb5e-v3-02-il-valore-di-un-euro-cala","prompt_version":"v3","verdict":"keep","at":"2026-11-15T09:02:04.030Z"}
+{"id":"aadb5e-v3-03-distinguere-la-correzione-di-reddito-dalla","prompt_version":"v3","verdict":"keep","at":"2026-11-15T09:02:04.030Z"}
+{"id":"aadb5e-v3-04-tenere-conto-del-reddito-e-possibile","prompt_version":"v3","verdict":"discard","reason":"vago","note":"revisione di Claude: «Tenere conto del reddito è possibile» elenca i dati necessari e conclude che le difficoltà non sono insormontabili: è una nota pratica, non un'idea.","at":"2026-11-15T09:02:04.030Z"}
+{"id":"b80e58-v3-01-un-identita-politica-puo-sopravvivere-al","prompt_version":"v3","verdict":"discard","reason":"vago","note":"revisione di Claude: «Un'identità politica può sopravvivere al suo contesto storico» generalizza la trama del film senza un'affermazione concreta.","at":"2026-11-15T09:02:04.030Z"}
+{"id":"b80e58-v3-02-due-destini-nati-dalla-stessa-marginalita","prompt_version":"v3","verdict":"discard","reason":"banale","note":"revisione di Claude: «Due destini nati dalla stessa marginalità possono divergere» dice che la stessa origine non determina una sola strada: è un truismo.","at":"2026-11-15T09:02:04.030Z"}
+{"id":"9bddf5-v3-05-la-qualita-dei-dati-dipende-da","prompt_version":"v3","verdict":"discard","reason":"vago","note":"revisione di Claude: descrive la procedura di analisi di Euclid senza un'idea propria e si sovrappone a «Il lavoro più difficile è separare i segnali sovrapposti»; il doppione indicato dal controllo automatico era sbagliato.","at":"2026-11-15T09:02:04.030Z"}
