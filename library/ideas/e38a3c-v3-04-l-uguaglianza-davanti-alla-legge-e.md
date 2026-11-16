@@ -10,7 +10,7 @@ source:
   id: e38a3c941df4
   lang: en
   title: "True Crime, True Injustice: Talking with William Youmans & Jason Osder on “Who Killed Alex Odeh?”"
-  author: Megan Cummins
+  author: Sarah Gualtieri
   site: Public Books
   url: https://www.publicbooks.org/true-crime-true-injustice-talking-with-william-youmans-jason-osder-on-who-killed-alex-odeh/
 anchor: It’s also about punishing those or not protecting those who are inconvenient to US foreign policy.

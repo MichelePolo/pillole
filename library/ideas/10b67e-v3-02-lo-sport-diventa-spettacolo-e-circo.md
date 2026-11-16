@@ -10,7 +10,7 @@ source:
   id: 10b67e4bc298
   lang: it
   title: Rocky III (1982) di Sylvester Stallone - Recensione
-  author: Raffaele Meale
+  author: Massimiliano Schiavoni
   site: Quinlan
   url: https://quinlan.it/2026/11/08/rocky-iii/
 anchor: Scegliendo il wrestling come esempio massimo di mescolanza fra sport e spettacolo

@@ -11,7 +11,7 @@ source:
   id: fbe1085bc837
   lang: it
   title: Barbara Kopple, intervista al Festival dei Popoli 2026
-  author: Raffaele Meale
+  author: Giampiero Raganelli
   site: Quinlan
   url: https://quinlan.it/2026/11/09/intervista-a-barbara-kopple/
 anchor: sono lavoratori autonomi, independent contractor, il che significa che non hanno diritti

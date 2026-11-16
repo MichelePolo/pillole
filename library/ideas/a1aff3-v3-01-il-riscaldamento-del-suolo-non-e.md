@@ -10,7 +10,7 @@ source:
   id: a1aff3561e72
   lang: en
   title: "How to Climb a Lost Mountain: Erik Reece on Strip Mining, Reclamation, and the “Kingdom of God”"
-  author: Morgan Barry
+  author: William Major
   site: Public Books
   url: https://www.publicbooks.org/how-to-climb-a-lost-mountain-erik-reece-on-strip-mining-reclamation-and-the-kingdom-of-god/
 anchor: placeholder

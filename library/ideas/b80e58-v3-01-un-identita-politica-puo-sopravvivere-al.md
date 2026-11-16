@@ -12,7 +12,7 @@ source:
   id: b80e5813b367
   lang: it
   title: Il Cileno (2026) di Sergio Castro San Martín - Recensione
-  author: Raffaele Meale
+  author: Federico Di Renzo
   site: Quinlan
   url: https://quinlan.it/2026/11/13/il-cileno/
 anchor: la persistenza di un'identità politica anche quando il contesto storico che l'ha generata è ormai mutato

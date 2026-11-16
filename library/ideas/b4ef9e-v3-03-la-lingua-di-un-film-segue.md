@@ -10,7 +10,7 @@ source:
   id: b4ef9e8b2f09
   lang: it
   title: Intervista a Na Hong-jin
-  author: Raffaele Meale
+  author: Giampiero Raganelli
   site: Quinlan
   url: https://quinlan.it/2026/11/09/intervista-a-na-hong-jin/
 anchor: se una determinata lingua fosse indispensabile per la storia

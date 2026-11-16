@@ -10,7 +10,7 @@ source:
   id: 1b27c983f90a
   lang: it
   title: Rocky II (1979) di Sylvester Stallone - Recensione
-  author: Raffaele Meale
+  author: Massimiliano Schiavoni
   site: Quinlan
   url: https://quinlan.it/2026/11/06/rocky-ii/
 anchor: stavolta Stallone sembra aderire proprio a quel tipo di spettacolo, effettato e in cerca di emozioni epidermiche
