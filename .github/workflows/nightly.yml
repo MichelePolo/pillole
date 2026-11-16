@@ -1,5 +1,7 @@
 # Job notturno: legge i feed di feeds.txt, distilla gli articoli nuovi con l'API batch
 # (metà prezzo), scarta i duplicati e apre una PR "chore: idee della notte" da rivedere.
+# Se la PR di una notte precedente è ancora aperta, le idee nuove si aggiungono a quella:
+# nessun giro si salta, e la revisione si fa quando capita.
 # La revisione si fa in locale sul ramo della PR (npm run review), poi si unisce la PR
 # e si pubblica l'app (Actions → deploy → Run workflow).
 #
@@ -37,38 +39,55 @@ jobs:
     env:
       GH_TOKEN: ${{ github.token }}
     steps:
-      # Se la PR della notte prima è ancora aperta si salta il giro: lo stato dei feed sta
-      # su quel ramo, e senza saltare si sceglierebbero di nuovo gli stessi articoli.
-      - name: PR della notte prima ancora aperta?
+      # Se c'è una PR della notte ancora aperta, il giro continua sul suo ramo: lo stato dei feed
+      # (library/feeds.json) sta lì, e ripartire da main sceglierebbe di nuovo gli stessi articoli.
+      - name: PR della notte ancora aperta?
         id: open
         run: |
           # Contano solo le PR del bot da rami di questo repository: una PR da un fork con un
-          # ramo chiamato chore/notte-… non deve poter fermare il job.
-          n=$(gh pr list --repo "$GITHUB_REPOSITORY" --state open --author 'app/github-actions' --json headRefName,isCrossRepository \
-            --jq '[.[] | select(.isCrossRepository == false and (.headRefName | startswith("chore/notte-")))] | length')
-          echo "count=$n" >> "$GITHUB_OUTPUT"
-          if [ "$n" -gt 0 ]; then echo "::notice::C'è già una PR della notte da rivedere: giro saltato."; fi
+          # ramo chiamato chore/notte-… non deve poter decidere su quale ramo lavora il job.
+          branch=$(gh pr list --repo "$GITHUB_REPOSITORY" --state open --author 'app/github-actions' --json headRefName,isCrossRepository,createdAt \
+            --jq '[.[] | select(.isCrossRepository == false and (.headRefName | startswith("chore/notte-")))] | sort_by(.createdAt) | .[0].headRefName // ""')
+          if [ -n "$branch" ] && ! [[ "$branch" =~ ^chore/notte-[0-9]{4}-[0-9]{2}-[0-9]{2}$ ]]; then echo "Nome del ramo inatteso: $branch"; exit 1; fi
+          echo "branch=$branch" >> "$GITHUB_OUTPUT"
+          if [ -n "$branch" ]; then echo "::notice::La PR della notte su $branch è ancora aperta: le idee nuove si aggiungono lì."; fi
 
-      - if: steps.open.outputs.count == '0'
-        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
-      - if: steps.open.outputs.count == '0'
-        uses: actions/setup-node@949feb2413d6458794dcd2491c4babbbce0c15c1 # v7.1.0
+      # Tutta la storia: serve per unire main nel ramo della PR aperta.
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-node@949feb2413d6458794dcd2491c4babbbce0c15c1 # v7.1.0
         with:
           node-version: 22
           cache: npm
+
+      # Sul ramo della PR aperta, con dentro main: così il giro usa feeds.txt e il codice aggiornati.
+      # Se l'unione non riesce (conflitto), il job si ferma: meglio un errore visibile che un giro
+      # sullo stato sbagliato.
+      - name: Ramo di lavoro
+        env:
+          BRANCH: ${{ steps.open.outputs.branch }}
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          if [ -z "$BRANCH" ]; then exit 0; fi
+          git switch -q "$BRANCH"
+          if ! git merge -q --no-edit origin/main; then
+            git merge --abort
+            echo "::error::Il ramo $BRANCH non si unisce con main: rivedi e unisci la PR, poi rilancia il job."
+            exit 1
+          fi
+
       # --ignore-scripts: lo script di onnxruntime-node scarica solo le librerie CUDA;
       # quelle per CPU, che bastano agli embedding, sono già nel pacchetto.
-      - if: steps.open.outputs.count == '0'
-        run: npm ci --ignore-scripts
+      - run: npm ci --ignore-scripts
       # Il modello degli embedding (~120 MB) si scarica una volta sola.
-      - if: steps.open.outputs.count == '0'
-        uses: actions/cache@55cc8345863c7cc4c66a329aec7e433d2d1c52a9 # v6.1.0
+      - uses: actions/cache@55cc8345863c7cc4c66a329aec7e433d2d1c52a9 # v6.1.0
         with:
           path: node_modules/@huggingface/transformers/.cache
           key: transformers-multilingual-e5-small-q8
 
       - name: Feed
-        if: steps.open.outputs.count == '0'
         env:
           MAX: ${{ inputs.max || '3' }}
         run: |
@@ -80,7 +99,6 @@ jobs:
           echo "::$token::"
 
       - name: Distillazione (batch) e controllo duplicati
-        if: steps.open.outputs.count == '0'
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
         run: |
@@ -91,31 +109,44 @@ jobs:
           echo "::$token::"
 
       - name: PR con le idee della notte
-        if: steps.open.outputs.count == '0'
+        env:
+          BRANCH: ${{ steps.open.outputs.branch }}
         run: |
           git add library
           if git diff --cached --quiet; then echo "Niente di nuovo."; exit 0; fi
           day=$(date -u +%F)
-          branch="chore/notte-$day"
-          git config user.name 'github-actions[bot]'
-          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git switch -c "$branch"
+          if [ -z "$BRANCH" ]; then git switch -q -c "chore/notte-$day"; fi
+          branch=$(git branch --show-current)
           git commit -q -m "chore: idee della notte del $day"
-          git push -q -u origin "$branch"
           ideas=$(git diff --name-only --diff-filter=A HEAD~1 -- library/ideas | wc -l)
+          # Se nel frattempo è arrivata una revisione sul ramo, la si unisce prima di spingere.
+          if [ -n "$BRANCH" ]; then
+            git fetch -q origin "$branch"
+            if ! git merge -q --no-edit "origin/$branch"; then
+              git merge --abort
+              echo "::error::Il ramo $branch è cambiato durante il giro e non si unisce: rilancia il job."
+              exit 1
+            fi
+          fi
+          git push -q -u origin "$branch"
           {
-            echo "Idee distillate stanotte dai feed di \`feeds.txt\`: **$ideas file nuovi**."
-            echo
-            echo "Per rivederle:"
-            echo
-            echo '```bash'
-            echo "git fetch && git switch $branch"
-            echo 'npm run review            # le idee nuove'
-            echo 'npm run review -- --auto  # gli scarti automatici dei duplicati, se vuoi controllarli'
-            echo 'git commit -am "chore: revisione" && git push'
-            echo '```'
-            echo
-            echo 'Il push della revisione fa partire la CI. Poi unisci la PR e pubblica l'"'"'app (Actions → deploy → Run workflow).'
+            if [ -n "$BRANCH" ]; then
+              echo "Idee della notte del $day aggiunte a questa PR: **$ideas file nuovi**."
+            else
+              echo "Idee distillate stanotte dai feed di \`feeds.txt\`: **$ideas file nuovi**."
+              echo
+              echo "Per rivederle:"
+              echo
+              echo '```bash'
+              echo "git fetch && git switch $branch"
+              echo 'npm run review            # le idee nuove'
+              echo 'npm run review -- --auto  # gli scarti automatici dei duplicati, se vuoi controllarli'
+              echo 'git commit -am "chore: revisione" && git push'
+              echo '```'
+              echo
+              echo 'Il push della revisione fa partire la CI. Poi unisci la PR e pubblica l'"'"'app (Actions → deploy → Run workflow).'
+              echo 'Se la PR resta aperta, le notti successive aggiungono qui le loro idee: prima di rivedere, `git pull`.'
+            fi
             echo
             echo '<details><summary>Registro</summary>'
             echo
@@ -125,4 +156,8 @@ jobs:
             echo '```'
             echo '</details>'
           } > "$RUNNER_TEMP/body.md"
-          gh pr create --base main --head "$branch" --title "chore: idee della notte del $day" --body-file "$RUNNER_TEMP/body.md"
+          if [ -n "$BRANCH" ]; then
+            gh pr comment "$branch" --body-file "$RUNNER_TEMP/body.md"
+          else
+            gh pr create --base main --head "$branch" --title "chore: idee della notte del $day" --body-file "$RUNNER_TEMP/body.md"
+          fi
