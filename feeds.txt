@@ -7,7 +7,7 @@
 # Esclusi per questo (novembre 2026): Knowable Magazine, Smithsonian Magazine, The Scientist,
 # History Today e Smarthistory (403); Symmetry (403 sul feed). Finestre sull'Arte: quasi solo cronaca.
 # Physics Magazine (APS): si legge dal PC, ma risponde 403 ai server di GitHub Actions (notte dell'8 novembre).
-# The Paris Review risponde 403 a parte degli articoli: quelli si saltano.
+# The Paris Review: tolta il 16 novembre 2026, rispondeva 403 a un articolo a notte (10, 11, 13 e 14 novembre).
 
 # --- AI e tecnologia: un articolo per feed a notte, il tema è già il più rappresentato
 https://simonwillison.net/atom/entries/ max=1 # Simon Willison, solo i post lunghi (EN)
@@ -38,7 +38,6 @@ https://www.lavoce.info/feed/ # lavoce.info (IT)
 # --- Letteratura, arte, cinema, musica
 https://www.iltascabile.com/feed/ # Il Tascabile, Treccani (IT)
 https://www.doppiozero.com/rss.xml # Doppiozero (IT)
-https://www.theparisreview.org/blog/feed/ # The Paris Review (EN)
 https://www.sensesofcinema.com/feed/ # Senses of Cinema (EN)
 https://publicdomainreview.org/rss.xml # The Public Domain Review (EN)
 https://www.publicbooks.org/feed/ max=2 # Public Books (EN)
