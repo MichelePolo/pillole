@@ -10,7 +10,7 @@ source:
   id: cdd586d6ff0a
   lang: en
   title: "Banks to City: Drop Dead"
-  author: Morgan Barry
+  author: Vayne Ong
   site: Public Books
   url: https://www.publicbooks.org/banks-to-city-drop-dead/
 anchor: In short, not all budget cuts are made the same.

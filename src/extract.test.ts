@@ -1,7 +1,7 @@
 import assert from 'node:assert/strict';
 import { describe, it } from 'node:test';
 import { JSDOM } from 'jsdom';
-import { cleanAuthor, decodeEntities, pageTitle, plainTitle, splitSiteSuffix } from './extract.js';
+import { cleanAuthor, decodeEntities, pageTitle, plainTitle, splitSiteSuffix, visibleByline } from './extract.js';
 
 const doc = (head: string, body = '') => new JSDOM(`<!doctype html><html><head>${head}</head><body>${body}</body></html>`).window.document;
 
@@ -48,5 +48,21 @@ describe('metadati delle fonti', () => {
     assert.equal(decodeEntities('Titolo&#10;::warning::x'), 'Titolo ::warning::x');
     assert.equal(decodeEntities('a&#x2028;b&#0;c&#x9F;d'), 'a b c d');
     assert.equal(decodeEntities('&#1114112;'), ' ');
+  });
+
+  it('la firma visibile: blocco byline, microdati, link alla pagina dell\'autore', () => {
+    // JSTOR Daily: «By:» e il link alla pagina dell'autrice, poi le date.
+    assert.equal(visibleByline(doc('', '<div class="article-authors byline"><span>By: </span><a href="/daily-author/maria-papadouris/">Maria Papadouris</a></div><time>November 10, 2026</time>')), 'Maria Papadouris');
+    // Quinlan: microdati «author» con «by» davanti; Public Books: link /author/ con la foto.
+    assert.equal(visibleByline(doc('', '<span class="post_author"><span class="vcard author" itemprop="author">by <a href="/autore/francesco-puma/" rel="tag">Francesco Puma</a></span></span>')), 'Francesco Puma');
+    assert.equal(visibleByline(doc('', '<div class="pb-author-block"><a href="/author/molly-macveagh/"><img alt=""></a><a href="/author/molly-macveagh/" class="pb-author-name"> Molly MacVeagh </a></div>')), 'Molly MacVeagh');
+  });
+
+  it('non sono firme: date e frasi, né i nomi dopo il testo (il riquadro della redazione)', () => {
+    assert.equal(visibleByline(doc('', '<div class="byline">12 minuti di lettura</div>')), undefined);
+    const lungo = '<p>' + 'parole '.repeat(60) + '</p>';
+    assert.equal(visibleByline(doc('', `<h1>Intervista</h1>${lungo}<div><a href="/author/redattrice/" class="pb-author-name">Molly MacVeagh</a></div>`)), undefined);
+    // Dopo un sommario lungo, ma prima del resto del testo, la firma vale.
+    assert.equal(visibleByline(doc('', `<h1>Saggio</h1>${lungo}<a href="/author/autrice/">Molly MacVeagh</a>${lungo}`)), 'Molly MacVeagh');
   });
 });

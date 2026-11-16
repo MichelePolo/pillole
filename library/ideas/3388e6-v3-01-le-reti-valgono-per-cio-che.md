@@ -12,7 +12,7 @@ source:
   id: 3388e60ece2e
   lang: en
   title: How the Phone Book Taught America to Ask for Answers
-  author: Jonathan Aprea
+  author: Alex Houston
   site: JSTOR Daily
   url: https://daily.jstor.org/how-the-phone-book-taught-america-to-ask-for-answers/
 anchor: a network is worth what you can ask of and add to it

@@ -10,7 +10,7 @@ source:
   id: 4882fc396783
   lang: en
   title: How to Cite Sources on JSTOR
-  author: The Editors
+  author: Kristen Finch
   site: JSTOR Daily
   url: https://daily.jstor.org/how-to-cite-sources-on-jstor/
 anchor: if you mention or paraphrase information you learned from a source, or use a direct quote, it’s vital that you cite it

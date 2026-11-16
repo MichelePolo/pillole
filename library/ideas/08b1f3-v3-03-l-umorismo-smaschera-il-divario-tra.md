@@ -12,7 +12,7 @@ source:
   id: 08b1f313f9ed
   lang: en
   title: "The Obsolescing Knowledge Worker: Benjamin Mangrum on Computation as Comedy"
-  author: Morgan Barry
+  author: John Plotz
   site: Public Books
   url: https://www.publicbooks.org/the-obsolescing-knowledge-worker-benjamin-mangrum-on-computation-as-comedy/
 anchor: there's a gap between the kind of overinflated big utopian claims

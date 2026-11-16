@@ -10,7 +10,7 @@ source:
   id: 4882fc396783
   lang: en
   title: How to Cite Sources on JSTOR
-  author: The Editors
+  author: Kristen Finch
   site: JSTOR Daily
   url: https://daily.jstor.org/how-to-cite-sources-on-jstor/
 anchor: Different citation styles include the same basic bibliographic information, but each organizes it in a specific order.

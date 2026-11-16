@@ -12,7 +12,7 @@ source:
   id: a2d2f174b977
   lang: it
   title: Rocky IV (1985) di Sylvester Stallone - Recensione
-  author: Raffaele Meale
+  author: Massimiliano Schiavoni
   site: Quinlan
   url: https://quinlan.it/2026/11/12/rocky-iv/
 anchor: Rocky IV è sempre stato identificato, e con piena ragione, fra i prodotti più palesemente impastati di sentimenti reaganiani
