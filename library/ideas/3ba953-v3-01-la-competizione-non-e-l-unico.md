@@ -12,7 +12,7 @@ source:
   id: 3ba953318389
   lang: it
   title: Como todo mortal (2026) di María Molina Peiró - Recensione
-  author: Raffaele Meale
+  author: Giampiero Raganelli
   site: Quinlan
   url: https://quinlan.it/2026/11/08/como-todo-mortal-like-any-other-mortal/
 anchor: Margulis vedeva in realtà nella simbiosi e nel mutualismo tra organismi la base per nuove possibilità evolutive

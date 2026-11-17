@@ -10,7 +10,7 @@ source:
   id: 10b67e4bc298
   lang: it
   title: Rocky III (1982) di Sylvester Stallone - Recensione
-  author: Raffaele Meale
+  author: Massimiliano Schiavoni
   site: Quinlan
   url: https://quinlan.it/2026/11/08/rocky-iii/
 anchor: Supernemici, ovviamente, che come nella logica del videogame sono, schermata dopo schermata, di crescente difficoltà e ferocia

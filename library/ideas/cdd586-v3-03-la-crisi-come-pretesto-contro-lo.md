@@ -12,7 +12,7 @@ source:
   id: cdd586d6ff0a
   lang: en
   title: "Banks to City: Drop Dead"
-  author: Morgan Barry
+  author: Vayne Ong
   site: Public Books
   url: https://www.publicbooks.org/banks-to-city-drop-dead/
 anchor: the fiscal crisis became a pretext for businessmen to attack what they perceived to be big government excess.

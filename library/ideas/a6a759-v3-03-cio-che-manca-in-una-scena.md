@@ -10,7 +10,7 @@ source:
   id: a6a75983b872
   lang: en
   title: Teaching Students to See What They Miss
-  author: Jonathan Aprea
+  author: Sue Kenney
   site: JSTOR Daily
   url: https://daily.jstor.org/teaching-students-to-see-what-they-miss/
 anchor: What does Fildes allow us to notice by leaving other things out?

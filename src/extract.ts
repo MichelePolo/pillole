@@ -109,12 +109,13 @@ async function fromUrl(url: string): Promise<Omit<Source, 'id' | 'chars' | 'trun
   const title = pageTitle(dom.window.document);
   const host = new URL(url).hostname;
   const siteFromTitle = splitSiteSuffix(oneLine(dom.window.document.title ?? ''), host).site;
+  const visible = visibleByline(dom.window.document);
   const article = new Readability(dom.window.document).parse();
   if (!article?.content) throw new Error(`Readability non ha trovato un articolo in ${url}`);
   return {
     url,
     title: title || article.title?.trim() || url,
-    author: article.byline?.trim() || undefined,
+    author: visible ?? (article.byline?.trim() || undefined),
     site: article.siteName?.trim() || siteFromTitle || host,
     text: cleanText(htmlToParagraphs(article.content)),
   };
@@ -191,6 +192,38 @@ export const cleanAuthor = (author: string): string =>
     .replace(/^(?:(?:text|words)\s+by|testo\s+di|by|di)\b\s*/i, '')
     .replace(/[\s|·•,;:–—-]+$/u, '')
     .trim();
+
+// La firma visibile sulla pagina, che vince sull'autore dei metadati. Readability preferisce quello
+// (JSON-LD, <meta name="author">), ma su alcuni siti WordPress è chi ha pubblicato o modificato la
+// pagina, non chi l'ha scritta: JSTOR Daily, Public Books e Quinlan mettono lì il redattore web.
+// Si cerca nell'ordine: un blocco «byline», l'autore in microdati, un link alla pagina dell'autore.
+// Su 66 articoli recenti dei feed la firma visibile cambia l'autore in 7 casi, tutti corretti.
+const BYLINE_SELECTORS = [
+  '[class*="byline"] a[href]',
+  '[class*="byline"]',
+  '[itemprop="author"] [itemprop="name"]',
+  '[itemprop="author"]',
+  'a[rel="author"]',
+  'a[href*="/author/"], a[href*="/autore/"], a[href*="-author/"]',
+  '[class*="author-name"]',
+];
+const looksLikeName = (t: string): boolean => t.length >= 3 && t.length <= 60 && !/\d/.test(t) && t.split(/\s+/).length <= 6 && /\p{Lu}/u.test(t);
+
+export function visibleByline(doc: Document): string | undefined {
+  // Solo prima dell'ultimo paragrafo dell'articolo: dopo il testo ci sono spesso altri nomi (su
+  // Public Books il riquadro della redazione), che non sono la firma. La firma può invece venire
+  // dopo un sommario lungo sotto il titolo, quindi il limite non è il primo paragrafo.
+  const lastParagraph = [...(doc.body?.querySelectorAll('p') ?? [])].filter((p) => (p.textContent ?? '').trim().length > 200).at(-1);
+  const beforeText = (el: Element) => !lastParagraph || Boolean(el.compareDocumentPosition(lastParagraph) & 4); // 4: DOCUMENT_POSITION_FOLLOWING
+  for (const selector of BYLINE_SELECTORS) {
+    for (const el of doc.body?.querySelectorAll(selector) ?? []) {
+      if (!beforeText(el)) continue;
+      const name = cleanAuthor(oneLine(el.textContent ?? ''));
+      if (looksLikeName(name)) return name;
+    }
+  }
+  return undefined;
+}
 
 // Entità HTML sopravvissute alla doppia codifica («Veronese&amp;#39;s Dogs»): il testo arriva già
 // decodificato una volta da jsdom, quindi qui restano solo forme numeriche e le cinque di base.

@@ -1,5 +1,13 @@
 # Changelog
 
+## [0.1.24](https://github.com/MichelePolo/pillole/compare/v0.1.23...v0.1.24) (2026-11-16)
+
+
+### Bug Fixes
+
+* **extract:** la firma visibile vince sull'autore dei metadati ([#76](https://github.com/MichelePolo/pillole/issues/76)) ([34e945c](https://github.com/MichelePolo/pillole/commit/34e945c5cd4072cae7e5f8576bae1d982ca7d7eb))
+* **feeds:** via The Paris Review, risponde 403 quasi ogni notte ([#77](https://github.com/MichelePolo/pillole/issues/77)) ([104a626](https://github.com/MichelePolo/pillole/commit/104a6264ef14e04c94fc4185a103acdfb5ad2b58))
+
 ## [0.1.23](https://github.com/MichelePolo/pillole/compare/v0.1.22...v0.1.23) (2026-11-08)
 
 

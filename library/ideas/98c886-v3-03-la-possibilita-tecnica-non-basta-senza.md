@@ -12,7 +12,7 @@ source:
   id: 98c886188b3a
   lang: en
   title: How Telepathy Helped Build the Russian Internet
-  author: The Editors
+  author: Tim Brinkhof
   site: JSTOR Daily
   url: https://daily.jstor.org/how-telepathy-helped-build-the-russian-internet/
 anchor: the technical possibility existed, but neither the social demand nor the political will did

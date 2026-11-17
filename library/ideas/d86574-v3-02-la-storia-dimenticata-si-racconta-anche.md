@@ -12,7 +12,7 @@ source:
   id: d8657480b54d
   lang: en
   title: Beyond the Plantation House
-  author: The Editors
+  author: Ashley Gardini
   site: JSTOR Daily
   url: https://daily.jstor.org/beyond-the-plantation-house/
 anchor: is the only way that indigenous people, descendant communities and other local interest groups will be able to own the pasts archaeologists are employed to create

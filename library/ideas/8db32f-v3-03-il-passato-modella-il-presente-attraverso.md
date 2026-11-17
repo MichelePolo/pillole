@@ -12,7 +12,7 @@ source:
   id: 8db32f9f7af6
   lang: en
   title: Six Short Stories That Play with Time
-  author: The Editors
+  author: Anna Mebel
   site: JSTOR Daily
   url: https://daily.jstor.org/six-short-stories-that-play-with-time/
 anchor: Her own mortality seems insignificant against the languorous pace of geologic time

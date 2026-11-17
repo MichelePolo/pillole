@@ -11,7 +11,7 @@ source:
   id: b4ef9e8b2f09
   lang: it
   title: Intervista a Na Hong-jin
-  author: Raffaele Meale
+  author: Giampiero Raganelli
   site: Quinlan
   url: https://quinlan.it/2026/11/09/intervista-a-na-hong-jin/
 anchor: afferma che siamo ignoranti, e che non possiamo fare a meno di esserlo

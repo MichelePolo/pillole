@@ -10,7 +10,7 @@ source:
   id: 85b5435f7533
   lang: en
   title: "B-sides: Fyodor Dostoevsky’s “The Adolescent”"
-  author: Morgan Barry
+  author: Chloë Kitzinger
   site: Public Books
   url: https://www.publicbooks.org/b-sides-fyodor-dostoevsky-the-adolescent/
 anchor: Arkady as narrator is constantly bluffing; what he says will be important is usually not important

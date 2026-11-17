@@ -12,7 +12,7 @@ source:
   id: 08b1f313f9ed
   lang: en
   title: "The Obsolescing Knowledge Worker: Benjamin Mangrum on Computation as Comedy"
-  author: Morgan Barry
+  author: John Plotz
   site: Public Books
   url: https://www.publicbooks.org/the-obsolescing-knowledge-worker-benjamin-mangrum-on-computation-as-comedy/
 anchor: computing technology has created phenomenological obsolescence as a structure of experience
