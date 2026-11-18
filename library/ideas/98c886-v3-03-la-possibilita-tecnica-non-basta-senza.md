@@ -27,4 +27,4 @@ created: 2026-11-05T09:37:00.588Z
 
 # La possibilità tecnica non basta senza domanda sociale
 
-Secondo l'autrice, i tecnici sovietici collegavano già computer in rete prima dell'avvio di ARPANET, eppure la rete non si sviluppò. Ciò che mancava era la domanda sociale e la volontà politica di lasciare che le persone comunicassero liberamente, fuori dal controllo istituzionale. Questo suggerisce che lo sviluppo di una tecnologia dipende tanto dai bisogni e dai poteri di una società quanto dalle sue capacità ingegneristiche.
+Secondo Natalia Konradova, i tecnici sovietici collegavano già computer in rete prima dell'avvio di ARPANET, eppure la rete non si sviluppò. Ciò che mancava era la domanda sociale e la volontà politica di lasciare che le persone comunicassero liberamente, fuori dal controllo istituzionale. Questo suggerisce che lo sviluppo di una tecnologia dipende tanto dai bisogni e dai poteri di una società quanto dalle sue capacità ingegneristiche.

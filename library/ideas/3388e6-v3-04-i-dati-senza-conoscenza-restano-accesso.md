@@ -29,4 +29,4 @@ created: 2026-11-05T00:05:05.668Z
 
 # I dati senza conoscenza restano accesso, non comprensione
 
-Nel 1969 J. C. R. Licklider distingueva tra dati e conoscenza, sostenendo che la scelta è tra il semplice accesso alle informazioni e l'interazione con esse. L'autore riprende questa distinzione per leggere la storia della guida telefonica. Avere accesso a un elenco di numeri non basta: conta come le persone entrano in relazione con quelle informazioni e le usano.
+Nel 1969 J. C. R. Licklider distingueva tra dati e conoscenza, sostenendo che la scelta è tra il semplice accesso alle informazioni e l'interazione con esse. L'autrice riprende questa distinzione per leggere la storia della guida telefonica. Avere accesso a un elenco di numeri non basta: conta come le persone entrano in relazione con quelle informazioni e le usano.

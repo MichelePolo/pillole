@@ -25,4 +25,4 @@ created: 2026-11-06T09:31:46.939Z
 
 # Ciò che manca in una scena può comunicare
 
-Osservare non significa solo notare ciò che c'è, ma anche ciò che manca. Nel dipinto di Fildes non compaiono strumenti medici, pur già in uso all'epoca, e questa assenza sposta l'attenzione sulla relazione tra medico e paziente. L'autore suggerisce di chiedersi cosa riveli un'opera proprio attraverso ciò che lascia fuori: l'assenza di tecnologia mette al centro l'attenzione del medico, più che lo strumento.
+Osservare non significa solo notare ciò che c'è, ma anche ciò che manca. Nel dipinto di Fildes non compaiono strumenti medici, pur già in uso all'epoca, e questa assenza sposta l'attenzione sulla relazione tra medico e paziente. L'autrice suggerisce di chiedersi cosa riveli un'opera proprio attraverso ciò che lascia fuori: l'assenza di tecnologia mette al centro l'attenzione del medico, più che lo strumento.

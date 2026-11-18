@@ -18,7 +18,7 @@ source:
 anchor: perfected version of samizdat
 anchor_check: exact
 quiz:
-  q: Che cosa rendeva la rete simile al samizdat secondo l'autrice?
+  q: Che cosa rendeva la rete simile al samizdat secondo Natalia Konradova?
   a: Entrambi offrivano uno spazio di pubblicazione e circolazione di idee sottratto al controllo statale.
 warnings:
   - corpo di 56 parole (60-120)
@@ -29,4 +29,4 @@ created: 2026-11-05T09:37:00.590Z
 
 # Il samizdat anticipa la rete come spazio di dissenso
 
-Secondo l'autrice, il samizdat, ovvero la letteratura dissidente autopubblicata, descrive bene la funzione della rete nell'URSS. Con la diffusione di internet e delle comunità online, censura e soppressione delle informazioni diventavano quasi impossibili, almeno per un certo periodo. La rete poteva così offrire uno spazio di circolazione delle idee che il controllo statale faticava a contenere.
+Secondo Natalia Konradova, il samizdat, ovvero la letteratura dissidente autopubblicata, descrive bene la funzione della rete nell'URSS. Con la diffusione di internet e delle comunità online, censura e soppressione delle informazioni diventavano quasi impossibili, almeno per un certo periodo. La rete poteva così offrire uno spazio di circolazione delle idee che il controllo statale faticava a contenere.
