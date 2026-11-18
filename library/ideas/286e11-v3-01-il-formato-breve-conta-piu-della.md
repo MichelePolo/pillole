@@ -12,6 +12,7 @@ source:
   id: 286e11c0107f
   lang: en
   title: Why do people post on [bad platform] instead of [good platform]?
+  author: Dan Luu
   site: danluu.com
   url: https://danluu.com/why-video/
 anchor: it's usually about the emotional barriers to writing and publishing something, not the literal number of clicks

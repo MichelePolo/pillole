@@ -27,4 +27,4 @@ created: 2026-11-17T10:51:32.269Z
 
 # La convergenza indipendente rafforza la fiducia in un risultato
 
-Quando metodi diversi, che non condividono le stesse ipotesi, arrivano allo stesso risultato, la fiducia nel risultato cresce. Nel caso di M87*, una ricostruzione del tutto indipendente ha ritrovato la stessa struttura ad anello. Gli autori la definiscono una convalida davvero indipendente, un passo importante nel processo scientifico. Il valore non sta nel singolo metodo, ma nel fatto che la stessa conclusione emerga da percorsi diversi.
+Quando metodi diversi, che non condividono le stesse ipotesi, arrivano allo stesso risultato, la fiducia nel risultato cresce. Nel caso di M87*, una ricostruzione del tutto indipendente ha ritrovato la stessa struttura ad anello. Gli autori dello studio la definiscono una convalida davvero indipendente, un passo importante nel processo scientifico. Il valore non sta nel singolo metodo, ma nel fatto che la stessa conclusione emerga da percorsi diversi.

@@ -27,6 +27,6 @@ model: claude-haiku-5-5
 created: 2026-11-17T10:51:32.374Z
 ---
 
-# Le liste di parole bloccate sono imprecise ma utili
+# Le liste di parole bloccate sono precise ma incomplete
 
 Filtrare le parole offensive è un metodo intuitivo ed efficace per evitare linguaggio esplicito durante la generazione. Tuttavia ha limiti evidenti: una lista di parolacce tende ad avere alta precisione e bassa copertura, perché un contenuto tossico può essere costruito con parole che, prese singolarmente, sono innocue. Il filtro resta quindi un segnale debole, da combinare con altri metodi.

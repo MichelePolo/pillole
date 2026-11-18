@@ -23,6 +23,6 @@ model: claude-haiku-5-5
 created: 2026-11-17T10:51:32.366Z
 ---
 
-# Le credenze si rivelano spesso diverse da come le crediamo
+# Spesso non sappiamo che cosa ha guidato le nostre scelte
 
-Studi psicologici mostrano che le persone identificano spesso in modo errato i fattori che hanno influenzato le proprie decisioni. In un esperimento, i soggetti spiegavano la preferenza per un prodotto con la sua qualità apparente, mentre i prodotti erano identici e la scelta dipendeva dalla posizione nello scaffale. Gli autori concludono che l'accesso introspettivo, se esiste, non basta a produrre resoconti affidabili. Wilson ha poi precisato che il risultato riguarda le cause inconsce delle decisioni, non gli stati mentali attuali, per i quali l'accesso privilegiato può reggere.
+Studi psicologici mostrano che le persone identificano spesso in modo errato i fattori che hanno influenzato le proprie decisioni. In un esperimento, i soggetti spiegavano la preferenza per un prodotto con la sua qualità apparente, mentre i prodotti erano identici e la scelta dipendeva dalla posizione nello scaffale. Nisbett e Wilson concludono che l'accesso introspettivo, se esiste, non basta a produrre resoconti affidabili. Wilson ha poi precisato che il risultato riguarda le cause inconsce delle decisioni, non gli stati mentali attuali, per i quali l'accesso privilegiato può reggere.

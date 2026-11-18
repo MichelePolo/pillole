@@ -25,4 +25,4 @@ created: 2026-11-18T10:18:36.982Z
 
 # Un impatto può deviare un asteroide
 
-La sonda Dart della Nasa, un cubo di poco più di un metro, ha colpito Dimorphos a circa 6 km al secondo. L'urto ha prodotto un pennacchio di detriti esteso per diecimila chilometri e ha ridotto di circa 33 minuti il periodo orbitale della piccola luna. È la prova concreta che si può cambiare la traiettoria di un corpo celeste con un impatto mirato, un risultato rilevante per la difesa planetaria. Il dato resta valido indipendentemente dalle missioni successive, perché descrive un fenomeno fisico misurato.
+La sonda Dart della Nasa, un cubo di poco più di un metro, ha colpito Dimorphos a circa 6 km al secondo. L'urto ha prodotto un pennacchio di detriti esteso per diecimila chilometri e ha ridotto di circa 33 minuti il periodo orbitale della piccola luna. È la prova concreta che si può cambiare la traiettoria di un corpo celeste con un impatto mirato, un risultato rilevante per la difesa planetaria.

@@ -26,4 +26,4 @@ created: 2026-11-10T10:33:53.356Z
 
 # Il documentario richiede empatia e tempo lungo
 
-Kopple sostiene che per raccontare le storie delle persone serva tempo: per il suo ultimo film ci sono voluti tre anni e mezzo, con un anno e mezzo di montaggio, perché ciascuna delle tre vicende potesse svilupparsi nel tempo necessario. Il rapporto di fiducia con i protagonisti nasce dalla convivenza e dalla condivisione, fino a diventare affetto e amicizia. ==La qualità di un documentario dipende dal tempo dedicato alle persone.== Secondo l'autrice, conoscere davvero i soggetti è ciò che rende possibile raccontarli con onestà.
+Kopple sostiene che per raccontare le storie delle persone serva tempo: per il suo ultimo film ci sono voluti tre anni e mezzo, con un anno e mezzo di montaggio, perché ciascuna delle tre vicende potesse svilupparsi nel tempo necessario. Il rapporto di fiducia con i protagonisti nasce dalla convivenza e dalla condivisione, fino a diventare affetto e amicizia. ==La qualità di un documentario dipende dal tempo dedicato alle persone.== Secondo Kopple, conoscere davvero i soggetti è ciò che rende possibile raccontarli con onestà.

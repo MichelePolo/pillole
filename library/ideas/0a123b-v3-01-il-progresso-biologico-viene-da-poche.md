@@ -27,4 +27,4 @@ created: 2026-11-16T09:53:43.169Z
 
 # Il progresso biologico viene da poche grandi scoperte
 
-Secondo l'autore, gran parte del progresso in biologia dipende da una manciata di scoperte, più o meno una all'anno, come CRISPR, il sequenziamento del genoma e i vaccini a mRNA. Queste scoperte arrivano spesso in ritardo rispetto a quando diventano possibili: le ripetizioni di CRISPR erano note nei batteri dagli anni Ottanta, ma ci sono voluti venticinque anni per trasformarle in uno strumento di editing. Il ritardo tra osservazione e applicazione è quindi una caratteristica ricorrente della ricerca, non un'eccezione.
+Secondo la fonte, gran parte del progresso in biologia dipende da una manciata di scoperte, più o meno una all'anno, come CRISPR, il sequenziamento del genoma e i vaccini a mRNA. Queste scoperte arrivano spesso in ritardo rispetto a quando diventano possibili: le ripetizioni di CRISPR erano note nei batteri dagli anni Ottanta, ma ci sono voluti venticinque anni per trasformarle in uno strumento di editing. Il ritardo tra osservazione e applicazione è quindi una caratteristica ricorrente della ricerca, non un'eccezione.

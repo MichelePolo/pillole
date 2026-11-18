@@ -27,4 +27,4 @@ created: 2026-11-16T09:53:43.122Z
 
 # Il paesaggio è fatto anche della memoria culturale
 
-Secondo l'autore, nei luoghi del Garda il visibile non si separa dalle tracce di chi li ha osservati e narrati prima di noi. Malcesine richiama Goethe, Torbole Trakl e Riva Kafka, così il paesaggio acquista profondità proprio perché non si esaurisce nella propria immagine. ==Un luogo è un insieme di immagini e di letture accumulate nel tempo==, più che una semplice topografia.
+Secondo l'autrice, nei luoghi del Garda il visibile non si separa dalle tracce di chi li ha osservati e narrati prima di noi. Malcesine richiama Goethe, Torbole Trakl e Riva Kafka, così il paesaggio acquista profondità proprio perché non si esaurisce nella propria immagine. ==Un luogo è un insieme di immagini e di letture accumulate nel tempo==, più che una semplice topografia.

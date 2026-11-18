@@ -12,6 +12,7 @@ source:
   id: 286e11c0107f
   lang: en
   title: Why do people post on [bad platform] instead of [good platform]?
+  author: Dan Luu
   site: danluu.com
   url: https://danluu.com/why-video/
 anchor: video monetizes much better than text does, which allows people to make providing in depth information their job

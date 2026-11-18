@@ -16,7 +16,7 @@ source:
 anchor: It is fundamental to understanding and responding to the experiences of others.
 anchor_check: exact
 quiz:
-  q: Perché l'autore considera l'attenzione più di una qualità desiderabile?
+  q: Perché l'autrice considera l'attenzione più di una qualità desiderabile?
   a: Perché è fondamentale per comprendere e rispondere all'esperienza degli altri.
 prompt_version: v3
 model: claude-haiku-5-5

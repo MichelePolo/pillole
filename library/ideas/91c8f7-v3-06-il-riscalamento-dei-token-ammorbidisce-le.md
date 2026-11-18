@@ -25,4 +25,4 @@ created: 2026-11-18T10:18:36.872Z
 
 # Il riscalamento dei token ammorbidisce le ripetizioni nei modelli
 
-Gli autori mostrano che il training standard a massima verosimiglianza porta i modelli a usare troppo spesso le parole frequenti e troppo raramente quelle rare, rendendoli eccessivamente sicuri. Aggiungendo una funzione di perdita che penalizza i token indesiderati, come gli n-grammi ripetuti, il modello produce testi meno ripetitivi e più vari. Questo intervento agisce sull'addestramento e non solo sulla decodifica.
+I ricercatori citati mostrano che il training standard a massima verosimiglianza porta i modelli a usare troppo spesso le parole frequenti e troppo raramente quelle rare, rendendoli eccessivamente sicuri. Aggiungendo una funzione di perdita che penalizza i token indesiderati, come gli n-grammi ripetuti, il modello produce testi meno ripetitivi e più vari. Questo intervento agisce sull'addestramento e non solo sulla decodifica.

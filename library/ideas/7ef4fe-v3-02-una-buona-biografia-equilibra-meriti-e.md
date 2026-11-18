@@ -10,7 +10,7 @@ source:
   id: 7ef4fe0e3b72
   lang: en
   title: Jocelyn Bell Burnell on Graham Farmelo’s new biography of Stephen Hawking
-  author: No Author
+  author: Jocelyn Bell Burnell
   site: Physics World
   url: https://physicsworld.com/a/jocelyn-bell-burnell-on-graham-farmelos-new-biography-of-stephen-hawking/
 anchor: Farmelo's writing is well balanced, demonstrating Hawking's scientific strengths, but not fawning or hero-worshipping.

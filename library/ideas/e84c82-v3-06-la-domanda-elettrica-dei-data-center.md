@@ -27,4 +27,4 @@ created: 2026-11-17T10:51:32.418Z
 
 # La domanda elettrica dei data center può bloccare la transizione
 
-In alcuni casi la nuova capacità rinnovabile installata nelle reti nazionali viene assorbita quasi tutta dai data center. Secondo l'autore, questo impedisce di decarbonizzare altri settori come i trasporti e il riscaldamento. In Irlanda, tra il 2017 e il 2023, la quasi totalità della nuova energia eolica entrata in rete è stata assorbita dai centri dati. Il problema non è solo quanta energia si consuma, ma a chi viene destinata quella pulita disponibile.
+In alcuni casi la nuova capacità rinnovabile installata nelle reti nazionali viene assorbita quasi tutta dai data center. Secondo l'autrice, questo impedisce di decarbonizzare altri settori come i trasporti e il riscaldamento. In Irlanda, tra il 2017 e il 2023, la quasi totalità della nuova energia eolica entrata in rete è stata assorbita dai centri dati. Il problema non è solo quanta energia si consuma, ma a chi viene destinata quella pulita disponibile.

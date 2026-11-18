@@ -23,6 +23,6 @@ model: claude-haiku-5-5
 created: 2026-11-18T10:18:36.856Z
 ---
 
-# La schizofrenia nasce da una ferita relazionale
+# Per Cancrini la schizofrenia nasce da una ferita relazionale
 
-Secondo Cancrini, i sintomi schizofrenici non nascono anzitutto da una predisposizione biologica, ma dal fallimento di una relazione nei primi anni di vita. Dietro deliri, allucinazioni e ritiri autistici c'è una ferita relazionale che risale alla primissima infanzia. ==Per questo la cura non può limitarsi a spegnere i sintomi==, ma deve affrontare le condizioni storiche e familiari che li hanno generati. Questa è la tesi dell'autore, che attinge alla tradizione psicoanalitica e a quella sistemico-relazionale.
+Secondo Cancrini, i sintomi schizofrenici non nascono anzitutto da una predisposizione biologica, ma dal fallimento di una relazione nei primi anni di vita. Dietro deliri, allucinazioni e ritiri autistici c'è una ferita relazionale che risale alla primissima infanzia. ==Per questo la cura non può limitarsi a spegnere i sintomi==, ma deve affrontare le condizioni storiche e familiari che li hanno generati. La tesi di Cancrini attinge alla tradizione psicoanalitica e a quella sistemico-relazionale.

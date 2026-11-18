@@ -25,4 +25,4 @@ created: 2026-11-18T10:18:36.938Z
 
 # La cultura di massa tratta gli adulti da bambini
 
-Adorno, in una conferenza del 1962, riportava le parole di produttori cinici che dicono di dover tenere conto del livello intellettuale di un bambino di undici anni. Il punto sta nel rovesciamento che ne deriva: sentendosi autorizzati a semplificare, finiscono per trasformare l'adulto in un bambino di undici anni. ==La comunicazione di massa, secondo questa lettura, non si limita a intrattenere ma riduce le capacità di chi ascolta.== Per questo la sola opposizione pensabile è, secondo l'autore, un sistema critico permanente.
+Adorno, in una conferenza del 1962, riportava le parole di produttori cinici che dicevano di dover tenere conto del livello intellettuale di un bambino di undici anni. Il punto sta nel rovesciamento che ne deriva: sentendosi autorizzati a semplificare, finiscono per trasformare l'adulto in un bambino di undici anni. ==La comunicazione di massa, secondo questa lettura, non si limita a intrattenere ma riduce le capacità di chi ascolta.== Per questo la sola opposizione pensabile è, secondo l'autore, un sistema critico permanente.

@@ -23,6 +23,6 @@ model: claude-haiku-5-5
 created: 2026-11-17T10:51:32.375Z
 ---
 
-# Il ciclo costruisci, rompi, correggi migliora i classificatori
+# Il ciclo «costruisci, rompi, correggi» migliora i classificatori
 
 Dinan e colleghi propongono un processo iterativo con esseri umani nel ciclo: si addestra un classificatore, poi lavoratori umani cercano di scrivere messaggi tossici che il modello classifica come sicuri, e infine il modello viene riaddestrato includendo questi esempi avversari. Ripetendo il ciclo, il sistema diventa più robusto, sebbene oltre un certo numero di round le prestazioni sul compito standard possano peggiorare per overfitting.

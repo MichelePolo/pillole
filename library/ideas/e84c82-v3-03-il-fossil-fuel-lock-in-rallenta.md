@@ -27,4 +27,4 @@ created: 2026-11-17T10:51:32.417Z
 
 # Il fossil fuel lock-in rallenta la decarbonizzazione
 
-Secondo l'autore, la domanda costante e ininterrotta di energia dei server di ultima generazione rischia di vanificare gli sforzi per ridurre le emissioni. Per soddisfare questo carico, le reti elettriche restano sotto pressione, e le centrali a carbone o gas vengono mantenute attive più a lungo. In alcuni casi si installano turbine a metano dedicate, aggirando le reti pubbliche. Il rischio è che una tecnologia nuova consolidi la dipendenza da fonti fossili invece di superarla.
+Secondo l'autrice, la domanda costante e ininterrotta di energia dei server di ultima generazione rischia di vanificare gli sforzi per ridurre le emissioni. Per soddisfare questo carico, le reti elettriche restano sotto pressione, e le centrali a carbone o gas vengono mantenute attive più a lungo. In alcuni casi si installano turbine a metano dedicate, aggirando le reti pubbliche. Il rischio è che una tecnologia nuova consolidi la dipendenza da fonti fossili invece di superarla.

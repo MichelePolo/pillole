@@ -17,7 +17,7 @@ source:
 anchor: Il mercato domanda questi lavoratori, ma li remunera poco.
 anchor_check: exact
 quiz:
-  q: Che cosa separa, secondo l'articolo, la fabbrica del passato dal lavoro di oggi?
+  q: Che cosa teneva insieme, secondo l'articolo, la vecchia industria e oggi si è separato?
   a: Produttività, occupazione di massa e salari dignitosi, che nella vecchia industria andavano insieme e oggi si sono separati.
 prompt_version: v3
 model: claude-haiku-5-5

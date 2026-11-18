@@ -27,4 +27,4 @@ created: 2026-11-17T10:51:32.418Z
 
 # Le rinnovabili non bastano se non sono aggiuntive
 
-Molte aziende tecnologiche dichiarano emissioni zero grazie ad accordi di acquisto di energia rinnovabile stipulati a lunga distanza. Secondo l'autore, questi contratti spesso non garantiscono che il data center sia alimentato da energia pulita ora per ora, né che finanzino nuova capacità realmente aggiuntiva. Il rischio è che il bilancio contabile nasconda un impatto carbonico reale ancora elevato, configurando una forma di greenwashing.
+Molte aziende tecnologiche dichiarano emissioni zero grazie ad accordi di acquisto di energia rinnovabile stipulati a lunga distanza. Secondo l'autrice, questi contratti spesso non garantiscono che il data center sia alimentato da energia pulita ora per ora, né che finanzino nuova capacità realmente aggiuntiva. Il rischio è che il bilancio contabile nasconda un impatto carbonico reale ancora elevato, configurando una forma di greenwashing.

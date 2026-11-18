@@ -25,4 +25,4 @@ created: 2026-11-16T09:53:43.026Z
 
 # Il formalismo rende calcolabile e quindi utile
 
-Secondo l'autore, il formalismo viene equiparato alla spinta a rendere la natura calcolabile, e la calcolabilità viene poi assimilata all'utilità. Così la ragione formale diventa una forma di ragione strumentale: tutto ciò che non può essere calcolato e formalizzato resta fuori dall'immagine scientifica del mondo. Questa immagine, però, non si limita a descrivere la realtà, ma contribuisce a modellarla secondo i propri schemi, fino a farla apparire l'unica immagine vera del mondo.
+Secondo Horkheimer, il formalismo viene equiparato alla spinta a rendere la natura calcolabile, e la calcolabilità viene poi assimilata all'utilità. Così la ragione formale diventa una forma di ragione strumentale: tutto ciò che non può essere calcolato e formalizzato resta fuori dall'immagine scientifica del mondo. Questa immagine, però, non si limita a descrivere la realtà, ma contribuisce a modellarla secondo i propri schemi, fino a farla apparire l'unica immagine vera del mondo.

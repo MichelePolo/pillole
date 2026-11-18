@@ -25,4 +25,4 @@ created: 2026-11-18T10:18:36.984Z
 
 # Il trasporto in fila singola non è davvero unidimensionale
 
-Quando delle particelle attraversano un canale così stretto da non potersi superare, si tende a pensare che il loro moto sia sostanzialmente unidimensionale, cioè che avvenga solo lungo la direzione del canale. Secondo gli autori questa ipotesi non regge. Anche con il divieto di sorpasso, le particelle possono muoversi un po' di lato, e questo basta a cambiare il modo in cui si spostano e fluttuano. ==Il trasporto in fila singola dipende dalla geometria reale del canale==, non solo dalla regola che impedisce di superarsi.
+Quando delle particelle attraversano un canale così stretto da non potersi superare, si tende a pensare che il loro moto sia sostanzialmente unidimensionale, cioè che avvenga solo lungo la direzione del canale. Secondo i ricercatori questa ipotesi non regge. Anche con il divieto di sorpasso, le particelle possono muoversi un po' di lato, e questo basta a cambiare il modo in cui si spostano e fluttuano. ==Il trasporto in fila singola dipende dalla geometria reale del canale==, non solo dalla regola che impedisce di superarsi.

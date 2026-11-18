@@ -25,4 +25,4 @@ created: 2026-11-16T09:53:43.005Z
 
 # Soglie ravvicinate creano differenze sproporzionate di sostegno
 
-Quando le soglie per accedere alle prestazioni sono molto vicine, piccole differenze nell'Isee possono tradursi in grandi differenze nel sostegno pubblico ricevuto. Nell'esempio discusso, una famiglia con circa 4.500 euro di reddito lordo in più perde oltre tremila euro di prestazioni, quasi quanto la differenza di reddito netto tra i due nuclei. Secondo l'autore, questo equivale a un'aliquota marginale effettiva del 100 per cento, una trappola del reddito che rende le famiglie molto simili trattate in modo molto diverso.
+Quando le soglie per accedere alle prestazioni sono molto vicine, piccole differenze nell'Isee possono tradursi in grandi differenze nel sostegno pubblico ricevuto. Nell'esempio discusso, una famiglia con circa 4.500 euro di reddito lordo in più perde oltre tremila euro di prestazioni, quasi quanto la differenza di reddito netto tra i due nuclei. Secondo gli autori, questo equivale a un'aliquota marginale effettiva del 100 per cento, una trappola del reddito che rende le famiglie molto simili trattate in modo molto diverso.

@@ -27,4 +27,4 @@ created: 2026-11-16T09:53:43.061Z
 
 # Deduzione garantisce la verità, ma non amplia la conoscenza
 
-In un argomento deduttivo valido, se le premesse sono vere la conclusione non può essere falsa. Questa certezza ha però un costo: la conclusione è già contenuta nelle premesse, quindi l'argomento non aggiunge informazione. Il testo chiama questo problema "lo scandalo della deduzione". L'idea è durevole perché descrive una tensione logica fondamentale, indipendente dalle mode del momento, tra sicurezza della conclusione e novità di ciò che si apprende.
+In un argomento deduttivo valido, se le premesse sono vere la conclusione non può essere falsa. Questa certezza ha però un costo: la conclusione è già contenuta nelle premesse, quindi l'argomento non aggiunge informazione. Il testo chiama questo problema "lo scandalo della deduzione". Descrive così una tensione logica fondamentale tra sicurezza della conclusione e novità di ciò che si apprende.

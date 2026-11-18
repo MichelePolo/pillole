@@ -12,6 +12,7 @@ source:
   id: 286e11c0107f
   lang: en
   title: Why do people post on [bad platform] instead of [good platform]?
+  author: Dan Luu
   site: danluu.com
   url: https://danluu.com/why-video/
 anchor: most of that content wouldn't exist at all if it had to be written up as long-form text

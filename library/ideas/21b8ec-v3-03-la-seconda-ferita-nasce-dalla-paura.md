@@ -25,4 +25,4 @@ created: 2026-11-18T10:18:36.857Z
 
 # La seconda ferita nasce dalla paura dell'altro
 
-La seconda ferita riguarda la capacità di percepire l'altro come collegato a sé, riconoscendone intenzioni ed emozioni e accorgendosi che le proprie azioni producono effetti su di lui. Se l'accoglienza e il contenimento dell'altro sono insufficienti, il bambino può sviluppare una persecutorietà di base, cioè il timore di ritorsioni. Secondo l'autore, in questi casi l'esordio delle crisi psicotiche è spesso legato al distacco dalla relazione e all'incontro con ambienti nuovi, percepiti come minacciosi.
+La seconda ferita riguarda la capacità di percepire l'altro come collegato a sé, riconoscendone intenzioni ed emozioni e accorgendosi che le proprie azioni producono effetti su di lui. Se l'accoglienza e il contenimento dell'altro sono insufficienti, il bambino può sviluppare una persecutorietà di base, cioè il timore di ritorsioni. Secondo Cancrini, in questi casi l'esordio delle crisi psicotiche è spesso legato al distacco dalla relazione e all'incontro con ambienti nuovi, percepiti come minacciosi.

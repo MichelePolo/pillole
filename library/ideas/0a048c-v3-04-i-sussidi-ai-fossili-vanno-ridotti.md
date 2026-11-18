@@ -27,4 +27,4 @@ created: 2026-11-16T09:53:43.228Z
 
 # I sussidi ai fossili vanno ridotti partendo dalla produzione
 
-Secondo l'autore, i sussidi ai combustibili fossili ammontano ancora a circa sette trilioni di dollari, e ridurli è una delle convergenze più ampie della conferenza. Colpire i sussidi sul lato del consumo avrebbe però un effetto negativo diretto sulla popolazione. Per questo l'autore sostiene che sia più sensato iniziare dalla produzione, liberando così fondi che possono finanziare le rinnovabili.
+Secondo l'autore, i sussidi ai combustibili fossili ammontano ancora a circa settemila miliardi di dollari, e ridurli è una delle convergenze più ampie della conferenza. Colpire i sussidi sul lato del consumo avrebbe però un effetto negativo diretto sulla popolazione. Per questo l'autore sostiene che sia più sensato iniziare dalla produzione, liberando così fondi che possono finanziare le rinnovabili.

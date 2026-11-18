@@ -17,7 +17,7 @@ source:
 anchor: Can there be such a thing as "slow listening"?
 anchor_check: exact
 quiz:
-  q: Quali comportamenti richiede secondo l'autore l'ascolto lento?
+  q: Quali comportamenti richiede secondo l'autrice l'ascolto lento?
   a: Non interrompere né rispondere subito, restare attenti ai dettagli, lasciare spazio al silenzio e riconsiderare le proprie interpretazioni iniziali.
 prompt_version: v3
 model: claude-haiku-5-5

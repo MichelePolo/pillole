@@ -26,4 +26,4 @@ created: 2026-11-05T00:05:05.668Z
 
 # Le abitudini di ricerca si formano per gradi
 
-La guida telefonica insegnava un'abitudine in due parti: consultare prima il libro e, solo se non trova nulla, chiedere a qualcuno. Secondo l'autore, questa sequenza è stata costruita con istruzioni precise, ma il termine che indicava il servizio di chiedere era vago e usato in sensi diversi. La confusione tra il consultare e il chiedere mostra quanto sia difficile progettare un comportamento tramite le parole.
+La guida telefonica insegnava un'abitudine in due parti: consultare prima il libro e, solo se non trova nulla, chiedere a qualcuno. Secondo l'autrice, questa sequenza è stata costruita con istruzioni precise, ma il termine che indicava il servizio di chiedere era vago e usato in sensi diversi. La confusione tra il consultare e il chiedere mostra quanto sia difficile progettare un comportamento tramite le parole.

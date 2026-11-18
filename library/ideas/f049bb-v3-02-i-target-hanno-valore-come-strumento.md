@@ -25,4 +25,4 @@ created: 2026-11-18T10:18:36.981Z
 
 # I target hanno valore come strumento di responsabilità
 
-Secondo l'autore, fissare obiettivi pubblici offre alla società civile, ai tribunali, ai media e alle ong uno strumento per esercitare pressione sui governi, anche quando i target non sono giuridicamente vincolanti. Esiste poi un effetto sui mercati: un impegno firmato da molti paesi tende a orientare i flussi finanziari privati e a ridurre il costo del capitale per i progetti sostenibili. Il target funziona quindi anche come segnale, oltre che come impegno formale.
+Secondo gli autori, fissare obiettivi pubblici offre alla società civile, ai tribunali, ai media e alle ong uno strumento per esercitare pressione sui governi, anche quando i target non sono giuridicamente vincolanti. Esiste poi un effetto sui mercati: un impegno firmato da molti paesi tende a orientare i flussi finanziari privati e a ridurre il costo del capitale per i progetti sostenibili. Il target funziona quindi anche come segnale, oltre che come impegno formale.

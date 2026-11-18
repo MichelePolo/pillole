@@ -25,4 +25,4 @@ created: 2026-11-17T10:51:32.326Z
 
 # La riservatezza medica protegge l'autonomia e la fiducia
 
-Le ragioni per proteggere la riservatezza delle informazioni mediche sono di vario tipo. Secondo l'autore, le giustificazioni consequenzialiste sostengono che le persone si rivolgono ai medici solo se si fidano della riservatezza, e che la cura precoce salva vite. Le giustificazioni deontologiche sostengono invece che la riservatezza tutela l'autonomia medica, mettendo le persone al riparo da critiche e interferenze. ==Senza fiducia, chi ha bisogno di cure tende a tacere==, con conseguenze per la salute propria e altrui.
+Le ragioni per proteggere la riservatezza delle informazioni mediche sono di vario tipo. Secondo l'autrice, le giustificazioni consequenzialiste sostengono che le persone si rivolgono ai medici solo se si fidano della riservatezza, e che la cura precoce salva vite. Le giustificazioni deontologiche sostengono invece che la riservatezza tutela l'autonomia medica, mettendo le persone al riparo da critiche e interferenze. ==Senza fiducia, chi ha bisogno di cure tende a tacere==, con conseguenze per la salute propria e altrui.

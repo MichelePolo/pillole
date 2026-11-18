@@ -26,4 +26,4 @@ created: 2026-11-17T10:51:32.441Z
 
 # Il pensiero orientale come stile di vita
 
-Secondo l'autore, le culture orientali non separano nettamente azione e contemplazione: la filosofia vi appare come un insieme di insegnamenti e di regole di vita più che come teoria astratta. Per questo il buddhismo, ad esempio, propone precetti concreti, come evitare l'ira o l'ubriachezza, che servono a correggere i difetti del carattere. ==Pensare e vivere non sono due attività distinte.== Questa prospettiva, sottolinea il saggio, differisce molto dal modo occidentale di intendere la filosofia come teoria, logica e metafisica.
+Secondo Borghesi, le culture orientali non separano nettamente azione e contemplazione: la filosofia vi appare come un insieme di insegnamenti e di regole di vita più che come teoria astratta. Per questo il buddhismo, ad esempio, propone precetti concreti, come evitare l'ira o l'ubriachezza, che servono a correggere i difetti del carattere. ==Pensare e vivere non sono due attività distinte.== Questa prospettiva, sottolinea il saggio, differisce molto dal modo occidentale di intendere la filosofia come teoria, logica e metafisica.

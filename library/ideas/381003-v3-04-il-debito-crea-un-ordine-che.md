@@ -27,4 +27,4 @@ created: 2026-11-18T10:18:36.964Z
 
 # Il debito crea un ordine che decide chi può vivere
 
-Secondo l'autore, la trappola del debito non produce accumulo ma un ordine necropolitico, cioè un potere che stabilisce chi ha diritto di vivere e chi può essere lasciato morire. Il concetto, di origine filosofica, descrive come le scelte economiche e politiche possano decidere concretamente della vita delle persone. Applicato alla Corea del Sud post-1997 raccontata nel romanzo, mostra come la precarietà diffusa possa diventare una forma di esclusione sistematica.
+Secondo l'autrice, la trappola del debito non produce accumulo ma un ordine necropolitico, cioè un potere che stabilisce chi ha diritto di vivere e chi può essere lasciato morire. Il concetto, di origine filosofica, descrive come le scelte economiche e politiche possano decidere concretamente della vita delle persone. Applicato alla Corea del Sud post-1997 raccontata nel romanzo, mostra come la precarietà diffusa possa diventare una forma di esclusione sistematica.

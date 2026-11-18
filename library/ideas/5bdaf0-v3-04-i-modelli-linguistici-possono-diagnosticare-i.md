@@ -26,4 +26,4 @@ created: 2026-11-17T10:51:32.377Z
 
 # I modelli linguistici possono diagnosticare i propri output
 
-Un modello linguistico pre-addestrato può essere interrogato con un semplice template che chiede se il testo contenga un certo attributo indesiderato, misurando la probabilità relativa di rispondere sì o no. Questo metodo di autodiagnosi non richiede un dataset etichettato per l'addestramento. Secondo gli autori, la sua efficacia cresce con la dimensione del modello, quindi funziona meglio sui modelli più grandi.
+Un modello linguistico pre-addestrato può essere interrogato con un semplice template che chiede se il testo contenga un certo attributo indesiderato, misurando la probabilità relativa di rispondere sì o no. Questo metodo di autodiagnosi non richiede un dataset etichettato per l'addestramento. Secondo Schick e colleghi, la sua efficacia cresce con la dimensione del modello, quindi funziona meglio sui modelli più grandi.

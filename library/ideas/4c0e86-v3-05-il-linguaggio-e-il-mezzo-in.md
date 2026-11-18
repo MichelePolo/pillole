@@ -29,4 +29,4 @@ created: 2026-11-18T10:18:36.926Z
 
 # Il linguaggio è il mezzo in cui il mondo si rende comprensibile
 
-Per Gadamer il linguaggio non è uno strumento neutro usato per descrivere una realtà già data. È il mezzo in cui ciò che è comprensibile viene portato alla presentazione. Secondo l'autore, ==essere che può essere compreso è linguaggio==, e questa formula indica l'inesauribilità di ciò che entra nel linguaggio più che un limite imposto dal linguaggio stesso.
+Per Gadamer il linguaggio non è uno strumento neutro usato per descrivere una realtà già data. È il mezzo in cui ciò che è comprensibile giunge a manifestarsi. Secondo Gadamer, ==l'essere che può essere compreso è linguaggio==, e questa formula indica l'inesauribilità di ciò che entra nel linguaggio più che un limite imposto dal linguaggio stesso.

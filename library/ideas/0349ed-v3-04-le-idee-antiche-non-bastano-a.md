@@ -12,6 +12,7 @@ source:
   id: 0349ed137a88
   lang: en
   title: How bad are search results? Let's compare Google, Bing, Marginalia, Kagi, Mwmbl, and ChatGPT
+  author: Dan Luu
   site: danluu.com
   url: https://danluu.com/seo-spam/
 anchor: it's clear that despite the common "econ 101" cocktail party idea that economies of scale should be the dominant factor for search quality

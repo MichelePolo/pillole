@@ -27,4 +27,4 @@ created: 2026-11-16T09:53:43.237Z
 
 # La duttilità dipende anche dalla capacità di creare dislocazioni
 
-Nella teoria classica, la tenacità a bassa temperatura dei metalli dipende soprattutto da quanto facilmente le dislocazioni, cioè i difetti lineari del reticolo cristallino, riescono a muoversi. Secondo i ricercatori, questa visione è incompleta: ==anche la capacità del materiale di generarne di nuove è altrettanto importante==. Nella lega studiata, due meccanismi lavorano insieme, il gemellaggio nanometrico per deformazione e una trasformazione locale di fase, e sostengono la deformazione plastica anche al freddo estremo.
+Nella teoria classica, la tenacità a bassa temperatura dei metalli dipende soprattutto da quanto facilmente le dislocazioni, cioè i difetti lineari del reticolo cristallino, riescono a muoversi. Secondo i ricercatori, questa visione è incompleta: ==anche la capacità del materiale di generarne di nuove è altrettanto importante==. Nella lega studiata, due meccanismi lavorano insieme, la geminazione nanometrica da deformazione e una trasformazione locale di fase, e sostengono la deformazione plastica anche al freddo estremo.

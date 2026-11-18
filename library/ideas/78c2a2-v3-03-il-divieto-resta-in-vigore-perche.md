@@ -27,4 +27,4 @@ created: 2026-11-18T10:18:36.885Z
 
 # Il divieto resta in vigore perché abolirlo sarebbe una sconfitta
 
-Secondo l'autore, lo Stato iraniano non può abrogare l'obbligo di velo senza ammettere una sconfitta, quindi la legge resta formalmente in vigore ma non viene applicata. L'applicazione si sposta dove i costi politici sono minori, cioè verso i caffè e i social network. Il punto non è più la religione in senso stretto, ma la sopravvivenza del regime e l'immagine di un potere ancora in controllo. Così il cambiamento avviene dal basso senza una vittoria formale riconoscibile.
+Secondo l'autrice, lo Stato iraniano non può abrogare l'obbligo di velo senza ammettere una sconfitta, quindi la legge resta formalmente in vigore ma non viene applicata. L'applicazione si sposta dove i costi politici sono minori, cioè verso i caffè e i social network. Il punto non è più la religione in senso stretto, ma la sopravvivenza del regime e l'immagine di un potere ancora in controllo. Così il cambiamento avviene dal basso senza una vittoria formale riconoscibile.

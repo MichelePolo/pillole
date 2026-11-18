@@ -26,4 +26,4 @@ created: 2026-11-17T10:51:32.364Z
 
 # L'autoconoscenza è epistemicamente più sicura della percezione
 
-Secondo la visione più diffusa tra i filosofi, la conoscenza di sé non è assolutamente certa, ma è più solida di altre forme di conoscenza empirica, come la percezione del mondo esterno. Una ragione proposta è che tra lo stato percettivo e il suo oggetto c'è un divario causale, che introduce fonti di errore assenti nell'introspezione diretta di una sensazione. Questo spiega perché ci sentiamo più sicuri di ciò che proviamo rispetto a ciò che vediamo. L'autore presenta questa come una posizione molto accettata, non come un fatto indiscutibile.
+Secondo la visione più diffusa tra i filosofi, la conoscenza di sé non è assolutamente certa, ma è più solida di altre forme di conoscenza empirica, come la percezione del mondo esterno. Una ragione proposta è che tra lo stato percettivo e il suo oggetto c'è un divario causale, che introduce fonti di errore assenti nell'introspezione diretta di una sensazione. Questo spiega perché ci sentiamo più sicuri di ciò che proviamo rispetto a ciò che vediamo.

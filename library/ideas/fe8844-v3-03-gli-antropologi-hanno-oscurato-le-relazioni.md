@@ -25,6 +25,6 @@ model: claude-haiku-5-5
 created: 2026-11-18T10:18:36.914Z
 ---
 
-# Gli antropologi hanno oscurato le relazioni tra stesso sesso
+# Gli antropologi hanno oscurato le relazioni tra persone dello stesso sesso
 
 Secondo l'articolo, le relazioni tra persone dello stesso sesso esistono da millenni, ma gli antropologi dell'Africa subsahariana spesso le hanno ignorate o distorte. Il problema non è la mancanza di prove, bensì il modo in cui la disciplina ha letto le società africane. ==Lo sguardo dello studioso può cancellare realtà documentate==. Questo richiama la necessità di verificare le proprie categorie prima di descrivere culture altrui.

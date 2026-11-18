@@ -27,4 +27,4 @@ created: 2026-11-18T10:18:36.877Z
 
 # Le istituzioni canalizzano la competizione in riti di gruppo
 
-Quando una forma di rivalità violenta viene vietata, la società ha bisogno di un sostituto che tenga unite le persone. Al Miami University, dopo il divieto della cattura della bandiera, il pushball offrì agli studenti un modo meno brutale di affermarsi sugli altri e di sentirsi parte della propria classe. L'autore mostra come il bisogno di identità di gruppo non scompaia, ma cerchi nuove forme. ==Il conflitto si trasforma invece di sparire==, e spesso cerca un rito condiviso per esprimersi.
+Quando una forma di rivalità violenta viene vietata, la società ha bisogno di un sostituto che tenga unite le persone. Al Miami University, dopo il divieto della cattura della bandiera, il pushball offrì agli studenti un modo meno brutale di affermarsi sugli altri e di sentirsi parte della propria classe. L'autrice mostra come il bisogno di identità di gruppo non scompaia, ma cerchi nuove forme. ==Il conflitto si trasforma invece di sparire==, e spesso cerca un rito condiviso per esprimersi.

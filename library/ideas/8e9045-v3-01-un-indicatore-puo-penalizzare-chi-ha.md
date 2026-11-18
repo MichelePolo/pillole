@@ -23,6 +23,6 @@ model: claude-haiku-5-5
 created: 2026-11-16T09:53:43.003Z
 ---
 
-# Un indicatore può penalizzare chi ha più risorse
+# Un indicatore può penalizzare chi ha meno risorse
 
 Nel calcolo dell'Isee la deduzione reddituale varia in base alla fonte di reddito e al numero di percettori, mentre l'Irpef applica già correzioni simili. Il risultato è che famiglie con lo stesso reddito imponibile finiscono con indicatori diversi, e la famiglia che dispone di più risorse nette può risultare la più povera secondo l'Isee. Secondo gli autori, la sovrapposizione dei due meccanismi distorce il sistema e non corregge davvero le differenze tra i contribuenti.

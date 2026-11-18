@@ -27,4 +27,4 @@ created: 2026-11-17T10:51:32.338Z
 
 # Il diritto alla privacy copre anche la libertà di pensiero
 
-La privacy mentale sostiene che i pensieri, anche quelli non manifestati, meritino protezione. Secondo l'autore, la libertà di pensiero include il diritto a non essere costretti a rivelare i propri pensieri, a non essere puniti per essi e a non subire alterazioni illecite della mente. Le neurotecnologie e i dati neurali rendono concreto il rischio che stati mentali vengano letti senza consapevolezza. ==Ciò che accade nella mente andrebbe tutelato come una forma specifica di privacy==, più sensibile di molti altri dati personali.
+La privacy mentale sostiene che i pensieri, anche quelli non manifestati, meritino protezione. Secondo l'autrice, la libertà di pensiero include il diritto a non essere costretti a rivelare i propri pensieri, a non essere puniti per essi e a non subire alterazioni illecite della mente. Le neurotecnologie e i dati neurali rendono concreto il rischio che stati mentali vengano letti senza consapevolezza. ==Ciò che accade nella mente andrebbe tutelato come una forma specifica di privacy==, più sensibile di molti altri dati personali.

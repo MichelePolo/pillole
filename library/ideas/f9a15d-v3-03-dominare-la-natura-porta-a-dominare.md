@@ -25,4 +25,4 @@ created: 2026-11-16T09:53:43.025Z
 
 # Dominare la natura porta a dominare l'uomo
 
-Secondo Horkheimer e Adorno, il dominio sulla natura esterna non resta confinato alla natura. Quando gli esseri umani trattano la natura solo come materia da piegare ai propri scopi, finiscono per trattare allo stesso modo anche i propri impulsi interiori e, infine, altre persone. L'autore lo illustra con il caso di Sade, in cui il piacere viene sottoposto a un ordine rigoroso e razionalizzato. Il punto è che la tecnica, nata per proteggere l'uomo, può ritorcersi contro di lui, perché la distruzione della natura coinvolge anche la distruzione dell'umanità.
+Secondo Horkheimer e Adorno, il dominio sulla natura esterna non resta confinato alla natura. Quando gli esseri umani trattano la natura solo come materia da piegare ai propri scopi, finiscono per trattare allo stesso modo anche i propri impulsi interiori e, infine, altre persone. Il punto è che la tecnica, nata per proteggere l'uomo, può ritorcersi contro di lui, perché la distruzione della natura coinvolge anche la distruzione dell'umanità.

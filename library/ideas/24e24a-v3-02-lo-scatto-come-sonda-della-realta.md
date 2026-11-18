@@ -27,4 +27,4 @@ created: 2026-11-18T10:18:36.945Z
 
 # Lo scatto come sonda della realtà
 
-Secondo l'autore, la critica di Mulas al mito dell'istante decisivo di Cartier-Bresson si può leggere alla luce della filosofia di Henri Bergson. In questa lettura lo scatto non cattura un momento perfetto, ma funziona come un colpo di sonda che rivela la realtà, espressione di un impulso vitale. Il fotografo diventa così un esploratore che interroga il mondo, più che un cacciatore del momento giusto. È una tesi interpretativa di Quintavalle, che collega la pratica fotografica a una precisa tradizione di pensiero.
+Secondo Arturo Carlo Quintavalle, la critica di Mulas al mito dell'istante decisivo di Cartier-Bresson si può leggere alla luce della filosofia di Henri Bergson. In questa lettura lo scatto non cattura un momento perfetto, ma funziona come un colpo di sonda che rivela la realtà, espressione di un impulso vitale. Il fotografo diventa così un esploratore che interroga il mondo, più che un cacciatore del momento giusto. È una lettura che collega la pratica fotografica a una precisa tradizione di pensiero.

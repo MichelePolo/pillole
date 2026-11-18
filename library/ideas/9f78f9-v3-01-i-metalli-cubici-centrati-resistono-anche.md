@@ -25,6 +25,6 @@ model: claude-haiku-5-5
 created: 2026-11-16T09:53:43.236Z
 ---
 
-# I metalli cubici centrati resistono anche al freddo estremo
+# Una lega cubica a corpo centrato resiste anche al freddo estremo
 
-Di solito i metalli diventano più fragili con il freddo, e i metalli con struttura cubica a corpo centrato erano considerati un'eccezione a questa regola. Una lega di niobio e titanio studiata da un team di Oxford e del Lawrence Berkeley National Laboratory resta tenace e duttile fino a 20 kelvin. ==Questo indica che la fragilità a bassa temperatura non è inevitabile== in questa classe di materiali, e che può essere superata con un'opportuna progettazione della lega.
+Di solito i metalli diventano più resistenti con il freddo, e i metalli con struttura cubica a corpo centrato erano considerati un'eccezione a questa regola. Una lega di niobio e titanio studiata da un team di Oxford e del Lawrence Berkeley National Laboratory resta tenace e duttile fino a 20 kelvin. ==Questo indica che la fragilità a bassa temperatura non è inevitabile== in questa classe di materiali, e che può essere superata con un'opportuna progettazione della lega.

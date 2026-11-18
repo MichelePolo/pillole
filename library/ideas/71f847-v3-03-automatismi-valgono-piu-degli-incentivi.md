@@ -25,6 +25,6 @@ model: claude-haiku-5-5
 created: 2026-11-18T10:18:36.807Z
 ---
 
-# Automatismi valgono più degli incentivi
+# Gli automatismi valgono più degli incentivi
 
 Per i risparmiatori passivi, secondo l'autore, a muovere il denaro sono soprattutto i meccanismi automatici, più che i premi economici. Versamenti mensili programmati, anche di piccolo importo, riducono il timore di sbagliare il momento giusto per investire e rendono il gesto abituale. Il principio si applica a un conto di risparmio e investimento: la scelta di default conta più della convenienza del prodotto per chi non vuole decidere ogni volta.

@@ -26,4 +26,4 @@ created: 2026-11-16T09:53:43.087Z
 
 # Il futuro è costruito anche dalle aspettative
 
-Secondo l'autore, citando il sociologo economico Jens Beckert, le imprese producono immagini del futuro che orientano le decisioni economiche. Il futuro non viene quindi solo previsto, ma costruito attraverso le aspettative che queste immagini generano. La questione decisiva diventa chi partecipa a questa costruzione e quali interessi riescono a orientarla. Se la ricerca accademica si limita ad accompagnare le trasformazioni già avviate dalle organizzazioni più influenti, lascia lo spazio delle possibilità ristretto.
+Secondo l'autore, che cita il sociologo economico Jens Beckert, le imprese producono immagini del futuro che orientano le decisioni economiche. Il futuro non viene quindi solo previsto, ma costruito attraverso le aspettative che queste immagini generano. La questione decisiva diventa chi partecipa a questa costruzione e quali interessi riescono a orientarla. Se la ricerca accademica si limita ad accompagnare le trasformazioni già avviate dalle organizzazioni più influenti, lascia lo spazio delle possibilità ristretto.

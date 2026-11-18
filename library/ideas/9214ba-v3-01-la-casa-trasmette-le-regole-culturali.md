@@ -27,4 +27,4 @@ created: 2026-11-18T10:18:36.988Z
 
 # La casa trasmette le regole culturali di base
 
-Le abitudini quotidiane apprese in famiglia, come pulire, condividere lo spazio o accogliere gli ospiti, insegnano ai bambini cosa è normale. Molte di queste regole sono implicite e le notiamo davvero solo quando le vediamo in case altrui. Secondo l'autrice, ==la casa funziona come un'infrastruttura culturale che definisce ciò che è normale== per mangiare, dormire, giocare e lavorare. Chi cresce con certe regole tende a portarle con sé per tutta la vita, anche senza saperlo.
+Le abitudini quotidiane apprese in famiglia, come pulire, condividere lo spazio o accogliere gli ospiti, insegnano ai bambini cosa è normale. Molte di queste regole sono implicite e le notiamo davvero solo quando le vediamo in case altrui. Secondo l'autore, ==la casa funziona come un'infrastruttura culturale che definisce ciò che è normale== per mangiare, dormire, giocare e lavorare. Chi cresce con certe regole tende a portarle con sé per tutta la vita, anche senza saperlo.

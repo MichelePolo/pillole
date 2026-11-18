@@ -25,6 +25,6 @@ model: claude-haiku-5-5
 created: 2026-11-16T09:53:43.131Z
 ---
 
-# Ogni sistema di sorveglianza porta rischi di uso improprio
+# La geolocalizzazione automatica delle foto porta rischi di uso improprio
 
 Gli autori di PIGEON avvertono che la geolocalizzazione automatica delle immagini può avere rischi, soprattutto se la precisione continua a migliorare. Notano che molti lavori recenti sono finanziati da fondi militari e che la tecnologia potrebbe inferire reddito, etnia, istruzione e orientamento di voto di un quartiere. Per questo il gruppo ha scelto di non rendere pubblici i pesi del modello. Secondo l'articolo, però, la diffusione dei modelli commerciali rende questo freno solo parziale. ==Una capacità tecnica, una volta sviluppata, tende a diffondersi.== Il tema della privacy si pone quindi già prima che la tecnologia sia usata.

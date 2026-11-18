@@ -11,6 +11,7 @@ source:
   id: 286e11c0107f
   lang: en
   title: Why do people post on [bad platform] instead of [good platform]?
+  author: Dan Luu
   site: danluu.com
   url: https://danluu.com/why-video/
 anchor: many people find it mentally easier to write on a platform where you write short chunks of text instead of a single large chunk of text
@@ -23,6 +24,6 @@ model: claude-haiku-5-5
 created: 2026-11-16T09:53:43.099Z
 ---
 
-# Il friction emotivo non si misura in clic
+# L'attrito emotivo non si misura in clic
 
 Chi dice che un thread è «oggettivamente» più lavoro di un post ignora dove sta l'attrito. Per molti autori, la difficoltà non è tecnica ma mentale: scrivere un testo unico e coerente richiede attenzione prolungata, mentre un messaggio breve si completa in una volta. L'autore riporta il caso di chi ha ADHD e riesce a pubblicare solo testi frammentati. Secondo l'autore, le differenze tra scrivere un tweet alla volta e scrivere in una sola seduta sono differenze di grado, non di natura.

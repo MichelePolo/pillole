@@ -27,4 +27,4 @@ created: 2026-11-18T10:18:36.871Z
 
 # La massima probabilità non coincide con la qualità
 
-Massimizzare la probabilità ad ogni passo, come fa la ricerca a fascio, non garantisce un testo di buona qualità. Le parole scelte dagli esseri umani hanno una probabilità più variabile e quindi più sorprendente. Secondo l'autore, questo spiega perché tecniche che filtrano le opzioni ad alta sorpresa producano spesso testi più naturali, in linea con l'ipotesi della densità informativa uniforme.
+Massimizzare la probabilità ad ogni passo, come fa la ricerca a fascio, non garantisce un testo di buona qualità. Le parole scelte dagli esseri umani hanno una probabilità più variabile e quindi più sorprendente. Secondo i ricercatori citati, questo spiega perché tecniche che filtrano le opzioni ad alta sorpresa producano spesso testi più naturali, in linea con l'ipotesi della densità informativa uniforme.

@@ -24,6 +24,6 @@ model: claude-haiku-5-5
 created: 2026-11-17T10:51:32.338Z
 ---
 
-# Il consenso è sempre il criterio centrale dell'uso dei dati
+# Il consenso nell'uso dei dati è graduato, non assoluto
 
-Secondo l'autore, il GDPR europeo applica le stesse regole a ogni trattamento di dati personali, indipendentemente dal contesto, e richiede un consenso specifico ed esplicito per dati sensibili come quelli sulla salute o genetici. Il consenso può coprire usi ampi quando si tratta di dati generici. Per la ricerca scientifica e la sanità pubblica, invece, il consenso specifico non è richiesto purché siano in vigore garanzie adeguate. ==Il consenso è un criterio graduato, non un interruttore==, e la sua forza dipende dalla sensibilità dei dati.
+Secondo l'autrice, il GDPR europeo applica le stesse regole a ogni trattamento di dati personali, indipendentemente dal contesto, e richiede un consenso specifico ed esplicito per dati sensibili come quelli sulla salute o genetici. Il consenso può coprire usi ampi quando si tratta di dati generici. Per la ricerca scientifica e la sanità pubblica, invece, il consenso specifico non è richiesto purché siano in vigore garanzie adeguate. ==Il consenso è un criterio graduato, non un interruttore==, e la sua forza dipende dalla sensibilità dei dati.

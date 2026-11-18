@@ -25,4 +25,4 @@ created: 2026-11-16T09:53:43.148Z
 
 # I negativi difficili migliorano l'apprendimento ma sono rischiosi
 
-Un negativo difficile è un esempio con etichetta diversa dall'ancora ma con rappresentazione molto vicina ad essa. Usarli rende l'apprendimento più efficace, ma senza etichette è facile prendere per negativi esempi che in realtà appartengono alla stessa classe, detti falsi negativi. Secondo l'autore, Chuang et al. hanno mostrato che questo errore di campionamento può far crollare le prestazioni. Per questo sono stati proposti metodi di correzione del bias.
+Un negativo difficile è un esempio con etichetta diversa dall'ancora ma con rappresentazione molto vicina ad essa. Usarli rende l'apprendimento più efficace, ma senza etichette è facile prendere per negativi esempi che in realtà appartengono alla stessa classe, detti falsi negativi. Secondo l'autrice, Chuang e colleghi hanno mostrato che questo errore di campionamento può far crollare le prestazioni. Per questo sono stati proposti metodi di correzione del bias.

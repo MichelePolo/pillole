@@ -25,4 +25,4 @@ created: 2026-11-18T10:18:36.857Z
 
 # La prima ferita riguarda la distinzione tra sé e altro
 
-Il primo compito evolutivo è imparare a distinguere il proprio sé dal non sé, collocando le emozioni entro confini di tempo e spazio che la cura dell'altro rende sperimentabili. Quando questo passaggio fallisce, le schizofrenie più gravi mostrano una regressione: il soggetto si sente sommerso dalle emozioni e non sa distinguere il mondo interno da quello esterno. Secondo l'autore, la prevenzione passa dal sostenere le famiglie nei momenti di crisi, così che possano usare le proprie risorse invece delle difese patologiche.
+Il primo compito evolutivo è imparare a distinguere il proprio sé dal non sé, collocando le emozioni entro confini di tempo e spazio che la cura dell'altro rende sperimentabili. Quando questo passaggio fallisce, le schizofrenie più gravi mostrano una regressione: il soggetto si sente sommerso dalle emozioni e non sa distinguere il mondo interno da quello esterno. Secondo Cancrini, la prevenzione passa dal sostenere le famiglie nei momenti di crisi, così che possano usare le proprie risorse invece delle difese patologiche.

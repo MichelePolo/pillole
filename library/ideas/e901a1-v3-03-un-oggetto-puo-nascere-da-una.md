@@ -25,6 +25,6 @@ model: claude-haiku-5-5
 created: 2026-11-17T10:51:32.284Z
 ---
 
-# Un oggetto può nascere da una storia già sbagliata
+# Un mito può nascere da un fraintendimento
 
 Il mito dell'agnello vegetale sembra essersi formato a partire dal cotone, una pianta le cui fibre bianche e morbide potevano apparire simili alla lana. Man mano che la notizia passava di bocca in bocca, il dettaglio della lana sugli alberi si è trasformato nell'idea di agnelli che crescono sugli alberi. Secondo l'autore, questo processo mostra come un fraintendimento iniziale possa crescere fino a diventare una creatura intera, accettata da molti per secoli. Le trasformazioni successive di una voce sono un buon motivo per tornare alla fonte originale.

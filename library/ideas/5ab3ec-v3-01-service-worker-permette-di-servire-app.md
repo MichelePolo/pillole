@@ -23,6 +23,6 @@ model: claude-haiku-5-5
 created: 2026-11-18T10:18:36.873Z
 ---
 
-# Service worker permette di servire app Python nel browser
+# Il service worker permette di servire app Python nel browser
 
 Il vecchio Datasette Lite funzionava simulando richieste dentro un web worker e inserendo l'HTML con innerHTML, quindi gli script non venivano eseguiti. La nuova versione usa i service worker, che intercettano le richieste HTTP di pagine e risorse e le servono dal codice lato client. ==Così l'app gira quasi come un server reale, con JavaScript e CSS funzionanti.== Il principio vale anche fuori da questo progetto: un'intercettazione delle richieste lato browser può sostituire un server.

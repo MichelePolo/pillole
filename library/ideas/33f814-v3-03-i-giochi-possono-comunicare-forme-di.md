@@ -27,4 +27,4 @@ created: 2026-11-16T09:53:43.080Z
 
 # I giochi possono comunicare forme di agency
 
-Il filosofo C. Thi Nguyen, citato nel saggio, sostiene che i giochi sono una tecnologia sociale capace di registrare e trasmettere modi di agire. Possiamo passare con fluidità da una nostra agency a una agency progettata da qualcun altro, immergendoci in essa. In questo senso i giochi permettono di comunicare forme di azione che non abbiamo nella vita ordinaria. È una tesi dell'autore che la sua idea sia ripresa da Nguyen, e la forza dell'idea sta nel fatto che il gioco fa vivere l'agire, non solo descriverlo.
+Il filosofo C. Thi Nguyen, citato nel saggio, sostiene che i giochi sono una tecnologia sociale capace di registrare e trasmettere modi di agire. Possiamo passare con fluidità da una nostra agency a una agency progettata da qualcun altro, immergendoci in essa. In questo senso i giochi permettono di comunicare forme di azione che non abbiamo nella vita ordinaria. La forza dell'idea sta nel fatto che il gioco fa vivere l'agire, non solo descriverlo.

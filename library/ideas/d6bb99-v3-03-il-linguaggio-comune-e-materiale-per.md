@@ -25,4 +25,4 @@ created: 2026-11-18T10:18:36.937Z
 
 # Il linguaggio comune è materiale per la poesia
 
-Secondo Pignotti, la poesia tecnologica può attingere ai linguaggi che tutti usano: pubblicità, notiziari, modi di dire, burocrazia, lessico scientifico. ==Questo la rende democratica, perché è scritta nella lingua di oggi e nella lingua di tutti==, quello che l'autore chiama neo-volgare. Il prelievo è intenzionale: il poeta non nasconde la provenienza delle parole e delle immagini, ma ne contesta l'origine e dirotta il messaggio, sottraendo chi legge alla passività di chi riceve comunicazioni senza giudicarle.
+Secondo Pignotti, la poesia tecnologica può attingere ai linguaggi che tutti usano: pubblicità, notiziari, modi di dire, burocrazia, lessico scientifico. ==Questo la rende democratica, perché è scritta nella lingua di oggi e nella lingua di tutti==, quello che Pignotti chiama neo-volgare. Il prelievo è intenzionale: il poeta non nasconde la provenienza delle parole e delle immagini, ma ne contesta l'origine e dirotta il messaggio, sottraendo chi legge alla passività di chi riceve comunicazioni senza giudicarle.

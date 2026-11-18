@@ -19,7 +19,7 @@ anchor: Moreover, two of the three women she defeated that day also set type fas
 anchor_check: exact
 quiz:
   q: Che cosa mostra il risultato delle donne alla gara di Boston del 1886?
-  a: Che alcune concorrenti erano più veloci di tutti gli uomini, pur essendo state ignorate dagli organizzatori.
+  a: Che alcune concorrenti superarono molti uomini, ma gli organizzatori rifiutarono di riconoscere i loro risultati.
 prompt_version: v3
 model: claude-haiku-5-5
 created: 2026-11-18T10:18:36.852Z

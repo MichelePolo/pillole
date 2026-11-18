@@ -10,6 +10,7 @@ source:
   id: 0349ed137a88
   lang: en
   title: How bad are search results? Let's compare Google, Bing, Marginalia, Kagi, Mwmbl, and ChatGPT
+  author: Dan Luu
   site: danluu.com
   url: https://danluu.com/seo-spam/
 anchor: most results are quite poor, which didn't used to be true

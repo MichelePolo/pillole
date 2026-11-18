@@ -29,4 +29,4 @@ created: 2026-11-17T10:51:32.268Z
 
 # Un test è credibile se il metodo non conosce la risposta attesa
 
-Secondo gli autori, il metodo è stato addestrato su immagini senza alcuna informazione sui buchi neri, e poi applicato ai dati reali senza ulteriori modifiche. Questo isolamento riduce il rischio di trovare solo ciò che ci si aspettava. Anche la verifica su dati simulati prima di quelli reali fa parte della stessa logica. Un risultato ottenuto da un procedimento che non poteva essere guidato verso la risposta desiderata è molto più solido di uno raggiunto con aggiustamenti successivi.
+Secondo gli autori dello studio, il metodo è stato addestrato su immagini senza alcuna informazione sui buchi neri, e poi applicato ai dati reali senza ulteriori modifiche. Questo isolamento riduce il rischio di trovare solo ciò che ci si aspettava. Anche la verifica su dati simulati prima di quelli reali fa parte della stessa logica. Un risultato ottenuto da un procedimento che non poteva essere guidato verso la risposta desiderata è molto più solido di uno raggiunto con aggiustamenti successivi.

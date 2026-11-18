@@ -23,6 +23,6 @@ model: claude-haiku-5-5
 created: 2026-11-16T09:53:43.164Z
 ---
 
-# Il benevolo presuppone l'amore di sé
+# La benevolenza presuppone l'amore di sé
 
-Secondo Jones, la regola della benevolenza non può essere formulata senza presupporre la razionalità dell'amore di sé. Non possiamo conoscere la felicità altrui se non riconoscendo prima il valore della nostra: è a partire dal valore che attribuiamo alla nostra felicità che riconosciamo quello della felicità degli altri. Quindi il principio di benevolenza non sarebbe né vero né falso se quello di amore di sé fosse falso. Jones intende questo come un rapporto di presupposizione più che di implicazione logica, e la tesi resta discutibile, perché mostra solo che chi accetta la benevolenza non può rifiutare l'amore di sé.
+Secondo Jones, la regola della benevolenza non può essere formulata senza presupporre la razionalità dell'amore di sé. Non possiamo conoscere la felicità altrui se non riconoscendo prima il valore della nostra: è a partire dal valore che attribuiamo alla nostra felicità che riconosciamo quello della felicità degli altri. Quindi il principio di benevolenza non sarebbe né vero né falso se quello di amore di sé fosse falso. Jones intende questo come un rapporto di presupposizione più che di implicazione logica, ma secondo l'autore l'argomento mostra solo che chi accetta la benevolenza non può rifiutare l'amore di sé.

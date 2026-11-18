@@ -25,4 +25,4 @@ created: 2026-11-18T10:18:36.983Z
 
 # La rotazione rapida può modellare la forma degli asteroidi
 
-Secondo gli esperti citati dalla fonte, la forma di Didymos, simile a una trottola, e la sua rapida rotazione di circa 2,2 ore spiegherebbero la cresta equatoriale osservata. Simulazioni numeriche mostrano che una rotazione così veloce fa scorrere il materiale superficiale dalle latitudini alte verso l'equatore. Nel tempo questo processo potrebbe anche staccare parti di materiale e formare piccole lune, come Dimorphos. È una tesi plausibile, ma ancora oggetto di verifica, e viene presentata come interpretazione degli esperti.
+Secondo gli esperti citati dalla fonte, la forma di Didymos, simile a una trottola, e la sua rapida rotazione di circa 2,2 ore spiegherebbero la cresta equatoriale osservata. Simulazioni numeriche mostrano che una rotazione così veloce fa scorrere il materiale superficiale dalle latitudini alte verso l'equatore. Nel tempo questo processo potrebbe anche staccare parti di materiale e formare piccole lune, come Dimorphos.

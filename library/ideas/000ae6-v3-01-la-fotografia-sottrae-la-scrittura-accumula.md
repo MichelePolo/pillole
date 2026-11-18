@@ -18,7 +18,7 @@ source:
 anchor: la fotografia sottrae, isola una forma, restituisce al paesaggio una quiete
 anchor_check: exact
 quiz:
-  q: Perché, secondo l'autore, la quiete dei paesaggi fotografati non redime l'abiezione raccontata dalla scrittura?
+  q: Perché, secondo l'autrice, la quiete dei paesaggi fotografati non redime l'abiezione raccontata dalla scrittura?
   a: Perché il paesaggio non è un altrove incontaminato, immune dalle proiezioni e dalle ossessioni umane, e la sua liricità non coincide con una verità rispetto al grottesco.
 prompt_version: v3
 model: claude-haiku-5-5

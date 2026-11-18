@@ -27,4 +27,4 @@ created: 2026-11-18T10:18:36.880Z
 
 # Sapere ciò che sa la propria rete non è sapere
 
-Il ricco Calvisio Sabino faceva memorizzare i poeti greci ai suoi schiavi e poi li sfoggiava a cena, come se la conoscenza fosse sua. Secondo l'autore, Seneca racconta questo episodio per mostrare che chi usa un archivio altrui non acquisisce né interiorizza ciò che contiene. Sabino sfrutta il sapere ma non coltiva alcuna saggezza. Il rischio attuale è credere di sapere perché si ha accesso immediato alle informazioni, senza averle mai fatte proprie.
+Il ricco Calvisio Sabino faceva memorizzare i poeti greci ai suoi schiavi e poi li sfoggiava a cena, come se la conoscenza fosse sua. Secondo l'autrice, Seneca racconta questo episodio per mostrare che chi usa un archivio altrui non acquisisce né interiorizza ciò che contiene. Sabino sfrutta il sapere ma non coltiva alcuna saggezza. Il rischio attuale è credere di sapere perché si ha accesso immediato alle informazioni, senza averle mai fatte proprie.
