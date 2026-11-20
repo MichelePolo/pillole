@@ -12,6 +12,7 @@ source:
   id: b1764a071d6d
   lang: en
   title: Futurist prediction methods and accuracy
+  author: Dan Luu
   site: danluu.com
   url: https://danluu.com/futurist-predictions/
 anchor: people who were into "big ideas" who use a few big hammers on every prediction

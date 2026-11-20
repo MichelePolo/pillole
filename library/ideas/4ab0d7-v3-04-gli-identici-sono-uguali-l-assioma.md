@@ -25,6 +25,6 @@ model: claude-haiku-5-5
 created: 2026-11-20T10:08:32.141Z
 ---
 
-# Gli identici sono uguali: l'assioma di univalenza
+# Gli equivalenti sono uguali: l'assioma di univalenza
 
-Nelle fondamenta univalenti, dire che due tipi sono equivalenti equivale a dire che sono uguali. Questo principio generalizza l'estensionalità: due proposizioni logicamente equivalenti sono uguali, e due insiemi isomorfi sono uguali. Ne deriva che ciò che vale per una struttura vale anche per ogni struttura isomorfa, perché la teoria non distingue ciò che si può trasportare lungo una equivalenza. Il risultato rende la trasposizione delle proprietà una conseguenza formale e non un'assunzione.
+Nelle fondamenta univalenti, dire che due tipi sono equivalenti equivale a dire che sono uguali. Questo principio generalizza l'estensionalità: due proposizioni logicamente equivalenti sono uguali, e due insiemi isomorfi sono uguali. Ne deriva che ciò che vale per una struttura vale anche per ogni struttura isomorfa, perché la teoria non distingue ciò che si può trasportare lungo un'equivalenza. Il risultato rende la trasposizione delle proprietà una conseguenza formale e non un'assunzione.

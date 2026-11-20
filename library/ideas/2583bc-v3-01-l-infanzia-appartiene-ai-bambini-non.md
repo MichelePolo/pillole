@@ -25,4 +25,4 @@ created: 2026-11-20T10:08:32.150Z
 
 # L'infanzia appartiene ai bambini, non agli adulti
 
-Secondo Miyazaki, la società sta sottraendo ai bambini il tempo per vivere davvero, un tempo irripetibile in cui ogni giorno dovrebbe essere una scoperta. Per l'autore l'infanzia non è uno spazio da organizzare secondo le esigenze degli adulti. Il punto è che ==il tempo dell'infanzia va difeso come diritto dei bambini==, e non come una fase di passaggio verso l'età adulta.
+Secondo Miyazaki, la società sta sottraendo ai bambini il tempo per vivere davvero, un tempo irripetibile in cui ogni giorno dovrebbe essere una scoperta. Per Miyazaki l'infanzia non è uno spazio da organizzare secondo le esigenze degli adulti. Il punto è che ==il tempo dell'infanzia va difeso come diritto dei bambini==, e non come una fase di passaggio verso l'età adulta.

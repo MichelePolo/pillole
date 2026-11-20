@@ -18,7 +18,7 @@ source:
 anchor: manca un arbitro
 anchor_check: exact
 quiz:
-  q: Qual è il limite che l'autore attribuisce all'Osservatorio previsto dall'accordo?
+  q: Perché, secondo l'autore, un organismo di sola proposta non basta a risolvere le sovrapposizioni tra contratti?
   a: Può solo proporre soluzioni sulle sovrapposizioni contrattuali, ma non ha il potere di decidere.
 prompt_version: v3
 model: claude-haiku-5-5

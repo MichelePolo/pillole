@@ -27,4 +27,4 @@ created: 2026-11-20T10:08:32.071Z
 
 # Alcuni corsi esoterici anticipano la terapia cognitivo-comportamentale
 
-Il Mystic Brotherhood University proponeva lezioni che invitavano gli studenti a osservare i propri pensieri, riformulare gli schemi poco utili e coltivare abitudini di attenzione. Secondo l'autore, questi esercizi anticipavano tecniche come la terapia cognitivo-comportamentale, codificata solo nel tardo Novecento. Le radici risalivano alla disciplina stoica di Epitteto e Marco Aurelio. Questi corsi non creavano una tecnica nuova, ma riprendevano in forma popolare una pratica di autoregolazione mentale molto antica.
+La Mystic Brotherhood University proponeva lezioni che invitavano gli studenti a osservare i propri pensieri, riformulare gli schemi poco utili e coltivare abitudini di attenzione. Secondo l'autore, questi esercizi anticipavano tecniche come la terapia cognitivo-comportamentale, codificata solo nel tardo Novecento. Le radici risalivano alla disciplina stoica di Epitteto e Marco Aurelio. Questi corsi non creavano una tecnica nuova, ma riprendevano in forma popolare una pratica di autoregolazione mentale molto antica.

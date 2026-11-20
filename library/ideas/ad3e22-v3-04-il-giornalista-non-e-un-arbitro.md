@@ -27,4 +27,4 @@ created: 2026-11-20T10:08:32.099Z
 
 # Il giornalista non è un arbitro della verità
 
-Secondo l'autore, anche un cronista che resta fedele ai fatti può orientare il lettore. Il modo in cui i dati vengono presentati, e la scelta degli intervistati, possono assecondare un pregiudizio o una tesi. Per questo il giornalista somiglia più a un cantastorie che a un arbitro della verità. ==La selezione dei fatti è già una forma di racconto==, e chi scrive dovrebbe tenerne conto.
+Secondo Daniel Lavelle, anche un cronista che resta fedele ai fatti può orientare il lettore. Il modo in cui i dati vengono presentati, e la scelta degli intervistati, possono assecondare un pregiudizio o una tesi. Per questo il giornalista somiglia più a un cantastorie che a un arbitro della verità. ==La selezione dei fatti è già una forma di racconto==, e chi scrive dovrebbe tenerne conto.

@@ -12,6 +12,7 @@ source:
   id: b1764a071d6d
   lang: en
   title: Futurist prediction methods and accuracy
+  author: Dan Luu
   site: danluu.com
   url: https://danluu.com/futurist-predictions/
 anchor: a relatively small inaccuracy in the rate of change can result in a very large change in the final state

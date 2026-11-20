@@ -18,8 +18,8 @@ source:
 anchor: The time will come when the people in their fury will straighten their bent backs
 anchor_check: exact
 quiz:
-  q: Che cosa rappresenta, nell'immagine della piramide, l'azione dei lavoratori che si raddrizzano?
-  a: Rappresenta la possibilità che la classe oppressa, agendo insieme, abbatta la struttura gerarchica che la opprime.
+  q: Che cosa annuncia la strofa della caricatura russa sui lavoratori che raddrizzano la schiena?
+  a: Annuncia la possibilità che la classe oppressa, agendo insieme, abbatta la struttura gerarchica che la opprime.
 prompt_version: v3
 model: claude-haiku-5-5
 created: 2026-11-20T10:08:32.081Z
@@ -27,4 +27,4 @@ created: 2026-11-20T10:08:32.081Z
 
 # Una piramide può essere rovesciata
 
-Il disegno del 1900 del Partito Operaio belga si intitola idealmente "la piramide da rovesciare", e rappresenta un'idea precisa: una struttura gerarchica non è un destino naturale, ma qualcosa che può essere abbattuto dall'azione collettiva. La caricatura russa del 1901 di Nicolas Lokhoff rafforza questo messaggio mostrando i lavoratori che alzano la schiena curva e, con una spinta comune delle spalle, fanno crollare la struttura. L'immagine della piramide diventa così un simbolo di oppressione che può essere ribaltata dalla forza di chi la sostiene.
+Il disegno del 1900 del Partito Operaio belga si intitola "la piramide da rovesciare", e rappresenta un'idea precisa: una struttura gerarchica non è un destino naturale, ma qualcosa che può essere abbattuto dall'azione collettiva. La caricatura russa del 1901 di Nicolas Lokhoff rafforza questo messaggio con una strofa che annuncia il giorno in cui i lavoratori raddrizzeranno la schiena curva e, con una spinta comune delle spalle, faranno crollare la struttura. L'immagine della piramide diventa così un simbolo di oppressione che può essere ribaltata dalla forza di chi la sostiene.

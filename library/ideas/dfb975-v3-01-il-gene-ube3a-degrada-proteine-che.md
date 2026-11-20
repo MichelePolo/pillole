@@ -23,6 +23,6 @@ model: claude-haiku-5-5
 created: 2026-11-19T10:28:35.972Z
 ---
 
-# Il gene UBE3A degrada proteine che regolano la sintesi
+# Senza UBE3A le proteine da eliminare si accumulano
 
 Il gene UBE3A codifica un enzima che marca le proteine per la degradazione. Secondo lo studio, quando questo enzima non funziona, una delle sue proteine bersaglio, l'asparagina sintetasi (ASNS), non viene eliminata e si accumula. Il problema è quindi un mancato smaltimento di un substrato specifico, non solo la perdita di un gene in sé. ==Capire chi sono i substrati di un enzima aiuta a seguire le conseguenze della sua assenza.==

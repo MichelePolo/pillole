@@ -12,6 +12,7 @@ source:
   id: b1764a071d6d
   lang: en
   title: Futurist prediction methods and accuracy
+  author: Dan Luu
   site: danluu.com
   url: https://danluu.com/futurist-predictions/
 anchor: futurists often have a fairly poor track record of predictions
@@ -24,6 +25,6 @@ model: claude-haiku-5-5
 created: 2026-11-20T10:08:32.042Z
 ---
 
-# Le previsioni sul futuro sono quasi sempre inaffidabili
+# Le previsioni dei futurologi sono quasi sempre inaffidabili
 
 Chi prevede il futuro a dieci o cinquanta anni raramente ha una storia verificabile, quindi per valutare le previsioni bisogna guardare ai metodi usati. L'autore ha esaminato i futurologi più noti e ha trovato un'accuratezza molto bassa, spesso inferiore al dieci per cento. Il punto non è che il futuro sia imprevedibile in assoluto, ma che la maggior parte delle previsioni abituali si basa su premesse fragili e non viene mai verificata a posteriori.

@@ -27,4 +27,4 @@ created: 2026-11-19T10:28:35.937Z
 
 # Un'IA opaca richiede trasparenza e consapevolezza critica
 
-Secondo l'autore, l'intelligenza artificiale non permette di accedere al funzionamento interno della sua Black Box e si presenta come naturale e neutrale, favorendo la proiezione antropomorfica. Per questo non basta insegnare a usarla per risolvere problemi: la scuola dovrebbe insegnare a riconoscerne le modalità operative e la forma dei testi che produce. ==Una competenza tecnologica senza trasparenza rischia di diventare semplice adattamento ai sistemi produttivi.== La questione è quindi anche politica oltre che didattica.
+Secondo l'autore, l'intelligenza artificiale non permette di accedere al funzionamento interno della sua scatola nera e si presenta come naturale e neutrale, favorendo la proiezione antropomorfica. Per questo non basta insegnare a usarla per risolvere problemi: la scuola dovrebbe insegnare a riconoscerne le modalità operative e la forma dei testi che produce. ==Una competenza tecnologica senza trasparenza rischia di diventare semplice adattamento ai sistemi produttivi.== La questione è quindi anche politica oltre che didattica.

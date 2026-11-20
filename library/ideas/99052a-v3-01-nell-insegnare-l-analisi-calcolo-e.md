@@ -25,4 +25,4 @@ created: 2026-11-20T10:08:32.185Z
 
 # Nell'insegnare l'analisi, calcolo e teoria si completano
 
-Nel quinto anno del Liceo Scientifico si pone una scelta: puntare sul calculus, cioè sulle abilità di calcolo con limiti, derivate e integrali, oppure sull'analisi, cioè sui teoremi e sulla teoria che li sostiene. Secondo gli autori, la risposta non sta tutta da una parte: ==una formazione fatta solo di calcolo o solo di teoria resta incompleta==. Chi insegna sa bene che entrambe le tentazioni esistono e che la difficoltà sta nel trovare un equilibrio tra esercizi e comprensione dei concetti.
+Nel quinto anno del Liceo Scientifico si pone una scelta: puntare sul calculus, cioè sulle abilità di calcolo con limiti, derivate e integrali, oppure sull'analisi, cioè sui teoremi e sulla teoria che li sostiene. Secondo Guerraggio e Guidone, autori del libro, la risposta non sta tutta da una parte: ==una formazione fatta solo di calcolo o solo di teoria resta incompleta==. Chi insegna sa bene che entrambe le tentazioni esistono e che la difficoltà sta nel trovare un equilibrio tra esercizi e comprensione dei concetti.

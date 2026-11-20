@@ -25,6 +25,6 @@ model: claude-haiku-5-5
 created: 2026-11-20T10:08:32.142Z
 ---
 
-# Le strutture non si distinguono dal livello di astrazione
+# La teoria dei tipi impone un livello di astrazione
 
 Reynolds descrisse un tipo come una disciplina sintattica per imporre un livello di astrazione. Nella teoria dei tipi non si può parlare di come un oggetto è costruito, perché ciò che conta è la struttura trasportabile lungo gli isomorfismi. Nella teoria degli insiemi, invece, si possono enunciare proprietà basate sull'appartenenza, come contenere il numero 0, che non sono preservate dagli isomorfismi. L'astrazione diventa quindi un requisito formale che la teoria dei tipi impone e la teoria degli insiemi no.

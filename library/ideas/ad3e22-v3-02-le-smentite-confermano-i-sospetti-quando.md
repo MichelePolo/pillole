@@ -27,4 +27,4 @@ created: 2026-11-20T10:08:32.098Z
 
 # Le smentite confermano i sospetti quando la fiducia manca
 
-Il cambio di versione sull'incidente di Roswell, prima un disco volante poi un pallone meteorologico, ha alimentato per decenni il sospetto di un insabbiamento. Secondo l'autore, quando viene meno la fiducia nelle istituzioni, ogni smentita finisce per sembrare un depistaggio. Così ==la mancanza di fiducia rende le spiegazioni ufficiali quasi inutili==, e chi cerca una risposta si affida a spiegazioni alternative.
+Il cambio di versione sull'incidente di Roswell, prima un disco volante poi un pallone meteorologico, ha alimentato per decenni il sospetto di un insabbiamento. Secondo l'autrice, quando viene meno la fiducia nelle istituzioni, ogni smentita finisce per sembrare un depistaggio. Così ==la mancanza di fiducia rende le spiegazioni ufficiali quasi inutili==, e chi cerca una risposta si affida a spiegazioni alternative.

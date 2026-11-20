@@ -25,6 +25,6 @@ model: claude-haiku-5-5
 created: 2026-11-19T10:28:36.031Z
 ---
 
-# Il motivo del piacere ha oggetti diversi
+# I nostri desideri non mirano solo al piacere
 
-L'idea che ogni nostro desiderio abbia come unico oggetto il proprio piacere è stata messa in dubbio già da Butler e Hume. Desideriamo stima, conoscenza, il bene altrui, cibo e potere, e questi oggetti non si riducono al piacere personale. Secondo l'autore, i sostenitori dell'edonismo motivazionale possono rispondere distinguendo tra desideri di base e desideri non di base, sostenendo che questi ultimi dipendano dall'aspettativa di piacere. Tale risposta però rende la teoria difficile da verificare, e quindi fragile sul piano empirico.
+L'idea che ogni nostro desiderio abbia come unico oggetto il proprio piacere è stata messa in dubbio già da Butler e Hume. Desideriamo stima, conoscenza, il bene altrui, cibo e potere, e questi oggetti non si riducono al piacere personale. Secondo gli autori, i sostenitori dell'edonismo motivazionale possono rispondere distinguendo tra desideri di base e desideri non di base, sostenendo che questi ultimi dipendano dall'aspettativa di piacere. Tale risposta però rende la teoria difficile da verificare, e quindi fragile sul piano empirico.

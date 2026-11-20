@@ -27,4 +27,4 @@ created: 2026-11-20T10:08:32.116Z
 
 # Le patate possono nutrire gli astronauti sulla Luna
 
-Le patate sono da sempre un alimento prezioso: hanno un alto apporto calorico, un buon valore nutrizionale e un costo contenuto. Nello studio, le patate coltivate nel suolo lunare simulato hanno mantenuto i loro valori nutrizionali e non hanno mostrato un aumento significativo di glicoalcaloidi, le sostanze tossiche che possono rendere verdastri i tuberi. ==Le patate lunari sono nutrienti e sicure da mangiare.== Questo rende il raccolto una candidata concreta per l'alimentazione di future missioni di lunga durata.
+Le patate sono da sempre un alimento prezioso: hanno un alto apporto calorico, un buon valore nutrizionale e un costo contenuto. Nello studio, le patate coltivate nel suolo lunare simulato hanno mantenuto i loro valori nutrizionali e non hanno mostrato un aumento significativo di glicoalcaloidi, sostanze tossiche che si accumulano soprattutto nei tuberi inverditi dalla luce. ==Le patate lunari sono nutrienti e sicure da mangiare.== Questo rende la patata una candidata concreta per l'alimentazione di future missioni di lunga durata.

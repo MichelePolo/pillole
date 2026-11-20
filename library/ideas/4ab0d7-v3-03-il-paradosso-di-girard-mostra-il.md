@@ -27,4 +27,4 @@ created: 2026-11-20T10:08:32.141Z
 
 # Il paradosso di Girard mostra il limite dell'universo dei tipi
 
-Se si assume che il tipo di tutti i tipi sia a sua volta un tipo, cioè U : U, il sistema diventa incoerente, come mostrò Girard. Questo risultato è sorprendente perché un paradosso diretto stile Russell non è possibile con i tipi, e la contraddizione emerge in modo indiretto. Il caso mostra che la comodità di avere un universo che contiene se stesso ha un costo logico preciso. Per questo le teorie moderne introducono gerarchie di universi.
+Se si assume che il tipo di tutti i tipi sia a sua volta un tipo, cioè U : U, il sistema diventa incoerente, come mostrò Girard. Questo risultato è sorprendente perché un paradosso diretto in stile Russell non è possibile con i tipi, e la contraddizione emerge in modo indiretto. Il caso mostra che la comodità di avere un universo che contiene se stesso ha un costo logico preciso. Per questo le teorie moderne introducono gerarchie di universi.

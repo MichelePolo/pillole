@@ -27,4 +27,4 @@ created: 2026-11-20T10:08:32.095Z
 
 # Il gradiente può sostituire la ricerca a scatola nera
 
-Molti metodi trattano la ricerca di architetture come un problema a scatola nera, con apprendimento per rinforzo o evoluzione. Secondo l'autore, una delle cause dell'inefficienza è proprio questo approccio. Rendere continua la scelta tra operazioni permette di ottimizzare architettura e pesi insieme con la discesa del gradiente. Questa strada è più efficiente, ma richiede molta memoria, quindi nasce il problema del consumo di risorse. ==Rendere differenziabile la scelta dell'architettura permette di usare il gradiente.==
+Molti metodi trattano la ricerca di architetture come un problema a scatola nera, con apprendimento per rinforzo o evoluzione. Secondo l'autrice, una delle cause dell'inefficienza è proprio questo approccio. Rendere continua la scelta tra operazioni permette di ottimizzare architettura e pesi insieme con la discesa del gradiente. Questa strada è più efficiente, ma richiede molta memoria, quindi nasce il problema del consumo di risorse. ==Rendere differenziabile la scelta dell'architettura permette di usare il gradiente.==

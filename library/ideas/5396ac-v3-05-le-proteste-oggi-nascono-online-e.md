@@ -27,4 +27,4 @@ created: 2026-11-19T10:28:36.010Z
 
 # Le proteste oggi nascono online e sono più fragili
 
-Secondo l'autore, le mobilitazioni contemporanee partono dallo shock morale di immagini viste online e solo dopo si traducono in presenza fisica. Il risultato sono movimenti più orizzontali, meno organizzati, più umorali, forti per qualche mese e poi di nuovo meno presenti. Basati su un'adesione etica più che su interessi materiali condivisi, questi movimenti faticano a costruire conflitto di lunga durata e leadership. Questa è una tesi dell'autore, che la presenta come oggetto di ricerca da approfondire.
+Secondo l'autore, le mobilitazioni contemporanee partono dallo shock morale di immagini viste online e solo dopo si traducono in presenza fisica. Il risultato sono movimenti più orizzontali, meno organizzati, più umorali, forti per qualche mese e poi di nuovo meno presenti. Basati su un'adesione etica più che su interessi materiali condivisi, questi movimenti faticano a costruire conflitto di lunga durata e leadership.

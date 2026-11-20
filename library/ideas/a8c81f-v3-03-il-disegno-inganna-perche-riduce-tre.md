@@ -27,4 +27,4 @@ created: 2026-11-19T10:28:35.868Z
 
 # Il disegno inganna perché riduce tre dimensioni a due
 
-Secondo l'autore del testo, Escher non cercava semplici illusioni ottiche, ma mostrava che il disegno è ingannevole. Quando si rappresentano tre dimensioni su due, l'artista può manipolare le regole della proiezione e far vedere qualcosa di impossibile, come una macchina a moto perpetuo. ==Ogni immagine bidimensionale è una scelta che può nascondere contraddizioni dello spazio==, e Escher usava questa ambiguità come strumento espressivo.
+Secondo l'articolo, Escher non cercava semplici illusioni ottiche, ma mostrava che il disegno è ingannevole. Quando si rappresentano tre dimensioni su due, l'artista può manipolare le regole della proiezione e far vedere qualcosa di impossibile, come una macchina a moto perpetuo. ==Ogni immagine bidimensionale è una scelta che può nascondere contraddizioni dello spazio==, e Escher usava questa ambiguità come strumento espressivo.

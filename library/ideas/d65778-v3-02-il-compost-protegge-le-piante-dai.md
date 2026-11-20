@@ -25,4 +25,4 @@ created: 2026-11-20T10:08:32.115Z
 
 # Il compost protegge le piante dai metalli pesanti
 
-Secondo i ricercatori, la materia organica non serve solo come nutrimento: svolge anche una funzione protettiva. Il compost lega i metalli pesanti presenti nella regolite, impedendo che danneggino l'apparato radicale della pianta. In questo modo bilancia in parte la tossicità del suolo. Il meccanismo spiega perché un terreno arricchito possa sostenere piante che nella sola regolite non riuscirebbero a svilupparsi. ==Il compost agisce anche come scudo chimico per le radici.== È una tesi che gli autori presentano come spiegazione dei risultati osservati.
+Secondo i ricercatori, la materia organica non serve solo come nutrimento: svolge anche una funzione protettiva. Il compost lega i metalli pesanti presenti nella regolite, impedendo che danneggino l'apparato radicale della pianta. In questo modo bilancia in parte la tossicità del suolo. Il meccanismo spiega perché un terreno arricchito possa sostenere piante che nella sola regolite non riuscirebbero a svilupparsi. ==Il compost agisce anche come scudo chimico per le radici.==

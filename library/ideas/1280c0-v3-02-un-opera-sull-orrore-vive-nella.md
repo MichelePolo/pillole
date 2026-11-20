@@ -25,6 +25,6 @@ model: claude-haiku-5-5
 created: 2026-11-19T10:28:35.963Z
 ---
 
-# Un'opera sull'orrore vive nella comunità che la circonda
+# In King l'orrore nasce dentro la comunità
 
 Secondo l'autore, il talento di King sta nel mostrare come l'orrore nasca all'interno di una comunità, alimentato dalle sue pulsioni e dai suoi desideri, più che dall'isolamento di un singolo individuo. In questa lettura il male non è solo il gesto di pochi antagonisti, ma un clima collettivo in cui gli adulti, i coetanei e le istituzioni contribuiscono, anche senza volerlo, a far crescere la tragedia.

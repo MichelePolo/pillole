@@ -23,6 +23,6 @@ model: claude-haiku-5-5
 created: 2026-11-19T10:28:35.903Z
 ---
 
-# Le basi di conoscenza create con SQuAD producono risultati ingannevoli
+# SQuAD è poco adatto a valutare il recupero appreso
 
-Secondo l'autore, il dataset SQuAD deriva le sue centomila domande da soli 536 documenti. Di conseguenza i migliori target di recupero sono molto correlati tra gli esempi di addestramento, il che viola l'ipotesi di indipendenza e identicità dei dati e rende il dataset poco adatto al recupero appreso. Il limite riguarda la costruzione del dataset e va considerato quando si valutano i sistemi end-to-end.
+Secondo l'autrice, il dataset SQuAD deriva le sue centomila domande da soli 536 documenti. Di conseguenza i migliori target di recupero sono molto correlati tra gli esempi di addestramento, il che viola l'ipotesi di indipendenza e identica distribuzione dei dati e rende il dataset poco adatto al recupero appreso. Il limite riguarda la costruzione del dataset e va considerato quando si valutano i sistemi end-to-end.

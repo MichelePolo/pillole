@@ -17,7 +17,7 @@ anchor: The “open-domain” part refers to the lack of the relevant context fo
 anchor_check: exact
 quiz:
   q: Che cosa distingue il question answering open-domain dalla comprensione di un testo (reading comprehension)?
-  a: Nel open-domain al modello non viene fornito il contesto che contiene la risposta, mentre nella reading comprehension il contesto è dato insieme alla domanda.
+  a: Nell'open-domain al modello non viene fornito il contesto che contiene la risposta, mentre nella reading comprehension il contesto è dato insieme alla domanda.
 warnings:
   - titolo di 11 parole (avviso oltre 10)
 prompt_version: v3

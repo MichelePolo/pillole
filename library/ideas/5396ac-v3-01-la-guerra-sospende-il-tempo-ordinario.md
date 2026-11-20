@@ -27,4 +27,4 @@ created: 2026-11-19T10:28:36.007Z
 
 # La guerra sospende il tempo ordinario e restringe il dissenso
 
-Secondo l'autore, i momenti di eccezione come pandemie e guerre sono periodi in cui il tempo ordinario viene sospeso. In questi momenti lo spazio dell'arbitrio del potere tende ad allargarsi, mentre quello riservato al dissenso e al conflitto sociale, che è parte costitutiva delle democrazie moderne, si restringe. ==La guerra è dunque il contrario del conflitto==, perché chiude gli spazi in cui il conflitto potrebbe esprimersi. L'idea vale come chiave di lettura dei decreti sicurezza degli ultimi anni.
+Secondo l'autore, i momenti di eccezione come pandemie e guerre sono periodi in cui il tempo ordinario viene sospeso. In questi momenti lo spazio dell'arbitrio del potere tende ad allargarsi, mentre quello riservato al dissenso e al conflitto sociale, che è parte costitutiva delle democrazie moderne, si restringe. ==La guerra è dunque il contrario del conflitto==, perché chiude gli spazi in cui il conflitto potrebbe esprimersi. Per l'autore, questa dinamica aiuta a leggere i decreti sicurezza degli ultimi anni.

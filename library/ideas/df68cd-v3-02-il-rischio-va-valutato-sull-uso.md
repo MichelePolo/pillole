@@ -27,4 +27,4 @@ created: 2026-11-20T10:08:32.170Z
 
 # Il rischio va valutato sull'uso reale, non ideale
 
-Un fabbricante non può fondare la propria analisi su un comportamento ideale dell'utilizzatore che l'offerta commerciale non garantisce. Vanno considerati l'uso ragionevolmente prevedibile, come il collegamento alla rete di stabilimento o la manutenzione con un portatile, e le condizioni d'impiego effettive. Secondo l'autore, dichiarare un divieto nel fascicolo non basta se il percorso di installazione conduce facilmente all'uso escluso: ==la coerenza tra progetto e impieghi prevedibili== va riesaminata.
+Un fabbricante non può fondare la propria analisi su un comportamento ideale dell'utilizzatore che l'offerta commerciale non garantisce. Vanno considerati l'uso ragionevolmente prevedibile, come il collegamento alla rete di stabilimento o la manutenzione con un portatile, e le condizioni d'impiego effettive. Secondo gli autori, dichiarare un divieto nel fascicolo non basta se il percorso di installazione conduce facilmente all'uso escluso: ==la coerenza tra progetto e impieghi prevedibili== va riesaminata.

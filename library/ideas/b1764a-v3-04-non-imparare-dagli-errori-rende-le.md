@@ -12,6 +12,7 @@ source:
   id: b1764a071d6d
   lang: en
   title: Futurist prediction methods and accuracy
+  author: Dan Luu
   site: danluu.com
   url: https://danluu.com/futurist-predictions/
 anchor: Good predictors tend to be serious at looking at failed past predictions and trying to calibrate

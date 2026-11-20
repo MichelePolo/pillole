@@ -27,4 +27,4 @@ created: 2026-11-20T10:08:32.171Z
 
 # Il rischio residuo va dichiarato, non nascosto
 
-Una colonna unica «rischio finale» tende a nascondere quali riduzioni di rischio dipendano da attività ancora da eseguire. Separare la valutazione iniziale, quella con le soluzioni progettate e quella basata sulle prove permette di vedere lo stato reale. Un rischio accettato, inoltre, non autorizza a derogare a un requisito applicabile: secondo l'autore, la firma di un dirigente sotto «rischio accettato» non rende compatibile una caratteristica che contrasta con il requisito.
+Una colonna unica «rischio finale» tende a nascondere quali riduzioni di rischio dipendano da attività ancora da eseguire. Separare la valutazione iniziale, quella con le soluzioni progettate e quella basata sulle prove permette di vedere lo stato reale. Un rischio accettato, inoltre, non autorizza a derogare a un requisito applicabile: secondo gli autori, la firma di un dirigente sotto «rischio accettato» non rende compatibile una caratteristica che contrasta con il requisito.

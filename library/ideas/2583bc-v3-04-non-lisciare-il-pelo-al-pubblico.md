@@ -26,4 +26,4 @@ created: 2026-11-20T10:08:32.152Z
 
 # Non lisciare il pelo al pubblico
 
-Secondo l'autore, anche nelle produzioni più popolari bisogna avere il coraggio di fare scelte che non addolciscano la realtà. Le premesse narrative vanno portate fino in fondo, senza ricorrere a effetti spettacolari per compiacere lo spettatore. Miyazaki critica Osamu Tezuka proprio per aver edulcorato guerra e fascismo. ==Un racconto popolare resta onesto solo se non teme di disturbare chi guarda==.
+Secondo Miyazaki, anche nelle produzioni più popolari bisogna avere il coraggio di fare scelte che non addolciscano la realtà. Le premesse narrative vanno portate fino in fondo, senza ricorrere a effetti spettacolari per compiacere lo spettatore. Miyazaki critica Osamu Tezuka proprio per aver edulcorato guerra e fascismo. ==Un racconto popolare resta onesto solo se non teme di disturbare chi guarda==.

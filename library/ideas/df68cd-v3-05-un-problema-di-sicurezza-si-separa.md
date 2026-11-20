@@ -24,6 +24,6 @@ model: claude-haiku-5-5
 created: 2026-11-20T10:08:32.171Z
 ---
 
-# Un problema di sicurezza si separa dalla fiducia
+# Cifrare il canale non basta ad autorizzare un comando
 
-Un'interpretazione diffusa è che basti un'autorizzazione a rendere sicuro un comando, ma la fonte distingue più controlli. Proteggere il trasporto con una connessione cifrata non verifica che chi invia il comando abbia il permesso necessario. Allo stesso modo, una password robusta ostacola l'accesso iniziale ma non limita il potere di chi ha già ottenuto l'identità. Secondo l'autore, ogni controllo va descritto con il componente che lo esegue e la reazione al suo mancato rispetto.
+Un'interpretazione diffusa è che basti un solo controllo a rendere sicuro un comando, ma gli autori ne distinguono diversi. Proteggere il trasporto con una connessione cifrata non verifica che chi invia il comando abbia il permesso necessario. Allo stesso modo, una password robusta ostacola l'accesso iniziale ma non limita il potere di chi ha già ottenuto l'identità. Secondo gli autori, ogni controllo va descritto con il componente che lo esegue e la reazione al suo mancato rispetto.

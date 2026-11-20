@@ -25,4 +25,4 @@ created: 2026-11-19T10:28:35.902Z
 
 # I modelli linguistici grandi memorizzano conoscenza nei propri parametri
 
-Un modello linguistico pre-addestrato su grandi quantità di testo può memorizzare fatti nei pesi della rete, e quindi rispondere a domande senza accedere a fonti esterne. Questo approccio closed-book è semplice, ma l'autore osserva che questi modelli non possono modificare facilmente la propria memoria, non spiegano bene le proprie previsioni e possono produrre affermazioni inesistenti. Per questi motivi si affiancano spesso recupero di documenti e generazione.
+Un modello linguistico pre-addestrato su grandi quantità di testo può memorizzare fatti nei pesi della rete, e quindi rispondere a domande senza accedere a fonti esterne. Questo approccio closed-book è semplice, ma l'autrice osserva che questi modelli non possono modificare facilmente la propria memoria, non spiegano bene le proprie previsioni e possono produrre affermazioni inesistenti. Per questi motivi si affiancano spesso recupero di documenti e generazione.

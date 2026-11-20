@@ -23,6 +23,6 @@ model: claude-haiku-5-5
 created: 2026-11-19T10:28:35.802Z
 ---
 
-# Buchi neri plasmano la galassia che li ospita
+# I buchi neri plasmano la galassia che li ospita
 
-Il cosiddetto Agn feedback descrive il modo in cui i buchi neri supermassicci influenzano la galassia che li ospita. Quando un buco nero attraversa una fase di attività estrema, parte della materia viene espulsa sotto forma di venti potenti, e l'energia prodotta nelle sue vicinanze può propagarsi nell'ambiente circostante. ==Il buco nero, quindi, non è un semplice ospite passivo al centro della galassia.== Secondo gli autori, questo processo incide sulla nascita di nuove stelle e sull'evoluzione complessiva della galassia, anche se i suoi effetti possono manifestarsi su tempi molto lunghi, dell'ordine di milioni di anni.
+Il cosiddetto Agn feedback descrive il modo in cui i buchi neri supermassicci influenzano la galassia che li ospita. Quando un buco nero attraversa una fase di attività estrema, parte della materia viene espulsa sotto forma di venti potenti, e l'energia prodotta nelle sue vicinanze può propagarsi nell'ambiente circostante. ==Il buco nero, quindi, non è un semplice ospite passivo al centro della galassia.== Secondo i ricercatori, questo processo incide sulla nascita di nuove stelle e sull'evoluzione complessiva della galassia, anche se i suoi effetti possono manifestarsi su tempi molto lunghi, dell'ordine di milioni di anni.

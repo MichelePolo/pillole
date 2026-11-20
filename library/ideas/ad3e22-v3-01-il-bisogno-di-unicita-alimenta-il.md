@@ -26,4 +26,4 @@ created: 2026-11-20T10:08:32.098Z
 
 # Il bisogno di unicità alimenta il pensiero cospirazionista
 
-Secondo uno studio pubblicato sull'European Journal of Social Psychology, il bisogno di sentirsi unici è associato, in modo modesto ma solido, alla mentalità cospirazionista. In uno degli esperimenti, una teoria inventata otteneva più consenso quando veniva presentata come condivisa solo da una minoranza. Secondo l'autore, ==la smentita di una credenza speciale viene vissuta come un attacco personale==, e questo rende più difficile abbandonare l'idea.
+Secondo uno studio pubblicato sull'European Journal of Social Psychology, il bisogno di sentirsi unici è associato, in modo modesto ma solido, alla mentalità cospirazionista. In uno degli esperimenti, una teoria inventata otteneva più consenso quando veniva presentata come condivisa solo da una minoranza. Secondo l'autrice, ==la smentita di una credenza speciale viene vissuta come un attacco personale==, e questo rende più difficile abbandonare l'idea.

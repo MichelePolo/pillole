@@ -25,4 +25,4 @@ created: 2026-11-20T10:08:32.122Z
 
 # La velocità d'impatto spiega la picchiata degli uccelli
 
-Secondo gli autori, gli uccelli scendono in picchiata soprattutto per ridurre la velocità con cui toccano il posatoio. Il calcolo migliore per i dati dei falchi di Harris combina due obiettivi: minimizzare il tempo in stallo e minimizzare la velocità d'impatto. ==La velocità all'atterraggio è il fattore che produce la picchiata==, mentre limitare il tempo in stallo da solo porterebbe ad arrivi rapidi e dannosi senza alcuna picchiata.
+Secondo gli autori, gli uccelli scendono in picchiata soprattutto per ridurre la velocità con cui toccano il posatoio. Il modello che descrive meglio i dati dei falchi di Harris combina due obiettivi: minimizzare il tempo in stallo e minimizzare la velocità d'impatto. ==La velocità all'atterraggio è il fattore che produce la picchiata==, mentre limitare il tempo in stallo da solo porterebbe ad arrivi rapidi e dannosi senza alcuna picchiata.

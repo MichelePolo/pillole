@@ -27,4 +27,4 @@ created: 2026-11-20T10:08:32.103Z
 
 # La critica autentica legge le contraddizioni della cultura
 
-Secondo Claudia Brodsky, il compito migliore del critico non è difendere la cultura come patrimonio intoccabile, ma leggere le contraddizioni presenti in ogni opera. ==Una cultura che merita questo nome deve essere critica==, cioè capace di mettere in discussione se stessa. Brodsky riprende questa idea dalla Scuola di Francoforte e la vede incarnata in Toni Morrison, che davanti alla notizia di una madre che uccide il figlio non si limitava a condannarla come inconcepibile, ma cercava di capire come una simile cosa potesse essere pensata.
+Secondo Claudia Brodsky, il compito migliore del critico non è difendere la cultura come patrimonio intoccabile, ma leggere le contraddizioni presenti in ogni opera. ==Una cultura che merita questo nome deve essere critica==, cioè capace di mettere in discussione se stessa. Brodsky riprende questa idea dalla Scuola di Francoforte e la vede incarnata in Toni Morrison, che davanti a un terribile fatto di cronaca non si limitava a condannarlo come inconcepibile, ma cercava di capire come potesse essere pensato.

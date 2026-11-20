@@ -25,4 +25,4 @@ created: 2026-11-20T10:08:32.121Z
 
 # Il volo controllato richiede velocità d'aria
 
-Un'ala produce portanza e controllo solo quando l'aria scorre sopra di essa. Un uccello che rallenta perde quindi anche la capacità di sterzare. Per questo la velocità non serve solo a sostenersi in aria, ma è anche la base del controllo. ==Senza velocità dell'aria non c'è autorità di controllo==, e questo vincolo vale allo stesso modo per gli uccelli e per gli aerei.
+Un'ala produce portanza e controllo solo quando l'aria scorre sopra di essa. Un uccello che rallenta perde quindi anche la capacità di sterzare. Per questo la velocità non serve solo a sostenersi in aria, ma è anche la base del controllo. ==Senza flusso d'aria sulle ali non c'è controllo==, e questo vincolo vale allo stesso modo per gli uccelli e per gli aerei.

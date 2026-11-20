@@ -12,6 +12,7 @@ source:
   id: b1764a071d6d
   lang: en
   title: Futurist prediction methods and accuracy
+  author: Dan Luu
   site: danluu.com
   url: https://danluu.com/futurist-predictions/
 anchor: assumes that the solution is a panacea that is basically unboundedly great and can solve all problems
@@ -24,6 +25,6 @@ model: claude-haiku-5-5
 created: 2026-11-20T10:08:32.055Z
 ---
 
-# Il panacea thinking ignora i limiti reali
+# Il pensiero della panacea ignora i limiti reali
 
 Molti previsori immaginano una tecnologia capace di risolvere qualsiasi problema, come se l'abbondanza di calcolo eliminasse la scarsità di risorse e le difficoltà umane. In realtà molti problemi non dipendono da carenze di calcolo, e un computer più potente non li risolve automaticamente. Questo errore nasce spesso dal vedere solo i vantaggi di una tecnologia e non i costi, le fragilità o gli effetti collaterali. Una previsione credibile deve chiedersi quali problemi reali resteranno irrisolti.
