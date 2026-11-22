@@ -12,6 +12,7 @@ source:
   id: da9814d5561c
   lang: en
   title: In defense of simple architectures
+  author: Dan Luu
   site: danluu.com
   url: https://danluu.com/simple-architectures/
 anchor: we can spend our complexity (and headcount) budget in places where

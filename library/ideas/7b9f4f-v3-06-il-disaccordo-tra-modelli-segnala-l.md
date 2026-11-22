@@ -27,4 +27,4 @@ created: 2026-11-21T09:56:47.931Z
 
 # Il disaccordo tra modelli segnala l'incertezza
 
-Quando più modelli predittivi indipendenti danno risposte diverse, il disaccordo tra loro è un segnale di bassa confidenza e suggerisce di esplorare di più. Usare la varianza di un insieme di modelli come bonus è un'idea semplice e robusta. ==L'incertezza collettiva diventa così una guida diretta all'esplorazione.== Questo approccio riflette l'idea più generale che l'ignoranza condivisa sia un buon motivo per indagare.
+Quando più modelli predittivi indipendenti danno risposte diverse, il disaccordo tra loro è un segnale di bassa confidenza e suggerisce di esplorare di più. Usare la varianza di un insieme di modelli come bonus è un'idea semplice e robusta. ==L'incertezza collettiva diventa così una guida diretta all'esplorazione.== Questo approccio riflette l'idea più generale che il disaccordo tra fonti indipendenti sia un buon motivo per indagare.

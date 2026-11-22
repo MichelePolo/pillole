@@ -26,4 +26,4 @@ created: 2026-11-21T09:56:47.930Z
 
 # Prevedere l'ambiente rivela ciò che non si conosce
 
-Se un modello prevede le conseguenze delle proprie azioni, l'errore di previsione indica quanto lo stato sia familiare: più l'errore è alto, meno l'agente conosce quella situazione. Quando l'errore cala rapidamente, l'agente sta imparando e può essere premiato per questo progresso. Secondo gli autori, la previsione va fatta in uno spazio di caratteristiche che escluda ciò che l'agente non può controllare, così da non premiare il rumore.
+Se un modello prevede le conseguenze delle proprie azioni, l'errore di previsione indica quanto lo stato sia familiare: più l'errore è alto, meno l'agente conosce quella situazione. Quando l'errore cala rapidamente, l'agente sta imparando e può essere premiato per questo progresso. Secondo Deepak Pathak e colleghi, ideatori del modulo di curiosità ICM, la previsione va fatta in uno spazio di caratteristiche che escluda ciò che l'agente non può controllare, così da non premiare il rumore.

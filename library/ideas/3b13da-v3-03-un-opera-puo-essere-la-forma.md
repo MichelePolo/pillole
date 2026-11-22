@@ -27,4 +27,4 @@ created: 2026-11-21T09:56:48.002Z
 
 # Un'opera può essere la forma stessa del suo soggetto
 
-Nel racconto di Poe, la casa degli Usher è descritta come un sogno dopo l'oppio, un passaggio brusco alla vita quotidiana. Il film non racconta la storia, ma prova a far sentire quella stessa condizione di sogno spezzato. L'autrice sottolinea che il film, come la casa, è costruito per trasmettere una sensazione più che un racconto. Il collegamento tra soggetto e forma è quindi diventato il principio di lavoro dell'adattamento.
+Nel racconto di Poe, la casa degli Usher suscita la sensazione amara del risveglio da un sogno, un passaggio brusco alla vita quotidiana. Il film non racconta la storia, ma prova a far sentire quella stessa condizione di sogno spezzato. L'autrice sottolinea che il film, come la casa, è costruito per trasmettere una sensazione più che un racconto. Il collegamento tra soggetto e forma è quindi diventato il principio di lavoro dell'adattamento.

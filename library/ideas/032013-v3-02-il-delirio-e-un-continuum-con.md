@@ -19,7 +19,7 @@ anchor: Although delusions can be irrational to a higher degree than normal beli
 anchor_check: exact
 quiz:
   q: In che senso i deliri differiscono dalle credenze irrazionali comuni, secondo la fonte?
-  a: Sono più irrazionali in misura maggiore, ma non in modo qualitativamente diverso.
+  a: Sono irrazionali in misura maggiore, ma non in modo qualitativamente diverso.
 prompt_version: v3
 model: claude-haiku-5-5
 created: 2026-11-21T09:56:48.058Z

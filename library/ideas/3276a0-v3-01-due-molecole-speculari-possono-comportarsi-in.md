@@ -27,4 +27,4 @@ created: 2026-11-21T09:56:47.956Z
 
 # Due molecole speculari possono comportarsi in modo diverso
 
-Alcune molecole hanno gli stessi atomi e la stessa formula ma esistono in due forme una l'immagine speculare dell'altra, non sovrapponibili. Queste forme, dette enantiomeri, possono avere proprietà molto diverse. La differenza non è quindi un dettaglio geometrico: ==la disposizione spaziale degli atomi determina il comportamento della molecola==, e questo conta per la vita e per il funzionamento delle molecole che ne fanno parte.
+Alcune molecole hanno gli stessi atomi e la stessa formula ma esistono in due forme, l'una immagine speculare dell'altra e non sovrapponibili. Queste forme, dette enantiomeri, possono avere proprietà molto diverse. La differenza non è quindi un dettaglio geometrico: ==la disposizione spaziale degli atomi determina il comportamento della molecola==, e questo conta per la vita e per il funzionamento delle molecole che ne fanno parte.

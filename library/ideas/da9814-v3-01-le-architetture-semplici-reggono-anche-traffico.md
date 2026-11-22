@@ -10,6 +10,7 @@ source:
   id: da9814d5561c
   lang: en
   title: In defense of simple architectures
+  author: Dan Luu
   site: danluu.com
   url: https://danluu.com/simple-architectures/
 anchor: computers are fast enough that high-traffic apps can be served with simple architectures

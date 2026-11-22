@@ -27,4 +27,4 @@ created: 2026-11-21T09:56:48.060Z
 
 # Il delirio è una questione ancora aperta
 
-Non c'è accordo tra i filosofi su se i deliri siano credenze in senso pieno. Alcuni li vedono come credenze irrazionali, altri come immaginazioni scambiate per credenze, altri ancora come stati esperienziali o affettivi. Chi nega lo status di credenza spesso usa criteri idealizzati, come la piena razionalità, che nemmeno molte credenze normali soddisfano. L'autrice conclude che è utile mantenere la distinzione tra sintomi clinici e irrazionalità quotidiana, ma riconoscendo le aree di sovrapposizione.
+Non c'è accordo tra i filosofi sul fatto che i deliri siano credenze in senso pieno. Alcuni li vedono come credenze irrazionali, altri come immaginazioni scambiate per credenze, altri ancora come stati esperienziali o affettivi. Chi nega lo status di credenza spesso usa criteri idealizzati, come la piena razionalità, che nemmeno molte credenze normali soddisfano. L'autrice conclude che è utile mantenere la distinzione tra sintomi clinici e irrazionalità quotidiana, ma riconoscendo le aree di sovrapposizione.

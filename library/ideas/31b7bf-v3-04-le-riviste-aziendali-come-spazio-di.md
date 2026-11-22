@@ -27,4 +27,4 @@ created: 2026-11-21T09:56:47.954Z
 
 # Le riviste aziendali come spazio di dialogo culturale
 
-Il Gatto Selvatico, house organ di Eni curato da Sinisgalli, non era un semplice strumento promozionale. Ospitava scienziati, ingegneri, poeti e narratori, con l'obiettivo di superare l'incomunicabilità tra umanisti e mondo tecnologico. Secondo lo studioso citato dall'autore, questi periodici tentavano una vera osmosi tra mondi fino ad allora separati. L'idea che un'azienda possa costruire ponti tra cultura scientifica e umanistica è ancora un modello utile per la comunicazione culturale.
+Il Gatto Selvatico, house organ di Eni diretto dal poeta Attilio Bertolucci, non era un semplice strumento promozionale. Ospitava scienziati, ingegneri, poeti e narratori, con l'obiettivo di superare l'incomunicabilità tra umanisti e mondo tecnologico. Secondo lo studioso citato dall'autrice, questi periodici tentavano una vera osmosi tra mondi fino ad allora separati. L'idea che un'azienda possa costruire ponti tra cultura scientifica e umanistica è ancora un modello utile per la comunicazione culturale.

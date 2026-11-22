@@ -27,4 +27,4 @@ created: 2026-11-21T09:56:47.966Z
 
 # Il folklore selkie parla di perdita e legami difficili
 
-Il saggio legge la leggenda della donna-foca come una storia di famiglia disfunzionale, nata da furto, violenza e lutto. Secondo l'autore, la forza del racconto sta nel mostrare che si può amare qualcuno che ci ferisce e che a volte la scelta più sana è interrompere la relazione. Non è una favola consolatoria: è un modello per attraversare rapporti che non possono essere riparati, dove l'assenza resta al centro e il dolore convive con l'affetto.
+Il saggio legge la leggenda della donna-foca come una storia di famiglia disfunzionale, nata da un furto e da una perdita. Secondo l'autore, la forza del racconto sta nel mostrare che si può amare qualcuno che ci ferisce e che a volte la scelta più sana è interrompere la relazione. Non è una favola consolatoria: è un modello per attraversare rapporti che non possono essere riparati, dove l'assenza resta al centro e il dolore convive con l'affetto.

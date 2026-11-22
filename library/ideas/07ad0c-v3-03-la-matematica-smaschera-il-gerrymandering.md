@@ -27,4 +27,4 @@ created: 2026-11-21T09:56:47.944Z
 
 # La matematica smaschera il gerrymandering
 
-Il gerrymandering è la ridefinizione dei collegi elettorali fatta per ottenere il maggior vantaggio possibile per una parte politica. Secondo l'autore, la matematica può essere usata per individuare sistemi che limitano la rappresentanza in Parlamento. Il libro riporta sentenze reali in cui strumenti matematici sono stati portati in tribunale per frenare questa pratica. ==Con i numeri si può dimostrare quando un collegio è stato disegnato a tavolino.==
+Il gerrymandering è la ridefinizione dei collegi elettorali fatta per ottenere il maggior vantaggio possibile per una parte politica. Secondo Volić, la matematica può essere usata per individuare sistemi che limitano la rappresentanza in Parlamento. Il libro riporta sentenze reali in cui strumenti matematici sono stati portati in tribunale per frenare questa pratica. ==Con i numeri si può dimostrare quando un collegio è stato disegnato a tavolino.==

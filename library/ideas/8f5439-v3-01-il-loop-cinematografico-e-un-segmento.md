@@ -25,4 +25,4 @@ created: 2026-11-21T09:56:47.934Z
 
 # Il loop cinematografico è un segmento di pellicola ad anello
 
-Nel linguaggio del cinema, un loop è un segmento di pellicola chiuso ad anello: si uniscono le due estremità e la sequenza può essere proiettata di seguito senza fine. Quando arriva all'ultimo fotogramma, ricomincia subito dal primo. Il termine non nasce dalla fantascienza ma dalla tecnica di proiezione, e per questo il titolo richiama una struttura formale prima ancora che una teoria sul tempo. ==Il loop è anzitutto una forma di montaggio==, che rende visibile la ripetizione.
+Nel linguaggio del cinema, un loop è un segmento di pellicola chiuso ad anello: si uniscono le due estremità e la sequenza può essere proiettata di seguito senza fine. Quando arriva all'ultimo fotogramma, ricomincia subito dal primo. Il termine non nasce dalla fantascienza ma dalla tecnica di proiezione, e per questo il titolo del film di Masaya Tsutsumi, Jimoto Loop, richiama una struttura formale prima ancora che una teoria sul tempo. ==Il loop è anzitutto una forma di montaggio==, che rende visibile la ripetizione.

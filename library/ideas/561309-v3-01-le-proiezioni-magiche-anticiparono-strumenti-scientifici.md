@@ -27,4 +27,4 @@ created: 2026-11-21T09:56:47.985Z
 
 # Le proiezioni magiche anticiparono strumenti scientifici di misura
 
-Nell'Ottocento le lanterne magiche, nate come spettacolo, offrirono un'idea che la scienza poteva usare. Lo strumento di Zöllner sfruttava lo stesso trucco di creare fantasmi luminosi sullo schermo per confrontare la luminosità di stelle vere con una stella artificiale. Il piacere della illusione visiva diventava così un mezzo per misurare il cielo, con una precisione che l'occhio nudo non garantiva.
+Nell'Ottocento le lanterne magiche, nate come spettacolo, offrirono un'idea che la scienza poteva usare. Lo strumento di Zöllner sfruttava lo stesso trucco di creare fantasmi luminosi sullo schermo per confrontare la luminosità di stelle vere con una stella artificiale. Il piacere dell'illusione visiva diventava così un mezzo per misurare il cielo, con una precisione che l'occhio nudo non garantiva.

@@ -27,4 +27,4 @@ created: 2026-11-21T09:56:48.094Z
 
 # Una decisione può nascere da iniziative discrete
 
-Secondo l'autrice, la scelta di giocare in Cile non fu soltanto il risultato del dibattito pubblico o dei partiti. Un diplomatico che aveva ospitato attivisti nell'ambasciata di Santiago avrebbe fatto notare che un boicottaggio avrebbe offerto a Pinochet uno strumento di propaganda e un'occasione per aumentare la repressione. Le svolte politiche possono quindi dipendere da esperienze dirette e da iniziative poco visibili, più che dalle dichiarazioni pubbliche.
+Secondo l'autore, la scelta di giocare in Cile non fu soltanto il risultato del dibattito pubblico o dei partiti. Riprendendo un'ipotesi di Eliana Di Caro, autrice del libro recensito, il diplomatico Tommaso de Vergottini, che aveva ospitato attivisti nell'ambasciata italiana di Santiago, avrebbe fatto notare che un boicottaggio avrebbe offerto a Pinochet uno strumento di propaganda e un'occasione per aumentare la repressione. Le svolte politiche possono quindi dipendere da esperienze dirette e da iniziative poco visibili, più che dalle dichiarazioni pubbliche.

@@ -25,6 +25,6 @@ model: claude-haiku-5-5
 created: 2026-11-21T09:56:48.113Z
 ---
 
-# Il sovrasviluppo di imitazione è una caratteristica utile
+# La sovraimitazione può essere una caratteristica utile
 
-Gli esseri umani tendono a copiare tutti i passaggi di un'azione, anche quelli inutili rispetto allo scopo: è il fenomeno chiamato over-imitation. Si può considerare un errore di una capacità generalmente adattiva, oppure la chiave della capacità umana di sostenere la cultura cumulativa. Un'ipotesi influente sostiene la seconda lettura: l'over-imitation favorisce la trasmissione di tradizioni così complesse che i loro benefici restano causalmente opachi a chi le usa. ==Si tratta di una tesi discussa, non di un fatto acquisito.==
+Gli esseri umani tendono a copiare tutti i passaggi di un'azione, anche quelli inutili rispetto allo scopo: è il fenomeno chiamato over-imitation. Si può considerare un errore di una capacità generalmente adattiva, oppure la chiave della capacità umana di sostenere la cultura cumulativa. Un'ipotesi influente, ancora discussa, sostiene la seconda lettura: ==l'over-imitation favorisce la trasmissione di tradizioni così complesse che i loro benefici restano causalmente opachi a chi le usa.==

@@ -12,6 +12,7 @@ source:
   id: da9814d5561c
   lang: en
   title: In defense of simple architectures
+  author: Dan Luu
   site: danluu.com
   url: https://danluu.com/simple-architectures/
 anchor: The cost of our engineering team completely dominates the cost of the systems we operate

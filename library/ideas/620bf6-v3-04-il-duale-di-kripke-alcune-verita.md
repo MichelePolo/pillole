@@ -25,4 +25,4 @@ created: 2026-11-21T09:56:47.998Z
 
 # Il duale di Kripke: alcune verità a priori sono contingenti
 
-Kripke osserva anche il caso inverso: una verità può essere a priori senza essere necessaria. Se si introduce il termine «Julius» come nome rigido per l'inventore della cerniera lampo, si può sapere a priori che Julius ha inventato la cerniera; ma non è una verità necessaria, perché avrebbe potuto fare il venditore invece dell'inventore. Secondo l'autore, la sorpresa iniziale per questa divergenza si attenua riflettendo sulla natura diversa dei due concetti.
+Kripke osserva anche il caso inverso: una verità può essere a priori senza essere necessaria. Con un esempio di Gareth Evans: se si introduce il termine «Julius» come nome rigido per l'inventore della cerniera lampo, si può sapere a priori che Julius ha inventato la cerniera; ma non è una verità necessaria, perché avrebbe potuto fare il venditore invece dell'inventore. Secondo l'autore, la sorpresa iniziale per questa divergenza si attenua riflettendo sulla natura diversa dei due concetti.

@@ -11,6 +11,7 @@ source:
   id: da9814d5561c
   lang: en
   title: In defense of simple architectures
+  author: Dan Luu
   site: danluu.com
   url: https://danluu.com/simple-architectures/
 anchor: A mistake we made in the first few months of operation that has some cost today was not carefully delimiting the boundaries of database transactions

@@ -25,4 +25,4 @@ created: 2026-11-21T09:56:47.943Z
 
 # Il ballottaggio istantaneo riduce le distorsioni
 
-Tra le alternative alla maggioranza semplice il libro presenta il ballottaggio istantaneo. Pur apparendo intricato, questo schema permette di superare alcune delle storture della maggioranza semplice. Secondo l'autore, anch'esso presenta criticità, ma più limitate e meno frequenti. Il valore di questo metodo sta nel confronto tra sistemi diversi, più che nella perfezione di una sola soluzione. ==Un meccanismo complesso può essere più equo di uno semplice.==
+Tra le alternative alla maggioranza semplice il libro presenta il ballottaggio istantaneo. Pur apparendo intricato, questo schema permette di superare alcune delle storture della maggioranza semplice. Secondo Volić, anch'esso presenta criticità, ma più limitate e meno frequenti. Nessun sistema è perfetto: conta confrontare i metodi per scegliere quello con i difetti più rari. ==Un meccanismo complesso può essere più equo di uno semplice.==
