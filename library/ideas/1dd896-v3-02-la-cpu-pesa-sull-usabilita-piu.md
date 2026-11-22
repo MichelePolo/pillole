@@ -10,6 +10,7 @@ source:
   id: 1dd89693deba
   lang: en
   title: How web bloat impacts users with slow devices
+  author: Dan Luu
   site: danluu.com
   url: https://danluu.com/slow-device/
 anchor: it's hard to cheat on CPU time and make optimizations that significantly move the number without impacting user experience

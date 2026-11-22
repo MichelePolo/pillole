@@ -12,6 +12,7 @@ source:
   id: 3822c7401f02
   lang: en
   title: The benchmarkpocalypse
+  author: Dan Luu
   site: danluu.com
   url: https://danluu.com/benchpocalypse/
 anchor: it's also become easier than ever to reward hack a benchmark and make fake performance gains

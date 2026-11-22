@@ -12,6 +12,7 @@ source:
   id: 391bba215af0
   lang: en
   title: How does programming language affect token efficiency and correctness?
+  author: Dan Luu
   site: danluu.com
   url: https://danluu.com/pl-tokens/
 anchor: doing this results in brittle code that fails in the real world

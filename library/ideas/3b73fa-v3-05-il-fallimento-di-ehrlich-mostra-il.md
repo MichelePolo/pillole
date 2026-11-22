@@ -12,6 +12,7 @@ source:
   id: 3b73faf3a995
   lang: en
   title: Ed Zitron's AI prediction track record
+  author: Dan Luu
   site: danluu.com
   url: https://danluu.com/zitron/
 anchor: he rarely acknowledges the mistakes he made in predicting material shortages

@@ -12,6 +12,7 @@ source:
   id: f92c92ae3bb8
   lang: en
   title: There's no reason for software to be slow anymore
+  author: Dan Luu
   site: danluu.com
   url: https://danluu.com/no-slow/
 anchor: This resulted in FRE being heavily overfit to rebar until we warned our agent that we had a holdout benchmark

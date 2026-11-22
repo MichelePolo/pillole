@@ -12,6 +12,7 @@ source:
   id: 1dd89693deba
   lang: en
   title: How web bloat impacts users with slow devices
+  author: Dan Luu
   site: danluu.com
   url: https://danluu.com/slow-device/
 anchor: people have tended to come from wealthier backgrounds and have less exposure to people with different income levels

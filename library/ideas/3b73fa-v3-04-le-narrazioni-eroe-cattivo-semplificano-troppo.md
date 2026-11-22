@@ -12,6 +12,7 @@ source:
   id: 3b73faf3a995
   lang: en
   title: Ed Zitron's AI prediction track record
+  author: Dan Luu
   site: danluu.com
   url: https://danluu.com/zitron/
 anchor: things get oversimplified into a hero-villain narrative and that almost all of the nuance is stripped out of the situation

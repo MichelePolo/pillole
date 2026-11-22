@@ -11,6 +11,7 @@ source:
   id: ad7245be141a
   lang: en
   title: Why it's impossible to agree on what's allowed
+  author: Dan Luu
   site: danluu.com
   url: https://danluu.com/impossible-agree/
 anchor: The fundamental problem is that users on different servers want different things to be allowed

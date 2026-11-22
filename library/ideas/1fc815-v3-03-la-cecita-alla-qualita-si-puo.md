@@ -12,6 +12,7 @@ source:
   id: 1fc8156d3a11
   lang: en
   title: Bug blindness
+  author: Dan Luu
   site: danluu.com
   url: https://danluu.com/bug-blind/
 anchor: just pointing out issues they didn't notice seems to work

@@ -10,6 +10,7 @@ source:
   id: 1dd89693deba
   lang: en
   title: How web bloat impacts users with slow devices
+  author: Dan Luu
   site: danluu.com
   url: https://danluu.com/slow-device/
 anchor: but that's not the case for pages tested, which are slower to load initially, slower on subsequent loads, and slower after they've loaded

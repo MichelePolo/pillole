@@ -12,6 +12,7 @@ source:
   id: bb44adf34f21
   lang: en
   title: Agentic test processes, LLM benchmarks, and other notes on agentic coding from Galapagos Island
+  author: Dan Luu
   site: danluu.com
   url: https://danluu.com/ai-coding/
 anchor: fuzzing generally wins on latency to find a bug, and it dominates on finding more bugs and having a lower false positive rate

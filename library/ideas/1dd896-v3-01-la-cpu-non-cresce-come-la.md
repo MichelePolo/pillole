@@ -11,6 +11,7 @@ source:
   id: 1dd89693deba
   lang: en
   title: How web bloat impacts users with slow devices
+  author: Dan Luu
   site: danluu.com
   url: https://danluu.com/slow-device/
 anchor: CPU performance for web apps hasn't scaled nearly as quickly as bandwidth

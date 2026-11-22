@@ -12,6 +12,7 @@ source:
   id: 22110cbdc39c
   lang: en
   title: Senior SWE-Bench, napkin math, and winter tires
+  author: Dan Luu
   site: danluu.com
   url: https://danluu.com/exercise-7/
 anchor: it often makes sense to understand the derivation even if you have a ballpark number memorized

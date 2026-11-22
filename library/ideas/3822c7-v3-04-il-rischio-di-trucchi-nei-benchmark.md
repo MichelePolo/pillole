@@ -12,6 +12,7 @@ source:
   id: 3822c7401f02
   lang: en
   title: The benchmarkpocalypse
+  author: Dan Luu
   site: danluu.com
   url: https://danluu.com/benchpocalypse/
 anchor: generally assume that claims are false in spirit (even if technically correct) unless there's some reason to believe otherwise

@@ -11,6 +11,7 @@ source:
   id: 3822c7401f02
   lang: en
   title: The benchmarkpocalypse
+  author: Dan Luu
   site: danluu.com
   url: https://danluu.com/benchpocalypse/
 anchor: telling the LLM there's a holdout set worked better than just telling the LLM to do generalized work or not overfit or cheat

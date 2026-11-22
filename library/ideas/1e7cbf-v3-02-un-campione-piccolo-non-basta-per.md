@@ -12,6 +12,7 @@ source:
   id: 1e7cbf675aa0
   lang: en
   title: Test and verification technique effectiveness with GPT-6 Astra
+  author: Dan Luu
   site: danluu.com
   url: https://danluu.com/astra-testing/
 anchor: it's possible to get very different results when asking for the same thing due to trivial changes

@@ -12,6 +12,7 @@ source:
   id: 5982abb9488c
   lang: en
   title: What the FTC got wrong in the Google antitrust investigation
+  author: Dan Luu
   site: danluu.com
   url: https://danluu.com/ftc-google-antitrust/
 anchor: the amount of money Google pays to retain its default status

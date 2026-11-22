@@ -12,6 +12,7 @@ source:
   id: 2c92cb983373
   lang: en
   title: Diseconomies of scale in fraud, spam, support, and moderation
+  author: Dan Luu
   site: danluu.com
   url: https://danluu.com/diseconomies-scale/
 anchor: without any sort of tracking of false positives, there was effectively no mechanism to decrease the false positive rate

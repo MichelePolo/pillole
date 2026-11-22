@@ -12,6 +12,7 @@ source:
   id: 90bf1782f390
   lang: en
   title: “We should be more ambitious with the software we build”
+  author: Dan Luu
   site: danluu.com
   url: https://danluu.com/ambitious/
 anchor: As far as I can tell, these problems are problems because people are implicitly carrying around a pre-agentic cost model.
