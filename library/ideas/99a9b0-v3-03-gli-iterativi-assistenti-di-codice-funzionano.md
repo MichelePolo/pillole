@@ -12,6 +12,7 @@ source:
   id: 99a9b090f860
   lang: en
   title: How good can you be at Codenames without knowing any words?
+  author: Dan Luu
   site: danluu.com
   url: https://danluu.com/codenames/
 anchor: The user doesn't need to be a programmer to observe that an output is incorrect

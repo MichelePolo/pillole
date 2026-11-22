@@ -24,4 +24,4 @@ created: 2026-11-22T09:53:05.477Z
 
 # Astensione non ostativa come alternativa al voto
 
-Uno studio del 2023 propone un'alternativa tra consenso e voto a maggioranza: l'astensione non ostativa. Secondo questo approccio, un paese può dichiarare le proprie obiezioni e chiedere che vengano messe agli atti, accettando che la decisione proceda comunque. L'autore sostiene che così non si finge un accordo unanime che non esiste e si mantiene un canale di confronto con chi dissente. È una tesi che propone un equilibrio tra la tutela delle minoranze e la possibilità di decidere.
+Uno studio del 2023 propone un'alternativa tra consenso e voto a maggioranza: l'astensione non ostativa. Secondo questo approccio, un paese può dichiarare le proprie obiezioni e chiedere che vengano messe agli atti, accettando che la decisione proceda comunque. Secondo gli autori dello studio, così non si finge un accordo unanime che non esiste e si mantiene un canale di confronto con chi dissente. La proposta cerca un equilibrio tra la tutela delle minoranze e la possibilità di decidere.

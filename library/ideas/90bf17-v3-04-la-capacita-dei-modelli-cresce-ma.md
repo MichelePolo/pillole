@@ -11,6 +11,7 @@ source:
   id: 90bf1782f390
   lang: en
   title: “We should be more ambitious with the software we build”
+  author: Dan Luu
   site: danluu.com
   url: https://danluu.com/ambitious/
 anchor: I get farther from "it just works" with each more capable model because the gap between what the model can verify effectively without significant handholding and what the model can implement has been increasing

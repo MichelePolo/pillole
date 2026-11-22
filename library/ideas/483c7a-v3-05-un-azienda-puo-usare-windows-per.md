@@ -11,6 +11,7 @@ source:
   id: 483c7adf43ca
   lang: en
   title: Steve Ballmer was an underrated CEO
+  author: Dan Luu
   site: danluu.com
   url: https://danluu.com/ballmer/
 anchor: Microsoft was willing to very heavily subsidize a series of bets

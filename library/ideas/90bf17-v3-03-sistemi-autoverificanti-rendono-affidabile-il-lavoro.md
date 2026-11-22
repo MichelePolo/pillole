@@ -12,6 +12,7 @@ source:
   id: 90bf1782f390
   lang: en
   title: “We should be more ambitious with the software we build”
+  author: Dan Luu
   site: danluu.com
   url: https://danluu.com/ambitious/
 anchor: I feel like a lot of problems are in something like this class of problem, where it's possible to set up some kind of at least partially self-checking setup that a human can spend a small amount of time on.

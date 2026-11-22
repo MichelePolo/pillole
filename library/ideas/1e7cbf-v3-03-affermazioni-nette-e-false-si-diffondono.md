@@ -11,6 +11,7 @@ source:
   id: 1e7cbf675aa0
   lang: en
   title: Test and verification technique effectiveness with GPT-6 Astra
+  author: Dan Luu
   site: danluu.com
   url: https://danluu.com/astra-testing/
 anchor: the most viral claims are almost always overstated and wrong

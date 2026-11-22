@@ -12,6 +12,7 @@ source:
   id: 1e7cbf675aa0
   lang: en
   title: Test and verification technique effectiveness with GPT-6 Astra
+  author: Dan Luu
   site: danluu.com
   url: https://danluu.com/astra-testing/
 anchor: nice-sounding explanations for why something ought to be better that sound appealing in a very human way

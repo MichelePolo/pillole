@@ -12,6 +12,7 @@ source:
   id: 22110cbdc39c
   lang: en
   title: Senior SWE-Bench, napkin math, and winter tires
+  author: Dan Luu
   site: danluu.com
   url: https://danluu.com/exercise-7/
 anchor: there's no data dependency between the loop iterations, so the memory reads here happen in parallel

@@ -12,6 +12,7 @@ source:
   id: f92c92ae3bb8
   lang: en
   title: There's no reason for software to be slow anymore
+  author: Dan Luu
   site: danluu.com
   url: https://danluu.com/no-slow/
 anchor: Dynamic custom software, fitted to a particular workload rather than a class of workloads, seems like a very likely outcome.

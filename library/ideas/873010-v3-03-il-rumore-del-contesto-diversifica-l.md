@@ -24,4 +24,4 @@ created: 2026-11-22T09:53:05.496Z
 
 # Il rumore del contesto diversifica l'output
 
-Secondo l'autore, non serve forzare scelte deboli per ottenere variazione. Basta sfruttare i momenti in cui ci sono pochi candidati validi: il token scelto cambia il contesto successivo e questo perturba il modello, che quindi produce più facilmente una versione alternativa del testo. Il effetto valanga, come lo chiama l'autore, fa il lavoro della diversità senza dover pescare token di bassa qualità. È un'idea che separa la variazione utile dalla variazione casuale e dannosa.
+Secondo l'autore, non serve forzare scelte deboli per ottenere variazione. Basta sfruttare i momenti in cui ci sono più candidati validi: il token scelto cambia il contesto successivo e questo perturba il modello, che quindi produce più facilmente una versione alternativa del testo. L'effetto valanga, come lo chiama l'autore, fa il lavoro della diversità senza dover pescare token di bassa qualità. Così la variazione utile resta separata da quella casuale e dannosa.

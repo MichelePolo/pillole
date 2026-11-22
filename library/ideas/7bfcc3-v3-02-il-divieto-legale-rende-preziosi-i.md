@@ -27,4 +27,4 @@ created: 2026-11-22T09:53:05.391Z
 
 # Il divieto legale rende preziosi i corpi rubati
 
-Quando la legge proibisce un mercato, il prezzo di ciò che resta proibito tende a salire. Nel caso dell'anatomia britannica, la Corona concedeva alle scuole mediche pochissimi corpi, quelli dei giustiziati, mentre la domanda cresceva. Così i cadaveri divennero merce, e un corpo fresco poteva valere molte ghinee. Secondo l'autore, ==la scarsità artificiale di corpi== alimentò un commercio clandestino di riesumazioni, che ebbe a sua volta conseguenze sociali profonde e durature, perché la proibizione creò il mercato che doveva eliminare.
+Quando la legge proibisce un mercato, il prezzo di ciò che resta proibito tende a salire. Nel caso dell'anatomia britannica, la Corona concedeva alle scuole mediche pochissimi corpi, quelli dei giustiziati, mentre la domanda cresceva. Così i cadaveri divennero merce, e un corpo fresco poteva valere molte ghinee. Secondo l'autore, ==la scarsità artificiale di corpi== alimentò un commercio clandestino di riesumazioni, che ebbe a sua volta conseguenze sociali profonde e durature.

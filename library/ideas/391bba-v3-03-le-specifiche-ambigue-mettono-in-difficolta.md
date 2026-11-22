@@ -12,6 +12,7 @@ source:
   id: 391bba215af0
   lang: en
   title: How does programming language affect token efficiency and correctness?
+  author: Dan Luu
   site: danluu.com
   url: https://danluu.com/pl-tokens/
 anchor: to get an LLM to do something, maintaining a clear, canonical, spec is an effective way to work.

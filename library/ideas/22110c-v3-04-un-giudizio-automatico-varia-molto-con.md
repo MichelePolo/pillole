@@ -10,6 +10,7 @@ source:
   id: 22110cbdc39c
   lang: en
   title: Senior SWE-Bench, napkin math, and winter tires
+  author: Dan Luu
   site: danluu.com
   url: https://danluu.com/exercise-7/
 anchor: The expected LLM-graded tastefulness result flips from the official result 23% of the time

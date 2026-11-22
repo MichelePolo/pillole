@@ -12,6 +12,7 @@ source:
   id: 1fc8156d3a11
   lang: en
   title: Bug blindness
+  author: Dan Luu
   site: danluu.com
   url: https://danluu.com/bug-blind/
 anchor: people are hitting the same bugs and don't notice

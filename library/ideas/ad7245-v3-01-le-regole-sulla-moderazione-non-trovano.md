@@ -12,6 +12,7 @@ source:
   id: ad7245be141a
   lang: en
   title: Why it's impossible to agree on what's allowed
+  author: Dan Luu
   site: danluu.com
   url: https://danluu.com/impossible-agree/
 anchor: it's impossible to have policies on things like moderation, spam, fraud, and sexual content that people agree on

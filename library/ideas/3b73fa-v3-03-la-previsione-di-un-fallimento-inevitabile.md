@@ -12,6 +12,7 @@ source:
   id: 3b73faf3a995
   lang: en
   title: Ed Zitron's AI prediction track record
+  author: Dan Luu
   site: danluu.com
   url: https://danluu.com/zitron/
 anchor: A prediction that a company will either cover its costs or it will not cover its costs says nothing.

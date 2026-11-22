@@ -12,6 +12,7 @@ source:
   id: 90bf1782f390
   lang: en
   title: “We should be more ambitious with the software we build”
+  author: Dan Luu
   site: danluu.com
   url: https://danluu.com/ambitious/
 anchor: I think a lot of the problems don't lend themselves that well to "agentic loops" since you don't have clear pass/fail criteria

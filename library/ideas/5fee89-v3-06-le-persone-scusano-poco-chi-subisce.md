@@ -11,6 +11,7 @@ source:
   id: 5fee891f63cb
   lang: en
   title: Why is it so hard to buy things that work well?
+  author: Dan Luu
   site: danluu.com
   url: https://danluu.com/nothing-works/
 anchor: Something I find interesting about American society is how many people think that someone who gets the raw end of a deal

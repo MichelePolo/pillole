@@ -12,6 +12,7 @@ source:
   id: 5fee891f63cb
   lang: en
   title: Why is it so hard to buy things that work well?
+  author: Dan Luu
   site: danluu.com
   url: https://danluu.com/nothing-works/
 anchor: much of this comes down to whether or not you're in a culture where you can trust another firm's promise

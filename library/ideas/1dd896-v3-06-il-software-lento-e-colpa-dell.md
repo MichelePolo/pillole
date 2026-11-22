@@ -12,6 +12,7 @@ source:
   id: 1dd89693deba
   lang: en
   title: How web bloat impacts users with slow devices
+  author: Dan Luu
   site: danluu.com
   url: https://danluu.com/slow-device/
 anchor: it's fairly common for programmers to expect that hardware will solve all their problems

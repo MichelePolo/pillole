@@ -12,6 +12,7 @@ source:
   id: 0a021c995d76
   lang: en
   title: How well do agents use test and verification techniques?
+  author: Dan Luu
   site: danluu.com
   url: https://danluu.com/agentic-testing/
 anchor: tdd steers you towards black box testing which for complicated machinery seems to me to be less effective than white box testing

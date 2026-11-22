@@ -12,6 +12,7 @@ source:
   id: f5a8a3aaa7bf
   lang: en
   title: There's no point at which turning your brain off will work
+  author: Dan Luu
   site: danluu.com
   url: https://danluu.com/brain-off/
 anchor: declaring that programming is solved after writing a bunch of software that doesn't work

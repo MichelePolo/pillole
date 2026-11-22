@@ -25,4 +25,4 @@ created: 2026-11-22T09:53:05.506Z
 
 # Un classico è sempre in anticipo sui tempi
 
-Il testo sostiene che l'Orlando furioso sia un poema rivolto al futuro, che differisce continuamente la propria ricezione. Le critiche al poema sono sempre un passo indietro rispetto a ciò che il poema può dare. Questa tesi, come nota l'autore, si collega al meccanismo narrativo del differimento: gli eventi sono annunciati e rinviati di continuo. ==Un'opera può restare in anticipo sul proprio pubblico per secoli.== È un'idea generale sulla ricezione dei classici, applicabile anche oltre il caso di Ariosto.
+Il testo sostiene che l'Orlando furioso sia un poema rivolto al futuro, che differisce continuamente la propria ricezione. Le critiche al poema sono sempre un passo indietro rispetto a ciò che il poema può dare. Questa tesi si collega al meccanismo narrativo del differimento: gli eventi sono annunciati e rinviati di continuo. ==Un'opera può restare in anticipo sul proprio pubblico per secoli.==

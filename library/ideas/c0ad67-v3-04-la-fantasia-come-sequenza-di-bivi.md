@@ -25,4 +25,4 @@ created: 2026-11-22T09:53:05.507Z
 
 # La fantasia come sequenza di bivi e associazioni
 
-Il testo nota che alcuni capitoli della Grammatica della fantasia di Rodari, come il suggerire alternative del tipo che cosa succederebbe se, o il pensare per coppie, sono applicabili all'universo ariostesco. Il racconto costruito su bivi e il meccanismo associativo binario sono tipici del poema. ==La fantasia procede per bivi e accostamenti di elementi distanti.== Questa lettura è presentata come interpretazione dell'autore del saggio.
+Il testo nota che alcuni capitoli della Grammatica della fantasia di Rodari, come il suggerire alternative del tipo «che cosa succederebbe se», o il pensare per coppie, sono applicabili all'universo ariostesco. Il racconto costruito su bivi e il meccanismo associativo binario sono tipici del poema. ==La fantasia procede per bivi e accostamenti di elementi distanti.==

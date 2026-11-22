@@ -25,6 +25,6 @@ model: claude-haiku-5-5
 created: 2026-11-22T09:53:05.379Z
 ---
 
-# Il pensiero non è solo calcolo interno
+# Il pensiero non sta solo nella testa
 
 Secondo l'autore, la cognizione incarnata sostiene che i sistemi cognitivi non si esauriscano nel cervello e negli organi di senso: il corpo e parti del mondo possono far parte del sistema cognitivo. La distinzione chiave è tra ciò che è un costituente, come il lievito in un impasto, e ciò che è una semplice causa, come il forno caldo. ==Un processo cognitivo può estendersi oltre la testa quando le sue componenti sono accoppiate in un ciclo di dipendenze.== Questa tesi resta però discussa e criticata da chi difende un'idea più stretta di cognizione.

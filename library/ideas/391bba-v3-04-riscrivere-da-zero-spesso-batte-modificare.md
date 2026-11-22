@@ -11,6 +11,7 @@ source:
   id: 391bba215af0
   lang: en
   title: How does programming language affect token efficiency and correctness?
+  author: Dan Luu
   site: danluu.com
   url: https://danluu.com/pl-tokens/
 anchor: you're often better off throwing away a chunk of code and having an LLM re-write it from scratch

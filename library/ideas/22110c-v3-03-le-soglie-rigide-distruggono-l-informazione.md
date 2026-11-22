@@ -12,6 +12,7 @@ source:
   id: 22110cbdc39c
   lang: en
   title: Senior SWE-Bench, napkin math, and winter tires
+  author: Dan Luu
   site: danluu.com
   url: https://danluu.com/exercise-7/
 anchor: The benchmark has these continuous scores and then it introduces threshold effects by requiring a strict cutoff

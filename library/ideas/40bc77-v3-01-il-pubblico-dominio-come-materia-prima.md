@@ -26,4 +26,4 @@ created: 2026-11-22T09:53:05.511Z
 
 # Il pubblico dominio come materia prima creativa
 
-Il progetto parte da un'idea semplice: trovare un'opera di pubblico dominio e trasformarla in una canzone. Secondo Simon Close, chi ascolta spesso conosce già qualcosa di adatto, senza saperlo. Il punto è che le opere libere da diritti d'autore non sono reperti da museo, ma un serbatoio da cui attingere per creare cose nuove. ==Il materiale esiste già, serve soltanto riconoscerlo== e farne qualcosa di proprio.
+Il Public Song Project parte da un'idea semplice: trovare un'opera di pubblico dominio e trasformarla in una canzone. Secondo Simon Close, chi ascolta spesso conosce già qualcosa di adatto, senza saperlo. Il punto è che le opere libere da diritti d'autore non sono reperti da museo, ma un serbatoio da cui attingere per creare cose nuove. ==Il materiale esiste già, serve soltanto riconoscerlo== e farne qualcosa di proprio.

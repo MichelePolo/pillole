@@ -11,6 +11,7 @@ source:
   id: f5a8a3aaa7bf
   lang: en
   title: There's no point at which turning your brain off will work
+  author: Dan Luu
   site: danluu.com
   url: https://danluu.com/brain-off/
 anchor: A place where it's more obvious you need to make decisions is when the agent runs into something that's out of distribution.

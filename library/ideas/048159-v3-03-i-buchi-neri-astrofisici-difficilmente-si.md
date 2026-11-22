@@ -25,4 +25,4 @@ created: 2026-11-22T09:53:05.460Z
 
 # I buchi neri astrofisici difficilmente si frammentano
 
-Le osservazioni di buchi neri supermassivi al centro delle galassie mostrano rotazioni molto vicine al limite, ma non abbastanza da permettere la frammentazione. La radiazione emessa dal gas che cade nel buco nero limita la rotazione massima raggiungibile in pratica, il cosiddetto limite di Thorne. ==Secondo l'autore, i buchi neri astrofisici possono frammentarsi solo in condizioni particolari, come durante una fusione.== Questo rende la scissione un fenomeno raro in natura.
+Le osservazioni di buchi neri supermassivi al centro delle galassie mostrano rotazioni molto vicine al limite, ma non abbastanza da permettere la frammentazione. La radiazione emessa dal gas che cade nel buco nero limita la rotazione massima raggiungibile in pratica, il cosiddetto limite di Thorne. ==Secondo il fisico intervistato, Giacomo Cacciapaglia, i buchi neri astrofisici possono frammentarsi solo in condizioni particolari, come durante una fusione.== Questo rende la scissione un fenomeno raro in natura.

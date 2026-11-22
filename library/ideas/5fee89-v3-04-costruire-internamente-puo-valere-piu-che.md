@@ -12,6 +12,7 @@ source:
   id: 5fee891f63cb
   lang: en
   title: Why is it so hard to buy things that work well?
+  author: Dan Luu
   site: danluu.com
   url: https://danluu.com/nothing-works/
 anchor: Some commonly repeated advice is that firms should focus on their "core competencies" and outsource everything else

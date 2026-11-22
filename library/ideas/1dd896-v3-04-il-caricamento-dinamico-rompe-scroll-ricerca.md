@@ -10,6 +10,7 @@ source:
   id: 1dd89693deba
   lang: en
   title: How web bloat impacts users with slow devices
+  author: Dan Luu
   site: danluu.com
   url: https://danluu.com/slow-device/
 anchor: Sites that use modern techniques like partially loading the page and then dynamically loading the rest of it

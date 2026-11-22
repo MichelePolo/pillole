@@ -11,6 +11,7 @@ source:
   id: bb44adf34f21
   lang: en
   title: Agentic test processes, LLM benchmarks, and other notes on agentic coding from Galapagos Island
+  author: Dan Luu
   site: danluu.com
   url: https://danluu.com/ai-coding/
 anchor: LLMs are good at counterfeiting things, but that counterfeits aren't that good (yet?), and experts can tell the difference between a counterfeit and the real thing

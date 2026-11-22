@@ -11,6 +11,7 @@ source:
   id: bb44adf34f21
   lang: en
   title: Agentic test processes, LLM benchmarks, and other notes on agentic coding from Galapagos Island
+  author: Dan Luu
   site: danluu.com
   url: https://danluu.com/ai-coding/
 anchor: it told me that it wrote a test and confirmed that the alleged commit was the breaking commit

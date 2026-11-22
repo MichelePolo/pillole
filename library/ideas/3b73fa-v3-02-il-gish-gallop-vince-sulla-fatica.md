@@ -12,6 +12,7 @@ source:
   id: 3b73faf3a995
   lang: en
   title: Ed Zitron's AI prediction track record
+  author: Dan Luu
   site: danluu.com
   url: https://danluu.com/zitron/
 anchor: the gish gallop method has the same properties as an amplification DoS attack

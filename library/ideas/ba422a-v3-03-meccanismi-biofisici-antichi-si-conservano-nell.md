@@ -25,4 +25,4 @@ created: 2026-11-22T09:53:05.463Z
 
 # Meccanismi biofisici antichi si conservano nell'evoluzione
 
-Il zoologo Eric Warrant osserva che uccelli e insetti, gruppi molto diversi tra loro, usano lo stesso principio di base per rilevare il campo magnetico terrestre. Secondo lui questo suggerisce che meccanismi biofisici molto antichi si sono conservati lungo l'evoluzione. ==Una stessa soluzione fisica può comparire in specie lontanissime==, perché è già efficace e non va reinventata. Si tratta di un'interpretazione dell'autore, ma è coerente con il fatto che i due gruppi condividono la capacità di percepire il magnetismo.
+Lo zoologo Eric Warrant osserva che uccelli e insetti, gruppi molto diversi tra loro, usano lo stesso principio di base per rilevare il campo magnetico terrestre. Secondo lui questo suggerisce che meccanismi biofisici molto antichi si sono conservati lungo l'evoluzione. ==Una stessa soluzione fisica può comparire in specie lontanissime==, ereditata da un antenato comune invece che reinventata.

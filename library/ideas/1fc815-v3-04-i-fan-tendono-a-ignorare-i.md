@@ -11,6 +11,7 @@ source:
   id: 1fc8156d3a11
   lang: en
   title: Bug blindness
+  author: Dan Luu
   site: danluu.com
   url: https://danluu.com/bug-blind/
 anchor: people who are fans of things tend to be blind to the thing's faults

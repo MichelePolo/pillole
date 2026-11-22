@@ -12,6 +12,7 @@ source:
   id: 2c92cb983373
   lang: en
   title: Diseconomies of scale in fraud, spam, support, and moderation
+  author: Dan Luu
   site: danluu.com
   url: https://danluu.com/diseconomies-scale/
 anchor: you absolutely cannot trust vaguely plausible sounding arguments from people on this

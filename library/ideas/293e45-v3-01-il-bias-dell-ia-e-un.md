@@ -12,6 +12,7 @@ source:
   id: 293e45e1ea41
   lang: en
   title: A discussion of discussions on AI bias
+  author: Dan Luu
   site: danluu.com
   url: https://danluu.com/ai-bias/
 anchor: people frequently deny that a model which produces output that's sort of the opposite of what the user asked for is even a bug

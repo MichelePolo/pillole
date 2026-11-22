@@ -11,6 +11,7 @@ source:
   id: 483c7adf43ca
   lang: en
   title: Steve Ballmer was an underrated CEO
+  author: Dan Luu
   site: danluu.com
   url: https://danluu.com/ballmer/
 anchor: this narrative underrates Ballmer's role in Microsoft's success
