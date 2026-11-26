@@ -7,6 +7,10 @@
 # Esclusi per questo (novembre 2026): Knowable Magazine, Smithsonian Magazine, The Scientist,
 # History Today e Smarthistory (403); Symmetry (403 sul feed). Finestre sull'Arte: quasi solo cronaca.
 # Physics Magazine (APS): si legge dal PC, ma risponde 403 ai server di GitHub Actions (notte dell'8 novembre).
+# Provate il 26 novembre 2026 e scartate: MUBI Notebook (Readability non legge le pagine), Bright Lights Film
+# Journal, SentireAscoltare e VAN Magazine (403), Futility Closet (502), Infinitely More (post a pagamento),
+# Hyperallergic, Apollo, Antinomie, Cineforum (feed non trovato), TheCollector (mescola arte, storia e filosofia),
+# The Quietus ed Early Music America (soprattutto recensioni e annunci).
 # The Paris Review: tolta il 16 novembre 2026, rispondeva 403 a un articolo a notte (10, 11, 13 e 14 novembre).
 
 # --- AI e tecnologia: un articolo per feed a notte, il tema è già il più rappresentato
@@ -27,6 +31,8 @@ https://physicsworld.com/feed/ max=2 # Physics World, Institute of Physics (EN)
 https://www.media.inaf.it/feed/ max=2 # Media INAF, Istituto Nazionale di Astrofisica (IT)
 https://plus.maths.org/content/rss.xml max=2 # Plus Magazine, Università di Cambridge (EN)
 https://www.thetransmitter.org/feed/ max=2 # The Transmitter, neuroscienze (EN)
+https://chalkdustmagazine.com/feed/ max=2 # Chalkdust, divulgazione matematica (EN)
+https://www.johndcook.com/blog/feed/ max=1 # John D. Cook, matematica applicata (EN)
 
 # --- Filosofia, psicologia, storia, economia
 https://plato.stanford.edu/rss/sep.xml # Stanford Encyclopedia of Philosophy, voci nuove e riviste (EN)
@@ -44,3 +50,7 @@ https://www.publicbooks.org/feed/ max=2 # Public Books (EN)
 https://www.leparoleelecose.it/?feed=rss2 max=2 # Le parole e le cose (IT)
 https://quinlan.it/feed/ max=2 # Quinlan, critica cinematografica (IT)
 https://musicologynow.org/feed/ max=2 # Musicology Now, American Musicological Society (EN)
+https://www.dailyartmagazine.com/feed/ max=2 # DailyArt Magazine, storia dell'arte (EN)
+https://www.cinefiliaritrovata.it/feed/ max=2 # Cinefilia Ritrovata, Cineteca di Bologna (IT)
+https://interlude.hk/feed/ max=2 # Interlude, musica classica (EN)
+https://nmbx.newmusicusa.org/feed/ max=1 # NewMusicBox, New Music USA (EN)
