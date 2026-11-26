@@ -26,4 +26,4 @@ created: 2026-11-26T11:00:57.370Z
 
 # Il problema del cerchio cartesiano
 
-Descartes cerca di garantire l'affidabilità delle intuizioni dimostrando che un Dio non ingannatore le rende vere. Secondo l'autore, però, questo argomento è circolare: tenta di dedurre che tutte le intuizioni sono vere da premesse anch'esse intuite. Inoltre resta il problema della memoria fallibile, da cui dipendono le deduzioni lunghe. Il caso mostra che giustificare la ragione con la ragione è un'impresa difficile, e l'autore lo presenta come una critica seria, non come un dettaglio tecnico.
+Descartes cerca di garantire l'affidabilità delle intuizioni dimostrando che un Dio non ingannatore le rende vere. Secondo gli autori, però, questo argomento è circolare: tenta di dedurre che tutte le intuizioni sono vere da premesse anch'esse intuite. Inoltre resta il problema della memoria fallibile, da cui dipendono le deduzioni lunghe. Il caso mostra che giustificare la ragione con la ragione è un'impresa difficile.

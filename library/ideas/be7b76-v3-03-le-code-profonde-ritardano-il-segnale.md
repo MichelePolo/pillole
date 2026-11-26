@@ -11,6 +11,7 @@ source:
   id: be7b76e71de8
   lang: en
   title: A decade of major cache incidents at Twitter
+  author: Dan Luu
   site: danluu.com
   url: https://danluu.com/cache-incidents/
 anchor: Allowing high queue depth before applying backpressure can be dangerous
@@ -25,4 +26,4 @@ created: 2026-11-24T12:37:02.282Z
 
 # Le code profonde ritardano il segnale di sovraccarico
 
-Secondo l'autore, accettare una coda molto lunga prima di applicare contropressione è pericoloso. Una coda profonda fa sì che le richieste aspettino a lungo senza che il sistema lo segnali, e nel frattempo i client scadono, riprovano e aggravano la situazione. Applicare la contropressione prima, rifiutando o limitando il lavoro in ingresso, permette al sistema di recuperare. Nel caso descritto, ridurre la dimensione della coda di attesa delle connessioni ha aiutato a far arrivare il segnale di sovraccarico in anticipo.
+Secondo gli autori, accettare una coda molto lunga prima di applicare contropressione è pericoloso. Una coda profonda fa sì che le richieste aspettino a lungo senza che il sistema lo segnali, e nel frattempo i client scadono, riprovano e aggravano la situazione. Applicare la contropressione prima, rifiutando o limitando il lavoro in ingresso, permette al sistema di recuperare. Nel caso descritto, ridurre la dimensione della coda di attesa delle connessioni ha aiutato a far arrivare il segnale di sovraccarico in anticipo.

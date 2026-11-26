@@ -12,6 +12,7 @@ source:
   id: 81ef1ff2ad78
   lang: en
   title: Misidentifying talent
+  author: Dan Luu
   site: danluu.com
   url: https://danluu.com/talent/
 anchor: people made fairly obvious blunders for a century due to relying on incorrectly honed gut feelings

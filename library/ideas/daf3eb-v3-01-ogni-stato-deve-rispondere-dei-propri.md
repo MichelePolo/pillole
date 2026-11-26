@@ -27,4 +27,4 @@ created: 2026-11-23T10:53:54.669Z
 
 # Ogni stato deve rispondere dei propri debiti
 
-Il precedente americano del 1841-1843 mostra un principio fondativo del federalismo: quando alcuni stati sospesero i pagamenti, il Congresso rifiutò di farsi carico dei loro debiti, e così ==ogni stato risponde dei debiti che contrae==. Secondo l'autore, un principio simile potrebbe rendere credibile un assetto europeo in cui la responsabilità del debito resta nazionale. Il punto non è la punizione, ma la chiarezza su chi paga, che riduce l'azzardo degli investitori e dei governi.
+Il precedente americano del 1841-1843 mostra un principio fondativo del federalismo: quando alcuni stati sospesero i pagamenti, il Congresso rifiutò di farsi carico dei loro debiti, e così ==ogni stato risponde dei debiti che contrae==. Secondo l'autore, un principio simile potrebbe rendere credibile un assetto europeo in cui la responsabilità del debito resta nazionale. Il punto non è la punizione, ma la chiarezza su chi paga, che riduce l'azzardo morale di investitori e governi.

@@ -27,4 +27,4 @@ created: 2026-11-24T12:37:02.142Z
 
 # Le utopie possono contenere le idee più dannose del loro tempo
 
-Herland è utopica, ma la fonte mostra anche un lato inquietante: i fondatori hanno deciso di selezionare la popolazione, eliminando con l'allevamento i tipi considerati inferiori. Secondo la fonte, l'autrice mostra un interesse per l'eugenetica, e il libro contiene commenti razzisti sugli 'selvaggi' e sugli ariani. Per questo la visione va letta con distanza critica. ==Anche le visioni progressiste possono portare con sé le idee più dannose del loro tempo==, e chi le legge deve riconoscerle.
+Herland è utopica, ma la fonte mostra anche un lato inquietante: i fondatori hanno deciso di selezionare la popolazione, eliminando con l'allevamento i tipi considerati inferiori. Secondo la fonte, Gilman mostra un interesse per l'eugenetica, e il libro contiene commenti razzisti sui 'selvaggi' e sugli ariani. Per questo la visione va letta con distanza critica. ==Anche le visioni progressiste possono portare con sé le idee più dannose del loro tempo==, e chi le legge deve riconoscerle.

@@ -25,4 +25,4 @@ created: 2026-11-26T11:00:57.368Z
 
 # L'intuizione coglie verità che la deduzione estende
 
-Secondo la tesi intuizione/deduzione, alcune proposizioni si conoscono direttamente per intuizione, come vedere immediatamente che il tre è primo, mentre altre si ricavano per deduzione da premesse intuite. Questo tipo di conoscenza non dipende, per la sua giustificazione, dall'esperienza ed è detto a priori. L'autore osserva che quasi tutti i razionalisti e gli empiristi accettano in qualche forma questa tesi, quindi essa non basta da sola a distinguere le due scuole.
+Secondo la tesi intuizione/deduzione, alcune proposizioni si conoscono direttamente per intuizione, come vedere immediatamente che il tre è primo, mentre altre si ricavano per deduzione da premesse intuite. Questo tipo di conoscenza non dipende, per la sua giustificazione, dall'esperienza ed è detto a priori. Gli autori osservano che quasi tutti i razionalisti e gli empiristi accettano in qualche forma questa tesi, quindi essa non basta da sola a distinguere le due scuole.

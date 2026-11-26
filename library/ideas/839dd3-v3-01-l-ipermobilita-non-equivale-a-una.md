@@ -24,4 +24,4 @@ created: 2026-11-25T11:25:57.038Z
 
 # L'ipermobilità non equivale a una patologia
 
-L'ipermobilità articolare è la capacità di compiere movimenti più ampi della media e dipende da anatomia, età e allenamento. Di per sé non è una malattia e non richiede una diagnosi medica finché non causa problemi. Diventa preoccupante quando si accompagna a sintomi come dolore persistente, lussazioni frequenti o cedimenti del ginocchio. Secondo l'articolo, ==la presenza di ipermobilità non implica quasi mai una condizione associata==, e molte persone ipermobili non hanno alcun disturbo.
+L'ipermobilità articolare è la capacità di compiere movimenti più ampi della media e dipende da anatomia, età e allenamento. Di per sé non è una malattia e non richiede una diagnosi medica finché non causa problemi. Diventa preoccupante quando si accompagna a sintomi come dolore persistente, lussazioni frequenti o cedimenti del ginocchio. Secondo l'articolo, ==la presenza di ipermobilità non implica necessariamente una condizione associata==, e molte persone ipermobili non hanno alcun disturbo.

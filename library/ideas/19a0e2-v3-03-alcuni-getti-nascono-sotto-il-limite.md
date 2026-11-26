@@ -26,4 +26,4 @@ created: 2026-11-23T10:53:54.648Z
 
 # Alcuni getti nascono sotto il limite di Eddington
 
-Il limite di Eddington è la soglia oltre la quale la spinta verso l'esterno della radiazione eguaglia l'attrazione gravitazionale. Secondo la ricerca, in due dei quattro sistemi analizzati i getti si sono formati con una portata di gas inferiore a questa soglia. ==I modelli di emissione dei getti che richiedono portate elevate, quindi, potrebbero non essere corretti.== Il risultato mostra che la quantità di gas in arrivo non basta da sola a spiegare quando il getto viene emesso.
+Il limite di Eddington è la soglia alla quale la spinta verso l'esterno della radiazione eguaglia l'attrazione gravitazionale. Secondo la ricerca, in due dei quattro sistemi analizzati i getti si sono formati con una portata di gas inferiore a questa soglia. ==I modelli di emissione dei getti che richiedono portate elevate, quindi, potrebbero non essere corretti.== Il risultato mostra che la quantità di gas in arrivo non basta da sola a spiegare quando il getto viene emesso.

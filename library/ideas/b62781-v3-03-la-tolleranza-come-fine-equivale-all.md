@@ -25,4 +25,4 @@ created: 2026-11-26T11:00:57.329Z
 
 # La tolleranza, come fine, equivale all'indifferenza
 
-Secondo l'autore, la tolleranza è una buona condizione per perseguire fini umani, ma è qualcosa di negativo: consiste nel lasciar fare piuttosto che nel fare. Se diventa il fine di un'istituzione, come un'accademia di filosofia, si trasforma in indifferenza. Spaventa non chiede di abolire la tolleranza, anzi la vuole piena, ma sostiene che serva un fine positivo e determinato. ==Una tolleranza che non serve a nulla di concreto finisce per essere indifferenza.==
+Secondo Spaventa, la tolleranza è una buona condizione per perseguire fini umani, ma è qualcosa di negativo: consiste nel lasciar fare piuttosto che nel fare. Se diventa il fine di un'istituzione, come un'accademia di filosofia, si trasforma in indifferenza. Spaventa non chiede di abolire la tolleranza, anzi la vuole piena, ma sostiene che serva un fine positivo e determinato. ==Una tolleranza che non serve a nulla di concreto finisce per essere indifferenza.==

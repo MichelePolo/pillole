@@ -25,4 +25,4 @@ created: 2026-11-25T11:25:56.990Z
 
 # Una perturbazione lontana può modificare un'orbita stretta
 
-Secondo l'autore, se l'orbita di una stella molto distante è sufficientemente inclinata rispetto a una coppia interna, la sua influenza gravitazionale può innescare le oscillazioni di Kozai-Lidov. Su scale di milioni di anni, queste interazioni cambiano ciclicamente l'eccentricità dell'orbita interna, rendendola più allungata e poi riportandola verso una forma più circolare. ==Un corpo lontano può quindi rimodellare un sistema vicino.== Il meccanismo è un'ipotesi per spiegare la storia del sistema, non una spiegazione confermata.
+Secondo i ricercatori, se l'orbita di una stella molto distante è sufficientemente inclinata rispetto a una coppia interna, la sua influenza gravitazionale può innescare le oscillazioni di Kozai-Lidov. Su scale di milioni di anni, queste interazioni cambiano ciclicamente l'eccentricità dell'orbita interna, rendendola più allungata e poi riportandola verso una forma più circolare. ==Un corpo lontano può quindi rimodellare un sistema vicino.== Il meccanismo è un'ipotesi per spiegare la storia del sistema, non una spiegazione confermata.

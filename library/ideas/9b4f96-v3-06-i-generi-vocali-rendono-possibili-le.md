@@ -23,6 +23,6 @@ model: claude-haiku-5-5
 created: 2026-11-23T10:53:54.561Z
 ---
 
-# I generi vocali rendono possibili le combinazioni
+# I generi sommi fanno da vocali tra le forme
 
-Nel Sofista alcuni generi, come essere, identico e diverso, non hanno un contenuto categoriale ma strutturale: stabiliscono come gli altri generi si relazionano tra loro. Come le vocali permettono alle consonanti di unirsi, questi generi permettono alle forme di combinarsi. Il loro contenuto deriva dal modo in cui si applicano agli altri generi. ==Alcune nozioni non sono cose, ma la struttura che le tiene insieme.== Conoscere queste combinazioni è il compito della dialettica.
+Nel Sofista alcuni generi, come essere, identico e diverso, non hanno un contenuto categoriale ma strutturale: stabiliscono come gli altri generi si relazionano tra loro. Come le vocali permettono alle consonanti di unirsi, questi generi permettono alle forme di combinarsi. Il loro contenuto deriva dal modo in cui si applicano agli altri generi. ==Alcune nozioni non sono cose, ma la struttura che tiene insieme le altre.== Conoscere queste combinazioni è il compito della dialettica.

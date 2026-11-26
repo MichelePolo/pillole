@@ -26,4 +26,4 @@ created: 2026-11-25T11:25:57.002Z
 
 # Il ricordo scomodo come forma di resistenza
 
-Secondo l'autore, alcuni reduci usavano la memoria come strumento di pressione politica e sociale. Ricordare la guerra era un modo per impedire che il Paese la rimuovesse troppo in fretta, soprattutto quando la rimozione avvantaggiava chi aveva sostenuto la secessione. Alcuni organizzavano battaglie simulate nelle piazze dei paesi per mostrare ai civili rimasti a casa com'era stata davvero la guerra. Il ricordo diventava così un atto politico, non solo un bisogno personale.
+Secondo lo storico Brian Matthew Jordan, alcuni reduci usavano la memoria come strumento di pressione politica e sociale. Ricordare la guerra era un modo per impedire che il Paese la rimuovesse troppo in fretta, soprattutto quando la rimozione avvantaggiava chi aveva sostenuto la secessione. Alcuni organizzavano battaglie simulate nelle piazze dei paesi per mostrare ai civili rimasti a casa com'era stata davvero la guerra. Il ricordo diventava così un atto politico, non solo un bisogno personale.

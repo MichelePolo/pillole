@@ -12,6 +12,7 @@ source:
   id: fcf76dcac319
   lang: en
   title: Cocktail party ideas
+  author: Dan Luu
   site: danluu.com
   url: https://danluu.com/cocktail-ideas/
 anchor: it is not enough to run an experiment, find a causal relationship, and assume that it is widely applicable

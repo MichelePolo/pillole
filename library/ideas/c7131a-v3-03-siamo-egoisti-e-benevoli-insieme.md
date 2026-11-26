@@ -27,4 +27,4 @@ created: 2026-11-23T10:53:54.600Z
 
 # Siamo egoisti e benevoli insieme
 
-Hume osserva che gli esseri umani non sono né puramente egoisti né puramente altruisti. Possediamo avidità, ma anche una generosità limitata, più forte verso parenti e amici e più debole verso gli estranei. Secondo l'autore, ==questa natura mista rende impossibile una cooperazione estesa senza regole==. Da questa osservazione empirica deriva la sua visione politica: la condizione umana senza società organizzata non è una guerra di tutti contro tutti, ma neppure un regno di cooperazione armoniosa.
+Hume osserva che gli esseri umani non sono né puramente egoisti né puramente altruisti. Possediamo avidità, ma anche una generosità limitata, più forte verso parenti e amici e più debole verso gli estranei. Secondo Hume, ==questa natura mista rende impossibile una cooperazione estesa senza regole==. Da questa osservazione empirica deriva la sua visione politica: la condizione umana senza società organizzata non è una guerra di tutti contro tutti, ma neppure un regno di cooperazione armoniosa.

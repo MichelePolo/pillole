@@ -22,6 +22,6 @@ model: claude-haiku-5-5
 created: 2026-11-25T11:25:56.998Z
 ---
 
-# La gravità di Mercurio ha la sua storia geologica
+# Il raffreddamento di Mercurio ne ha raggrinzito la crosta
 
-Il nucleo metallico di Mercurio si è contratto durante il raffreddamento durato circa 4,5 miliardi di anni, e questo ha probabilmente raggrinzito la crosta, producendo scarpate e creste lunghe centinaia di chilometri. Alcune fratture più recenti fanno pensare a movimenti tettonici avvenuti negli ultimi decine di milioni di anni, quindi il pianeta potrebbe non essere geologicamente morto come si credeva. ==Il raffreddamento interno continua a modellare la superficie==, secondo le ipotesi attuali, anche se la quantità di restringimento resta dibattuta.
+Il nucleo metallico di Mercurio si è contratto durante il raffreddamento durato circa 4,5 miliardi di anni, e questo ha probabilmente raggrinzito la crosta, producendo scarpate e creste lunghe centinaia di chilometri. Alcune fratture più recenti fanno pensare a movimenti tettonici avvenuti nelle ultime decine di milioni di anni, quindi il pianeta potrebbe non essere geologicamente morto come si credeva. ==Il raffreddamento interno continua a modellare la superficie==, secondo le ipotesi attuali, anche se la quantità di restringimento resta dibattuta.

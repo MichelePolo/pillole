@@ -18,7 +18,7 @@ source:
 anchor: Nella pratica scientifica prevale l'attenzione a minimizzare i falsi positivi
 anchor_check: exact
 quiz:
-  q: Perché scienziati e comunità esposte spesso entrano in conflitto secondo l'autore?
+  q: Perché scienziati e comunità esposte spesso entrano in conflitto secondo Bianchi?
   a: Perché la scienza mira a minimizzare i falsi positivi, mentre le comunità temono soprattutto i falsi negativi.
 prompt_version: v3
 model: claude-haiku-5-5
@@ -27,4 +27,4 @@ created: 2026-11-25T11:25:56.898Z
 
 # Nelle comunità esposte prevale il timore dei falsi negativi
 
-Secondo l'autore, la scienza tende a minimizzare i falsi positivi, cioè a evitare di dichiarare un rischio che non esiste. Le comunità esposte a inquinamento temono soprattutto i falsi negativi, cioè di non vedere un danno che c'è. Questa differenza di priorità spiega molti conflitti tra ricercatori e cittadini. Capirla aiuta a leggere le richieste delle comunità non come irrazionali ma come un diverso criterio di prudenza.
+Secondo Fabrizio Bianchi, la scienza tende a minimizzare i falsi positivi, cioè a evitare di dichiarare un rischio che non esiste. Le comunità esposte a inquinamento temono soprattutto i falsi negativi, cioè di non vedere un danno che c'è. Questa differenza di priorità spiega molti conflitti tra ricercatori e cittadini. Capirla aiuta a leggere le richieste delle comunità non come irrazionali ma come un diverso criterio di prudenza.

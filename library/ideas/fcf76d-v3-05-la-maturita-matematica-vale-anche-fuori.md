@@ -12,6 +12,7 @@ source:
   id: fcf76dcac319
   lang: en
   title: Cocktail party ideas
+  author: Dan Luu
   site: danluu.com
   url: https://danluu.com/cocktail-ideas/
 anchor: the analogous skill exists even though it doesn't have a name

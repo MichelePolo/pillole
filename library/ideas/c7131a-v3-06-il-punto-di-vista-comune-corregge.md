@@ -27,4 +27,4 @@ created: 2026-11-23T10:53:54.602Z
 
 # Il punto di vista comune corregge i giudizi morali
 
-Le nostre simpatie sono più forti per chi ci somiglia o ci è vicino, eppure i giudizi morali non cambiano in base a questa distanza. Per risolvere il problema, Hume suggerisce che le persone adottino un punto di vista comune, da cui valutare un oggetto in modo uguale per tutti. Secondo l'autore, ==per giudicare un carattere dobbiamo immaginare gli effetti che produce su tutte le persone che ne sono toccate==. Questa correzione dell'immaginazione rende stabili e condivisibili le valutazioni morali.
+Le nostre simpatie sono più forti per chi ci somiglia o ci è vicino, eppure i giudizi morali non cambiano in base a questa distanza. Per risolvere il problema, Hume suggerisce che le persone adottino un punto di vista comune, da cui valutare un oggetto in modo uguale per tutti. Secondo Hume, ==per giudicare un carattere dobbiamo immaginare gli effetti che produce su tutte le persone che ne sono toccate==. Questa correzione dell'immaginazione rende stabili e condivisibili le valutazioni morali.

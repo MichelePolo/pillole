@@ -27,4 +27,4 @@ created: 2026-11-26T11:00:57.225Z
 
 # Lo stile di apprendimento lento rende veloce l'adattamento
 
-Secondo l'autore, aggiornare i pesi di una rete ricorrente è lento, ma consente al modello di risolvere rapidamente un nuovo compito, usando un proprio algoritmo di apprendimento implementato nella dinamica della sua attività interna. È un'idea generale: un apprendimento lento e costoso produce una capacità di apprendimento rapido in situazioni nuove. Il meccanismo ricorda il modo in cui un apprendimento graduale si traduce in intuizioni immediate.
+Secondo l'autrice, aggiornare i pesi di una rete ricorrente è lento, ma consente al modello di risolvere rapidamente un nuovo compito, usando un proprio algoritmo di apprendimento implementato nella dinamica della sua attività interna. È un'idea generale: un apprendimento lento e costoso produce una capacità di apprendimento rapido in situazioni nuove. Il meccanismo ricorda il modo in cui un apprendimento graduale si traduce in intuizioni immediate.

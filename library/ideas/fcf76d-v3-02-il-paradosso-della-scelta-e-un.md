@@ -12,6 +12,7 @@ source:
   id: fcf76dcac319
   lang: en
   title: Cocktail party ideas
+  author: Dan Luu
   site: danluu.com
   url: https://danluu.com/cocktail-ideas/
 anchor: popularizers telescoped the conclusions derived from one coupon-plus-display promotion in one store on two Saturdays

@@ -26,4 +26,4 @@ created: 2026-11-25T11:25:57.025Z
 
 # Il significato potrebbe dipendere dalla naturalezza delle proprietà
 
-David Lewis suggerisce che il significato di un predicato sia determinato dalla proprietà più naturale compatibile con i dati sull'uso. Così 'verde' si riferisce a verde e non a grue, perché il verde è più naturale. Secondo l'autore, questa proposta affronta difficoltà: non è chiaro come si estenda alle funzioni matematiche, e fatica a spiegare perché la conoscenza del proprio significato sia in genere non inferenziale e autorevole.
+David Lewis suggerisce che il significato di un predicato sia determinato dalla proprietà più naturale compatibile con i dati sull'uso. Così 'verde' si riferisce a verde e non a grue, perché il verde è più naturale. Secondo l'autrice, questa proposta affronta difficoltà: non è chiaro come si estenda alle funzioni matematiche, e fatica a spiegare perché la conoscenza del proprio significato sia in genere non inferenziale e autorevole.

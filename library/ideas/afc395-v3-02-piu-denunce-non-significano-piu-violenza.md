@@ -27,4 +27,4 @@ created: 2026-11-25T11:25:57.055Z
 
 # Più denunce non significano più violenza letale
 
-Dopo il caso Cecchettin le denunce per maltrattamenti e stalking aumentano, ma questo può riflettere sia una maggiore emersione di violenze prima sommerse sia una crescita reale della violenza. Per distinguere le due ipotesi gli autori guardano ai femminicidi, che vengono denunciati molto più raramente di altri reati. Secondo l'analisi, i femminicidi non aumentano dopo i casi più noti, e al più diminuiscono. Il dato suggerisce che l'effetto mediatico porti più persone a denunciare, non che generi nuovi omicidi.
+Dopo il caso Cecchettin le denunce per maltrattamenti e stalking aumentano, ma questo può riflettere sia una maggiore emersione di violenze prima sommerse sia una crescita reale della violenza. Per distinguere le due ipotesi gli autori guardano ai femminicidi, che sfuggono alle statistiche molto più raramente di altri reati. Secondo l'analisi, i femminicidi non aumentano dopo i casi più noti, e al più diminuiscono. Il dato suggerisce che l'effetto mediatico porti più persone a denunciare, non che generi nuovi omicidi.

@@ -23,6 +23,6 @@ model: claude-haiku-5-5
 created: 2026-11-25T11:25:57.002Z
 ---
 
-# Il Lost Cause nacque anche dalla rimozione
+# L'indulgenza verso Jefferson Davis offendeva i reduci
 
 La fonte descrive come Jefferson Davis, presidente confederato, fosse diventato un simbolo della cosiddetta Causa Perduta nonostante fosse accusato di tradimento e rilasciato due anni dopo la fine della guerra. Per molti reduci dell'Unione questa indulgenza era un'ingiustizia: un veterano del Massachusetts lamentava di aver perso un braccio invano, mentre il leader della secessione veniva trattato con più riguardo dei soldati. Il contrasto mostra come la memoria pubblica di un conflitto possa essere modellata anche da chi decide cosa dimenticare.

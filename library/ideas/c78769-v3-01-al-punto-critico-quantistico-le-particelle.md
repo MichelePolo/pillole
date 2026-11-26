@@ -16,13 +16,13 @@ source:
 anchor: As a result, conventional descriptions based on quasiparticles often break down.
 anchor_check: exact
 quiz:
-  q: Perché le descrizioni basate sui quasiparticelle spesso non reggono vicino a un punto critico quantistico?
+  q: Perché le descrizioni basate sulle quasiparticelle spesso non reggono vicino a un punto critico quantistico?
   a: Perché le fluttuazioni quantistiche sono correlate su distanze sempre più lunghe, quindi il sistema non può essere trattato come somma di componenti quasi indipendenti.
 prompt_version: v3
 model: claude-haiku-5-5
 created: 2026-11-25T11:25:56.965Z
 ---
 
-# Al punto critico quantistico le particelle non si possono contare
+# Al punto critico quantistico la materia non si scompone in particelle
 
-Un punto critico quantistico è una soglia tra stati della materia che si raggiunge allo zero assoluto. A differenza delle transizioni di fase guidate dalla temperatura, come il congelamento dell'acqua, queste sono guidate da parametri non termici come campo magnetico, pressione o potenziale chimico. Vicino a questo punto le fluttuazioni quantistiche sono correlate su distanze sempre maggiori, e le descrizioni basate sui quasiparticelle spesso smettono di funzionare. ==Il sistema non si lascia più scomporre in componenti indipendenti.==
+Un punto critico quantistico è una soglia tra stati della materia che si raggiunge allo zero assoluto. A differenza delle transizioni di fase guidate dalla temperatura, come il congelamento dell'acqua, queste sono guidate da parametri non termici come campo magnetico, pressione o potenziale chimico. Vicino a questo punto le fluttuazioni quantistiche sono correlate su distanze sempre maggiori, e le descrizioni basate sulle quasiparticelle spesso smettono di funzionare. ==Il sistema non si lascia più scomporre in componenti indipendenti.==

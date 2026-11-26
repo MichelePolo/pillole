@@ -27,4 +27,4 @@ created: 2026-11-23T10:53:54.666Z
 
 # Un film può essere politico nel modo in cui è fatto
 
-Godard sostiene che non basti trattare temi politici per fare un cinema politico. Secondo l'autore, conta la forma: il modo in cui un film è costruito, montato e raccontato. Un'opera può affrontare la politica con un linguaggio tradizionale senza incidere davvero, mentre un film può essere politico nella sua struttura anche quando parla d'altro. La distinzione tra contenuto e forma diventa così il punto centrale della riflessione sul ruolo sociale della regia.
+Godard sostiene che non basti trattare temi politici per fare un cinema politico. Per Godard conta la forma: il modo in cui un film è costruito, montato e raccontato. Un'opera può affrontare la politica con un linguaggio tradizionale senza incidere davvero, mentre un film può essere politico nella sua struttura anche quando parla d'altro. La distinzione tra contenuto e forma diventa così il punto centrale della riflessione sul ruolo sociale della regia.

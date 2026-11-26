@@ -12,6 +12,7 @@ source:
   id: fcf76dcac319
   lang: en
   title: Cocktail party ideas
+  author: Dan Luu
   site: danluu.com
   url: https://danluu.com/cocktail-ideas/
 anchor: people often assume that the topic is as complex as their understanding of the topic

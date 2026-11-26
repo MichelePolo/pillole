@@ -27,4 +27,4 @@ created: 2026-11-26T11:00:57.370Z
 
 # Innatismo di capacità non è innatismo di conoscenza
 
-Chomsky sostiene che i bambini devono possedere capacità innate per acquisire il linguaggio, perché l'esperienza disponibile è troppo povera. Tuttavia, i principi della grammatica universale non sono conoscenze di proposizioni che il bambino possiede consapevolmente. L'autore sottolinea che questa posizione è una teoria di capacità innate di apprendimento e non sostiene la tesi dell'innatismo della conoscenza nel senso tradizionale dei razionalisti.
+Chomsky sostiene che i bambini devono possedere capacità innate per acquisire il linguaggio, perché l'esperienza disponibile è troppo povera. Tuttavia, i principi della grammatica universale non sono conoscenze di proposizioni che il bambino possiede consapevolmente. Gli autori sottolineano che questa posizione è una teoria di capacità innate di apprendimento e non sostiene la tesi dell'innatismo della conoscenza nel senso tradizionale dei razionalisti.

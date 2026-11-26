@@ -27,4 +27,4 @@ created: 2026-11-24T12:37:02.343Z
 
 # La propaganda può piegare anche le arti tradizionali
 
-Durante l'occupazione giapponese delle isole (1942-1945), le forze occupanti cercarono di inserire messaggi propagandistici negli spettacoli di wayang kulit basati sul Mahabharata. Gli artisti furono spinti a dare più spazio al dio del sole Surya, in linea con l'immagine del Giappone come "terra del sole che sorge". Secondo il testo, ==un linguaggio artistico può diventare strumento politico==, quando il potere controlla chi racconta e che cosa viene raccontato.
+Durante l'occupazione giapponese delle Indie orientali olandesi (1942-1945), le forze occupanti cercarono di inserire messaggi propagandistici negli spettacoli di wayang kulit basati sul Mahabharata. Gli artisti furono spinti a dare più spazio al dio del sole Surya, in linea con l'immagine del Giappone come "terra del sole che sorge". Secondo il testo, ==un linguaggio artistico può diventare strumento politico==, quando il potere controlla chi racconta e che cosa viene raccontato.

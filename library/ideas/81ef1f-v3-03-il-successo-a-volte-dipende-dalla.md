@@ -12,6 +12,7 @@ source:
   id: 81ef1ff2ad78
   lang: en
   title: Misidentifying talent
+  author: Dan Luu
   site: danluu.com
   url: https://danluu.com/talent/
 anchor: Most short baseball players probably didn't get a random lucky break

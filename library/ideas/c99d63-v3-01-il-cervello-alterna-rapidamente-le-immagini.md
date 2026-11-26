@@ -26,4 +26,4 @@ created: 2026-11-25T11:25:57.028Z
 
 # Il cervello alterna rapidamente le immagini non percepite
 
-Quando due occhi vedono immagini diverse, il cervello non le fonde ma ne sceglie una alla volta, e l'altra viene soppressa dalla coscienza. Secondo lo studio riportato, però, anche mentre la percezione sembra stabile, una popolazione di neuroni della corteccia inferotemporale e prefrontale alterna circa ogni 60 millisecondi la rappresentazione dell'immagine percepita e di quella soppressa. ==Il cerebro non tace mai sull'immagine scartata==, ma la tiene in gioco in modo rapido e nascosto.
+Quando due occhi vedono immagini diverse, il cervello non le fonde ma ne sceglie una alla volta, e l'altra viene soppressa dalla coscienza. Secondo lo studio riportato, però, anche mentre la percezione sembra stabile, una popolazione di neuroni della corteccia inferotemporale e prefrontale alterna circa ogni 60 millisecondi la rappresentazione dell'immagine percepita e di quella soppressa. ==Il cervello non tace mai sull'immagine scartata==, ma la tiene in gioco in modo rapido e nascosto.

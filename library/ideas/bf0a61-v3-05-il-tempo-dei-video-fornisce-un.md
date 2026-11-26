@@ -27,4 +27,4 @@ created: 2026-11-24T12:37:02.173Z
 
 # Il tempo dei video fornisce un segnale gratuito
 
-Nei video i fotogrammi vicini nel tempo sono più simili, e l'ordine dei fotogrammi rispetta regole fisiche come la gravità e la direzione del movimento. Un modello che verifica se una sequenza è nell'ordine giusto, o che riconosce la freccia del tempo, deve ragionare sul moto degli oggetti. Secondo l'autore, questi compiti migliorano poi la classificazione delle azioni quando usati come pre-addestramento, anche se serve ancora un fine-tuning.
+Nei video i fotogrammi vicini nel tempo sono più simili, e l'ordine dei fotogrammi rispetta regole fisiche come la gravità e la direzione del movimento. Un modello che verifica se una sequenza è nell'ordine giusto, o che riconosce la freccia del tempo, deve ragionare sul moto degli oggetti. Secondo l'autrice, questi compiti migliorano poi la classificazione delle azioni quando usati come pre-addestramento, anche se serve ancora un fine-tuning.

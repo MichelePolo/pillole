@@ -25,6 +25,6 @@ model: claude-haiku-5-5
 created: 2026-11-25T11:25:57.048Z
 ---
 
-# Il nuovo costruito nasce spesso dalla rivalità tra vicini
+# Le critiche a un edificio rivelano le paure di chi le muove
 
 Il saggio sottolinea che le nuove chiese di Atene si opponevano l'una all'altra più per rivalità e per i rapporti di forza che per ragioni architettoniche coerenti. Le accuse di essere troppo italiane, russe o turche si contraddicevano a vicenda, e l'autore del dialogo le ha volutamente messe in ridicolo. La critica architettonica rivela così spesso più le paure dei committenti che le reali qualità dell'opera. Osservare chi critica un edificio aiuta a capire cosa si teme davvero.

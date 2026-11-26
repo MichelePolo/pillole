@@ -10,6 +10,7 @@ source:
   id: d9a569d5fe21
   lang: en
   title: The container throttling problem
+  author: Dan Luu
   site: danluu.com
   url: https://danluu.com/cgroup-throttling/
 anchor: thread pool size should be 2x the number of logical cores on the machine

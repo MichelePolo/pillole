@@ -10,6 +10,7 @@ source:
   id: d9a569d5fe21
   lang: en
   title: The container throttling problem
+  author: Dan Luu
   site: danluu.com
   url: https://danluu.com/cgroup-throttling/
 anchor: which is disastrous for tail latency
@@ -22,6 +23,6 @@ model: claude-haiku-5-5
 created: 2026-11-26T11:00:57.254Z
 ---
 
-# Il throttling CFS danneggia la latenza delle code
+# Il throttling CFS danneggia la latenza di coda
 
-Con il meccanismo di quota CFS, un container può usare più core del proprio limite per brevi periodi, e poi viene messo in pausa per riportare il consumo medio sotto la quota. ==Questa pausa forzata è disastrosa per la latenza nelle code==, perché le richieste già in corso restano ferme anche quando il carico è alto ma non eccessivo in media. Il problema nasce quindi non dal consumo medio di CPU, che può restare basso, ma dai picchi di parallelismo che esauriscono la quota nel periodo.
+Con il meccanismo di quota CFS, un container può usare più core del proprio limite per brevi periodi, e poi viene messo in pausa per riportare il consumo medio sotto la quota. ==Questa pausa forzata è disastrosa per la latenza di coda==, perché le richieste già in corso restano ferme anche quando il carico è alto ma non eccessivo in media. Il problema nasce quindi non dal consumo medio di CPU, che può restare basso, ma dai picchi di parallelismo che esauriscono la quota nel periodo.

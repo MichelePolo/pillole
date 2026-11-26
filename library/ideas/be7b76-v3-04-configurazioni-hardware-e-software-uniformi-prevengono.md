@@ -10,6 +10,7 @@ source:
   id: be7b76e71de8
   lang: en
   title: A decade of major cache incidents at Twitter
+  author: Dan Luu
   site: danluu.com
   url: https://danluu.com/cache-incidents/
 anchor: Consistent hardware settings are important

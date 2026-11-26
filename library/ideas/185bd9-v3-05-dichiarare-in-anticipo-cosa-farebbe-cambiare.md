@@ -25,4 +25,4 @@ created: 2026-11-24T12:37:02.155Z
 
 # Dichiarare in anticipo cosa farebbe cambiare idea
 
-Lakatos, ereditando da Popper un criterio di onestà intellettuale, sosteneva che una teoria seria deve dichiarare in anticipo a quali condizioni si sarebbe disposti ad abbandonarla. Una teoria che non indica nessuna prova in grado di smentirla si sottrae alla verifica e diventa difficile da distinguere da un sistema di credenze. Questo principio vale come test generale per qualunque affermazione che si presenti come scientifica, non solo per la psicoanalisi.
+Lakatos, ereditando da Popper un criterio di onestà intellettuale, sosteneva che chi sostiene una teoria seria deve dichiarare in anticipo a quali condizioni sarebbe disposto ad abbandonarla. Una teoria che non indica nessuna prova in grado di smentirla si sottrae alla verifica e diventa difficile da distinguere da un sistema di credenze. Questo principio vale come test generale per qualunque affermazione che si presenti come scientifica, non solo per la psicoanalisi.

@@ -16,7 +16,7 @@ source:
 anchor: il romanzo trova sempre la sua autentica ragion d’essere nel rovesciare preconcetti e stereotipi
 anchor_check: exact
 quiz:
-  q: Perché, secondo l'autore, il romanzo perderebbe la sua natura se diventasse soprattutto strumento di educazione civile?
+  q: Perché, secondo Walter Siti, il romanzo perderebbe la sua natura se diventasse soprattutto strumento di educazione civile?
   a: Perché la sua vocazione è destabilizzare i preconcetti e visitare i luoghi oscuri dell'individuo, non affermare valori positivi.
 prompt_version: v3
 model: claude-haiku-5-5

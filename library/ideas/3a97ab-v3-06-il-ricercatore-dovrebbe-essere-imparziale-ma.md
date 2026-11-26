@@ -17,7 +17,7 @@ source:
 anchor: imparziale ma non neutrale
 anchor_check: exact
 quiz:
-  q: Perché, secondo l'autore, la neutralità del ricercatore può diventare una presa di posizione?
+  q: Perché, secondo Bianchi, la neutralità del ricercatore può diventare una presa di posizione?
   a: Perché in contesti segnati da disuguaglianze e interessi divergenti i risultati neutrali finiscono per favorire ciò che già esiste.
 warnings:
   - corpo di 59 parole (60-120)
@@ -28,4 +28,4 @@ created: 2026-11-25T11:25:56.900Z
 
 # Il ricercatore dovrebbe essere imparziale ma non neutrale
 
-Secondo l'autore, il ricercatore deve essere imparziale nella produzione dei dati, con metodi rigorosi, trasparenti e replicabili. Non può però essere neutrale rispetto alle conseguenze, perché in contesti segnati da disuguaglianze la neutralità diventa una presa di posizione a favore dello status quo. Per questo propone che i ricercatori dichiarino anche il proprio posizionamento su temi come la disuguaglianza.
+Secondo Fabrizio Bianchi, il ricercatore deve essere imparziale nella produzione dei dati, con metodi rigorosi, trasparenti e replicabili. Non può però essere neutrale rispetto alle conseguenze, perché in contesti segnati da disuguaglianze la neutralità diventa una presa di posizione a favore dello status quo. Per questo propone che i ricercatori dichiarino anche il proprio posizionamento su temi come la disuguaglianza.

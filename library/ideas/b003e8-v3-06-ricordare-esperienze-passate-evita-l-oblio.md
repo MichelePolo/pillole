@@ -27,4 +27,4 @@ created: 2026-11-26T11:00:57.227Z
 
 # Ricordare esperienze passate evita l'oblio
 
-Un'attività che dipende dall'apprendimento incrementale con piccoli passi tende a dimenticare ciò che si è imparato prima. La memoria episodica risolve questo problema conservando esplicitamente le esperienze passate e usandole come riferimento per decidere. Secondo l'autore, questo approccio evita l'oblio catastrofico e può accelerare l'apprendimento, ma la sua capacità è limitata dalla complessità dell'ambiente, perché la codifica degli stati diventa cruciale.
+Un sistema che dipende dall'apprendimento incrementale con piccoli passi tende a dimenticare ciò che si è imparato prima. La memoria episodica risolve questo problema conservando esplicitamente le esperienze passate e usandole come riferimento per decidere. Secondo l'autrice, questo approccio evita l'oblio catastrofico e può accelerare l'apprendimento, ma la sua capacità è limitata dalla complessità dell'ambiente, perché la codifica degli stati diventa cruciale.

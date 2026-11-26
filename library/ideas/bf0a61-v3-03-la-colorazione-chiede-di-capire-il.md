@@ -25,4 +25,4 @@ created: 2026-11-24T12:37:02.172Z
 
 # La colorazione chiede di capire il contenuto dell'immagine
 
-Colorare un'immagine in scala di grigi è un compito di predizione senza etichette: il modello deve stimare i colori plausibili a partire dalla luminosità. Per gestire il fatto che un oggetto può avere più colori possibili, conviene predire una distribuzione su valori di colore discretizzati, usando la cross-entropia, invece di predire un singolo valore con errore quadratico. Secondo l'autore, questa scelta rispecchia la natura multimodale del problema.
+Colorare un'immagine in scala di grigi è un compito di predizione senza etichette: il modello deve stimare i colori plausibili a partire dalla luminosità. Per gestire il fatto che un oggetto può avere più colori possibili, conviene predire una distribuzione su valori di colore discretizzati, usando la cross-entropia, invece di predire un singolo valore con errore quadratico. Secondo l'autrice, questa scelta rispecchia la natura multimodale del problema.

@@ -16,7 +16,7 @@ source:
 anchor: Haas' findings demonstrate conclusively that synapses do indeed persist into adulthood.
 anchor_check: exact
 quiz:
-  q: Perché l'ipotesi che le sinapsi elettriche fossero solo evolutive è stata messa in discussione?
+  q: Perché l'ipotesi che le sinapsi elettriche fossero solo una fase dello sviluppo è stata messa in discussione?
   a: Perché i dati mostrano che queste sinapsi restano presenti anche nel cervello adulto, mentre per lungo tempo si era data per scontata la loro scomparsa.
 prompt_version: v3
 model: claude-haiku-5-5

@@ -26,4 +26,4 @@ created: 2026-11-24T12:37:02.346Z
 
 # Isolare ogni scheda in un processo separato aumenta la sicurezza
 
-Ladybird esegue ogni scheda in un processo diverso, un meccanismo di isolamento usato dalla maggior parte dei browser. Se una pagina è malevola o si blocca, il danno resta confinato al suo processo e non compromette l'intero programma. Il costo è un consumo di memoria più alto, perché ogni processo porta con sé il proprio overhead. È un compromesso tra sicurezza, stabilità e risorse che caratterizza l'architettura moderna dei browser.
+Ladybird esegue ogni scheda in un processo diverso, un meccanismo di isolamento usato dalla maggior parte dei browser. Se una pagina è malevola o si blocca, il danno resta confinato al suo processo e non compromette l'intero programma. Il costo è un consumo di memoria più alto, perché ogni processo porta con sé il proprio carico aggiuntivo. È un compromesso tra sicurezza, stabilità e risorse che caratterizza l'architettura moderna dei browser.

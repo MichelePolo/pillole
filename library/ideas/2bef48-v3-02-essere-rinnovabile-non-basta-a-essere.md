@@ -19,7 +19,7 @@ anchor: non conta soltanto se il combustibile è rinnovabile
 anchor_check: exact
 quiz:
   q: Perché la classificazione di un combustibile come rinnovabile non basta a valutarne l'impatto?
-  a: Perché contano anche l'apparecchio con cui viene bruciato e il luogo in cui viene usato, e il danno sanitario locale.
+  a: Perché contano anche l'apparecchio con cui viene bruciato, il luogo in cui viene usato e il danno sanitario locale.
 prompt_version: v3
 model: claude-haiku-5-5
 created: 2026-11-26T11:00:57.376Z

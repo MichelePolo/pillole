@@ -25,6 +25,6 @@ model: claude-haiku-5-5
 created: 2026-11-24T12:37:02.238Z
 ---
 
-# CRISPR-Cas sposta la riparazione su scala molecolare
+# CRISPR-Cas taglia, ma a ricucire è la cellula
 
-CRISPR-Cas è un sistema di taglio del DNA guidato da un frammento di RNA, che indica dove tagliare. Questo rende molto più semplice modificare punti diversi del genoma, perché sintetizzare un RNA guida è molto più facile che progettare un enzima apposito per ogni gene. Anche CRISPR, però, si affida ai meccanismi di riparazione naturali della cellula per ricucire il DNA con il gene modificato. Secondo l'autore, l'intervento è più fondamentale di qualunque chirurgia, perché avviene su scala molecolare.
+CRISPR-Cas è un sistema di taglio del DNA guidato da un frammento di RNA, che indica dove tagliare. Questo rende molto più semplice modificare punti diversi del genoma, perché sintetizzare un RNA guida è molto più facile che progettare un enzima apposito per ogni gene. Anche CRISPR, però, si affida ai meccanismi di riparazione naturali della cellula per ricucire il DNA con il gene modificato. Secondo l'autrice, l'intervento è più fondamentale di qualunque chirurgia, perché avviene su scala molecolare.

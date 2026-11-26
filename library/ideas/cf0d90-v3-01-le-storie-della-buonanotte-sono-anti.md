@@ -25,4 +25,4 @@ created: 2026-11-26T11:00:57.341Z
 
 # Le storie della buonanotte sono anti-letteratura
 
-Le storie pensate per addormentare rifiutano i principi della buona scrittura: non vogliono essere ascoltate con attenzione, non chiedono empatia verso i personaggi e non puntano alla fine. Il loro successo si misura proprio nel essere dimenticate. Secondo l'autore, questo le rende un genere sperimentale e radicale, perché mettono in discussione l'idea stessa di far appassionare il lettore. Una buona storia per dormire è una storia che si dimentica appena finita.
+Le storie pensate per addormentare rifiutano i principi della buona scrittura: non vogliono essere ascoltate con attenzione, non chiedono empatia verso i personaggi e non puntano alla fine. Il loro successo si misura proprio nell'essere dimenticate. Secondo l'autore, questo le rende un genere sperimentale e radicale, perché mettono in discussione l'idea stessa di far appassionare il lettore. Una buona storia per dormire è una storia che si dimentica appena finita.

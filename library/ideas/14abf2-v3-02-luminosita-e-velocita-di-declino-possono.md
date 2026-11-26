@@ -25,4 +25,4 @@ created: 2026-11-26T11:00:57.235Z
 
 # Luminosità e velocità di declino possono non essere legate
 
-Nelle supernove di tipo Ia standard, le esplosioni meno luminose tendono a spegnersi più rapidamente, secondo la relazione di Phillips. Sn 2024vjm fa l'opposto: è molto debole ma perde luminosità lentamente. Il suo comportamento ricorda la relazione osservata nelle novae classiche. Secondo l'autore, questo suggerisce una connessione tra due famiglie di esplosioni termonucleari che finora sembravano distinte. Il caso mostra che le regolarità valide per una classe di eventi non vanno estese automaticamente ad altre.
+Nelle supernove di tipo Ia standard, le esplosioni meno luminose tendono a spegnersi più rapidamente, secondo la relazione di Phillips. Sn 2024vjm fa l'opposto: è molto debole ma perde luminosità lentamente. Il suo comportamento ricorda la relazione osservata nelle novae classiche. Secondo i ricercatori, questo suggerisce una connessione tra due famiglie di esplosioni termonucleari che finora sembravano distinte. Il caso mostra che le regolarità valide per una classe di eventi non vanno estese automaticamente ad altre.

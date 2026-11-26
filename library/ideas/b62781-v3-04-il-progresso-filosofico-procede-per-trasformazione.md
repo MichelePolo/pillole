@@ -25,4 +25,4 @@ created: 2026-11-26T11:00:57.330Z
 
 # Il progresso filosofico procede per trasformazione, non per accumulo
 
-Secondo l'autore, in filosofia il progresso non avviene come nelle altre scienze, per aggiunta di parti. Ciò che esisteva prima si conserva in un sistema successivo, ma acquista un significato diverso. Questo dipende dalla natura del suo oggetto, la verità assoluta e infinita, che non può ridursi a un insieme di parti. Per questo il cambiamento filosofico richiede guerra e catastrofe, cioè rotture e conflitti, più che un lavoro cumulativo e pacifico.
+Secondo Spaventa, in filosofia il progresso non avviene come nelle altre scienze, per aggiunta di parti. Ciò che esisteva prima si conserva in un sistema successivo, ma acquista un significato diverso. Questo dipende dalla natura del suo oggetto, la verità assoluta e infinita, che non può ridursi a un insieme di parti. Per questo il cambiamento filosofico richiede guerra e catastrofe, cioè rotture e conflitti, più che un lavoro cumulativo e pacifico.

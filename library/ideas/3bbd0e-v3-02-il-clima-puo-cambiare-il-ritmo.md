@@ -29,4 +29,4 @@ created: 2026-11-23T10:53:54.625Z
 
 # Il clima può cambiare il ritmo dell'umidità, non solo la temperatura
 
-Secondo l'autore, per le malte di calce conta più il ritmo con cui l'umidità sale e scende che la quantità di CO₂ nell'aria. La carbonatazione funziona bene intorno al 60% di umidità: più secca o più umida rallenta. L'alternanza sempre più brusca di siccità e piogge provoca gonfiamenti e microfessure. Una difesa tarata sul clima passato può quindi indebolirsi anche senza variazioni evidenti della temperatura media.
+Secondo l'autore, per le malte di calce conta più il ritmo con cui l'umidità sale e scende che la quantità di CO₂ nell'aria. La carbonatazione funziona bene intorno al 60% di umidità: con aria più secca o più umida rallenta. L'alternanza sempre più brusca di siccità e piogge provoca gonfiamenti e microfessure. Una difesa tarata sul clima passato può quindi indebolirsi anche senza variazioni evidenti della temperatura media.

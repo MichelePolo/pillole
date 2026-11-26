@@ -24,6 +24,6 @@ model: claude-haiku-5-5
 created: 2026-11-24T12:37:02.299Z
 ---
 
-# I processi produttivi tendono a mostrare un ideale
+# I film di processo mostrano una produzione ideale
 
 Nei film di processo, come quelli che mostrano la fabbricazione di oggetti quotidiani, il risultato appare come la versione più vera e perfetta di sé. Non si vedono gli errori né gli scarti: la sequenza viene presentata come un percorso ideale senza difetti. Secondo la studiosa Salomé Skvirsky, questo è ciò che rende questi film così ipnotici, perché ci convincono che l'oggetto mostrato sia l'oggetto nella sua forma essenziale. ==Il processo mostrato è sempre una versione idealizzata.==

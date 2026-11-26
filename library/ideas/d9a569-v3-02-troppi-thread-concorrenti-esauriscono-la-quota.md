@@ -11,6 +11,7 @@ source:
   id: d9a569d5fe21
   lang: en
   title: The container throttling problem
+  author: Dan Luu
   site: danluu.com
   url: https://danluu.com/cgroup-throttling/
 anchor: a heavily threaded application can have more threads executing in parallel than the "number of CPUs" it requested

@@ -25,4 +25,4 @@ created: 2026-11-24T12:37:02.185Z
 
 # El Niño è un'oscillazione atmosferica, non solo oceanica
 
-Il fenomeno che chiamiamo El Niño è la manifestazione oceanica di un'oscillazione di pressione atmosferica sul Pacifico, detta Oscillazione Meridionale. Quando la differenza di pressione tra est e ovest si riduce, gli alisei si indeboliscono e l'acqua calda del Pacifico occidentale si sposta verso est. ==El riscaldamento dell'oceano è dunque un effetto, non la causa unica del fenomeno.== Capire questo legame spiega perché El Niño influenzi il clima di regioni lontane dal Pacifico tropicale.
+Il fenomeno che chiamiamo El Niño è la manifestazione oceanica di un'oscillazione di pressione atmosferica sul Pacifico, detta Oscillazione Meridionale. Quando la differenza di pressione tra est e ovest si riduce, gli alisei si indeboliscono e l'acqua calda del Pacifico occidentale si sposta verso est. ==Il riscaldamento dell'oceano è dunque un effetto, non la causa unica del fenomeno.== Capire questo legame spiega perché El Niño influenzi il clima di regioni lontane dal Pacifico tropicale.

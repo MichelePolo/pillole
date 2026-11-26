@@ -23,6 +23,6 @@ model: claude-haiku-5-5
 created: 2026-11-23T10:53:54.471Z
 ---
 
-# Il progresso reale conta più della perfomance assoluta
+# Il progresso reale conta più della performance assoluta
 
-Nei metodi di curriculum automatico, ciò che guida la scelta dei compiti non è quanto bene il modello fa oggi, ma quanto sta migliorando. Portelas e colleghi misurano il progresso di apprendimento come la differenza tra la ricompensa ottenuta con un nuovo compito e quella ottenuta con il compito più vicino già provato. Così si privilegiano le regioni dello spazio dei compiti in cui il modello sta imparando di più, invece di quelle già dominate o troppo difficili. Il principio generale è che l'obiettivo del modello va scelto in base alla velocità con cui cambia, non al suo livello attuale.
+Nei metodi di curriculum automatico, ciò che guida la scelta dei compiti non è quanto bene il modello fa oggi, ma quanto sta migliorando. Portelas e colleghi misurano il progresso di apprendimento come la differenza tra la ricompensa ottenuta con un nuovo compito e quella ottenuta con il compito più vicino già provato. Così si privilegiano le regioni dello spazio dei compiti in cui il modello sta imparando di più, invece di quelle già dominate o troppo difficili. Il principio generale è che i compiti vanno scelti in base a quanto velocemente il modello vi migliora, non al suo livello attuale.

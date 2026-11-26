@@ -25,4 +25,4 @@ created: 2026-11-24T12:37:02.140Z
 
 # Un'utopia è spesso una critica travestita da sogno
 
-Herland è una utopia di madri, eppure nasce da un rifiuto. Gilman, che nel racconto The Yellow Wallpaper aveva descritto la maternità vittoriana come una prigione, immagina una maternità liberata da quei vincoli: le donne crescono i figli collettivamente e il legame esclusivo tra madre e figlio si indebolisce. Secondo la fonte, l'autrice costruisce la sua utopia in reazione alla società in cui vive. ==Un'utopia è spesso una critica travestita da sogno==, e leggerla bene significa chiedersi da cosa l'autore sta fuggendo.
+Herland è un'utopia di madri, eppure nasce da un rifiuto. Gilman, che nel racconto The Yellow Wallpaper aveva descritto la maternità vittoriana come una prigione, immagina una maternità liberata da quei vincoli: le donne crescono i figli collettivamente e il legame esclusivo tra madre e figlio si indebolisce. Secondo la fonte, l'autrice costruisce la sua utopia in reazione alla società in cui vive. ==Un'utopia è spesso una critica travestita da sogno==, e leggerla bene significa chiedersi da cosa l'autore sta fuggendo.

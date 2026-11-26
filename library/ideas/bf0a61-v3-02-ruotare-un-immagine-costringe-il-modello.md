@@ -25,4 +25,4 @@ created: 2026-11-24T12:37:02.171Z
 
 # Ruotare un'immagine costringe il modello a capire le parti
 
-Per predire quale rotazione di 0, 90, 180 o 270 gradi sia stata applicata, il modello non può basarsi su semplici pattern locali: deve riconoscere le parti degli oggetti, come teste, nasi e occhi, e le loro posizioni relative. Il compito è economico da costruire e, secondo l'autore, spinge la rete a imparare concetti semantici sugli oggetti senza alcuna etichetta.
+Per predire quale rotazione di 0, 90, 180 o 270 gradi sia stata applicata, il modello non può basarsi su semplici pattern locali: deve riconoscere le parti degli oggetti, come teste, nasi e occhi, e le loro posizioni relative. Il compito è economico da costruire e, secondo l'autrice, spinge la rete a imparare concetti semantici sugli oggetti senza alcuna etichetta.

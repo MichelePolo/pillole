@@ -27,4 +27,4 @@ created: 2026-11-23T10:53:54.599Z
 
 # La ragione è schiava delle passioni
 
-Secondo Hume la ragione non può essere essa stessa il motore dell'azione. Può indicare i mezzi più efficaci per raggiungere un fine, ma l'impulso ad agire nasce sempre da una passione, come il desiderio o l'avversione. ==La ragione da sola non può muovere la volontà==, perché si limita a collegare idee e cause. Per questo Hume parla della ragione come schiava delle passioni, che stabiliscono i fini. L'autore difende questa tesi in modo dettagliato nel Trattato, con tre argomenti distinti.
+Secondo Hume la ragione non può essere essa stessa il motore dell'azione. Può indicare i mezzi più efficaci per raggiungere un fine, ma l'impulso ad agire nasce sempre da una passione, come il desiderio o l'avversione. ==La ragione da sola non può muovere la volontà==, perché si limita a collegare idee e cause. Per questo Hume parla della ragione come schiava delle passioni, che stabiliscono i fini. Hume difende questa tesi in modo dettagliato nel Trattato, con tre argomenti distinti.

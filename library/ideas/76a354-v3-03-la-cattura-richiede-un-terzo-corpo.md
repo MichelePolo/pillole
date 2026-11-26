@@ -25,4 +25,4 @@ created: 2026-11-26T11:00:57.247Z
 
 # La cattura richiede un terzo corpo che faccia da fionda
 
-Un buco nero primordiale che attraversa lo spazio interstellare segue un'orbita aperta e, passando vicino a una stella, perde troppa poca energia per restare legato. Per catturarlo serve un'interazione a tre corpi: un compagno, come un pianeta gigante analogo a Giove, scambia energia con il buco nero con un effetto fionda gravitazionale. Il tempo necessario dipende dal quadrato del rapporto tra le masse di stella e pianeta. Nel sistema Giove-Sole la cattura richiederebbe circa dieci milioni di anni.
+Un buco nero primordiale che attraversa lo spazio interstellare segue un'orbita aperta e, passando vicino a una stella, perde troppo poca energia per restare legato. Per catturarlo serve un'interazione a tre corpi: un compagno, come un pianeta gigante analogo a Giove, scambia energia con il buco nero con un effetto fionda gravitazionale. Il tempo necessario dipende dal quadrato del rapporto tra le masse di stella e pianeta. Nel sistema Giove-Sole la cattura richiederebbe circa dieci milioni di anni.

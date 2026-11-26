@@ -25,6 +25,6 @@ model: claude-haiku-5-5
 created: 2026-11-24T12:37:02.261Z
 ---
 
-# Polinomiale e esponenziale: una distinzione di crescita
+# Polinomiale ed esponenziale: una distinzione di crescita
 
 Un algoritmo è polinomiale se garantisce la risposta in al più n elevato a una costante c, ed è esponenziale se richiede circa a elevato a n operazioni, con a maggiore di 1. Per n grande l'algoritmo polinomiale è più veloce qualunque siano le costanti, perché la crescita esponenziale finisce sempre per superare quella polinomiale. L'autore avverte però che il sentirsi tranquilli su questa regola dipende da quanto grande deve essere n perché la differenza emerga, cosa che in pratica può rendere la distinzione poco utile.

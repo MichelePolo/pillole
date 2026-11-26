@@ -26,4 +26,4 @@ created: 2026-11-26T11:00:57.371Z
 
 # Il limite di Hume: relazioni di idee e fatti
 
-Hume divide gli oggetti della ragione in relazioni di idee, come la geometria, e questioni di fatto. Le prime sono conoscibili per pura operazione del pensiero, mentre la negazione di un fatto resta sempre concepibile senza contraddizione. Secondo questa posizione, intuizione e dimostrazione danno conoscenza necessaria solo nel campo delle relazioni tra idee, non dell'esistenza. L'autore nota che questa versione di empirismo non va proiettata indietro su Locke, che rivendicava la dimostrazione dell'esistenza di Dio.
+Hume divide gli oggetti della ragione in relazioni di idee, come la geometria, e questioni di fatto. Le prime sono conoscibili per pura operazione del pensiero, mentre la negazione di un fatto resta sempre concepibile senza contraddizione. Secondo questa posizione, intuizione e dimostrazione danno conoscenza necessaria solo nel campo delle relazioni tra idee, non dell'esistenza. Gli autori notano che questa versione di empirismo non va proiettata indietro su Locke, che rivendicava la dimostrazione dell'esistenza di Dio.

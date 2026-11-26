@@ -11,6 +11,7 @@ source:
   id: be7b76e71de8
   lang: en
   title: A decade of major cache incidents at Twitter
+  author: Dan Luu
   site: danluu.com
   url: https://danluu.com/cache-incidents/
 anchor: Clients should "do the math" when setting retry policies
@@ -25,4 +26,4 @@ created: 2026-11-24T12:37:02.282Z
 
 # Retry e riconnessioni aggressive possono abbattere il sistema
 
-Quando un server è sovraccarico e risponde lentamente, i client che ritentano le richieste o aprono nuove connessioni aumentano il carico proprio sul componente già in difficoltà. Secondo l'autore, il problema nasce quando ogni client applica da solo una politica di retry senza considerare il numero complessivo di client e di connessioni. La lezione è che chi configura i tentativi deve fare i conti in anticipo: se tutte le risposte falliscono, la politica di retry non deve poter sommergere il server.
+Quando un server è sovraccarico e risponde lentamente, i client che ritentano le richieste o aprono nuove connessioni aumentano il carico proprio sul componente già in difficoltà. Secondo gli autori, il problema nasce quando ogni client applica da solo una politica di retry senza considerare il numero complessivo di client e di connessioni. La lezione è che chi configura i tentativi deve fare i conti in anticipo: se tutte le risposte falliscono, la politica di retry non deve poter sommergere il server.

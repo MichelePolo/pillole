@@ -26,4 +26,4 @@ created: 2026-11-26T11:00:57.320Z
 
 # Il talento femminile non basta a emergere
 
-Nell'intervista la cantautrice racconta che, negli anni Settanta e Ottanta, le artiste dipendevano spesso dal sostegno di un produttore o di un compagno influente per lavorare. Secondo lei, una donna doveva cercarsi un "protettore" per essere ascoltata, mentre gli uomini con lo stesso valore non dovevano farlo. Il racconto mostra come la carriera musicale dipendesse anche dalle reti di potere, oltre che dalla qualità delle canzoni. Va letto come l'esperienza personale dell'artista, non come un dato generale verificato.
+Nell'intervista la cantautrice racconta che, negli anni Settanta e Ottanta, le artiste dipendevano spesso dal sostegno di un produttore o di un compagno influente per lavorare. Secondo lei, una donna doveva cercarsi un "protettore" per essere ascoltata, mentre gli uomini con lo stesso valore non dovevano farlo. Il racconto mostra come la carriera musicale dipendesse anche dalle reti di potere, oltre che dalla qualità delle canzoni.

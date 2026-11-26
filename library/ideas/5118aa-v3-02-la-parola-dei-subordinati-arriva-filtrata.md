@@ -27,4 +27,4 @@ created: 2026-11-26T11:00:57.346Z
 
 # La parola dei subordinati arriva filtrata dai padroni
 
-Secondo l'autrice, le voci di chi ha poco potere ci sono giunte quasi sempre attraverso autori che avevano idee precise su come dovesse comportarsi un subordinato. Chi detiene il potere ha avuto buoni archivisti, mentre gli altri hanno dovuto arrangiarsi. Ne deriva un problema metodologico: per ricostruire la parola plebea bisogna leggere le fonti contro il grano, cercando le tracce di una voce che il testo non è stato scritto per conservare. Il silenzio degli archivi non equivale all'assenza di voci.
+Secondo l'autrice, le voci di chi ha poco potere ci sono giunte quasi sempre attraverso autori che avevano idee precise su come dovesse comportarsi un subordinato. Chi detiene il potere ha avuto buoni archivisti, mentre gli altri hanno dovuto arrangiarsi. Ne deriva un problema metodologico: per ricostruire la parola plebea bisogna leggere le fonti a contrappelo, cercando le tracce di una voce che il testo non è stato scritto per conservare. Il silenzio degli archivi non equivale all'assenza di voci.

@@ -18,7 +18,7 @@ source:
 anchor: Il dubbio legittimo è orientato a migliorare la conoscenza, quello costruito a ritardare o evitare decisioni
 anchor_check: exact
 quiz:
-  q: Che differenza c'è, secondo l'autore, tra un dubbio legittimo e uno strumentale?
+  q: Che differenza c'è, secondo Bianchi, tra un dubbio legittimo e uno strumentale?
   a: Il dubbio legittimo mira a migliorare la conoscenza, quello strumentale a ritardare o evitare decisioni.
 prompt_version: v3
 model: claude-haiku-5-5
@@ -27,4 +27,4 @@ created: 2026-11-25T11:25:56.898Z
 
 # Il dubbio può migliorare la conoscenza o ritardare le decisioni
 
-Lo stesso dubbio scientifico può avere due usi opposti. Quello legittimo serve a migliorare la conoscenza, mentre quello costruito ad arte serve a ritardare o evitare decisioni. Secondo l'autore, il dubbio usato come strumento di difesa, come fa un avvocato con i limiti di uno studio, non è una ricerca di verità ma una strategia. Il criterio distintivo è l'intenzione con cui il dubbio viene usato.
+Lo stesso dubbio scientifico può avere due usi opposti. Quello legittimo serve a migliorare la conoscenza, mentre quello costruito ad arte serve a ritardare o evitare decisioni. Secondo Fabrizio Bianchi, il dubbio usato come strumento di difesa, come fa un avvocato con i limiti di uno studio, non è una ricerca di verità ma una strategia. Il criterio distintivo è l'intenzione con cui il dubbio viene usato.

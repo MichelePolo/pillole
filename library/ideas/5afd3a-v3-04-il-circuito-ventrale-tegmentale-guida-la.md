@@ -25,6 +25,6 @@ model: claude-haiku-5-5
 created: 2026-11-24T12:37:02.337Z
 ---
 
-# Il circuito ventrale tegmentale guida la preferenza per il sapore
+# Il circuito dell'area tegmentale ventrale guida la preferenza per il sapore
 
 Nei topi, silenziare i neuroni dopaminergici dell'area tegmentale ventrale impedisce di associare un sapore a un'infusione di zucchero. Al contrario, stimolare le terminazioni di questi neuroni nell'amigdala basolaterale mentre l'animale lecca un sapore non calorico è sufficiente a creare una preferenza per quel sapore. Il risultato indica che questo percorso è necessario e sufficiente per l'apprendimento tra gusto e nutrimento. Il circuito appare specifico: bloccarlo non interferisce con altre forme di apprendimento legate all'ingestione.

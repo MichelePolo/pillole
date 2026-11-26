@@ -27,4 +27,4 @@ created: 2026-11-24T12:37:02.343Z
 
 # Le enciclopedie possono modellare la tradizione che descrivono
 
-Secondo la storica Miguel Escobar Varela, le prime enciclopedie sul wayang non erano osservatori neutrali: hanno avuto effetti concreti sulla tradizione. Gli studiosi europei avrebbero introdotto l'idea che ogni storia avesse una versione originale autorevole, a scapito delle varianti locali. Col tempo, ==il racconto si è uniformato== e le molte versioni orali sono state in parte soppiantate. Il sapere che classifica una cultura può quindi cambiarla.
+Secondo lo storico Miguel Escobar Varela, le prime enciclopedie sul wayang non erano osservatori neutrali: hanno avuto effetti concreti sulla tradizione. Gli studiosi europei avrebbero introdotto l'idea che ogni storia avesse una versione originale autorevole, a scapito delle varianti locali. Col tempo, ==il racconto si è uniformato== e le molte versioni orali sono state in parte soppiantate. Il sapere che classifica una cultura può quindi cambiarla.

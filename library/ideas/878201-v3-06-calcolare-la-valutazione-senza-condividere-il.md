@@ -27,4 +27,4 @@ created: 2026-11-25T11:25:56.910Z
 
 # Calcolare la valutazione senza condividere il modello
 
-Nel lavoro di OpenAI sulle strategie evolutive per l'apprendimento per rinforzo, ogni lavoratore perturba i parametri con rumore casuale e valuta la prestazione in parallelo. Poiché basta condividere i semi del generatore casuale, i nodi non devono scambiarsi grandi modelli. Il nodo centrale può quindi aggiornare i parametri usando solo le prestazioni ottenute. Secondo l'autore, questo design è particolarmente elegante e scalabile.
+Nel lavoro di OpenAI sulle strategie evolutive per l'apprendimento per rinforzo, ogni lavoratore perturba i parametri con rumore casuale e valuta la prestazione in parallelo. Poiché basta condividere i semi del generatore casuale, i nodi non devono scambiarsi grandi modelli. Il nodo centrale può quindi aggiornare i parametri usando solo le prestazioni ottenute. Secondo l'autrice, questo design è particolarmente elegante e scalabile.

@@ -26,6 +26,6 @@ model: claude-haiku-5-5
 created: 2026-11-25T11:25:57.023Z
 ---
 
-# Il scettico di Kripke mette in dubbio ogni fatto sul significato
+# Lo scettico di Kripke mette in dubbio ogni fatto sul significato
 
-Nel dialogo proposto da Kripke, uno scettico suggerisce che in passato usassimo il '+' per indicare una funzione diversa dall'addizione, chiamata quaddizione, che dà 5 dopo 57. Il punto dello scettico non è mettere in dubbio la memoria, ma sostenere che, se non esiste un fatto che distingua l'addizione dalla quaddizione, allora non esiste nemmeno un fatto sul significato che stiamo attribuendo a un'espressione. Il problema si può generalizzare dal passato al presente.
+Nel dialogo proposto da Kripke, uno scettico suggerisce che in passato usassimo il '+' per indicare una funzione diversa dall'addizione, chiamata quaddizione, che dà sempre 5 quando un numero è 57 o più. Il punto dello scettico non è mettere in dubbio la memoria, ma sostenere che, se non esiste un fatto che distingua l'addizione dalla quaddizione, allora non esiste nemmeno un fatto sul significato che stiamo attribuendo a un'espressione. Il problema si può generalizzare dal passato al presente.

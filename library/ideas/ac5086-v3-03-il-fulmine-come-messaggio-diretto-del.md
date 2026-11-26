@@ -19,7 +19,7 @@ anchor: mentre loro ritengono che le nubi si scontrino per provocare i fulmini
 anchor_check: exact
 quiz:
   q: Qual era la differenza tra la visione romana e quella etrusca del fulmine, secondo Seneca?
-  a: I Romani vedevano il fulmine come effetto dello scontro delle nubi, mentre gli Etruschi lo consideravano il modo in cui le nubi venivano spinte a produrre un messaggio divino.
+  a: I Romani vedevano il fulmine come effetto dello scontro delle nubi, mentre per gli Etruschi le nubi si scontravano per produrre il fulmine, inteso come messaggio divino.
 prompt_version: v3
 model: claude-haiku-5-5
 created: 2026-11-23T10:53:54.519Z

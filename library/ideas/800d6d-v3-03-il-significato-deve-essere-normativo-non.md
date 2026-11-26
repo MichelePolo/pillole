@@ -26,4 +26,4 @@ created: 2026-11-25T11:25:57.024Z
 
 # Il significato deve essere normativo, non descrittivo
 
-Secondo l'autore, Kripke sostiene che la relazione tra significato e azione futura è normativa, non descrittiva: non basta dire che, se intendo l'addizione, risponderò 125. Il punto è che, se voglio attenermi al mio significato passato, dovrei rispondere 125. Un errore di calcolo non cambia ciò che intendo, mostra solo che non ho agito secondo le mie intenzioni. Questa tesi è al centro del dibattito sulla normatività del significato.
+Secondo l'autrice, Kripke sostiene che la relazione tra significato e azione futura è normativa, non descrittiva: non basta dire che, se intendo l'addizione, risponderò 125. Il punto è che, se voglio attenermi al mio significato passato, dovrei rispondere 125. Un errore di calcolo non cambia ciò che intendo, mostra solo che non ho agito secondo le mie intenzioni. Questa tesi è al centro del dibattito sulla normatività del significato.

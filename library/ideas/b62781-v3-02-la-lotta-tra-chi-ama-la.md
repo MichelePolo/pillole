@@ -25,4 +25,4 @@ created: 2026-11-26T11:00:57.329Z
 
 # La lotta tra chi ama la verità è necessaria
 
-Spaventa sostiene che chi professa di amare la verità in una forma diversa dalla propria, e la giudica falsa, non può essergli amico come filosofo. Può essergli amico come uomo, ma come filosofo deve combatterlo, cercando di distruggere la forma che ritiene indegna del vero. Questa contesa non è un'anomalia: è uno dei modi necessari in cui l'amore per la verità si manifesta. Secondo l'autore, la lotta è la realtà dell'amore stesso.
+Spaventa sostiene che chi ama la verità in una forma determinata non può essere amico, come filosofo, di chi la ama in una forma diversa che egli giudica falsa. Può essergli amico come uomo, ma come filosofo deve combatterlo, cercando di distruggere la forma che ritiene indegna del vero. Questa contesa non è un'anomalia: è uno dei modi necessari in cui l'amore per la verità si manifesta. Per Spaventa, la lotta è la realtà dell'amore stesso.

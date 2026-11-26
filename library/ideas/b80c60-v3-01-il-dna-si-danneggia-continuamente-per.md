@@ -25,4 +25,4 @@ created: 2026-11-24T12:37:02.235Z
 
 # Il DNA si danneggia continuamente per natura
 
-Il DNA è una molecola di lavoro, esposta in continuazione a sostanze chimiche e reazioni del metabolismo cellulare. Secondo la biologa Björn Schumacher, alcune cellule possono subire fino a 100.000 danni al giorno. Il danno, in altre parole, è la condizione normale della molecola, non un'eccezione. Proprio per questo la cellula ha bisogno di meccanismi di riparazione continui, che la tengano stabile nonostante un'instabilità di fondo. ==Il danno è la norma, la riparazione è ciò che rende la vita possibile.==
+Il DNA è una molecola di lavoro, esposta in continuazione a sostanze chimiche e reazioni del metabolismo cellulare. Secondo il biologo Björn Schumacher, alcune cellule possono subire fino a 100.000 danni al giorno. Il danno, in altre parole, è la condizione normale della molecola, non un'eccezione. Proprio per questo la cellula ha bisogno di meccanismi di riparazione continui, che la tengano stabile nonostante un'instabilità di fondo. ==Il danno è la norma, la riparazione è ciò che rende la vita possibile.==

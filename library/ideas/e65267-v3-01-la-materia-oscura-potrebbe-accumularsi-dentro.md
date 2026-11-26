@@ -25,4 +25,4 @@ created: 2026-11-25T11:25:56.924Z
 
 # La materia oscura potrebbe accumularsi dentro i corpi celesti
 
-Secondo questo studio teorico, la gravità di stelle, pianeti e nane bianche potrebbe catturare particelle di materia oscura e trattenerle al loro interno. Nel corso di miliardi di anni queste particelle si accumulerebbero nelle regioni centrali, dove potrebbero annichilirsi con la materia ordinaria. ==Il corpo celeste diventerebbe così un possibile rivelatore naturale.== Si tratta di un'ipotesi da verificare, non di una scoperta, e il meccanismo dipende da proprietà ancora sconosciute della materia oscura.
+Secondo questo studio teorico, la gravità di stelle, pianeti e nane bianche potrebbe catturare particelle di materia oscura e trattenerle al loro interno. Nel corso di miliardi di anni queste particelle si accumulerebbero nelle regioni centrali, dove potrebbero annichilirsi tra loro. ==Il corpo celeste diventerebbe così un possibile rivelatore naturale.== Si tratta di un'ipotesi da verificare, non di una scoperta, e il meccanismo dipende da proprietà ancora sconosciute della materia oscura.

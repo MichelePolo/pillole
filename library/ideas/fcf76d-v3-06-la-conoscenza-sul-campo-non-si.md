@@ -12,6 +12,7 @@ source:
   id: fcf76dcac319
   lang: en
   title: Cocktail party ideas
+  author: Dan Luu
   site: danluu.com
   url: https://danluu.com/cocktail-ideas/
 anchor: there are some aspects of problems where this is woefully inefficient and thousands of hours of applied effort are required

@@ -24,6 +24,6 @@ model: claude-haiku-5-5
 created: 2026-11-25T11:25:56.998Z
 ---
 
-# Le orbite si possono raggiungere solo con sorvoli gravitazionali
+# L'orbita di Mercurio si raggiunge solo con sorvoli gravitazionali
 
 Entrare in orbita intorno a Mercurio è molto difficile, perché la forte gravità del Sole accelera una sonda che si avvicina alla stella. Per essere catturata dal pianeta, la sonda deve quindi ridurre progressivamente la propria velocità e modificare la traiettoria, sfruttando la gravità di altri pianeti e dello stesso Mercurio. Per questo la missione BepiColombo ha compiuto nove sorvoli planetari prima di arrivare a destinazione. Il metodo mostra come le traiettorie spaziali siano guidate dalla gravità più che dalla semplice spinta dei motori.

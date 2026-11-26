@@ -27,4 +27,4 @@ created: 2026-11-26T11:00:57.215Z
 
 # Un ricettario può cambiare il modo di cucinare
 
-Il libro di Hannah Glasse, pubblicato nel 1747, fu un bestseller per quasi un secolo e ==rese la cucina accessibile a chi non aveva una formazione professionale==. Scritto con un linguaggio semplice e rivolto esplicitamente ai servitori che sapessero leggere, il testo mostra come la forma di un manuale pratico possa diffondere un sapere e trasformare abitudini domestiche per generazioni. Il valore della fonte sta nel fatto che un testo pensato per un pubblico largo può avere un effetto duraturo sulla cultura di un intero paese.
+Il libro di Hannah Glasse, pubblicato nel 1747, fu un bestseller per quasi un secolo e ==rese la cucina accessibile a chi non aveva una formazione professionale==. Scritto con un linguaggio semplice e rivolto esplicitamente ai servitori che sapessero leggere, il testo mostra come la forma di un manuale pratico possa diffondere un sapere e trasformare abitudini domestiche per generazioni. Un testo pensato per un pubblico largo può così avere un effetto duraturo sulla cultura di un intero paese.
