@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.1.25](https://github.com/MichelePolo/pillole/compare/v0.1.24...v0.1.25) (2026-11-26)
+
+
+### Features
+
+* **feeds:** sei fonti nuove per matematica, arte, cinema e musica ([#84](https://github.com/MichelePolo/pillole/issues/84)) ([17a60eb](https://github.com/MichelePolo/pillole/commit/17a60ebcae3ac081b6b07947a0abbcb52e77a9d3))
+
 ## [0.1.24](https://github.com/MichelePolo/pillole/compare/v0.1.23...v0.1.24) (2026-11-16)
 
 
